@@ -1,3 +1,4 @@
+import "./utils/env";
 import * as fs from "fs";
 import { MetaJson, SongsJson } from "../src/types/types";
 import { musicDetail } from "./api/musicDetail";

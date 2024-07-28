@@ -1,3 +1,4 @@
+import "./utils/env";
 import * as fs from "fs";
 import { GameScore, RecordSummary, TrackRecordInfo } from "../src/types/types";
 import { songScores } from "./api/songScore";

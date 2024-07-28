@@ -7,9 +7,9 @@
     "build": "tsc -b && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "generate:music-db": "node -r ts-node/register --env-file=.env.local ./scripts/generateMusicDb.ts",
-    "generate:meta-db": "node -r ts-node/register --env-file=.env.local ./scripts/generateMetaDb.ts",
-    "generate:records": "node -r ts-node/register --env-file=.env.local ./scripts/generateRecordsDb.ts"
+    "generate:music-db": "node -r ts-node/register ./scripts/generateMusicDb.ts",
+    "generate:meta-db": "node -r ts-node/register ./scripts/generateMetaDb.ts",
+    "generate:records": "node -r ts-node/register ./scripts/generateRecordsDb.ts"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -23,6 +23,7 @@
     "@typescript-eslint/parser": "^7.15.0",
     "@vitejs/plugin-react": "^4.3.1",
     "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",

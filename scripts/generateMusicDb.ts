@@ -1,3 +1,4 @@
+import "./utils/env";
 import * as fs from "fs";
 import {
   Difficulty,
@@ -49,7 +50,7 @@ const generate = async () => {
     console.log("No new charts found, skipping database generation.");
     return;
   }
-  
+
   const { availableVersions } = await version();
   console.log(
     `${availableVersions.length} versions found, with latest version being ${
