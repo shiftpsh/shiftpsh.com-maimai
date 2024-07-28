@@ -2,19 +2,18 @@ name: Daily Database Build
 on:
   schedule:
     - cron: "30 22 * * *" # Every day at 7:30am KST
+  workflow_dispatch:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    env:
+      SEGA_ID: ${{ secrets.SEGA_ID }}
+      SEGA_PASSWORD: ${{ secrets.SEGA_PASSWORD }}
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
         with:
           ref: main
-      - name: Make .env
-        run: |
-          touch ./.env.local
-          echo SEGA_ID=${{ secrets.SEGA_ID }} >> ./.env.local
-          echo SEGA_PASSWORD=${{ secrets.SEGA_PASSWORD }} >> ./.env.local
       - name: Install dependencies
         run: yarn
       - name: Build song database
