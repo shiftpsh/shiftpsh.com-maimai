@@ -19,6 +19,8 @@ jobs:
         run: yarn
       - name: Build song database
         run: yarn generate:music-db
+      - name: Build meta database
+        run: yarn generate:meta-db
       - name: Build record database
         run: yarn generate:records
       - name: Commit changes

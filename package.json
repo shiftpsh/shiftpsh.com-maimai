@@ -8,6 +8,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "generate:music-db": "node -r ts-node/register --env-file=.env.local ./scripts/generateMusicDb.ts",
+    "generate:meta-db": "node -r ts-node/register --env-file=.env.local ./scripts/generateMetaDb.ts",
     "generate:records": "node -r ts-node/register --env-file=.env.local ./scripts/generateRecordsDb.ts"
   },
   "dependencies": {

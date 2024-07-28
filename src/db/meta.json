@@ -1,0 +1,6772 @@
+{
+  "meta": [
+    {
+      "title": "",
+      "artist": "x0o0x_",
+      "jacketKey": "5bb69b619f266d0a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "-OutsideR:RequieM-",
+      "artist": "箱部なる(CV:M・A・O)",
+      "jacketKey": "05475986b3286e9f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "\"411Ψ892\"",
+      "artist": "Tanchiky",
+      "jacketKey": "c05db4664af4c45e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "[X]",
+      "artist": "Blacklolita",
+      "jacketKey": "f712ee022ae3e620",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "『ウソテイ』 ～一回戦せりなvsしろなvsなずな～",
+      "artist": "イロドリミドリ「CHUNITHM」",
+      "jacketKey": "fb636683b41b00f1",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "『んっあっあっ。』",
+      "artist": "SLAVE.V-V-R",
+      "jacketKey": "ea4afae77fb914bc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "【東方ニコカラ】秘神マターラ feat.魂音泉【IOSYS】",
+      "artist": "ARM (IOSYS)",
+      "jacketKey": "7976c89ece464bf4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "＊ハロー、プラネット。",
+      "artist": "sasakure.UK",
+      "jacketKey": "54d9be729151e423",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "#狂った民族２ PRAVARGYAZOOQA",
+      "artist": "DJ Raisei",
+      "jacketKey": "1bde84ebe909f8bc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "+♂",
+      "artist": "ギガ/れをる　ダンス　アルスマグナ",
+      "jacketKey": "a565687e7a656aab",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "≠彡\"/了→",
+      "artist": "水野健治",
+      "jacketKey": "7bd3115b580213e3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "♡マイマイマイラブ♡",
+      "artist": "ビートまりお",
+      "jacketKey": "392f29c0cc1df489",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "1000年生きてる",
+      "artist": "いよわ",
+      "jacketKey": "2cd2e91ad6aa4d0f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "39",
+      "artist": "sasakure.UK x DECO*27",
+      "jacketKey": "db70c06c380e264e",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "39みゅーじっく！",
+      "artist": "みきとP",
+      "jacketKey": "6c4f705831befadd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "7thSense",
+      "artist": "削除",
+      "jacketKey": "fb042d053168ef56",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "8-EM",
+      "artist": "Sampling Masters AYA",
+      "jacketKey": "3176c5e84eaa1818",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Acceleration",
+      "artist": "REDALiCE",
+      "jacketKey": "fc4f7485268a2839",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Aegleseeker",
+      "artist": "Silentroom vs Frums",
+      "jacketKey": "ced71091c6d0d194",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Aetheric Energy",
+      "artist": "aran",
+      "jacketKey": "b2491c88e30e7d0b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "After Burner",
+      "artist": "東京アクティブNEETs",
+      "jacketKey": "aab5ca295b9d0369",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Agitation！",
+      "artist": "舞ヶ原高校軽音部",
+      "jacketKey": "4d22545493b5a4e0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Aiolos",
+      "artist": "xi",
+      "jacketKey": "3982693e19e7ee22",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "air's gravity",
+      "artist": "zts",
+      "jacketKey": "aee19bd4029d2d47",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Alcyone",
+      "artist": "PRASTIK DANCEFLOOR",
+      "jacketKey": "071768635e02a075",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Alea jacta est!",
+      "artist": "BlackY fused with WAiKURO",
+      "jacketKey": "60d2b1b662ae5823",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Alice in 冷凍庫",
+      "artist": "Orangestar",
+      "jacketKey": "69466546da86df9f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Alice's Suitcase",
+      "artist": "Endorfin.",
+      "jacketKey": "59245b344d59a01d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ALiVE",
+      "artist": "REDALiCE",
+      "jacketKey": "aef1c386f0707061",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Altale",
+      "artist": "削除",
+      "jacketKey": "06dd9a1ba45f0fe6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "AMABIE",
+      "artist": "OSTER project",
+      "jacketKey": "761e10bd436f83cf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "AMAZING MIGHTYYYY!!!!",
+      "artist": "WAiKURO",
+      "jacketKey": "b642cd32bc38692a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Apollo",
+      "artist": "TJ.hangneil",
+      "jacketKey": "2b46dc47f1fe3d6d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ARAIS",
+      "artist": "千本松 仁",
+      "jacketKey": "63687937bbd3b9f4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Armageddon",
+      "artist": "LeaF",
+      "jacketKey": "9ddf286fd3dcd371",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ARROW",
+      "artist": "niki",
+      "jacketKey": "131b1873d71a6baa",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Arty Party",
+      "artist": "yaseta",
+      "jacketKey": "7473d78f898dee78",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "awake",
+      "artist": "下田麻美「Shining・Force CROSS ELYSION」",
+      "jacketKey": "a72c9e1c55872eee",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Axeria",
+      "artist": "AcuticNotes",
+      "jacketKey": "37a5eaf55d5e4d32",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "B.B.K.K.B.K.K.",
+      "artist": "nora2r",
+      "jacketKey": "60545b69d517fb30",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "B.M.S.",
+      "artist": "光吉猛修の父",
+      "jacketKey": "c9840f2792da9a98",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "BaBan!! －甘い罠－",
+      "artist": "Hiro/永江理奈",
+      "jacketKey": "293f8b95a06130fc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Back 2 Back",
+      "artist": "長沼英樹「ソニック ラッシュ」",
+      "jacketKey": "a8fdea5dc529ecbd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Backyun! －悪い女－",
+      "artist": "青木千紘/愛海",
+      "jacketKey": "9809562861a2078e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Bad Apple!! feat nomico",
+      "artist": "Masayoshi Minoshima",
+      "jacketKey": "25676527db91025b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Bad Apple!! feat.nomico (REDALiCE Remix)",
+      "artist": "Masayoshi Minoshima × REDALiCE",
+      "jacketKey": "ad00454bec47a605",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Bad Apple!! feat.nomico ～五十嵐 撫子 Ver.～",
+      "artist": "Masayoshi Minoshima [covered by 五十嵐 撫子(CV:花井 美春)]",
+      "jacketKey": "69815c3a46ef8b0f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "BAD∞END∞NIGHT",
+      "artist": "ひとしずくP・やま△",
+      "jacketKey": "379a393f1e3acfbf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Baddest",
+      "artist": "樋口楓",
+      "jacketKey": "30c9c35800d5c6b2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Bang Babang Bang!!!",
+      "artist": "御形 アリシアナ(CV:福原 綾香)",
+      "jacketKey": "6c4cab82f1f939e3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "BANG!",
+      "artist": "Shoichiro Hirata feat.Sana",
+      "jacketKey": "d8d8f023b47ff011",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Barbed Eye",
+      "artist": "柿チョコ×みきとP",
+      "jacketKey": "a6f20b5214b80a25",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "BATTLE NO.1",
+      "artist": "TANO*C Sound Team",
+      "jacketKey": "7aa3724d12b8a82d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Beat of getting entangled",
+      "artist": "Shoichiro Hirata",
+      "jacketKey": "1302aa1b571e7ef0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Beat Of Mind",
+      "artist": "Hiro「Crackin’DJ」",
+      "jacketKey": "2aea2c2fbd7c0b2a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Beat Opera op.1",
+      "artist": "bermei.inazawa",
+      "jacketKey": "c87ba892e4792628",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Beautiful Future",
+      "artist": "PSYQUI",
+      "jacketKey": "f116991206292434",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Believe the Rainbow",
+      "artist": "Shoichiro Hirata feat.Sana",
+      "jacketKey": "8cba62be80c4af2d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "BETTER CHOICE",
+      "artist": "Jimmy Weckl feat.高貴みな",
+      "jacketKey": "118a606730c3ff82",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Big Daddy",
+      "artist": "USAO",
+      "jacketKey": "74fa058f35dd3ba4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "BIRTH",
+      "artist": "llliiillliiilll",
+      "jacketKey": "6957b90486e1318e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Black Lair",
+      "artist": "削除 feat. void (Mournfinale)",
+      "jacketKey": "d03f5507e980291c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Black Out",
+      "artist": "Tsukasa(Arte Refact)",
+      "jacketKey": "cf0c75be95ea0056",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "BLACK ROSE",
+      "artist": "S!N・+α/あるふぁきゅん。×ALI PROJECT",
+      "jacketKey": "d780386f7cfd83ad",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "BLACK SWAN",
+      "artist": "ぺのれり",
+      "jacketKey": "58d3f2aeccf6a09d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Blank Paper (Prod. TEMPLIME)",
+      "artist": "日高零奈・東雲和音・茅野ふたば「電音部」",
+      "jacketKey": "608e151274d09dad",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Blew Moon",
+      "artist": "t+pazolite",
+      "jacketKey": "6891e59c82beef64",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Blows Up Everything",
+      "artist": "USAO",
+      "jacketKey": "6791fcbbde5a1056",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "BLUE ZONE",
+      "artist": "Tatsh x NAOKI",
+      "jacketKey": "21c639ba03568a5a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "BOKUTO",
+      "artist": "じーざすP feat.kradness",
+      "jacketKey": "8be390a8118639f5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "BOUNCE & DANCE",
+      "artist": "IOSYS TRAX",
+      "jacketKey": "5978cd4680adbdf1",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Boys O’Clock",
+      "artist": "technoplanet",
+      "jacketKey": "747c68a6bf27de45",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Brain Power",
+      "artist": "ノマ",
+      "jacketKey": "44ba46289dba1e84",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Brand-new Japanesque",
+      "artist": "「龍が如く 見参！」",
+      "jacketKey": "857f35176a1b0262",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "BREAK YOU!!",
+      "artist": "A-One",
+      "jacketKey": "f6e30582f79af660",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "BREaK! BREaK! BREaK!",
+      "artist": "HiTECH NINJA vs Cranky",
+      "jacketKey": "91737a421106e7ca",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "brilliant better",
+      "artist": "御形 アリシアナ(CV:福原 綾香)",
+      "jacketKey": "e5c586fc9166114d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "BULK UP (GAME EXCLUSIVE EDIT)",
+      "artist": "USAO & Yuta Imai",
+      "jacketKey": "bde3cd8df3f6d7e5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Burn My Soul",
+      "artist": "She is Legend",
+      "jacketKey": "3f75d0e0bf442ed0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Burning Hearts ～炎のANGEL～",
+      "artist": "幡谷尚史 Arranged by SEGA Sound Unit [H.]「バーニングレンジャー」",
+      "jacketKey": "243925fb558d75b6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "c.s.q.n.",
+      "artist": "Aoi",
+      "jacketKey": "59b04cbccd088b7f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Calamity Fortune",
+      "artist": "LeaF",
+      "jacketKey": "f909efa99e6ff90b",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "Caliburne ～Story of the Legendary sword～",
+      "artist": "Project Grimoire",
+      "jacketKey": "7750698f692b00cd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Candy Tall Woman",
+      "artist": "naotyu- feat. 佐々木恵梨",
+      "jacketKey": "55fb88b702a08667",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Catch Me If You Can",
+      "artist": "曲：TAKU INOUE／歌：早乙女 彩華(CV：中島 唯)",
+      "jacketKey": "a7a36ba57c915530",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Catch The Future",
+      "artist": "「BORDER BREAK UNION」メインテーマ",
+      "jacketKey": "03baed79efbb3e54",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Catch the Wave",
+      "artist": "livetune",
+      "jacketKey": "c0ee4895feacba46",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Caterpillar Song",
+      "artist": "Bitplane feat. 葉月ゆら",
+      "jacketKey": "94e158c4f52c7c52",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Change Our MIRAI！",
+      "artist": "イロドリミドリ「CHUNITHM」",
+      "jacketKey": "568e34031762aaf8",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "CHAOS",
+      "artist": "Æsir",
+      "jacketKey": "2a875754a682280d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "CHOCOLATE BOMB!!!!",
+      "artist": "YUC'e",
+      "jacketKey": "9e15d61bf69877e4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Churros Parlor",
+      "artist": "ピエロ☆マン",
+      "jacketKey": "b1f8ab64f6dcdac3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "CITRUS MONSTER",
+      "artist": "D-Cee",
+      "jacketKey": "2d53766d4a3020c0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "City Escape: Act1",
+      "artist": "Cash Cash「ソニック ジェネレーションズ」",
+      "jacketKey": "81b2f582c74e1dce",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Climax",
+      "artist": "USAO",
+      "jacketKey": "c8af8a03388a9a19",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Club Ibuki in Break All",
+      "artist": "void＋夕野ヨシミ (IOSYS) feat.藤原鞠菜",
+      "jacketKey": "546a5795b5e3d922",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "CO5M1C R4ILR0AD",
+      "artist": "kanone",
+      "jacketKey": "0ea80d8bbb1fba2f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "CocktaiL",
+      "artist": "XYZ",
+      "jacketKey": "54189becb1c144d3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Color My World",
+      "artist": "GOSH/クラシック「悲愴」",
+      "jacketKey": "324889241d4d12cf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "come again",
+      "artist": "m-flo [cover]",
+      "jacketKey": "23aec440c8812a0d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Comet Panto Men!",
+      "artist": "MYUKKE.",
+      "jacketKey": "81c7f7c9a9042eab",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Complex Mind",
+      "artist": "YUKIYANAGI",
+      "jacketKey": "b4ba936740486f75",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "conflict",
+      "artist": "siromaru + cranky",
+      "jacketKey": "a276e29d2cfb99f3",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "connecting with you",
+      "artist": "Takahiro Eguchi feat. 三澤秋",
+      "jacketKey": "731371df3ac09a9c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Conquista Ciela",
+      "artist": "光吉猛修「バーチャロン」",
+      "jacketKey": "874bdbc240420d33",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Contrapasso -paradiso-",
+      "artist": "t+pazolite",
+      "jacketKey": "d2de6981019288a0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Cosmic Magic Shooter",
+      "artist": "SOUND HOLIC feat. Nana Takahashi",
+      "jacketKey": "dfdf63e57f5e127a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Cosmic Train",
+      "artist": "Shoichiro Hirata feat.SUIMI",
+      "jacketKey": "cb8668f6f951b5ac",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Counselor",
+      "artist": "DECO*27 feat.echo",
+      "jacketKey": "21a91e5c9a5da58a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Crazy Circle",
+      "artist": "みきとP feat. FantasticYouth",
+      "jacketKey": "38542e3373e20ae4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Credits",
+      "artist": "Frums",
+      "jacketKey": "2204bfb20e3e2e1d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Crush On You",
+      "artist": "福山光晴「Crackin’DJ」",
+      "jacketKey": "655e0ae2bac3cb0d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Cry Cry Cry",
+      "artist": "FLG4 feat.Flower",
+      "jacketKey": "dedc00b2c9b959a0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Cthugha",
+      "artist": "USAO",
+      "jacketKey": "90fc803686e1f37e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Cyaegha",
+      "artist": "USAO",
+      "jacketKey": "fdeb6b92b9339d2a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "CYBER Sparks",
+      "artist": "Tatsh",
+      "jacketKey": "cdbb2243b8abcdae",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "CYCLES",
+      "artist": "Masayoshi Minoshima feat. 綾倉盟",
+      "jacketKey": "2e64a1f5e2e4b832",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "D✪N’T  ST✪P  R✪CKIN’",
+      "artist": "EB(aka EarBreaker)",
+      "jacketKey": "fa4ab1b07c950368",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "DADDY MULK -Groove remix-",
+      "artist": "Performed by SEGA Sound Unit [H.]",
+      "jacketKey": "97be2a3d2ea25489",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "DANGEROOOOUS JUNGLE",
+      "artist": "Laur",
+      "jacketKey": "23e16c80b4451243",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Danza zandA",
+      "artist": "福山光晴",
+      "jacketKey": "94647b34168e743e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Death Scythe",
+      "artist": "SHIKI",
+      "jacketKey": "f4e1193a7dc748ea",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Define",
+      "artist": "Zekk",
+      "jacketKey": "92c6a4e15216f867",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Desperado Waltz",
+      "artist": "ぺのれり",
+      "jacketKey": "9cf73e43ce65b3a9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Destiny Runner",
+      "artist": "さわわ",
+      "jacketKey": "a1841b33431c9001",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Destr0yer",
+      "artist": "削除 feat. Nikki Simmons",
+      "jacketKey": "e930f73c462d8a84",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "DETARAME ROCK&ROLL THEORY",
+      "artist": "箱部 なる(CV:M・A・O)",
+      "jacketKey": "d3a429e38da60e5a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Dive into The Sky ～initialized～",
+      "artist": "A-One",
+      "jacketKey": "d1bb2b0bded8330e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "DO RORO DERODERO ON DO RORO",
+      "artist": "怒髪天「百鬼大戦絵巻」",
+      "jacketKey": "c7d50e554e2b7083",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Doll Judgment",
+      "artist": "ぬるはち",
+      "jacketKey": "a4afb1a17068919e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Don't Fight The Music",
+      "artist": "黒魔",
+      "jacketKey": "2e9da84e3e523f2f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "DRAGONLADY",
+      "artist": "Nankumo/CUBE3",
+      "jacketKey": "59a5b2945d35ee7a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Dragoon",
+      "artist": "Shandy kubota",
+      "jacketKey": "bf6a041e1c971bdd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Dreadnought",
+      "artist": "Mastermind(xi+nora2r)",
+      "jacketKey": "5d72ff8765384da0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Dreampainter",
+      "artist": "Sta feat.tigerlily and DOT96",
+      "jacketKey": "def8c4162b0cb791",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Drive Your Fire",
+      "artist": "A-One",
+      "jacketKey": "368560be7e7e0a2b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "DROPS feat. Such",
+      "artist": "Zekk & poplavor",
+      "jacketKey": "413187f3403812f9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ECHO",
+      "artist": "CIRCRUSH",
+      "jacketKey": "c388ac7580206d1c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Edelweiss",
+      "artist": "やどりぎ",
+      "jacketKey": "929e9ac15a6a6b70",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "emomomo",
+      "artist": "Ras",
+      "jacketKey": "e949f0cfb56f9ea8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "enchanted love",
+      "artist": "linear ring",
+      "jacketKey": "a191381548e9cb18",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "enchanted wanderer",
+      "artist": "linear ring",
+      "jacketKey": "f7555b935a2eddc3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "End of Twilight",
+      "artist": "ALiCE'S EMOTiON feat. Ayumi Nomiya",
+      "jacketKey": "649b07a8bbe01a97",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "End Time",
+      "artist": "Cres.",
+      "jacketKey": "912135a524e81212",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Endless World",
+      "artist": "RYOHEI KOHNO/保立美和子",
+      "jacketKey": "387a91b8fee31725",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Endless, Sleepless Night",
+      "artist": "samfree feat.(V)・∀・(V)かにぱん。(A-ONE)",
+      "jacketKey": "fba94ed765e1c00b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Energizing Flame",
+      "artist": "Artifact vs. Dualcast",
+      "jacketKey": "eb39039aa47b1aa7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ENERGY SYNERGY MATRIX",
+      "artist": "Tanchiky",
+      "jacketKey": "ad29b9d9b5fe0220",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "energy trixxx",
+      "artist": "KAH",
+      "jacketKey": "bce82906edfa120c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ENJOY POLIS",
+      "artist": "LOPIT",
+      "jacketKey": "b20f7689f45f7fd2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Entrance",
+      "artist": "Ice",
+      "jacketKey": "76885758ee8ece6a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Estahv",
+      "artist": "Feryquitous",
+      "jacketKey": "55c8c8495989ff55",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Ether Second",
+      "artist": "Akira Complex",
+      "jacketKey": "1572e3183f426fc0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Ether Strike",
+      "artist": "Akira Complex",
+      "jacketKey": "e4d70ce31ee28a9c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "EVERGREEN",
+      "artist": "Cranky",
+      "jacketKey": "e969be670313581f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Excalibur ～Revived resolution～",
+      "artist": "Project Grimoire",
+      "jacketKey": "75d7dea600e4b298",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "EYE",
+      "artist": "Kanaria",
+      "jacketKey": "30510883abde5697",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "fake!fake!",
+      "artist": "カラスは真っ白",
+      "jacketKey": "1f617d599ada17e4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Falling",
+      "artist": "シノ feat.しほ",
+      "jacketKey": "da328e1e834698bf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Falsum Atlantis.",
+      "artist": "kanone",
+      "jacketKey": "403667b44ac1d17e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "FEEL ALIVE",
+      "artist": "ELEMENTAS feat. NAGISA",
+      "jacketKey": "b6fcfb51e60145a0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Feel My Fire",
+      "artist": "発熱巫女～ず",
+      "jacketKey": "e5ddcd58940726b0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "FEEL the BEATS",
+      "artist": "A-One",
+      "jacketKey": "aeebc3dec7433096",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "felys -final remix-",
+      "artist": "onoken",
+      "jacketKey": "372b2bdce425ac62",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "FestivaLight",
+      "artist": "霜月はるか",
+      "jacketKey": "0eb09893faf14e98",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "FFT",
+      "artist": "cybermiso",
+      "jacketKey": "866ca42598db8c01",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Final Step!",
+      "artist": "Lime",
+      "jacketKey": "199974438b6c95cc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "First Dance",
+      "artist": "削除",
+      "jacketKey": "7f950ad7a5baa42d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Fist Bump",
+      "artist": "大谷智哉, Douglas Robb from Hoobastank「ソニック フォース」",
+      "jacketKey": "0472103fd50f1f67",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Flashkick",
+      "artist": "Yooh",
+      "jacketKey": "d84cebbe82687a4b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "FLOWER",
+      "artist": "DJ YOSHITAKA「jubeat」より",
+      "jacketKey": "c155d89c7d8ca001",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "FLUFFY FLASH",
+      "artist": "Kobaryo",
+      "jacketKey": "6572d38b823295bd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "folern",
+      "artist": "ぬゆり",
+      "jacketKey": "a904cc91a7d095dd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Fragrance",
+      "artist": "Tsukasa(Arte Refact)",
+      "jacketKey": "2bb3f7cff734ce6a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Freak Out Hr.",
+      "artist": "雄之助 feat. POPY & ROSE",
+      "jacketKey": "f014554b82f4e5cf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "FREEDOM DiVE (tpz Overcute Remix)",
+      "artist": "t+pazolite",
+      "jacketKey": "cd0737f073f7c32c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "FUJIN Rumble",
+      "artist": "COSIO(ZUNTATA)「グルーヴコースター」より",
+      "jacketKey": "c023c6efc6447818",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Future",
+      "artist": "★STAR GUiTAR [cover]",
+      "jacketKey": "507c390321c312eb",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Garakuta Doll Play",
+      "artist": "t+pazolite",
+      "jacketKey": "a259af51e0b9d863",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Garden Of The Dragon",
+      "artist": "Kai「Wonderland Wars」",
+      "jacketKey": "31a6e74fc82a0af4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "GEMINI -M-",
+      "artist": "Tatsh",
+      "jacketKey": "2b27ffdc25ce0e9c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "GEOMETRIC DANCE",
+      "artist": "山本真央樹",
+      "jacketKey": "34b3ce15e74d1446",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Get Happy",
+      "artist": "Jimmy Weckl",
+      "jacketKey": "11db059774cf5254",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "GET!! 夢&DREAM",
+      "artist": "加賀美 祥「学園ハンサム」",
+      "jacketKey": "f1c9303898fd2ad8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Ghost Dance",
+      "artist": "亜沙 feat.くろくも",
+      "jacketKey": "054d8fbb19a508c4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "GIGANTØMAKHIA",
+      "artist": "BlackYooh vs. siromaru",
+      "jacketKey": "fed702195b5af0e7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Glorious Crown",
+      "artist": "xi",
+      "jacketKey": "0c142b42f0e37845",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "GO BACK 2 YOUR RAVE",
+      "artist": "nora2r",
+      "jacketKey": "0909a6b99f3ad4b6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Good bye, Merry-Go-Round.",
+      "artist": "Yooh",
+      "jacketKey": "c7f4f382b3342a09",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Good Bye, Mr. Jack",
+      "artist": "sasakure.UK",
+      "jacketKey": "f6be8f89a455649e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "GOODMEN",
+      "artist": "EBIMAYO",
+      "jacketKey": "72ed93432617d0dc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Got more raves？",
+      "artist": "E.G.G.「グルーヴコースター」より",
+      "jacketKey": "c1dd57e2618609f3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "GRÄNDIR",
+      "artist": "Rigel Theatre feat. ミーウェル",
+      "jacketKey": "2a26b38fcd378676",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Grievous Lady",
+      "artist": "Team Grimoire vs Laur",
+      "jacketKey": "6d9c69398720e097",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Grip & Break down !!",
+      "artist": "SOUND HOLIC feat. Nana Takahashi",
+      "jacketKey": "3cdafcda11978c26",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "HAGAKIRI",
+      "artist": "Masayoshi Iimori",
+      "jacketKey": "6efe955c46de9657",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Hainuwele",
+      "artist": "ETIA.",
+      "jacketKey": "6bb029ffc3be5817",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Halcyon",
+      "artist": "xi",
+      "jacketKey": "4e2279e433710717",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "Halfway(>∀<)",
+      "artist": "Blacklolita",
+      "jacketKey": "77c0243dedb23b60",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Hand in Hand",
+      "artist": "livetune",
+      "jacketKey": "687a2e2257afd36e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "HANIPAGANDA",
+      "artist": "暁Records",
+      "jacketKey": "0e72ea01a7940ebc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Heart Beats",
+      "artist": "向日葵×emon(Tes.)",
+      "jacketKey": "98960650058c168a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Heartbeats",
+      "artist": "RAMM feat. 若井友希",
+      "jacketKey": "7e09354e3062f772",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Heavenly Blast",
+      "artist": "xi",
+      "jacketKey": "b93bb5411292f1d8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "HECATONCHEIR",
+      "artist": "Yuta Imai",
+      "jacketKey": "49e05689f3a0b19a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Hello, Hologram",
+      "artist": "HIMEHINA",
+      "jacketKey": "5557331d09fee07b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Help me, ERINNNNNN!!",
+      "artist": "ビートまりお(COOL＆CREATE)",
+      "jacketKey": "58e2f5be569854ca",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Help me, あーりん！",
+      "artist": "イロドリミドリ「CHUNITHM」",
+      "jacketKey": "c39780f8e0269d3b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Her Dream Is To Be A Fantastic Sorceress",
+      "artist": "アミティ(CV 菊池志穂)「ぷよぷよ」",
+      "jacketKey": "7ae04c35269c0db1",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "HERA",
+      "artist": "ルゼ",
+      "jacketKey": "dee5503743aec8dc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "HIMITSUスパーク",
+      "artist": "カラスは真っ白",
+      "jacketKey": "97bcee55165daa06",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Horoscope Express",
+      "artist": "pan",
+      "jacketKey": "8ad4e0648c979e13",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "HOT LIMIT",
+      "artist": "T.M.Revolution [covered by 光吉猛修]",
+      "jacketKey": "2f53230db95fda85",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "HUMANBORG",
+      "artist": "SARUKANI",
+      "jacketKey": "9e8c84f25675f149",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Hyper Active",
+      "artist": "HiTECH NINJA",
+      "jacketKey": "67e3a3c032727be5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "I ♥",
+      "artist": "Junky",
+      "jacketKey": "02726be291ff6fa0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "I’m Here (feat. Merry Kirk-Holmes)",
+      "artist": "大谷智哉「ソニックフロンティア」",
+      "jacketKey": "80be5642b2087e7e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "IF:U",
+      "artist": "MisoilePunch♪",
+      "jacketKey": "0c04b513c0520392",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Ignis Danse",
+      "artist": "Yuji Masubuchi「太鼓の達人」より",
+      "jacketKey": "8de7dd8b8e1c1016",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Ignite Infinity",
+      "artist": "「PHANTASY STAR PORTABLE2 ∞」",
+      "jacketKey": "30b516a0c2d64f97",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "IMAWANOKIWA",
+      "artist": "いよわ",
+      "jacketKey": "328c771d0a452fc9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Imitation:Loud Lounge",
+      "artist": "Ino(chronoize)",
+      "jacketKey": "f68e98cac90bcdf5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Imperishable Night 2006 (2016 Refine)",
+      "artist": "ゆうゆ / 篠螺悠那",
+      "jacketKey": "af47757324957682",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "In Chaos",
+      "artist": "Hiro「Crackin’DJ」",
+      "jacketKey": "a044abc0c8fca1cf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "In my world (Prod. KOTONOHOUSE)",
+      "artist": "鳳凰火凛・瀬戸海月・大賀ルキア「電音部」",
+      "jacketKey": "58d0517c2fdd8314",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Infantoon Fantasy",
+      "artist": "t+pazolite",
+      "jacketKey": "9bcb0c4d4dc8657b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "INFINITE WORLD",
+      "artist": "SOUND HOLIC feat. Nana Takahashi",
+      "jacketKey": "59c2f22023c4e226",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "INTERNET OVERDOSE",
+      "artist": "Aiobahn feat. KOTOKO",
+      "jacketKey": "5108df88dd9a6896",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "INTERNET YAMERO",
+      "artist": "Aiobahn feat. KOTOKO",
+      "jacketKey": "e7c32e5c2d4300ee",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Invitation",
+      "artist": "れるりり feat.ろん",
+      "jacketKey": "56a0ece26eb25daa",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Irresistible",
+      "artist": "MK",
+      "jacketKey": "5a1380b2897bb763",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ｉｓｏｐｈｏｔｅ",
+      "artist": "パソコン音楽クラブ feat.ぷにぷに電機",
+      "jacketKey": "f6aef2150786d0b4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Jack-the-Ripper◆",
+      "artist": "sasakure.UK",
+      "jacketKey": "face36da229c0923",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "JACKY [Remix]",
+      "artist": "「バーチャファイター」",
+      "jacketKey": "0f69f3123db19f49",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "jelly",
+      "artist": "capsule [cover]",
+      "jacketKey": "a04ffc79950a73a2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Jimang Shot",
+      "artist": "じまんぐ",
+      "jacketKey": "50b8ca28805478d2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Jörqer",
+      "artist": "owl＊tree feat.yu＊tree",
+      "jacketKey": "6371b8c7d2c59e7f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Jouez Avec Moi?",
+      "artist": "Retropolitaliens (Ms.+駄々子)",
+      "jacketKey": "fa6943ebb851f378",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Jumble Rumble",
+      "artist": "INNOCENT NOIZE",
+      "jacketKey": "cf0f60c2aa35ac13",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Jump!! Jump!! Jump!!",
+      "artist": "曲：宮崎誠／歌：オンゲキシューターズ",
+      "jacketKey": "e5cbb7f29dbf12dc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "JUMPIN' JUMPIN'",
+      "artist": "SOUND HOLIC feat. Nana Takahashi",
+      "jacketKey": "d3254db452d7bf2d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Justified",
+      "artist": "MintJam feat.光吉猛修",
+      "jacketKey": "4e33f9f34a93e2d6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Kairos",
+      "artist": "ARForest feat.nayuta",
+      "jacketKey": "d1902fbb83b1c1cc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Kattobi KEIKYU Rider",
+      "artist": "Sampling Masters MEGA",
+      "jacketKey": "4cf3cfda8bbdf523",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "keep hopping",
+      "artist": "kamome sano",
+      "jacketKey": "5844e4d9be870ea5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "KHYMΞXΛ",
+      "artist": "のらねこさい feat.ricono",
+      "jacketKey": "474425ed8b75f482",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "KILLER B",
+      "artist": "梅とら",
+      "jacketKey": "bca0ad64e12b1b2f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Kinda Way",
+      "artist": "good-cool ft. Pete Klassen",
+      "jacketKey": "f38af721d7001037",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "KING",
+      "artist": "Kanaria",
+      "jacketKey": "bee11abab3bb3101",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "KING is BACK!!",
+      "artist": "A-One",
+      "jacketKey": "f051590fb4cf9e96",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "KISS CANDY FLAVOR",
+      "artist": "カラフル・サウンズ・ポート",
+      "jacketKey": "0ea91dd121493ccc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Kiss Me Kiss",
+      "artist": "曲：大畑拓也／歌：bitter flavor [桜井 春菜(CV：近藤 玲奈)、早乙女 彩華(CV：中島 唯)]",
+      "jacketKey": "d54f6840c982c52e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Knight Rider",
+      "artist": "USAO",
+      "jacketKey": "fdb762a5225efc03",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Komplexe",
+      "artist": "雄之助 feat. Sennzai",
+      "jacketKey": "6fb57dd3a171eab3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "KONNANじゃないっ！",
+      "artist": "澤村 遥「龍が如く５ 夢、叶えし者」",
+      "jacketKey": "626df36e28466c99",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "L'épilogue",
+      "artist": "SOUND HOLIC feat. Nana Takahashi",
+      "jacketKey": "55b095f9217865b2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "L4TS:2018 (feat. あひる & KTA)",
+      "artist": "Sprite Recordings",
+      "jacketKey": "fed415912a10fec2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "L9",
+      "artist": "paraoka",
+      "jacketKey": "a9eaaab7eea3b2cf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "LAMIA",
+      "artist": "BlackY",
+      "jacketKey": "0cde431203c0df1c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "LANCE",
+      "artist": "Ras",
+      "jacketKey": "13a02896f41941ef",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "larva",
+      "artist": "ガリガリさむし",
+      "jacketKey": "f233a82bddb1a450",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Last Brave ～ Go to zero",
+      "artist": "MECHANiCAL PANDA「BORDER BREAK」",
+      "jacketKey": "c86fa66b7e7641aa",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Last Kingdom",
+      "artist": "USAO",
+      "jacketKey": "0f5e140d7b059b50",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Last Samurai",
+      "artist": "Street",
+      "jacketKey": "b7884713b914d359",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Latent Kingdom",
+      "artist": "Laur vs 大国奏音",
+      "jacketKey": "2079d8ee35e28e4d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Let you DIVE!",
+      "artist": "HARDCORE TANO*C & エリザベス（CV:大西沙織）",
+      "jacketKey": "ce70f4f4f072bedf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Let's Go Away",
+      "artist": "光吉猛修「デイトナ Championship USA」",
+      "jacketKey": "7f3394dea112af97",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Lia=Fail",
+      "artist": "Team Grimoire",
+      "jacketKey": "0c326d43294255a7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Life Feels Good",
+      "artist": "Cranky",
+      "jacketKey": "cdf0971ddf086c2d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "LiftOff",
+      "artist": "MAYA AKAI",
+      "jacketKey": "75f148963308b860",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Lights of Muse",
+      "artist": "Ayatsugu_Otowa",
+      "jacketKey": "ca2aaba925151aa8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Like the Wind [Reborn]",
+      "artist": "sampling masters MEGA「パワードリフト」",
+      "jacketKey": "0fe32017bb6280d5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Limit Break",
+      "artist": "DiGiTAL WiNG",
+      "jacketKey": "89183dee05c31701",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Limits",
+      "artist": "舞ヶ原シンセ研究会",
+      "jacketKey": "966be589591a4a6c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Link",
+      "artist": "Circle of friends(天月-あまつき-・un:c・伊東歌詞太郎・コニー・はしやん)",
+      "jacketKey": "e90f79d9dcff84df",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "Lionheart",
+      "artist": "Masayoshi Minoshima",
+      "jacketKey": "345bf181e0e2a38f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Little \"Sister\" Bitch",
+      "artist": "t+pazolite",
+      "jacketKey": "02cab333c28ba150",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Live & Learn",
+      "artist": "Crush 40「ソニックアドベンチャー2」",
+      "jacketKey": "d56dc89f76dbba33",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Lividi",
+      "artist": "Feryquitous",
+      "jacketKey": "f614f3c776a56c88",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Living Universe",
+      "artist": "「PHANTASY STAR PORTABLE2」",
+      "jacketKey": "d7fff9c9d63c5a82",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "LOSE CONTROL",
+      "artist": "Massive New Krew",
+      "jacketKey": "641087ee1df624de",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Lost Desire",
+      "artist": "Powerless feat. Sennzai",
+      "jacketKey": "a989612852f81b34",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "LOVE EAST",
+      "artist": "暁Records",
+      "jacketKey": "7fac18263d456630",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Love Kills U",
+      "artist": "EmoCosine",
+      "jacketKey": "366bd9ce89bdcaf6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Love or Lies",
+      "artist": "capsule [cover]",
+      "jacketKey": "4d2c50f8046c8c8f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Love You",
+      "artist": "Q;indivi [cover]",
+      "jacketKey": "daf6adeacb8fc300",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Love's Theme of BADASS ～バッド・アス 愛のテーマ～",
+      "artist": "Hommarju",
+      "jacketKey": "fd30be82f708758f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "LUCIA",
+      "artist": "SHIKI",
+      "jacketKey": "38dd2f26285ee2f8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Luminaria",
+      "artist": "Lime",
+      "jacketKey": "03b507681b4bb63f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Lunar Mare",
+      "artist": "xi vs sakuzyo",
+      "jacketKey": "4e394ae8137ced5d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "M.S.S.Planet",
+      "artist": "M.S.S Project",
+      "jacketKey": "c0ee52db4c23afe7",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "Maboroshi",
+      "artist": "かめりあ(EDP)",
+      "jacketKey": "38f695d2f1210456",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "MAGENTA POTION",
+      "artist": "EmoCosine",
+      "jacketKey": "3902dd1ec9eec1d0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Magical Flavor",
+      "artist": "DECO*27 feat.Tia",
+      "jacketKey": "c8caa99931db189d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "magician's operation",
+      "artist": "EZFG",
+      "jacketKey": "9e5d4466d8429a5b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "MAGNETAR GIRL",
+      "artist": "Yu-dachi",
+      "jacketKey": "6aa746259d41bf92",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "maimaiちゃんのテーマ",
+      "artist": "YMCK",
+      "jacketKey": "e133ba6602be1ed9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "maiム・maiム feat.週刊少年マガジン",
+      "artist": "にしもと先生、タクマ、どんちゃん「ちょっと盛りました。」",
+      "jacketKey": "1610aea48e042a78",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "MAKE IT FUNKY NOW",
+      "artist": "DOT96",
+      "jacketKey": "abe8d795b816168a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "MarbleBlue.",
+      "artist": "MisoilePunch♪",
+      "jacketKey": "297d6d7da385d698",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Mare Maris",
+      "artist": "M2U",
+      "jacketKey": "1e9af41f9bc2d931",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Maxi",
+      "artist": "Nizikawa",
+      "jacketKey": "5cb01ca719a56bb5",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "MAXRAGE",
+      "artist": "EBIMAYO",
+      "jacketKey": "0a0caa488ad79b61",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "MEGATON BLAST",
+      "artist": "BlackY vs. Yooh",
+      "jacketKey": "5e9ecbc940b79708",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "MEGATON KICK",
+      "artist": "DJ Myosuke",
+      "jacketKey": "55da4517b646b23b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Melody！",
+      "artist": "あ～るの～と（いえろ～ぜぶら）",
+      "jacketKey": "68d946095fefa800",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Metamorphosism",
+      "artist": "削除",
+      "jacketKey": "d02540b6cedfa362",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "METATRON",
+      "artist": "SHIKI",
+      "jacketKey": "1a95ad12ccd7eb13",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "METEOR",
+      "artist": "DIVELA feat.初音ミク",
+      "jacketKey": "9ddf0c60aef5895b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "MilK",
+      "artist": "モリモリあつし",
+      "jacketKey": "2c97ebe8a5939be3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "MIRROR of MAGIC",
+      "artist": "Shoichiro Hirata feat.SUIMI",
+      "jacketKey": "967e724b039ec9dc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Mjölnir",
+      "artist": "xi",
+      "jacketKey": "21b9cc9519eab016",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "MOBILYS",
+      "artist": "Dachs",
+      "jacketKey": "24d0c3dd5ed1fda4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Money Money",
+      "artist": "暁Records",
+      "jacketKey": "4cd49bb6811afb1b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Monochrome Rainbow",
+      "artist": "Sta",
+      "jacketKey": "89ff5ab582f47732",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "MOON NIGHTのせいにして",
+      "artist": "DRAMATIC STARS [天道 輝 (CV.仲村宗悟), 桜庭 薫 (CV.内田雄馬), 柏木 翼 (CV.八代 拓)]",
+      "jacketKey": "7e55f7f0b1415ea0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Moon of Noon",
+      "artist": "Sampling Masters MEGA",
+      "jacketKey": "60d856b88ea0f2b3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Mutation",
+      "artist": "Laur",
+      "jacketKey": "927305ac2ee395bf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "My Dearest Song",
+      "artist": "月鈴 白奈(CV:高野 麻里佳)",
+      "jacketKey": "a5661a71bd73d723",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "My First Phone",
+      "artist": "cubesato",
+      "jacketKey": "1c9958b5ebafff62",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "my flow",
+      "artist": "crayvxn",
+      "jacketKey": "bb78ce62fe4a3def",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "My My My",
+      "artist": "C-Show",
+      "jacketKey": "ef49d54bf76426a4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Mysterious Destiny",
+      "artist": "「BAYONETTA(ベヨネッタ)」",
+      "jacketKey": "27f03e7294044bd8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Mystic Parade",
+      "artist": "ひとしずく×やま△ feat.悠佑＆ないこ（いれいす）",
+      "jacketKey": "f2d52ff92515572f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "mystique as iris",
+      "artist": "かねこちはる",
+      "jacketKey": "077872054fe8552d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "MYTHOS",
+      "artist": "Cranky feat. まらしぃ ＆ てっぺい先生",
+      "jacketKey": "cf794d85900e873d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "N3V3R G3T OV3R",
+      "artist": "C-Show",
+      "jacketKey": "4a4b3606f9a72e2c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "NAGAREBOSHI☆ROCKET",
+      "artist": "梅干茶漬け",
+      "jacketKey": "db0eec06b051299f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Natural Flow",
+      "artist": "KENTARO「Crackin’DJ」",
+      "jacketKey": "7867688c4ab0adf2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "needLe",
+      "artist": "DECO*27 / 初音ミク / Leo/need「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
+      "jacketKey": "e8277409c4fd2331",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Neon Kingdom",
+      "artist": "litmus*",
+      "jacketKey": "467af0cc4f091827",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Nerverakes",
+      "artist": "Taishi",
+      "jacketKey": "de90828ed738aa17",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Never Give Up!",
+      "artist": "nanobii",
+      "jacketKey": "fd5895f21f0da045",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "New York Back Raise",
+      "artist": "saaa + kei_iwata + stuv + わかどり",
+      "jacketKey": "794ac130eb662e74",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Night Fly",
+      "artist": "発熱巫女～ず",
+      "jacketKey": "576d1cf555d8b20e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "NIGHT OF FIRE",
+      "artist": "NIKO [cover]",
+      "jacketKey": "8205c81e9d23470d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "NightTheater",
+      "artist": "わかどり",
+      "jacketKey": "b32789df69d7f17a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Nitrous Fury",
+      "artist": "Jun Senoue",
+      "jacketKey": "bf49149f0461dc43",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "No Limit RED Force",
+      "artist": "曲：本多友紀（Arte Refact）／歌：オンゲキシューターズ",
+      "jacketKey": "d0f6b039af8831d3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "No Routine",
+      "artist": "A-One",
+      "jacketKey": "46bac269db259dfe",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "NOIZY BOUNCE",
+      "artist": "八王子P feat. ななひら・まめこ",
+      "jacketKey": "e7badc37466ded77",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Now or Never",
+      "artist": "MintJam",
+      "jacketKey": "611619306640df12",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "NULCTRL",
+      "artist": "Silentroom",
+      "jacketKey": "b7837b1d26eb3a42",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Nyan Cat EX",
+      "artist": "daniwell",
+      "jacketKey": "45086a744d1294be",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Oath Act",
+      "artist": "暁Records",
+      "jacketKey": "e15c6bedf799b014",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "oboro",
+      "artist": "ヒゲドライバー",
+      "jacketKey": "19b8ef35f1800884",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "OMAKENO Stroke",
+      "artist": "t+pazolite",
+      "jacketKey": "d944767a84263966",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "on the rocks",
+      "artist": "OSTER project",
+      "jacketKey": "6c0927e5febfcafd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "One Step Ahead",
+      "artist": "伊東歌詞太郎",
+      "jacketKey": "8e3cad1f597c0558",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "only my railgun",
+      "artist": "fripSide",
+      "jacketKey": "138e777f53a1407c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Oshama Scramble!",
+      "artist": "t+pazolite",
+      "jacketKey": "64635a3534ce788a",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "OTOGEMA",
+      "artist": "ビートまりお",
+      "jacketKey": "55f59b99f698b962",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "otorii INNOVATED -[i]3-",
+      "artist": "NAOKI underground",
+      "jacketKey": "22cfe49ebfb24007",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Our Wrenally",
+      "artist": "t+pazolite",
+      "jacketKey": "cde51cc89f91dd8a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Outlaw's Lullaby",
+      "artist": "「龍が如く２」",
+      "jacketKey": "d54f61d4d4db472a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ozma",
+      "artist": "TJ.hangneil",
+      "jacketKey": "a4cebf8fa37c9318",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "P-qoq",
+      "artist": "owl＊tree",
+      "jacketKey": "83b0d1eecad1ca6c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "PANDORA PARADOXXX",
+      "artist": "削除",
+      "jacketKey": "35b2760a42a8eebe",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Panopticon",
+      "artist": "cybermiso",
+      "jacketKey": "daac7472da31196b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Paradisoda",
+      "artist": "魂音泉",
+      "jacketKey": "b714febbedc27687",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Paranoia",
+      "artist": "DiGiTAL WiNG feat. 花たん",
+      "jacketKey": "2bb6a69fa0e66cc6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Party 4U ”holy nite mix”",
+      "artist": "Cranky",
+      "jacketKey": "465d916c705e0813",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Party☆People☆Princess",
+      "artist": "Sound Artz",
+      "jacketKey": "284cbd482551683b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "PERSONA feat. PANXI",
+      "artist": "rejection",
+      "jacketKey": "09b0894db54b2fd5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Phantasm Brigade",
+      "artist": "Silver Forest",
+      "jacketKey": "77d6fd3a8d00326a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Photon Melodies",
+      "artist": "Photon Maiden",
+      "jacketKey": "31d1a7b30d49d4d7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "PinqPiq (xovevox Remix)",
+      "artist": "owl＊tree Remixed by sasakure.UK",
+      "jacketKey": "0155b81ffa2eab24",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Pixel Voyage",
+      "artist": "YMCK",
+      "jacketKey": "98b32bbc7a3635da",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "planet dancer",
+      "artist": "樽木栄一郎",
+      "jacketKey": "e1fa4c7cb49a9a84",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Play merrily NEO",
+      "artist": "Shohei Tsuchiya (ZUNTATA) feat. Aimee B",
+      "jacketKey": "a4fe181ee9ccfd93",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "POP STAR",
+      "artist": "平井堅 [cover]",
+      "jacketKey": "212dcc8c73d2fc43",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "popcorn",
+      "artist": "happy machine",
+      "jacketKey": "ed998c68adada909",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "POWER OF UNITY",
+      "artist": "Zekk",
+      "jacketKey": "34d74efd7d8eca9d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Princess♂",
+      "artist": "TOPHAMHAT-KYO",
+      "jacketKey": "773b8d4eb3c2829a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Prismatic",
+      "artist": "CielArc",
+      "jacketKey": "db4aaf0900fc7f88",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Prophesy One",
+      "artist": "vox2（小野秀幸）",
+      "jacketKey": "b1db65900e40e9b0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "PUPA",
+      "artist": "モリモリあつし",
+      "jacketKey": "32f705d989f3cd7f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Quartet Theme [Reborn]",
+      "artist": "COSIO(ZUNTATA/TAITO)「カルテット」",
+      "jacketKey": "781f4b930961ea60",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "QUEEN",
+      "artist": "Kanaria",
+      "jacketKey": "4c8911dff643e5cb",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "quiet room",
+      "artist": "有機酸",
+      "jacketKey": "abe34235d9fb7db3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "QuiQ",
+      "artist": "owl＊tree feat.nie＊tree",
+      "jacketKey": "cbe2c6b9420a2d98",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "QZKago Requiem",
+      "artist": "t+pazolite",
+      "jacketKey": "5c4531323f4aadcf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Ragnarok",
+      "artist": "sky_delta",
+      "jacketKey": "94d6673eb9213df0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Rainbow Rush Story",
+      "artist": "いるかアイス feat.ちょこ",
+      "jacketKey": "6090e7ca3c80cdc6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Random",
+      "artist": "Sobrem × Silentroom",
+      "jacketKey": "ad45a43a45bd4974",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "raputa",
+      "artist": "sasakure.UK × TJ.hangneil",
+      "jacketKey": "486d317c19a52fd5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Raven Emperor",
+      "artist": "Kobaryo",
+      "jacketKey": "000e4e52cbf4d11f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Re：End of a Dream",
+      "artist": "uma vs. モリモリあつし",
+      "jacketKey": "61b60aecd7fda2a2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Reach For The Stars",
+      "artist": "大谷智哉, Jean Paul Makhlouf of Cash Cash「ソニック カラーズ」",
+      "jacketKey": "3e05f30cf1972775",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Reach For The Stars (Re-Colors)",
+      "artist": "大谷智哉「ソニックカラーズ アルティメット」",
+      "jacketKey": "872a9990a618097d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "REAL VOICE",
+      "artist": "達見 恵 featured by 佐野 宏晃",
+      "jacketKey": "ac02343dc7001ef1",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Redemption",
+      "artist": "XinG、10lulu",
+      "jacketKey": "ee99a02fc685bbe4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Regulus",
+      "artist": "お月さま交響曲",
+      "jacketKey": "f340a4081d9c66d7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Revive The Rave",
+      "artist": "void(Mournfinale)",
+      "jacketKey": "b24578a4495292cf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "REVIVER オルタンシア・サーガ -蒼の騎士団- オリジナルVer.",
+      "artist": "MY FIRST STORY",
+      "jacketKey": "45328a042d519dd8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Riders Of The Light",
+      "artist": "「BAYONETTA(ベヨネッタ)」",
+      "jacketKey": "518b49bea5bb7554",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "RIDGE RACER STEPS -GMT remix-",
+      "artist": "Yuji Masubuchi(BNGI)「RIDGE RACER」",
+      "jacketKey": "489d5189ec8e2a11",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "RIFFRAIN",
+      "artist": "夏代孝明",
+      "jacketKey": "3ecd074431732b76",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Ring",
+      "artist": "R Sound Design feat.向日葵",
+      "jacketKey": "dae3ed9c3ccbcdb2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Rising on the horizon",
+      "artist": "TAG",
+      "jacketKey": "7294b35c4ce70324",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Rodeo Machine",
+      "artist": "HALFBY",
+      "jacketKey": "22be5d0f9ac31bf0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Rooftop Run: Act1",
+      "artist": "大谷智哉「ソニック ジェネレーションズ」",
+      "jacketKey": "76099ef5228c3669",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Round Round Spinning Around",
+      "artist": "Nhato",
+      "jacketKey": "6a7e5bd00eb678b3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Rush-Hour",
+      "artist": "litmus*",
+      "jacketKey": "72add6e11afd6c5a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Rush-More",
+      "artist": "litmus*",
+      "jacketKey": "f3980fde794cbf40",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Sage",
+      "artist": "かめりあ",
+      "jacketKey": "4cd6568a0952195d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Saika",
+      "artist": "Rabpit",
+      "jacketKey": "7f84a42ea9a6db85",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Sakura Fubuki",
+      "artist": "Street",
+      "jacketKey": "4eb6421febba913f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Save This World νMIX",
+      "artist": "「PHANTASY STAR PORTABLE」",
+      "jacketKey": "1cb40b23f3af8305",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Scarlet Lance",
+      "artist": "MASAKI（ZUNTATA）「グルーヴコースター3EXドリームパーティー」より",
+      "jacketKey": "bd702cd7e2582905",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Scarlet Wings",
+      "artist": "REDALiCE feat. Ayumi Nomiya",
+      "jacketKey": "0658c9340f90f5c8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Scars of FAUNA",
+      "artist": "猫叉Master「jubeat」より",
+      "jacketKey": "aaa9d21bf16c8a7f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Schwarzschild",
+      "artist": "Tsukasa",
+      "jacketKey": "2454ef7c65d00f77",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Scream out! -maimai SONIC WASHER Edit-",
+      "artist": "A-One",
+      "jacketKey": "449641589ac0c22f",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "Secret Sleuth",
+      "artist": "島爺×蜂屋ななし",
+      "jacketKey": "5ad3f5870e9aef1a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "See The Light",
+      "artist": "anubasu-anubasu",
+      "jacketKey": "65620eda680cc9f4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Selector",
+      "artist": "Aliesrite* (Ym1024 feat. lamie*)",
+      "jacketKey": "677bde96e3495e92",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "Session High⤴",
+      "artist": "イロドリミドリ「CHUNITHM」",
+      "jacketKey": "e5e9134fbae3c1da",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Seyana. ～何でも言うことを聞いてくれるアカネチャン～",
+      "artist": "GYARI",
+      "jacketKey": "ac704a32c62481ed",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "shake it!",
+      "artist": "emon",
+      "jacketKey": "1480ca66a27df12e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Shooting Shower～DANCE TIME(シンディ)～",
+      "artist": "Sammy Sound Team",
+      "jacketKey": "9562876b64f4cedf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Shooting Stars",
+      "artist": "クレシェンドブルー [最上静香 (CV.田所あずさ)、北上麗花 (CV.平山笑美)、北沢志保 (CV.雨宮 天)、野々原 茜 (CV.小笠原早紀)、箱崎星梨花 (CV.麻倉もも)]",
+      "jacketKey": "56bf1cdcbbf097c9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "SHOW TIME",
+      "artist": "幡谷尚史「リズム怪盗R 皇帝ナポレオンの遺産」",
+      "jacketKey": "fc99cd2f2ca000cb",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Signature",
+      "artist": "Palme",
+      "jacketKey": "066036caeabc8d02",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "SILENT BLUE",
+      "artist": "かねこちはる",
+      "jacketKey": "b80623d7b2aceb77",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Sky High [Reborn]",
+      "artist": "大久保 博(BNGI)「デイトナ USA」",
+      "jacketKey": "c6b173c0ac3c2a19",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Snow Colored Score",
+      "artist": "イロドリミドリ「CHUNITHM」",
+      "jacketKey": "27e298313b402e0b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "sølips",
+      "artist": "rintaro soma",
+      "jacketKey": "8043243d47cacaee",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Sound Chimera",
+      "artist": "Laur",
+      "jacketKey": "4a94d616d8b064bc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Southern Cross",
+      "artist": "403",
+      "jacketKey": "d5fed143ad62103d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Space Harrier Main Theme [Reborn]",
+      "artist": "佐野 信義「スペースハリアー」",
+      "jacketKey": "2f730929cef3fa6e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "SPICY SWINGY STYLE",
+      "artist": "明坂 芹菜(CV:新田 恵海)",
+      "jacketKey": "951119807b389163",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "SPILL OVER COLORS",
+      "artist": "矢鴇つかさ feat. kalon.",
+      "jacketKey": "ef8dd39a0468c359",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Spin me harder",
+      "artist": "D.watt(IOSYS)feat. Asana",
+      "jacketKey": "9297d312adadbabf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Splash Dance!!",
+      "artist": "曲：Q-MHz／歌：オンゲキシューターズ",
+      "jacketKey": "8b18c71ee9262272",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Spring of Dreams",
+      "artist": "3L (NJK Record)",
+      "jacketKey": "25bcb2696dfcef90",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Sprintrances",
+      "artist": "Taishi",
+      "jacketKey": "cfcb71703c6ce7a1",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Sqlupp (Camellia's \"Sqleipd*Hiytex\" Remix)",
+      "artist": "owl＊tree Remixed by Camellia",
+      "jacketKey": "fcb1d9c95bb8205d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "SQUAD-Phvntom-",
+      "artist": "Getty vs DJ DiA",
+      "jacketKey": "1f7f4a1e70e24919",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "STAIRWAY TO GENERATION",
+      "artist": "Yosh(Survive Said The Prophet)",
+      "jacketKey": "c8f5ebca97ac99ee",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Stardust Memories",
+      "artist": "Maozon",
+      "jacketKey": "869b30cfdcb643f7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "StargazeR",
+      "artist": "骨盤P",
+      "jacketKey": "5a1892ce8c415ca5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Starlight Dance Floor",
+      "artist": "発熱巫女～ず",
+      "jacketKey": "691d2f0910d8750d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Starlight Disco",
+      "artist": "loos feat. Meramipop",
+      "jacketKey": "055586e227c60d9c",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "Starlight Vision",
+      "artist": "矢鴇つかさ feat. 三澤秋",
+      "jacketKey": "783405c8be2fcaa6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "STARRED HEART",
+      "artist": "曲：広川恵一 (MONACA)／歌：オンゲキシューターズ",
+      "jacketKey": "77d1acf8f729d163",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Starry Colors",
+      "artist": "BlackY feat. Risa Yuzuki",
+      "jacketKey": "f38fc9d91ef0b72c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "STARTLINER",
+      "artist": "曲：kz(livetune)／歌：オンゲキシューターズ",
+      "jacketKey": "ed96c2a200c81d55",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "STEEL TRANSONIC",
+      "artist": "BlackY vs. WAiKURO",
+      "jacketKey": "fac8d66129926589",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "STEREOSCAPE",
+      "artist": "164 feat. めいちゃん",
+      "jacketKey": "66080b430db9b49c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Still",
+      "artist": "イロドリミドリ「CHUNITHM」",
+      "jacketKey": "18b14187eb4df723",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Straight into the lights",
+      "artist": "Cosmograph",
+      "jacketKey": "bb049831e2c0b573",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Strange Bar",
+      "artist": "Laur",
+      "jacketKey": "d03a7cad6d682345",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Streak",
+      "artist": "ARM(IOSYS)",
+      "jacketKey": "3cb7213bbbf15068",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Strive against fate",
+      "artist": "Noah",
+      "jacketKey": "c22b6708af0c7a69",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Strobe♡Girl",
+      "artist": "colate",
+      "jacketKey": "a8e14db93c0abf9c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Sun Dance",
+      "artist": "Hiro「Crackin’DJ」",
+      "jacketKey": "aca38878fc022dcb",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Sunday Night feat Kanata.N",
+      "artist": "Mameyudoufu",
+      "jacketKey": "ac573bb480e7fc70",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "SUPER AMBULANCE",
+      "artist": "AJURIKA",
+      "jacketKey": "11f607f1a79a3165",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "sweet little sister",
+      "artist": "Silver Forest",
+      "jacketKey": "937d88b9bec425ac",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Sweet Requiem",
+      "artist": "REDALiCE & aran",
+      "jacketKey": "c61229d0709d989a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Sweetiex2",
+      "artist": "Dixie Flatline",
+      "jacketKey": "867a5c27569914df",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Sweets Time",
+      "artist": "SYNC.ART'S feat. 3L",
+      "jacketKey": "1ca97ae8aa37eb6b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Sweets×Sweets",
+      "artist": "Team-D",
+      "jacketKey": "9c2ec21fc9eb6a08",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Swift Swing",
+      "artist": "Laur",
+      "jacketKey": "b88e127e372b0c2e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "System “Z”",
+      "artist": "Jimmy Weckl",
+      "jacketKey": "b9f9c95d02592f5c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "taboo tears you up",
+      "artist": "REDALiCE (HARDCORE TANO*C)",
+      "jacketKey": "e108675f2aab8a85",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "tape/stop/night",
+      "artist": "Sugar & Co.",
+      "jacketKey": "21d83321da86a7b8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Technicians High",
+      "artist": "HiTECH NINJA",
+      "jacketKey": "c4517515ab865372",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "Tell Your World",
+      "artist": "livetune",
+      "jacketKey": "2409dc4300acfacf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "TEmPTaTiON",
+      "artist": "かねこちはる",
+      "jacketKey": "492c768653001e2a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Terminal Storm",
+      "artist": "三草康二郎「CODE OF JOKER」",
+      "jacketKey": "24a98d74754d67de",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "The 90's Decision",
+      "artist": "MYUKKE.",
+      "jacketKey": "6e44ffb21d644d0e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "the EmpErroR",
+      "artist": "sasakure.UK",
+      "jacketKey": "e5a64880bc872e8b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "The Great Banquet",
+      "artist": "Iris",
+      "jacketKey": "4014389349bb320b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "The Great Journey",
+      "artist": "光吉猛修「ホルカ・トルカ」",
+      "jacketKey": "1e13b329e829f3ef",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "The wheel to the right",
+      "artist": "Sampling Masters MEGA",
+      "jacketKey": "9f01a2ef6b665b53",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "TiamaT:F minor",
+      "artist": "Team Grimoire",
+      "jacketKey": "272a82ac2151f9a2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Tic Tac DREAMIN’",
+      "artist": "天王洲 なずな(CV:山本 彩乃)",
+      "jacketKey": "d56c49d39bfaa08e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Titania",
+      "artist": "xi",
+      "jacketKey": "a6dce38910fd32d7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Transcend Lights",
+      "artist": "曲：小高光太郎／歌：オンゲキシューターズ",
+      "jacketKey": "48b49fc84a9226f9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Trick tear",
+      "artist": "しーけー",
+      "jacketKey": "5e69a551a2fa34d9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Tricolor⁂circuS",
+      "artist": "ああ…翡翠茶漬け…",
+      "jacketKey": "3839ea9459990614",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Trrricksters!!",
+      "artist": "s-don vs. 翡乃イスカ",
+      "jacketKey": "482a7afdc94fba8b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "True Love Song",
+      "artist": "Kai/クラシック「G線上のアリア」",
+      "jacketKey": "c7cfd8a91e0436ac",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "true my heart -Lovable mix-",
+      "artist": "ave;new feat.佐倉紗織",
+      "jacketKey": "25da97d32ca1c198",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "TRUST",
+      "artist": "小仏 凪(CV:佐倉 薫)",
+      "jacketKey": "29d12992cfd1d731",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Turn around",
+      "artist": "Clean Tears",
+      "jacketKey": "1c7a37b61084b07c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "TwisteD! XD",
+      "artist": "t+pazolite",
+      "jacketKey": "ff21a1154316f6e7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "U&iVERSE -銀河鸞翔-",
+      "artist": "Kai VS 大国奏音 VS 水野健治",
+      "jacketKey": "6cc01bbad2650c50",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ULTRA B+K",
+      "artist": "nora2r",
+      "jacketKey": "e3c0402ef104b11f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ULTRA POWER",
+      "artist": "SARUKANI",
+      "jacketKey": "0ee0733dfff12e09",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ULTRA SYNERGY MATRIX",
+      "artist": "Tanchiky",
+      "jacketKey": "020b7a4dea021d7e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Ultranova",
+      "artist": "A4paper",
+      "jacketKey": "8d5c2f19a804346a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "UniTas",
+      "artist": "Masahiro \"Godspeed\" Aoki VS Kai",
+      "jacketKey": "a7c4c1462f81284a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Upshift",
+      "artist": "s-don as Iriss-Frantzz",
+      "jacketKey": "eb74d1c6089d56de",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Urban Crusher [Remix]",
+      "artist": "「BORDER BREAK」",
+      "jacketKey": "d60259eeb7cc6248",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "UTAKATA",
+      "artist": "曲：ゆよゆっぺ／歌：九條 楓(CV：佳村 はるか)",
+      "jacketKey": "f3768d0e7994daa5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Ututu",
+      "artist": "中山真斗",
+      "jacketKey": "5c7da68424b91ee0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Vallista",
+      "artist": "削除",
+      "jacketKey": "c1e02d23d7cc8cca",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Valsqotch",
+      "artist": "owl＊tree feat.chi＊tree",
+      "jacketKey": "d394210103ee76c3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "VANTABLACK RAVER",
+      "artist": "DIVELA feat.桐谷こむぎ",
+      "jacketKey": "079a34779ccd60d3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "veil",
+      "artist": "須田景凪",
+      "jacketKey": "7db1b97fc6379723",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "VeRForTe αRtE:VEiN",
+      "artist": "orangentle",
+      "jacketKey": "5461cc48817a3c7a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "VERTeX",
+      "artist": "Hiro「maimai」より",
+      "jacketKey": "23941430342ce007",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "VERTeX (rintaro soma deconstructed remix)",
+      "artist": "Hiro／rintaro soma",
+      "jacketKey": "fad2062de9b868ae",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "VIIIbit Explorer",
+      "artist": "Lime",
+      "jacketKey": "511f76bc9e72ec56",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "Virtual to LIVE",
+      "artist": "にじさんじ",
+      "jacketKey": "7c707b8a9823379b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ViRTUS",
+      "artist": "Hiro",
+      "jacketKey": "5d89c120d8c41d6a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "VOLTAGE",
+      "artist": "Rain Drops",
+      "jacketKey": "225b8d72d8dbc59a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "VSpook!",
+      "artist": "s-don",
+      "jacketKey": "5d7f7536dd643e71",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "WARNING×WARNING×WARNING",
+      "artist": "暁Records",
+      "jacketKey": "5f7dd24b13d5ff1d",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "We Are Us",
+      "artist": "舞ヶ原シンセ研究会",
+      "jacketKey": "d99038ea8737e638",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "We Gonna Journey",
+      "artist": "Queen P.A.L.",
+      "jacketKey": "ae20f2fc90eb1da4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "We Gonna Party",
+      "artist": "Cranky",
+      "jacketKey": "a29a68c61ddd6e50",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "WE'RE BACK!!",
+      "artist": "Zekk",
+      "jacketKey": "31d7d548f4a52676",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "welcome to maimai!! with マイマイマー",
+      "artist": "Hiro feat.越田Rute隆人&ビートまりお",
+      "jacketKey": "3671233295ca7a09",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "wheel",
+      "artist": "Syrufit + HDLV",
+      "jacketKey": "fe085689bd924d74",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "White Traveling Girl",
+      "artist": "A-One",
+      "jacketKey": "f4e6668d9705ccac",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Windy Hill -Zone 1",
+      "artist": "大谷智哉「ソニック ロストワールド」",
+      "jacketKey": "3b51edc59a9656a8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "WiPE OUT MEMORIES",
+      "artist": "t+pazolite",
+      "jacketKey": "1a61a11a3b89420f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Witches night",
+      "artist": "Liz Triangle",
+      "jacketKey": "7582837c14343f0a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "with U",
+      "artist": "t+pazolite & Massive New Krew feat. リリィ(CV:青木志貴)",
+      "jacketKey": "d39736ee3ce210a3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "World Vanquisher",
+      "artist": "void (Mournfinale)",
+      "jacketKey": "efeba3263a928f3f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "World's end loneliness",
+      "artist": "打打だいず",
+      "jacketKey": "e341ba3d5adb60dd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "WORLD'S END UMBRELLA",
+      "artist": "ハチ",
+      "jacketKey": "e0f1089623f573d3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Xenovcipher",
+      "artist": "Juggernaut.",
+      "jacketKey": "9a806edb5b8a642e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Xevel",
+      "artist": "Tatsh",
+      "jacketKey": "a1a92cb034053e70",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Y.Y.Y.計画!!!!",
+      "artist": "曲：烏屋茶房／歌：R.B.P. [九條 楓(CV：佳村 はるか)、逢坂 茜(CV：大空 直美)、珠洲島 有栖(CV：長縄 まりあ)]",
+      "jacketKey": "58eb9f4012c61f50",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "YA･DA･YO [Reborn]",
+      "artist": "古代 祐三「ファンタジーゾーン」",
+      "jacketKey": "1cb752563c0aaa9d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Yakumo >>JOINT STRUGGLE (2019 Update)",
+      "artist": "くっちー (DARKSIDE APPROACH)",
+      "jacketKey": "6cdb7df223e91210",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "YATTA!",
+      "artist": "はっぱ隊 [cover]",
+      "jacketKey": "c2434fdb76299e19",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Yet Another ”drizzly rain”",
+      "artist": "myu314 feat.あまね(COOL&CREATE)",
+      "jacketKey": "1bf3d25cad5ca3f1",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "YONA YONA DANCE",
+      "artist": "和田アキ子",
+      "jacketKey": "18d42d69aa210172",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Yorugao",
+      "artist": "An & Ryunosuke Kudo",
+      "jacketKey": "ffa8c12106a9ee96",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "You Mean the World to Me",
+      "artist": "Mameyudoufu feat. Shully",
+      "jacketKey": "225fd594b05d2650",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "YU-MU",
+      "artist": "岸田教団＆THE明星ロケッツ",
+      "jacketKey": "95e9c961555d4e4b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "YURUSHITE",
+      "artist": "t+pazolite",
+      "jacketKey": "7e709a028bc1c5c3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ZIGG-ZAGG",
+      "artist": "Junky",
+      "jacketKey": "3c33f819dd33084c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "Λzure Vixen",
+      "artist": "かめりあ",
+      "jacketKey": "52844a4b40958122",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アージェントシンメトリー",
+      "artist": "Sta feat.b",
+      "jacketKey": "4f526bd3f2d19ef2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アイドル",
+      "artist": "YOASOBI",
+      "jacketKey": "c7c5029b33c09561",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アイドル新鋭隊",
+      "artist": "Mitchie M / 初音ミク / MORE MORE JUMP！「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
+      "jacketKey": "a37763e42af63eea",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アイム・マイヒーロー",
+      "artist": "Ino(chronoize) feat. 柳瀬マサキ",
+      "jacketKey": "771094a23ff3c48e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アウターサイエンス",
+      "artist": "じん",
+      "jacketKey": "b0ce56a34d3e72dc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アカツキアライヴァル",
+      "artist": "Last Note.",
+      "jacketKey": "f27eaa7f0425f9c8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アカリがやってきたぞっ",
+      "artist": "GYARI",
+      "jacketKey": "1809c99151f29827",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アスノヨゾラ哨戒班",
+      "artist": "Orangestar feat.IA",
+      "jacketKey": "bbff0825f1647719",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アスヘノBRAVE",
+      "artist": "M.S.S Project",
+      "jacketKey": "6e2e4e3b67513e89",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "あつすぎの歌",
+      "artist": "からめる",
+      "jacketKey": "e25404b426613ed6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アディショナルメモリー",
+      "artist": "じん",
+      "jacketKey": "4845db8b27fd2f65",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アトロポスと最果の探究者",
+      "artist": "しーけー",
+      "jacketKey": "a6b014388c529531",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "あなたは世界の終わりにずんだを食べるのだ",
+      "artist": "なみぐる",
+      "jacketKey": "bc79d6ceafb61bd6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アニマル",
+      "artist": "DECO*27",
+      "jacketKey": "e07239967b98cca5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "あねぺったん",
+      "artist": "月鈴姉妹（イロドリミドリ）",
+      "jacketKey": "0d229b5aca55a1f1",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アポカリプスに反逆の焔を焚べろ",
+      "artist": "cosMo＠暴走AlterEgo",
+      "jacketKey": "5b142977c87d85d1",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アマカミサマ",
+      "artist": "名取さな",
+      "jacketKey": "db00c4017f608b7a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アマツキツネ",
+      "artist": "まらしぃ",
+      "jacketKey": "49a37b23bf52f77f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アマノジャクリバース feat. ｙｔｒ",
+      "artist": "魂音泉",
+      "jacketKey": "3f2d512deca0579b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ありふれたせかいせいふく",
+      "artist": "ピノキオピー",
+      "jacketKey": "dc8f146a69069b71",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アルカリレットウセイ",
+      "artist": "かいりきベア",
+      "jacketKey": "b337c736e69b8f8a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アルカンシエル",
+      "artist": "Yamajet",
+      "jacketKey": "5fbf0fbd4d18f6e2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アルティメットセンパイ",
+      "artist": "ピノキオピー",
+      "jacketKey": "77a97e85ae4f2b53",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アンクローズ・ヒューマン",
+      "artist": "作曲：カジャ　作詞：傘村トータ　編曲：ねじ式　調声：シリア",
+      "jacketKey": "0641b4abd73b15ea",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アンドロイドガール",
+      "artist": "DECO*27",
+      "jacketKey": "5847967f87cf1dab",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アンノウン・マザーグース",
+      "artist": "wowaka",
+      "jacketKey": "5140f70bbc88cc99",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アンバークロニクル",
+      "artist": "しーけー feat.ricono",
+      "jacketKey": "575733d6aee16503",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アンハッピーリフレイン",
+      "artist": "wowaka",
+      "jacketKey": "0b3097b182ae0642",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "アンビバレンス",
+      "artist": "すりぃ×相沢",
+      "jacketKey": "e63c3acfdf00c605",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "いーあるふぁんくらぶ",
+      "artist": "みきとP",
+      "jacketKey": "b21cc578793a6938",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "イアイア★ナイトオブデザイア",
+      "artist": "samfree",
+      "jacketKey": "e87708ce64ba6e75",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "イカサマライフゲイム",
+      "artist": "kemu",
+      "jacketKey": "ddb08097777c5683",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "いつかいい感じにアレしよう",
+      "artist": "カクとイムラ(CV：松本慶祐)",
+      "jacketKey": "9df2b2bd83e288d0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "いっしそう電☆舞舞神拳！",
+      "artist": "さつき が てんこもり feat. YURiCa/花たん",
+      "jacketKey": "4bbae54dd05376fd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "イノコリ先生",
+      "artist": "HoneyWorks",
+      "jacketKey": "63fb1212d0b7cc6c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "イヤホンロマンス",
+      "artist": "COOL&CREATE × 宝鐘マリン",
+      "jacketKey": "ecfd9fddb7a9f687",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "イロトリドリのメロディ",
+      "artist": "小仏凪(CV:佐倉薫)",
+      "jacketKey": "ca4960dbd930da85",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "インターネットサバイバー",
+      "artist": "あやぽんず＊ feat.ビートまりお × まろん",
+      "jacketKey": "60538d73546de334",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "インドア系ならトラックメイカー",
+      "artist": "Yunomi & nicamoq",
+      "jacketKey": "57c8a97552b29815",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "インパアフェクシオン・ホワイトガアル",
+      "artist": "ツミキ feat.月乃",
+      "jacketKey": "f3e016cdb888c313",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "インビジブル",
+      "artist": "kemu",
+      "jacketKey": "81e682b1c94a1a56",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ヴァンパイア",
+      "artist": "DECO*27",
+      "jacketKey": "d63402f44d60f77e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ヴィラン",
+      "artist": "flower・てにをは",
+      "jacketKey": "63abba33e2925b5a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ウサテイ",
+      "artist": "あまね＋ビートまりお(COOL＆CREATE)",
+      "jacketKey": "3ad0c2206eeb3435",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ウッーウッーウマウマ(ﾟ∀ﾟ)",
+      "artist": "Caramell/Caramelldansen [cover]",
+      "jacketKey": "ba0f9d3b5b630461",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "うっせぇわ",
+      "artist": "Ado",
+      "jacketKey": "f35da896a6e4e282",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ウマイネームイズうまみちゃん",
+      "artist": "UMAINA",
+      "jacketKey": "355595c991550e39",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ウミユリ海底譚",
+      "artist": "n-buna",
+      "jacketKey": "e2047e2898d1bc8c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "エータ・ベータ・イータ",
+      "artist": "ルゼ",
+      "jacketKey": "241ef09441315f33",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "エイリアンエイリアン",
+      "artist": "ナユタン星人",
+      "jacketKey": "30b9a835ccb9b302",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "エゴロック",
+      "artist": "すりぃ",
+      "jacketKey": "a0d49a6de0c2951d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "エスオーエス",
+      "artist": "カロンズベカラズ",
+      "jacketKey": "ec45c25d80cd0341",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "エテルニタス・ルドロジー",
+      "artist": "IRON ATTACK!",
+      "jacketKey": "1cbcb0782170f442",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "エナドリおいしいソング",
+      "artist": "冥堂院・アレクサンドル・ヴィクトリア・リヒテンシュタイン・聖斗 feat.TINOP",
+      "jacketKey": "5c0759a40fa1a178",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "エピクロスの虹はもう見えない",
+      "artist": "SYNC.ART'S feat. 美里",
+      "jacketKey": "5177ad4303c2b997",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "エンヴィーベイビー",
+      "artist": "Kanaria",
+      "jacketKey": "cae62842cadab3d9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "エンドマークに希望と涙を添えて",
+      "artist": "cosMo＠暴走P",
+      "jacketKey": "944deaf220b28eb0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "オーケー？　オーライ！",
+      "artist": "五十嵐 撫子(CV:花井 美春)",
+      "jacketKey": "854c238aee12a027",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "オーディエンスを沸かす程度の能力 feat.タイツォン",
+      "artist": "D.watt(IOSYS)＋らっぷびと",
+      "jacketKey": "b0cfe0f457175464",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "おこちゃま戦争",
+      "artist": "ギガ/れをる",
+      "jacketKey": "e8f0c0f81f6a4e8a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "おジャ魔女カーニバル!!",
+      "artist": "covered by 光吉猛修",
+      "jacketKey": "3491119fdaa2b30a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "おちゃめ機能",
+      "artist": "ゴジマジP",
+      "jacketKey": "29d1106de82a3432",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "おても☆Yan",
+      "artist": "光吉猛修",
+      "jacketKey": "a3c48c499abf548a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "おとせサンダー",
+      "artist": "ぼっちぼろまる",
+      "jacketKey": "5d77231ceab248b4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "オトヒメモリー☆ウタゲーション",
+      "artist": "Junky",
+      "jacketKey": "c20ee423d01b854a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "おねがいダーリン",
+      "artist": "ONE (song by ナナホシ管弦楽団)",
+      "jacketKey": "ef6f1e317a56e61c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "オパ! オパ! RACER -GMT mashup-",
+      "artist": "COSIO(ZUNTATA/TAITO)「ファンタジーゾーン」「RIDGE RACER」",
+      "jacketKey": "b596ea69b00562cb",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "オモイヨシノ",
+      "artist": "loos feat. 柊莉杏",
+      "jacketKey": "1daa4ab6b25d66ca",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "オリフィス",
+      "artist": "40mP feat. シャノ",
+      "jacketKey": "32f13971dcdc12f7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "オレンジの夏",
+      "artist": "Hiro/タクマロ",
+      "jacketKey": "36697811028a024a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "オントロジー",
+      "artist": "Rain Drops",
+      "jacketKey": "377e669fca63c034",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "お嫁にしなさいっ！",
+      "artist": "ARM＋夕野ヨシミ(IOSYS)",
+      "jacketKey": "0ba059088892b17c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "お気に召すまま",
+      "artist": "Eve",
+      "jacketKey": "7d0987aa84615ada",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "カゲロウデイズ",
+      "artist": "じん",
+      "jacketKey": "b6e33b58e573a59b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "かせげ！ジャリンコヒーロー",
+      "artist": "角田信朗「ヒーローバンク」",
+      "jacketKey": "3c6a2505eadb3ba2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "からくりピエロ",
+      "artist": "40mP",
+      "jacketKey": "e466cd437e917e44",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "カラッポ・ノンフィクション",
+      "artist": "Ino(chronoize) feat. 柳瀬マサキ",
+      "jacketKey": "b8a67789729b6e80",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ガラテアの螺旋",
+      "artist": "sasakure.UK",
+      "jacketKey": "0c110a5873857c5f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ガランド",
+      "artist": "ピコン",
+      "jacketKey": "3ab9462a8ad2e844",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "キズナの物語",
+      "artist": "Trefle「チェインクロニクル」",
+      "jacketKey": "99ef712bdad6ff53",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "きたさいたま2000",
+      "artist": "LindaAI-CUE(BNGI)「太鼓の達人」より",
+      "jacketKey": "8c567d50c8522006",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "きみのためなら死ねる",
+      "artist": "スーパーラバーズ「きみのためなら死ねる」",
+      "jacketKey": "2e40a6e7ff485668",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "キミノヨゾラ哨戒班",
+      "artist": "Orangestar",
+      "jacketKey": "356f3d261ce84763",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "キャットラビング",
+      "artist": "香椎モイミ",
+      "jacketKey": "67e27d4f36585603",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "キャプテン・ムラサのケツアンカー",
+      "artist": "ARM＋夕野ヨシミ(IOSYS)feat.山本椛",
+      "jacketKey": "dc279f21432d1438",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "キュートなカノジョ",
+      "artist": "syudou　feat.音楽的同位体　可不（KAFU）",
+      "jacketKey": "fa6d81df2d4ab076",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "きゅうくらりん",
+      "artist": "いよわ",
+      "jacketKey": "89a9a20b498524c9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "きらっせ☆ウッド村ファーム",
+      "artist": "uno(IOSYS) feat.miko",
+      "jacketKey": "687032cff68a9090",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "キラメキ居残り大戦争",
+      "artist": "森羅万象",
+      "jacketKey": "0017d1b140e0da0a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "キリキリ舞Mine",
+      "artist": "A-One",
+      "jacketKey": "6ef94b83aa8b6213",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "キレキャリオン",
+      "artist": "ポリスピカデリー",
+      "jacketKey": "c0c293f4eef1087e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "グッバイ宣言",
+      "artist": "Chinozo",
+      "jacketKey": "b44613f0defc39bd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "グラーヴェ",
+      "artist": "niki",
+      "jacketKey": "bb37d9710622d40f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "グリーンライツ・セレナーデ",
+      "artist": "Omoi feat. 初音ミク",
+      "jacketKey": "95af1c4fc14eae36",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ぐるぐるWASH！コインランドリー・ディスコ",
+      "artist": "D.watt(IOSYS)feat.ちよこ",
+      "jacketKey": "eaccafed32ffe317",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "クレイジー・ビート",
+      "artist": "さつき が てんこもり",
+      "jacketKey": "db2bcb56952703da",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "クレイジークレイジーダンサーズ",
+      "artist": "ビートまりお＋あまね（COOL&CREATE）",
+      "jacketKey": "f997429f623af964",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "げきオコスティックファイナリアリティぷんぷんマスタースパーク",
+      "artist": "ARM (IOSYS)",
+      "jacketKey": "a7db2231c9a36066",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ケロ⑨destiny",
+      "artist": "Silver Forest",
+      "jacketKey": "770423fd2e706318",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "ゴーゴー幽霊船",
+      "artist": "米津玄師",
+      "jacketKey": "b4c2df0b003d74e2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ゴーストルール",
+      "artist": "DECO*27",
+      "jacketKey": "1c389ba08db6c6f4",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "ここからはじまるプロローグ。",
+      "artist": "ああああ",
+      "jacketKey": "c4360c3533c50d49",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ここからはじまるプロローグ。 (Kanon Remix)",
+      "artist": "ああああ／大国奏音",
+      "jacketKey": "163cb65566312402",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ココロスキャンのうた",
+      "artist": "ササキトモコ「音声感情測定器ココロスキャン」",
+      "jacketKey": "c6bc8a091cf2f21e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "コスモポップファンクラブ",
+      "artist": "ナユタン星人",
+      "jacketKey": "4829035abbb63320",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "コトバ・カラフル",
+      "artist": "うたよめ575＜正岡小豆(大坪由佳)小林抹茶(大橋彩香)＞",
+      "jacketKey": "8d9f5283fc6a2890",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "このピアノでお前を8759632145回ぶん殴る",
+      "artist": "SLAVE.V-V-R",
+      "jacketKey": "02960e843e603fcc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "コンティニュー！ feat. 藍月なくる",
+      "artist": "lapix",
+      "jacketKey": "af4f08eaff72cde9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "さくゆいたいそう",
+      "artist": "さくゆい",
+      "jacketKey": "4a865397a5170d82",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "サドマミホリック",
+      "artist": "ビートまりお（COOL&CREATE）",
+      "jacketKey": "5345f0c108674525",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "サヨナラチェーンソー",
+      "artist": "くらげP",
+      "jacketKey": "e4af463b0c3c84de",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "さよならヒストリー",
+      "artist": "森羅万象",
+      "jacketKey": "4f34157be56c8be3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "サヨナラフリーウェイ",
+      "artist": "萩原 七々瀬(CV:東城 日沙子)",
+      "jacketKey": "f6bf56f478f8ddcf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "さよならプリンセス",
+      "artist": "Kai",
+      "jacketKey": "a98a61705b5d5c24",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "さんさーら！",
+      "artist": "ARuFa",
+      "jacketKey": "95366a9a2c5583ed",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "サンバディ！",
+      "artist": "水野健治 feat.光吉猛修",
+      "jacketKey": "921a8fe452c6f622",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "サンバランド",
+      "artist": "SAMBA MASTER 佐藤",
+      "jacketKey": "8d27eb1fd00caf9c",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "シアトリカル・ケース",
+      "artist": "ユリイ・カノン feat.ウォルピスカーター&まひる",
+      "jacketKey": "63a6907f7c15e040",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "シアワセうさぎ",
+      "artist": "あまね＋ビートまりお(COOL＆CREATE)",
+      "jacketKey": "b4fc0cc12303d468",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ジェヘナ",
+      "artist": "wotaku",
+      "jacketKey": "0d250f5077500a46",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "シエルブルーマルシェ",
+      "artist": "OSTER project feat. かなたん",
+      "jacketKey": "9fb752248141c1d7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "シックスプラン",
+      "artist": "針原翼（はりーP）feat. はく",
+      "jacketKey": "9cd7ade77cfb6cd4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "しねばいいのに",
+      "artist": "どぶウサギ",
+      "jacketKey": "876172e4c4979c78",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "シャルル",
+      "artist": "バルーン",
+      "jacketKey": "3d6ae19fff511a61",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "ジャンキーナイトタウンオーケストラ",
+      "artist": "すりぃ",
+      "jacketKey": "9c0933c2097ea0dd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "しゅわスパ大作戦☆",
+      "artist": "SOUND HOLIC feat. Nana Takahashi",
+      "jacketKey": "cd787bcc1dc248f7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ジレンマ",
+      "artist": "DECO*27",
+      "jacketKey": "b6677ac63f097df0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ジンギスカン",
+      "artist": "仁井山征弘 Feat. GREAT G and surprise",
+      "jacketKey": "6cd10cc6ae9af924",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ジングルベル",
+      "artist": "SEGA Sound Unit [H.]",
+      "jacketKey": "5c0567c39670fbf4",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "スーパーシンメトリー",
+      "artist": "Sta feat. b",
+      "jacketKey": "ea8ef2281969118e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "すーぱーぬこになりたい",
+      "artist": "まふまふ",
+      "jacketKey": "d2441b78d4fb5ffc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "すーぱーぬこになれんかった",
+      "artist": "まふまふ",
+      "jacketKey": "c16bd3250dcfc965",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "スイートマジック",
+      "artist": "ろん×Junky",
+      "jacketKey": "e1e5a738cc1af930",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "スカーレット警察のゲットーパトロール24時",
+      "artist": "七条レタスグループ",
+      "jacketKey": "5f9f0619083ebab0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "スターリースカイ☆パレード",
+      "artist": "キノシタ feat. 音街ウナ・鏡音リン",
+      "jacketKey": "bf6fcb6a8b2b79a7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ステップアンドライム",
+      "artist": "YASUHIRO(康寛)",
+      "jacketKey": "ba15f7b947317461",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ストリーミングハート",
+      "artist": "DECO*27",
+      "jacketKey": "5cfa9f0661807944",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "スピカの天秤",
+      "artist": "Acotto",
+      "jacketKey": "b81925a4285c4ce1",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "スリップフリップ",
+      "artist": "tilt-six feat.串伊トモミ",
+      "jacketKey": "cae6cc3ea0d93a64",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "スローアライズ",
+      "artist": "Endorfin.",
+      "jacketKey": "565d4805b8b8848e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "スロウダウナー",
+      "artist": "ろくろ",
+      "jacketKey": "1f308086ecb36d24",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ずんだもんの朝食　〜目覚ましずんラップ〜",
+      "artist": "ひらうみ",
+      "jacketKey": "c4d3b35bca6c9943",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "セイクリッド　ルイン",
+      "artist": "Drop＆祇羽 feat. 葉月ゆら「太鼓の達人」より",
+      "jacketKey": "4f11befbc2464811",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "セカイ",
+      "artist": "DECO*27 × 堀江晶太(kemu) / 初音ミク、星乃一歌、天馬司、宵崎奏「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
+      "jacketKey": "f94a0405d632630e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "セカイはまだ始まってすらいない",
+      "artist": "ピノキオピー / 初音ミク / ワンダーランズ×ショウタイム「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
+      "jacketKey": "1cad20e254f6651a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "セガサターン起動音[H.][Remix]",
+      "artist": "Hiro",
+      "jacketKey": "6cb5afa2c0d02884",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "セツナトリップ",
+      "artist": "Last Note.",
+      "jacketKey": "4cdf81639751cc7f",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "セハガガガンバッちゃう！！",
+      "artist": "Hi☆sCoool! セハガール",
+      "jacketKey": "d5648519628a2a37",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ソーラン☆節",
+      "artist": "光吉猛修",
+      "jacketKey": "50c1e16531d2c478",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "その群青が愛しかったようだった",
+      "artist": "n-buna feat.ヤギヌマカナ",
+      "jacketKey": "ff32415983cc3c98",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ソリッド",
+      "artist": "豚乙女",
+      "jacketKey": "6f76e4f38c8d24c3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "タカハせ！名人マン",
+      "artist": "ビートまりお + ARM feat. 高橋名人",
+      "jacketKey": "f671bf7482912046",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "だからパンを焼いたんだ",
+      "artist": "あわのあゆむ",
+      "jacketKey": "b4e4c2a261a15eb7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "だから僕は音楽を辞めた",
+      "artist": "ヨルシカ",
+      "jacketKey": "7f05ec00857e0440",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "タケモトピアノCMソング",
+      "artist": "タケモトピアノCM",
+      "jacketKey": "838762a592006575",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ただ選択があった",
+      "artist": "フロクロ",
+      "jacketKey": "8886cfbe27f73dfe",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "タテマエと本心の大乱闘",
+      "artist": "曲：鯨井国家／歌：藍原 椿(CV：橋本 ちなみ)",
+      "jacketKey": "75ed99d686a556b0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "だれかの心臓になれたなら",
+      "artist": "ユリイ・カノン feat.GUMI",
+      "jacketKey": "274b280ee4f3f54d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ダンシング☆サムライ",
+      "artist": "mathru(かにみそP)",
+      "jacketKey": "d4f0ba13bfbcfb04",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ダンスロボットダンス",
+      "artist": "ナユタン星人",
+      "jacketKey": "dfd85cc1f0611a87",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "だんだん早くなる",
+      "artist": "40mP",
+      "jacketKey": "39044dca657c1f90",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "チエルカ／エソテリカ",
+      "artist": "ツミキ × 宮下遊",
+      "jacketKey": "9475222592a29f06",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "チューリングの跡",
+      "artist": "Frums",
+      "jacketKey": "6c38d19035bd1ea6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "チュルリラ・チュルリラ・ダッダッダ！",
+      "artist": "和田たけあき(くらげP)",
+      "jacketKey": "e500e033148d33c1",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "チルノのパーフェクトさんすう教室",
+      "artist": "ARM＋夕野ヨシミ(IOSYS)feat. miko",
+      "jacketKey": "d44aee5f4b660d3d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "チルノのパーフェクトさんすう教室　⑨周年バージョン",
+      "artist": "IOSYSと愉快な⑨周年フレンズ",
+      "jacketKey": "d5ff46836f80157d",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "ツギハギスタッカート",
+      "artist": "とあ",
+      "jacketKey": "387ff1be544f7efc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ツクヨミステップ",
+      "artist": "ユリイ・カノン feat.nameless",
+      "jacketKey": "dbe50b3985a760b8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ってゐ！ ～えいえんてゐVer～",
+      "artist": "石鹸屋",
+      "jacketKey": "c1694a7ecbb79aeb",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ツムギボシ",
+      "artist": "大国奏音 feat.timao",
+      "jacketKey": "793b837b2593552d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "つるぺったん",
+      "artist": "Silver Forest",
+      "jacketKey": "c30b982886cd4b33",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "デーモンベット",
+      "artist": "ちいたな feat.flower",
+      "jacketKey": "a1e05bf1f0247733",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ディカディズム",
+      "artist": "ぬゆり",
+      "jacketKey": "1ef2747493f2d184",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "テオ",
+      "artist": "Omoi",
+      "jacketKey": "d315e6c1c6b44779",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "デコボコ体操第二",
+      "artist": "光吉猛修＆体操隊",
+      "jacketKey": "8e08d39727825f8a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "デスパレイト",
+      "artist": "owl＊tree",
+      "jacketKey": "c2b3175e6891f561",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "デッドマンズバラッド",
+      "artist": "cosMo＠暴走P",
+      "jacketKey": "fc8413fd2a11ca68",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "デッドレッドガールズ",
+      "artist": "MARUDARUMA",
+      "jacketKey": "3f2e914b4c289b9f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "デビル☆アイドル",
+      "artist": "アイラ（CV：三森すずこ）シマ（CV:井口裕香）はな（CV:花澤香菜）",
+      "jacketKey": "8148ef129c27aadc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "でらっくmaimai♪てんてこまい!",
+      "artist": "やしきん feat.でらっくま(CV:三森すずこ)",
+      "jacketKey": "461917094fed4012",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "デリヘル呼んだら君が来た",
+      "artist": "ナナホシ管弦楽団",
+      "jacketKey": "1a9429cd0ca4fce7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "テレキャスタービーボーイ",
+      "artist": "すりぃ",
+      "jacketKey": "8ec5044872bc5c23",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "デンパラダイム",
+      "artist": "lumo",
+      "jacketKey": "37b7f72f67a5d4ae",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ドーナツホール",
+      "artist": "ハチ",
+      "jacketKey": "98a835418650545d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "どぅーまいべすと！",
+      "artist": "キノシタ",
+      "jacketKey": "2e6f3f0c952aabe6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "どうしてこうなった",
+      "artist": "うどんゲルゲ",
+      "jacketKey": "ace05ab995f9fee5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ドキドキDREAM!!!",
+      "artist": "イロドリミドリ「CHUNITHM」",
+      "jacketKey": "183c72809f3e8984",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ドクハク",
+      "artist": "MARETU",
+      "jacketKey": "4fa10a454644291e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "トノサマビーム",
+      "artist": "ぼっちぼろまる",
+      "jacketKey": "8212573b9837ddff",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "とびだせ！TO THE COSMIC!!",
+      "artist": "t+pazolite feat. しゃま(CV:種﨑 敦美) & みるく(CV:伊藤 あすか)",
+      "jacketKey": "a8dfce2488046508",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ドラゴンエネルギー",
+      "artist": "オーイシマサヨシ×加藤純一",
+      "jacketKey": "5c8b21cfcbbd7be7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "トラフィック・ジャム",
+      "artist": "煮ル果実",
+      "jacketKey": "f295e2f2410559df",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "トランスダンスアナーキー",
+      "artist": "暁Records",
+      "jacketKey": "5b6325556f04bfc2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "トリアージ",
+      "artist": "niki feat.noire",
+      "jacketKey": "9466cf52a10671cf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "とりあえずアナタがいなくなるまえに",
+      "artist": "作詞作曲：椎名もた　編曲：KTG　映像：Yuma Saito",
+      "jacketKey": "cf54bee98fb8ac42",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "トリドリ⇒モリモリ！Lovely fruits☆",
+      "artist": "曲：やしきん／歌：柏木 美亜(CV：和氣 あず未)",
+      "jacketKey": "aa826be0d2a02ff8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "トルコ行進曲 - オワタ＼(^o^)／",
+      "artist": "オワタP",
+      "jacketKey": "951e6d7982e052cf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "トンデモワンダーズ",
+      "artist": "sasakure.UK",
+      "jacketKey": "6f1f4f9f62ca793b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ド屑",
+      "artist": "なきそ",
+      "jacketKey": "c94dcba3903fcde9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ないせんのうた",
+      "artist": "ナイセン - momoco-",
+      "jacketKey": "d6ef4f59f4072867",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ナイト・オブ・ナイツ",
+      "artist": "ビートまりお(COOL＆CREATE)",
+      "jacketKey": "541de4c8cadacd0e",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "ナイト・オブ・ナイツ (Cranky Remix)",
+      "artist": "ビートまりお × Cranky",
+      "jacketKey": "c0333c130db37fb5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ナイトメア☆パーティーナイト",
+      "artist": "くちばしP",
+      "jacketKey": "2ab3812cc612f648",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ナミダと流星",
+      "artist": "芳川よしの",
+      "jacketKey": "5704ab871a0f61c3",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "なるとなぎのパーフェクトロックンロール教室",
+      "artist": "イロドリミドリ「CHUNITHM」",
+      "jacketKey": "c5eadcbeeb116b70",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ナンセンス文学",
+      "artist": "Eve",
+      "jacketKey": "c1b5c8e26e70f996",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "にじよめちゃん体操第一億",
+      "artist": "にじよめちゃんとZIPたん",
+      "jacketKey": "efde807a5f65e317",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "にゃーにゃー冒険譚",
+      "artist": "黒魔",
+      "jacketKey": "2ee0ae1e83c28ce3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ネ！コ！",
+      "artist": "パトリシア・オブ・エンド・黒木未知・夕莉シャチ・明日原ユウキ「ノラと皇女と野良猫ハート」",
+      "jacketKey": "a46fc4437ca9cdb8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ねぇ、壊れタ人形ハ何処へ棄テらレるノ？",
+      "artist": "cosMo＠暴走P",
+      "jacketKey": "b683efde84f7858e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ネガティブ進化論",
+      "artist": "DECO*27",
+      "jacketKey": "4a10309bcd38e74e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ネクロファンタジア～Arr.Demetori",
+      "artist": "Demetori",
+      "jacketKey": "78baafabacc06f69",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ネコ日和。",
+      "artist": "Kai/能登有沙",
+      "jacketKey": "30eb032b16877275",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ネトゲ廃人シュプレヒコール",
+      "artist": "さつき が てんこもり",
+      "jacketKey": "194326e1cb7513ae",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ノイローゼ",
+      "artist": "蜂屋ななし",
+      "jacketKey": "2d453be3e5be3283",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "のじゃロリック",
+      "artist": "なみぐる feat.ちょこ 桃寝ちのい",
+      "jacketKey": "396fbb70013071f7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ノンブレス・オブリージュ",
+      "artist": "ピノキオピー",
+      "jacketKey": "6a7cf1cc1358ceba",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "バーチャルダム　ネーション",
+      "artist": "Sampling Masters MEGA",
+      "jacketKey": "d95b9e9492d691ec",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ハート・ビート",
+      "artist": "明坂 芹菜(CV:新田 恵海)",
+      "jacketKey": "955f6569cc70f255",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ハードコア・シンドローム",
+      "artist": "t+pazolite (HARDCORE TANO*C) feat.TANO*C ALL STARS",
+      "jacketKey": "d032c4be975fda12",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "パーフェクション",
+      "artist": "柊マグネタイト",
+      "jacketKey": "cab8e9a2a5fcb025",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "パーフェクト生命",
+      "artist": "ナユタン星人",
+      "jacketKey": "56d88be25a7e2340",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "バイオレンストリガー",
+      "artist": "八王子P",
+      "jacketKey": "35a1e407f85b4d89",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ハウリング",
+      "artist": "Liz Triangle",
+      "jacketKey": "b7a0795183f71fca",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ばかみたい【Taxi Driver Edition】",
+      "artist": "桐生一馬(黒田崇矢)",
+      "jacketKey": "6a8bc4d596414ec6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "バグ",
+      "artist": "かいりきベア",
+      "jacketKey": "395858beb7340b13",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ぱくぱく☆がーる",
+      "artist": "曲：齋藤大／歌：珠洲島 有栖(CV：長縄 まりあ)",
+      "jacketKey": "07f841698cba7fa8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ハジマリノピアノ",
+      "artist": "ゆゆうた",
+      "jacketKey": "d8582cffde7aaa51",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "パズルリボン",
+      "artist": "すりぃ feat.りょーくん",
+      "jacketKey": "02ac5a7ec58b9e7f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "はちみつアドベンチャー",
+      "artist": "Yunomi feat.nicamoq",
+      "jacketKey": "044f1d6c5c170d86",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "バッド・ダンス・ホール",
+      "artist": "ぱなまん/カラスヤサボウ",
+      "jacketKey": "9dfd23eb9143196f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ハッピーシンセサイザ",
+      "artist": "EasyPop",
+      "jacketKey": "17bd34442bb405c8",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "ハム太郎とっとこうた",
+      "artist": "ハムちゃんず [covered by 光吉猛修]",
+      "jacketKey": "1b3fd58d6ebade7c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "はやくそれになりたい！",
+      "artist": "キノシタ feat. 音街ウナ",
+      "jacketKey": "8bcd4e9515ccbeb9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "パラボラ",
+      "artist": "*Luna feat.NORISTRY",
+      "jacketKey": "73a07468c38c298c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "パラマウント☆ショータイム！！",
+      "artist": "翡乃イスカ",
+      "jacketKey": "f4f0f2f8ebd3f0da",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "バラライカ",
+      "artist": "Performed by 光吉猛修",
+      "jacketKey": "8447601f724531de",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "バレリーコ",
+      "artist": "みきとP",
+      "jacketKey": "30bb41cdf66ce0e1",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ハロ／ハワユ",
+      "artist": "ナノウ",
+      "jacketKey": "7486b0344c14d632",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "パンダヒーロー",
+      "artist": "ハチ",
+      "jacketKey": "435c43a8153c239a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "はんぶんこ",
+      "artist": "三枝明那",
+      "jacketKey": "4d9e0c3640c966c5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ピーマンたべたら",
+      "artist": "カタオカツグミ",
+      "jacketKey": "242be907a6d59e16",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ヒステリックナイトガール",
+      "artist": "PSYQUI",
+      "jacketKey": "b48907e41b1a0e45",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ビターチョコデコレーション",
+      "artist": "syudou",
+      "jacketKey": "4bc4d3834acf0534",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ヒトガタ",
+      "artist": "HIMEHINA",
+      "jacketKey": "a33a77ea8c117b3d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ヒバナ",
+      "artist": "DECO*27",
+      "jacketKey": "6e8acabbb209b93e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ヒバリ",
+      "artist": "HIMEHINA",
+      "jacketKey": "fed4dfdcc7c7554f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ぴぴぱぷぅ！",
+      "artist": "Hiro/小山あかり",
+      "jacketKey": "ba436a1cf6e84d58",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ヒミツCULT",
+      "artist": "t+pazolite",
+      "jacketKey": "6f420cccbe95810a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ピュグマリオンの咒文",
+      "artist": "アリスシャッハと魔法の楽団",
+      "jacketKey": "f64908fc2a147935",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ピリオドサイン",
+      "artist": "Ponchi♪ feat.はぁち",
+      "jacketKey": "4f4b2b44bfcd87b4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ひれ伏せ愚民どもっ！",
+      "artist": "ARM＋夕野ヨシミ (IOSYS) feat.miko",
+      "jacketKey": "75858ef4dd890365",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ファンタジーゾーン OPA-OPA! -GMT remix-",
+      "artist": "Hiro(SEGA)「ファンタジーゾーン」",
+      "jacketKey": "10d4b8923d34d87e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "フィクサー",
+      "artist": "ぬゆり",
+      "jacketKey": "04e1ae9bd03cd769",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "フェイクフェイス・フェイルセイフ",
+      "artist": "カラスヤサボウ feat. もるでお",
+      "jacketKey": "ef022adb2813059a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "フォニイ",
+      "artist": "ツミキ　feat.音楽的同位体　可不（KAFU）",
+      "jacketKey": "e6f1a560ee4c29d9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "フォルテシモBELL",
+      "artist": "天王洲 なずな(CV:山本 彩乃)",
+      "jacketKey": "77147226172792be",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "フタタビ",
+      "artist": "KAZE Lab",
+      "jacketKey": "97dd3b432fba0716",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "プナイプナイせんそう",
+      "artist": "立秋 feat.ちょこ",
+      "jacketKey": "dab28dc48ac2eef5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "フラグメンツ -T.V. maimai edit-",
+      "artist": "発熱巫女～ず",
+      "jacketKey": "abd76d54db0d5c92",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "フラジール",
+      "artist": "ぬゆり",
+      "jacketKey": "91a0a24f380f5bd0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ふらふらふら、",
+      "artist": "アオワイファイ feat.犀羅",
+      "jacketKey": "f7bab572b1bef0d9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "フリィダム ロリィタ",
+      "artist": "ねじ式",
+      "jacketKey": "b5a075c27659db38",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ブレインジャックシンドローム",
+      "artist": "かいりきベア feat.利香",
+      "jacketKey": "272d10fdd20ebf8d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ベースラインやってる？笑",
+      "artist": "かめりあ feat. ななひら",
+      "jacketKey": "e60c76f93e816688",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ベノム",
+      "artist": "かいりきベア feat.flower",
+      "jacketKey": "1e33fe6ab1df56ea",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "へべれけジャンキー",
+      "artist": "syudou",
+      "jacketKey": "d40c1ce72043c066",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ヘルシーエンド",
+      "artist": "椎名もた (ぽわぽわP)",
+      "jacketKey": "74d3b31d6375a517",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ぼくたちいつでも　しゅわっしゅわ！",
+      "artist": "ヒゲドライバー feat.らいむっくま(CV:村川梨衣) ＆ れもんっくま(CV:MoeMi)",
+      "jacketKey": "c8bed480e22142c9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ポケットからぬりつぶせ！",
+      "artist": "曲：中山真斗／歌：マーチングポケッツ [日向 千夏(CV：岡咲 美保)、柏木 美亜(CV：和氣 あず未)、東雲 つむぎ(CV：和泉 風花)]",
+      "jacketKey": "adff3375e43eafbd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ホシシズク",
+      "artist": "森羅万象",
+      "jacketKey": "89507763b8227c0d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ほしぞらスペクタクル",
+      "artist": "奏音",
+      "jacketKey": "3b610dccb2b32467",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ボッカデラベリタ",
+      "artist": "柊キライ",
+      "jacketKey": "be8b42fc0300e467",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ぽっぴっぽー",
+      "artist": "",
+      "jacketKey": "a614663a6453f7de",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ポッピンキャンディ☆フィーバー！",
+      "artist": "キノシタ",
+      "jacketKey": "930e189b37d9d832",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ポップミュージックは僕のもの",
+      "artist": "ONIGAWARA",
+      "jacketKey": "6bf1a016f52071cd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ぽわわん劇場",
+      "artist": "ぽわわん劇場",
+      "jacketKey": "8a8d657158afc525",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "マーシャル・マキシマイザー",
+      "artist": "柊マグネタイト　feat.音楽的同位体　可不（KAFU）",
+      "jacketKey": "0033a1f91bb22cb3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "マイオドレ！舞舞タイム",
+      "artist": "キノシタ feat. そらみこ (ホロライブ ときのそら＆さくらみこ)",
+      "jacketKey": "2dd30e50b2be509e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "マツヨイナイトバグ",
+      "artist": "COOL&CREATE feat.ビートまりおとまろん「東方ダンマクカグラ」",
+      "jacketKey": "e20fd62b4e0dfe16",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "マトリョシカ",
+      "artist": "ハチ",
+      "jacketKey": "311d40df8438952a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "まにまに",
+      "artist": "r-906",
+      "jacketKey": "246676f034b75f5f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "マネマネサイコトロピック",
+      "artist": "かいりきベア feat.GUMI",
+      "jacketKey": "c486e3fd9c4cf390",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "マリアをはげませ",
+      "artist": "大谷智哉「リズム怪盗R 皇帝ナポレオンの遺産」",
+      "jacketKey": "3cdf01424c744832",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "みくみくにしてあげる♪【してやんよ】",
+      "artist": "ika",
+      "jacketKey": "4f61e6e5584ba3db",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "みなえをチェック！",
+      "artist": "小野 美苗(CV:伊藤 美来)",
+      "jacketKey": "6a189a90cc4d00dd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ミラクル・ショッピング",
+      "artist": "田中マイミ",
+      "jacketKey": "010ead93b41724f0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ミルキースター・シューティングスター",
+      "artist": "烏屋茶房 feat. 利香",
+      "jacketKey": "e625655fb14640ec",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "みんなの",
+      "artist": "豚乙女",
+      "jacketKey": "a0581a51ccfc471f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "みんなのマイマイマー",
+      "artist": "ビートまりお(COOL＆CREATE)+ ARM(IOSYS)",
+      "jacketKey": "13c3b84c3a9f754f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "メグメグ☆ファイアーエンドレスナイト",
+      "artist": "samfree",
+      "jacketKey": "c5b4e1db83ded58b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "メランコリック",
+      "artist": "Junky",
+      "jacketKey": "883b8d0c3ac0b34a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "メルティランドナイトメア",
+      "artist": "はるまきごはん feat.初音ミク",
+      "jacketKey": "b245ac1c75a0acb9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "メルト",
+      "artist": "supercell",
+      "jacketKey": "b84d562faa4c7c0b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "モ°ルモ°ル",
+      "artist": "sasakure.UK",
+      "jacketKey": "f0ae8cae2fae4f11",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "モ°ルモ°ル (MZK Skippin' Remix)",
+      "artist": "sasakure.UK／水野健治",
+      "jacketKey": "959d4a141d9b398b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "もうみんなしねばいいのに",
+      "artist": "谷屋楽",
+      "jacketKey": "0efa58724b907097",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "モザイクロール",
+      "artist": "DECO*27",
+      "jacketKey": "813d4e599de416c0",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "もぺもぺ",
+      "artist": "LeaF & Optie",
+      "jacketKey": "17f033608e0332dd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "モンダイナイトリッパー！",
+      "artist": "名取さな",
+      "jacketKey": "d65e04a8a65075d9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ヤミツキ",
+      "artist": "MARETU",
+      "jacketKey": "3b28c5e61347edff",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "やめろ！聴くな！",
+      "artist": "SLAVE.V-V-R",
+      "jacketKey": "bae2c3c40c380969",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ユビキリ",
+      "artist": "山根ミチル",
+      "jacketKey": "d5f50f1f3dc4f4d0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ユメヒバナ",
+      "artist": "RD-Sounds feat.中恵光城",
+      "jacketKey": "61a459ab9bce91e2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ヨミビトシラズ",
+      "artist": "Limonène (サノカモメ+月島春果)",
+      "jacketKey": "36b1fd60ab5bf872",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ラグトレイン",
+      "artist": "稲葉曇",
+      "jacketKey": "3d04a3710463921e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ラットが死んだnew words",
+      "artist": "P.I.N.A.",
+      "jacketKey": "cbf338a693653133",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ラビットホール",
+      "artist": "DECO*27",
+      "jacketKey": "463ca52e854f4869",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ラブチーノ",
+      "artist": "Junky",
+      "jacketKey": "1e713165e806d9d6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ラブって♡ジュエリー♪えんじぇる☆ブレイク！！",
+      "artist": "あべにゅうぷろじぇくと feat.天月めぐる＆如月すみれ「ツインエンジェルBREAK」",
+      "jacketKey": "5c4d01f3689634af",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ラブリー☆えんじぇる!!",
+      "artist": "あべにゅうぷろじぇくと feat.佐倉紗織&井上みゆ「パチスロ快盗天使ツインエンジェル」",
+      "jacketKey": "8e9e55fcd3e6528a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "リスペク風神",
+      "artist": "ビートまりおとまろん",
+      "jacketKey": "7dbb031a76f34e1a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "リッジでリッジでGO!GO!GO! -GMT mashup-",
+      "artist": "Hiro(SEGA)「RIDGE RACER」「電車でGO!」",
+      "jacketKey": "1502f855bf3b76cf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "りばーぶ",
+      "artist": "高橋菜々×岡部啓一(MONACA)",
+      "jacketKey": "b7dac386e1eddb42",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "リフヴェイン",
+      "artist": "青栗鼠 feat.sekai",
+      "jacketKey": "6626dcdb181d6d4e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "リモコン",
+      "artist": "じーざす（ワンダフル☆オポチュニティ！）",
+      "jacketKey": "1eb8f36d4551b74b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "リリリリ★バーニングナイト",
+      "artist": "samfree",
+      "jacketKey": "0ecd4d01e6c5816a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "リンカーネイション",
+      "artist": "kemu",
+      "jacketKey": "dbdf6a51040a06b2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ルカルカ★ナイトフィーバー",
+      "artist": "samfree",
+      "jacketKey": "b3690cc56ebefda2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "レーイレーイ",
+      "artist": "かいりきベア feat.松下",
+      "jacketKey": "3208b3758def086b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "れっつ！みらくる☆はーどこあっ！",
+      "artist": "Laur feat.みしゃも",
+      "jacketKey": "cc77677df0228ea3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "レッツゴー!陰陽師",
+      "artist": "「新豪血寺一族 -煩悩解放-」",
+      "jacketKey": "40103bc4df5c4632",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ロータスイーター",
+      "artist": "青栗鼠",
+      "jacketKey": "95273f50f274c64a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ローリンガール",
+      "artist": "wowaka",
+      "jacketKey": "35c7bf45db2cc050",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ロールプレイングゲーム",
+      "artist": "そらまふうらさか",
+      "jacketKey": "e38ab7bc712135a3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ロウワー",
+      "artist": "ぬゆり",
+      "jacketKey": "b184bbc558adbf41",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ロキ",
+      "artist": "みきとP",
+      "jacketKey": "b5d48d0f260a213d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ロストワードクロニカル",
+      "artist": "東方LostWord feat.いとうかなこ",
+      "jacketKey": "25be29e63231589b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ロストワンの号哭",
+      "artist": "Neru",
+      "jacketKey": "1cb4a922d67acf7e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ロミオとシンデレラ",
+      "artist": "doriko",
+      "jacketKey": "9a1d155fd3c46f5d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ワードワードワード",
+      "artist": "syudou",
+      "jacketKey": "88fd634bc9103eca",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ワールズエンド・ダンスホール",
+      "artist": "wowaka",
+      "jacketKey": "7d63f55a93c01564",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ワーワーワールド",
+      "artist": "Giga & Mitchie M / 初音ミク、花里みのり、小豆沢こはね「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
+      "jacketKey": "8cbae5ed52eaffcd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ワンダーシャッフェンの法則",
+      "artist": "アリスシャッハと魔法の楽団",
+      "jacketKey": "7795406e0a4be488",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ヱデン",
+      "artist": "koyori（電ポルP）",
+      "jacketKey": "3f9cdf75c514d530",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "一か罰",
+      "artist": "豚乙女",
+      "jacketKey": "1873c61115b01c98",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "三妖精SAY YA!!!",
+      "artist": "森羅万象",
+      "jacketKey": "30b9ee1f385156b4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "下克上々",
+      "artist": "豚乙女",
+      "jacketKey": "0e2be24b3882ea4a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "不思議の国のクリスマス",
+      "artist": "SOUND HOLIC feat. 3L",
+      "jacketKey": "e2a698778e071a7d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "不機嫌なスリーカード",
+      "artist": "HIMEHINA",
+      "jacketKey": "8d2776e8b9c3ceaf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "不毛！",
+      "artist": "ぽてんしゃる0",
+      "jacketKey": "548131ddb354349f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "乙女解剖",
+      "artist": "DECO*27",
+      "jacketKey": "cb3762ad24071bdc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "二息歩行",
+      "artist": "DECO*27",
+      "jacketKey": "c1de7b4bbf76fcd8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "人生リセットボタン",
+      "artist": "kemu",
+      "jacketKey": "a54d2e008abd16e8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "人里に下ったアタイがいつの間にか社畜になっていた件",
+      "artist": "ねこみりん + nora2r feat. 小宮真央",
+      "jacketKey": "67e1ffddfdbf6220",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "今、誰が為のかがり火へ",
+      "artist": "幽閉サテライト",
+      "jacketKey": "3a3232dcc8cfbbf2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "僕の和風本当上手",
+      "artist": "ボス",
+      "jacketKey": "96eb4c9ec685a7bc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "僕は空気が嫁ない",
+      "artist": "cosMo＠暴走P",
+      "jacketKey": "249cc28f8f59539a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "儚きもの人間",
+      "artist": "豚乙女",
+      "jacketKey": "ed01651bd9b88e55",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "光線チューニング",
+      "artist": "ナユタン星人",
+      "jacketKey": "2bb91ea78a0f5f9c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "全世界共通リズム感テスト",
+      "artist": "☆リズムに合わせてボタンを叩き達成率を競うゲームです☆",
+      "jacketKey": "eabcf5ede00f256a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "全人類ノ非想天則",
+      "artist": "SOUND HOLIC feat. 匠眞",
+      "jacketKey": "c2c39366181de9d6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "全力ハッピーライフ",
+      "artist": "森羅万象",
+      "jacketKey": "725959f88eaa2fe5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "六兆年と一夜物語",
+      "artist": "kemu",
+      "jacketKey": "0950cc45432555fe",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "共感覚おばけ",
+      "artist": "ササノマリイ",
+      "jacketKey": "5f3e8e0ffeaf0312",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "共鳴",
+      "artist": "SADA 2Futureanthem feat. ellie",
+      "jacketKey": "f03b05b1fc782ceb",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "円舞曲、君に",
+      "artist": "「サクラ大戦奏組」",
+      "jacketKey": "10c3b14dbeaabd3c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "再会",
+      "artist": "はるまきごはん",
+      "jacketKey": "7f88bdf21553f929",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "最強 the サマータイム!!!!!",
+      "artist": "曲：村カワ基成／歌：オンゲキシューターズ",
+      "jacketKey": "ab91abb8f5f716be",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "最強STRONGER",
+      "artist": "REDALiCE vs USAO",
+      "jacketKey": "f9c1158b5ed2757f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "最終鬼畜妹・一部声",
+      "artist": "ビートまりお",
+      "jacketKey": "1f5a7a553d6dd749",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "最終鬼畜妹フランドール・S",
+      "artist": "ビートまりお（COOL&CREATE）",
+      "jacketKey": "4c119eff1271156f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "最速最高シャッターガール",
+      "artist": "ビートまりお(COOL＆CREATE)",
+      "jacketKey": "bc2476b4b947e10c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "分からない",
+      "artist": "ろん×黒魔",
+      "jacketKey": "d8bcd053f3741728",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "分解収束テイル",
+      "artist": "un:c・konoco×cosMo＠暴走P",
+      "jacketKey": "b750da7232b13571",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "初音ミクの消失",
+      "artist": "cosMo＠暴走P",
+      "jacketKey": "1a02c2684d829331",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "初音ミクの激唱",
+      "artist": "Storyteller",
+      "jacketKey": "286115dc6007ad2a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "初音天地開闢神話",
+      "artist": "cosMo＠暴走P",
+      "jacketKey": "2a0e0f93f9159310",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "前前前世",
+      "artist": "RADWIMPS",
+      "jacketKey": "d5d50489dcbcfd1f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "前衛的Landscape",
+      "artist": "HiTECH NINJA feat. RANASOL",
+      "jacketKey": "ff81865c331e96f7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "剣を抜け！GCCX MAX",
+      "artist": "メッセメッセクラブ",
+      "jacketKey": "26c750b9768fcca5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "劣等上等",
+      "artist": "Giga / 鏡音リン・レン / Vivid BAD SQUAD「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
+      "jacketKey": "f84641830aac8678",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "匿名M",
+      "artist": "ピノキオピー",
+      "jacketKey": "3521590854ca73db",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "単一指向性オーバーブルーム",
+      "artist": "葛城 華(CV:丸岡 和佳奈)",
+      "jacketKey": "538753c5c57b3e9e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "厨病激発ボーイ",
+      "artist": "れるりり",
+      "jacketKey": "a8b3a09aa2ce4d4f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "吉原ラメント",
+      "artist": "亜沙",
+      "jacketKey": "f996e3e62d932b50",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "吾輩よ猫であれ",
+      "artist": "Lyrical Lily",
+      "jacketKey": "f7241520f3525b18",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "命に嫌われている",
+      "artist": "カンザキイオリ",
+      "jacketKey": "8dfce10e2d015493",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "命ばっかり",
+      "artist": "ぬゆり",
+      "jacketKey": "26b88ffa81e99426",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "咲キ誇レ常世ノ華",
+      "artist": "Sou×マチゲリータ",
+      "jacketKey": "f3a23375b79c2a8c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "噛み係",
+      "artist": "さつき が てんこもり feat.96猫",
+      "jacketKey": "c3abc1a6434b4ebe",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "四月の雨",
+      "artist": "cubesato",
+      "jacketKey": "2894412cc7a3cf4e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "四次元跳躍機関",
+      "artist": "koutaq",
+      "jacketKey": "8a064a44f10b8684",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "回る空うさぎ",
+      "artist": "Orangestar",
+      "jacketKey": "dd2686a8aa23107f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "囲い無き世は一期の月影",
+      "artist": "豚乙女",
+      "jacketKey": "9bb62e82ab7f8e14",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "地上の戦士",
+      "artist": "「サクラ大戦」",
+      "jacketKey": "5fafe30c7a522302",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "地球",
+      "artist": "立秋 feat.ちょこ",
+      "jacketKey": "df8227797c9a592e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "壱雫空",
+      "artist": "MyGO!!!!!",
+      "jacketKey": "565cf956baa7ffe8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "夜に駆ける",
+      "artist": "YOASOBI",
+      "jacketKey": "90f53fb84daa1aa4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "夜咄ディセイブ",
+      "artist": "じん",
+      "jacketKey": "24bb3dc2a6705c6d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "夜明けまであと３秒",
+      "artist": "BNSI（Taku Inoue）「シンクロニカ」より",
+      "jacketKey": "da71e058b62ac120",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "夢花火",
+      "artist": "豚乙女",
+      "jacketKey": "b63d151f8c3db8ad",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "大輪の魂 (feat. AO, 司芭扶)",
+      "artist": "魂音泉",
+      "jacketKey": "ca4e36f40ed13f9e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "天ノ弱",
+      "artist": "164",
+      "jacketKey": "09f6026981bfa534",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "天使の翼。",
+      "artist": "A4。",
+      "jacketKey": "0412717b893fe247",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "天使光輪",
+      "artist": "REDALiCE & cosMo＠暴走P",
+      "jacketKey": "2df53853d801d0e9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "天国と地獄",
+      "artist": "スーパーラバーズ「赤ちゃんはどこからくるの？」",
+      "jacketKey": "1957d22b99bec8fc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "天国と地獄 -言ノ葉リンネ-",
+      "artist": "伊東歌詞太郎・ろん×れるりり",
+      "jacketKey": "375dd6a3094c9d00",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "天火明命",
+      "artist": "削除",
+      "jacketKey": "44a824b696e80c18",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "天狗の落とし文 feat. ｙｔｒ",
+      "artist": "魂音泉",
+      "jacketKey": "c095520ef94c76bb",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "太陽系デスコ",
+      "artist": "ナユタン星人",
+      "jacketKey": "ab3c088d671ddab6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "失敗作少女",
+      "artist": "かいりきベア・MARETU feat.初音ミク",
+      "jacketKey": "2dfb80213925c43b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "奏者はただ背中と提琴で語るのみ",
+      "artist": "月鈴那知(CV:今村彩夏)",
+      "jacketKey": "7fcddaf80f12d906",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "妄想感傷代償連盟",
+      "artist": "DECO*27",
+      "jacketKey": "ba246e30c720cb39",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "妖精村の月誕祭 ～Lunate Elf",
+      "artist": "どぶウサギ",
+      "jacketKey": "1a6809509ac644e8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "宛城、炎上！！",
+      "artist": "Cranky feat.おもしろ三国志",
+      "jacketKey": "034cbece579217c7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "宵の鳥",
+      "artist": "n.k feat.影縫英",
+      "jacketKey": "e005c0199a1cf88d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "宿星審判",
+      "artist": "suzu",
+      "jacketKey": "c052a8d637901cf3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "宿題が終わらないっ！",
+      "artist": "Innocent Keyと梨本悠里、JUNCA、小宮真央、樹詩音、大瀬良あい",
+      "jacketKey": "995ad36b4a7f07e4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "寝起きヤシの木",
+      "artist": "ゆこぴ",
+      "jacketKey": "d0f58d2f2ac3b6d0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "封焔の135秒",
+      "artist": "大国奏音",
+      "jacketKey": "2985e6ee69db26de",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "少女幻葬戦慄曲 ～ Necro Fantasia",
+      "artist": "どぶウサギ",
+      "jacketKey": "429ffeb7adc6ce8f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "居並ぶ穀物と溜息まじりの運送屋",
+      "artist": "hanzo",
+      "jacketKey": "c02537aab0c8a6a2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "届かない花束",
+      "artist": "ELECTROCUTICA",
+      "jacketKey": "9d2e5faf33ea3aa9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "幸せになれる隠しコマンドがあるらしい",
+      "artist": "うたたP",
+      "jacketKey": "a1da6a4bdebaf419",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "幻想に咲いた花",
+      "artist": "岸田教団&THE明星ロケッツ×草野華余子「東方ダンマクカグラ」",
+      "jacketKey": "d1b96aabc40101f8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "幻想のサテライト",
+      "artist": "豚乙女",
+      "jacketKey": "032fe5fc9324b24e",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "幽闇に目醒めしは",
+      "artist": "セブンスヘブンMAXION",
+      "jacketKey": "c690f3e32313557e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "幽霊東京",
+      "artist": "Ayase",
+      "jacketKey": "73db56b2cbfd49c6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "幾四音-Ixion-",
+      "artist": "M.S.S Project",
+      "jacketKey": "29c274b873d3b212",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "幾望の月",
+      "artist": "なきゃむりゃ",
+      "jacketKey": "b40335c202898759",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "康莊大道",
+      "artist": "Spiegel vs Yukino",
+      "jacketKey": "d7aa8fbe05bb911e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "廻廻奇譚",
+      "artist": "Eve TVアニメ「呪術廻戦」第1クールオープニングテーマ",
+      "jacketKey": "1407ac902ae55b0d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "弱虫モンブラン",
+      "artist": "DECO*27",
+      "jacketKey": "2e735ac2d44d4511",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "強風オールバック",
+      "artist": "ゆこぴ",
+      "jacketKey": "5a4d4a0c47036e31",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "彗星ハネムーン",
+      "artist": "ナユタン星人",
+      "jacketKey": "c3e9be8d22de76f7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "待チ人ハ来ズ。",
+      "artist": "豚乙女",
+      "jacketKey": "7a7caebb5d771176",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "御旗のもとに",
+      "artist": "「サクラ大戦」",
+      "jacketKey": "f364b690f9a0bff3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "心象蜃気楼",
+      "artist": "Orangestar",
+      "jacketKey": "ccc9404a0c153536",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "怒槌",
+      "artist": "光吉猛修",
+      "jacketKey": "cd9b3af41756ab53",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "怪盗Rのテーマ",
+      "artist": "大谷智哉「リズム怪盗R 皇帝ナポレオンの遺産」",
+      "jacketKey": "7164862f8378206f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "恋愛裁判",
+      "artist": "40mP",
+      "jacketKey": "3dc5138216e086fe",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "患部で止まってすぐ溶ける～狂気の優曇華院",
+      "artist": "ARM＋夕野ヨシミ(IOSYS)feat. miko",
+      "jacketKey": "943b8a0563a24df8",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "悪戯",
+      "artist": "ろん×田中秀和(MONACA)",
+      "jacketKey": "32be3820034e98ed",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "悪戯センセーション",
+      "artist": "森羅万象",
+      "jacketKey": "5c5ae698a3ca6825",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "悪魔の踊り方",
+      "artist": "キタニタツヤ",
+      "jacketKey": "e1241f4838eb628f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "感情ディシーブ",
+      "artist": "ろーある",
+      "jacketKey": "cc2d4419a41f1c70",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "拝啓ドッペルゲンガー",
+      "artist": "kemu",
+      "jacketKey": "0298532f0508465a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "撩乱乙女†無双劇",
+      "artist": "曲：Haggy Rock & 佐藤厚仁／歌：⊿TRiEDGE [高瀬 梨緒(CV：久保 ユリカ)、結城 莉玖(CV：朝日奈 丸佳)、藍原 椿(CV：橋本 ちなみ)]",
+      "jacketKey": "536446ddde354589",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "放課後ストライド",
+      "artist": "Last Note.",
+      "jacketKey": "3fb5811ff9f8780a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "敗北の少年",
+      "artist": "kemu",
+      "jacketKey": "8e9b0eff78428af6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "教えて!! 魔法のLyric",
+      "artist": "ちょむP <advanced mix>",
+      "jacketKey": "19c643efff825c85",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "日本の米は世界一",
+      "artist": "打首獄門同好会",
+      "jacketKey": "22489a6a6859ac30",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "明星ギャラクティカ",
+      "artist": "ナユタン星人",
+      "jacketKey": "1bbf2481ac18715d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "明星ロケット",
+      "artist": "岸田教団＆THE明星ロケッツ",
+      "jacketKey": "006fe0acc3124e63",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "星めぐり、果ての君へ。",
+      "artist": "TAKU1175 ft.駄々子",
+      "jacketKey": "c110c819a6c43a54",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "星屑ユートピア",
+      "artist": "otetsu",
+      "jacketKey": "84aeeb88068f829e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "星界ちゃんと可不ちゃんのおつかい合騒曲",
+      "artist": "南ノ南",
+      "jacketKey": "5a5e8baece4c8dc4",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "星空パーティーチューン",
+      "artist": "OSTER project feat. そらこ",
+      "jacketKey": "34d250113b737f05",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "星見草",
+      "artist": "秋田 真典",
+      "jacketKey": "04dca5fcd4b9163a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "星詠みとデスペラード",
+      "artist": "しょご/野村渉悟",
+      "jacketKey": "f01745a29d2ef5bd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "春を告げる",
+      "artist": "yama",
+      "jacketKey": "1dffba288d353216",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "春嵐",
+      "artist": "john",
+      "jacketKey": "59ae73d58c1962d3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "時空を超えて久しぶり！",
+      "artist": "アルル(CV 園崎未恵)「ぷよぷよ」",
+      "jacketKey": "ff5ca30df34724ec",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "時計の国のジェミニ",
+      "artist": "黒魔",
+      "jacketKey": "68824ef167581ccf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "曖昧mind",
+      "artist": "Halozy",
+      "jacketKey": "70e127f45fbd2ed9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "月に叢雲華に風",
+      "artist": "幽閉サテライト",
+      "jacketKey": "f9f5c93325ed2b1d",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "月面基地",
+      "artist": "sasakure.UK",
+      "jacketKey": "6c7c8837a9e4b14c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "木彫り鯰と右肩ゾンビ",
+      "artist": "hanzo/赤飯歌唱Ver",
+      "jacketKey": "caa90ebabef5e041",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "東京リアルワールド",
+      "artist": "out of service",
+      "jacketKey": "a4c576aec0c3897c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "東方スイーツ！～鬼畜姉妹と受難メイド～",
+      "artist": "Innocent Keyと小宮真央、ココ、樹詩音",
+      "jacketKey": "63be4d5eb7c931bd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "東方妖々夢 ～the maximum moving about～",
+      "artist": "石鹸屋",
+      "jacketKey": "a4614df54b44afe8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "林檎華憐歌",
+      "artist": "ビートまりお母(尾崎順子)",
+      "jacketKey": "4077a676c90c2cba",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "極圏",
+      "artist": "cosMo VS dj TAKA「SOUND VOLTEX」より",
+      "jacketKey": "1019619742a72b89",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "橙の幻想郷音頭",
+      "artist": "発熱巫女～ず",
+      "jacketKey": "6cd2106c57409da0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "檄！帝国華撃団(改)",
+      "artist": "「サクラ大戦」",
+      "jacketKey": "15dfff539a968c89",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "残響散歌",
+      "artist": "Aimer",
+      "jacketKey": "61c0db523498c4a5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "永遠にゲームで対戦したいキリタン",
+      "artist": "GYARI",
+      "jacketKey": "4f00257853319e40",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "永遠のメロディ",
+      "artist": "あ～るの～と（いえろ～ぜぶら）",
+      "jacketKey": "6556acb6606f5950",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "泡沫、哀のまほろば",
+      "artist": "幽閉サテライト",
+      "jacketKey": "1ad46c5221faa3a0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "泣き虫O'clock",
+      "artist": "Hiro/友香",
+      "jacketKey": "ce88f720f8f7e8fe",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "洗脳",
+      "artist": "ゆりん・柿チョコ×Neru",
+      "jacketKey": "29eb81a88a8533ec",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "深海シティアンダーグラウンド",
+      "artist": "田中Ｂ",
+      "jacketKey": "5cb9cdf0b07e1366",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "深海少女",
+      "artist": "ゆうゆ",
+      "jacketKey": "74f1d3bb32ce7d30",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "渦状銀河のシンフォニエッタ",
+      "artist": "山本真央樹",
+      "jacketKey": "a9be993d5f552289",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "源平大戦絵巻テーマソング",
+      "artist": "新小田夢童 ＆ キラ★ロッソ",
+      "jacketKey": "ad6ef476a7500798",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "火炎地獄",
+      "artist": "山根ミチル",
+      "jacketKey": "4f5af85242e1b088",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "炎歌 -ほむらうた-",
+      "artist": "Hiro/森山愛子",
+      "jacketKey": "40800dfb586539a2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "炭★坑★節",
+      "artist": "Kai/光吉猛修",
+      "jacketKey": "a9db8ef3ca824a83",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "無敵We are one!!",
+      "artist": "イロドリミドリ「CHUNITHM」",
+      "jacketKey": "b44a992aeb6ad9e7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "熱異常",
+      "artist": "いよわ",
+      "jacketKey": "af9eb8410a85e0ec",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "物凄いヴァイブスで魔理沙が物凄いラップ",
+      "artist": "魂音泉",
+      "jacketKey": "33a4ed61c2911c40",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "物凄い勢いでけーねが物凄いうた",
+      "artist": "Halozy",
+      "jacketKey": "36bfc5734d8df91b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "犬日和。",
+      "artist": "RYOHEI KOHNO/森綾香",
+      "jacketKey": "9e21afb73ce3ee65",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "独りんぼエンヴィー",
+      "artist": "koyori（電ポルP）",
+      "jacketKey": "c3dd993792f97bb0",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "猛進ソリストライフ！",
+      "artist": "月鈴 那知(CV:今村 彩夏)",
+      "jacketKey": "67d27c21708cd402",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "猫猫的宇宙論",
+      "artist": "ナユタン星人",
+      "jacketKey": "e9f43274d5a1ed36",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "猫祭り",
+      "artist": "箱部 なる(CV:M・A・O)",
+      "jacketKey": "0ae6e1de73fd6d84",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "玩具狂奏曲 -終焉-",
+      "artist": "きくお",
+      "jacketKey": "d8edddab9b63782a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "生きてるおばけは生きている",
+      "artist": "鬱P feat.flower",
+      "jacketKey": "e7d7afbbef397731",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "生命不詳",
+      "artist": "蜂屋ななし",
+      "jacketKey": "194a9262c9480e48",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "田中",
+      "artist": "立秋 feat.ちょこ",
+      "jacketKey": "eb0ab4dfa64b01f1",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "疾走あんさんぶる",
+      "artist": "ビートまりお（COOL&CREATE）",
+      "jacketKey": "4ae8a044a75d8432",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "白ゆき",
+      "artist": "n-buna",
+      "jacketKey": "c30ff16ab6a5e636",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "白花の天使",
+      "artist": "Yu-dachi",
+      "jacketKey": "f01f26e4a1228a08",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "相思創愛",
+      "artist": "伊東歌詞太郎・ろん×まらしぃ",
+      "jacketKey": "1f70c4073aab967b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "真・ハンサム体操でズンドコホイ",
+      "artist": "10Re;「学園ハンサム」",
+      "jacketKey": "34e32d0a43e43931",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "砂の惑星 feat. HATSUNE MIKU",
+      "artist": "ハチ",
+      "jacketKey": "d9da71418f642af6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "神々が恋した幻想郷",
+      "artist": "Unlucky Morpheus",
+      "jacketKey": "1060b41523ca6346",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "神々の祈り",
+      "artist": "舞風-MAIKAZE/沙紗飛鳥",
+      "jacketKey": "0ef9e229fe56a094",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "神っぽいな",
+      "artist": "ピノキオピー",
+      "jacketKey": "c3a9afc3a22b1031",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "神威",
+      "artist": "TJ.hangneil",
+      "jacketKey": "1ca2b9f20e307c03",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "神室雪月花",
+      "artist": "桐生 一馬「龍が如く」",
+      "jacketKey": "5db62229a9499d1e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "福宿音屋魂音泉",
+      "artist": "魂音泉",
+      "jacketKey": "d460c9541b932e05",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "私のドッペルゲンガー",
+      "artist": "DIVELA　feat.音楽的同位体　可不（KAFU）",
+      "jacketKey": "25d2796e350abebe",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "私の中の幻想的世界観及びその顕現を想起させたある現実での出来事に関する一考察",
+      "artist": "小仏 凪(CV:佐倉 薫)",
+      "jacketKey": "6dbd33c084c790e2",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "秋の未確認生物",
+      "artist": "子牛 feat.音街ウナ",
+      "jacketKey": "ba0af4d10b3c3d32",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "究極焼肉レストラン！お燐の地獄亭！",
+      "artist": "ARM＋夕野ヨシミ(IOSYS)feat. 藤枝あかね",
+      "jacketKey": "006d4517fc7e6e04",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "空威張りビヘイビア",
+      "artist": "un:c・ろん×じーざすP",
+      "jacketKey": "aaf8fe426178b1cf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "立ち入り禁止",
+      "artist": "まふまふ",
+      "jacketKey": "e1eb6ad1e4e1345c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "立川浄穢捕物帳",
+      "artist": "青島探偵事務所器楽捜査部B担",
+      "jacketKey": "d8ed15b9651c107c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "竹",
+      "artist": "立秋 feat.ちょこ",
+      "jacketKey": "03897fe7481825cc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "管弦楽組曲 第3番 ニ長調「第2曲（G線上のアリア）」BWV.1068-2",
+      "artist": "月鈴 那知（ヴァイオリン） 伴奏：イロドリミドリ",
+      "jacketKey": "6dde61e843ceca00",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "系ぎて",
+      "artist": "rintaro soma",
+      "jacketKey": "1ace9e4612c5e020",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "約束",
+      "artist": "はるまきごはん",
+      "jacketKey": "9399ecd9176a93e7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "紅に染まる恋の花",
+      "artist": "幽閉サテライト",
+      "jacketKey": "5aef951016fdee27",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "紅星ミゼラブル～廃憶編",
+      "artist": "東京アクティブNEETs",
+      "jacketKey": "d734d64f787a6dbf",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "終わりなき物語",
+      "artist": "クーナ(CV 喜多村英梨)「PHANTASY STAR ONLINE 2」",
+      "jacketKey": "31100adb0987e724",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "終点",
+      "artist": "cosMo@暴走P",
+      "jacketKey": "56c793d08494cafe",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "終焉逃避行",
+      "artist": "柊マグネタイト",
+      "jacketKey": "bd436a8500d7ae0c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "結ンデ開イテ羅刹ト骸",
+      "artist": "ハチ",
+      "jacketKey": "f45c9659d4bbf662",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "絡めトリック利己ライザー",
+      "artist": "じーざす（ワンダフル☆オポチュニティ！）feat.Kradness",
+      "jacketKey": "6e8cce3f2599eb13",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "絡繰りドール",
+      "artist": "SOUND HOLIC feat. Nana Takahashi",
+      "jacketKey": "00941cd102eac6ab",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "絶え間なく藍色",
+      "artist": "獅子志司",
+      "jacketKey": "9fcfc39056f4c51e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "絶対にチョコミントを食べるアオイチャン",
+      "artist": "GYARI",
+      "jacketKey": "f78fe124599ff669",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "絶対敵対メチャキライヤー",
+      "artist": "メドミア",
+      "jacketKey": "bdcf8e5695899ae6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "緋色のDance",
+      "artist": "岸田教団＆THE明星ロケッツ",
+      "jacketKey": "94d6991c0998cadd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "美しく燃える森",
+      "artist": "東京スカパラダイスオーケストラ [cover]",
+      "jacketKey": "02627f1e02b50b2e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "群青シグナル",
+      "artist": "テヅカ feat. 獅子神レオナ",
+      "jacketKey": "4b3c4017b405dc49",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "群青讃歌",
+      "artist": "Eve / 初音ミク、星乃一歌、花里みのり、小豆沢こはね、天馬司、宵崎奏「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
+      "jacketKey": "57724b8d4a6c684a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "脳天直撃",
+      "artist": "黒沢ダイスケ VS 穴山大輔",
+      "jacketKey": "1a7893a226f7befc",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "脳漿炸裂ガール",
+      "artist": "れるりり",
+      "jacketKey": "968dbd5f0c309827",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "腐れ外道とチョコレゐト",
+      "artist": "ピノキオP",
+      "jacketKey": "9a0626b85cbf4c24",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "自傷無色",
+      "artist": "ササノマリイ / 初音ミク / 25時、ナイトコードで。「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
+      "jacketKey": "49cc18d720e1c23d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "色は匂へど散りぬるを",
+      "artist": "幽閉サテライト",
+      "jacketKey": "196e63bd095d25da",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "花と、雪と、ドラムンベース。",
+      "artist": "kanone feat. せんざい",
+      "jacketKey": "52e9a79b5e6a2ef5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "花となれ",
+      "artist": "雄之助　feat.音楽的同位体　可不（KAFU）",
+      "jacketKey": "ccdf78d24c2c346d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "若い力",
+      "artist": "作詞：セガ社員、作曲：若草恵、歌：135",
+      "jacketKey": "0a3e0ec7d3e649fd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "若い力 -SEGA HARD GIRLS MIX-",
+      "artist": "SC-3000(シーさん)/CV.相沢 舞、SG-1000(せん)/CV.芹澤 優、SG-1000Ⅱ(せんつー)/CV.大空直美、ゲームギア(ムギ)/CV.田中美海、ロボピッチャ(ぴっちゃん)/CV.もものはるな「Hi☆sCoool! セハガール」 [アニメPV]",
+      "jacketKey": "1ddd109f16985b8a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "華の集落、秋のお届け",
+      "artist": "Umiai",
+      "jacketKey": "b95d6cec3fbbb04c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "華鳥風月",
+      "artist": "幽閉サテライト",
+      "jacketKey": "e1a5916bfb31fa3b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "蒼穹舞楽",
+      "artist": "Capchii",
+      "jacketKey": "7cc92964b5148cca",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "蒼空に舞え、墨染の桜",
+      "artist": "Silver Forest",
+      "jacketKey": "f2d9a99276c52c7b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "虹と太陽",
+      "artist": "GOSH/manami",
+      "jacketKey": "4790ce1143cd00b8",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "蜘蛛の糸",
+      "artist": "きくお×cosMo＠暴走P feat.影縫英",
+      "jacketKey": "28898558057a514c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "表裏一体",
+      "artist": "すりぃ",
+      "jacketKey": "71c12dd507e2374e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "裏表ラバーズ",
+      "artist": "wowaka",
+      "jacketKey": "1c9f188e15b13d2b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "解けないように",
+      "artist": "KIHOW from MYTH & ROID",
+      "jacketKey": "4f5c580bc5ff6337",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "言ノ葉カルマ",
+      "artist": "そらる・ろん×れるりり",
+      "jacketKey": "002fd27f211f7318",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "言ノ葉遊戯",
+      "artist": "S!N・高橋菜々×ひとしずく・やま△",
+      "jacketKey": "e5ad9385a78a241c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "記憶、記録",
+      "artist": "LOPIT(SEGA)",
+      "jacketKey": "d3b6c643833fed2b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "赤心性：カマトト荒療治",
+      "artist": "スズム",
+      "jacketKey": "8d5a0bee619f9c22",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "超常マイマイン",
+      "artist": "ナユタン星人",
+      "jacketKey": "70510086327c010b",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "超熊猫的周遊記（ワンダーパンダートラベラー）",
+      "artist": "FANTAGIRAFF",
+      "jacketKey": "ee5ed79e9849c1a6",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "超絶！Superlative",
+      "artist": "Keitarou Hanada「戦国大戦」",
+      "jacketKey": "8f56b649f325c443",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "踊",
+      "artist": "Ado",
+      "jacketKey": "eb5f9769d1afd885",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "踊れオーケストラ",
+      "artist": "YASUHIRO(康寛)",
+      "jacketKey": "6fdaa71c47264392",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "躯樹の墓守",
+      "artist": "隣の庭は青い(庭師+Aoi)",
+      "jacketKey": "55a2c29fef3811ad",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "進め！イッスン軍団 -Rebellion of the Dwarfs-",
+      "artist": "dawn-system",
+      "jacketKey": "a777fcae8d83364f",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "進捗どうですか？",
+      "artist": "sumijun(Halozy) feat. ななひら(Confetto)",
+      "jacketKey": "b49c6f2f23bd544d",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "過去を喰らう",
+      "artist": "花譜",
+      "jacketKey": "0d661350576c1dbe",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "遺伝子レベル∞スパイラル",
+      "artist": "NAOKI feat.小坂りゆ",
+      "jacketKey": "922bd2e6993e7140",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "酔いどれ知らず",
+      "artist": "Kanaria",
+      "jacketKey": "ad57bb1283f79a33",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "采配の刻 Power of order",
+      "artist": "Keitarou Hanada「戦国大戦」",
+      "jacketKey": "30b0b198224f5901",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "銀のめぐり",
+      "artist": "SYNC.ART'S feat. 3L",
+      "jacketKey": "d393d329db514825",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "閃鋼のブリューナク",
+      "artist": "sasakure.UK",
+      "jacketKey": "a53a18178b2d9ea7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "阿修羅ちゃん",
+      "artist": "Ado",
+      "jacketKey": "4277ad4d332c104a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "阿吽のビーツ",
+      "artist": "羽生まゐご",
+      "jacketKey": "1490116ec0420770",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "隠密あんみつDX",
+      "artist": "カルロス袴田 feat. 日南めい, 古川由彩",
+      "jacketKey": "693ed3f8ef555432",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "隠然",
+      "artist": "豚乙女",
+      "jacketKey": "65352a3ac1e871e3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "雨とペトラ",
+      "artist": "バルーン",
+      "jacketKey": "5c564c459e85f320",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "雷切-RAIKIRI-",
+      "artist": "kanone",
+      "jacketKey": "be3cf43e80e9462e",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "電光石火",
+      "artist": "HiTECH NINJA",
+      "jacketKey": "74c92bac1b51a9c3",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "電車で電車でGO!GO!GO!GC! -GMT remix-",
+      "artist": "COSIO(ZUNTATA/TAITO)/沢城千春「電車でGO!」",
+      "jacketKey": "c1755c85cfa90fb5",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "電車で電車でOPA!OPA!OPA! -GMT mashup-",
+      "artist": "Yuji Masubuchi(BNGI)「電車でGO!」「ファンタジーゾーン」",
+      "jacketKey": "8eb85b669213f437",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "響け！CHIREI MY WAY!",
+      "artist": "森羅万象",
+      "jacketKey": "f9e0d340bb1dd099",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "響縁",
+      "artist": "豚乙女",
+      "jacketKey": "8a92c33de72a570b",
+      "chartTypeCount": 2
+    },
+    {
+      "title": "頓珍漢の宴",
+      "artist": "ピノキオピー",
+      "jacketKey": "a6c3b1d13b0731e7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "願いを呼ぶ季節",
+      "artist": "舞風-MAIKAZE/時音-TOKINE",
+      "jacketKey": "ee70905d359ecf78",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "骸骨楽団とリリア",
+      "artist": "トーマ",
+      "jacketKey": "a74fb1bfa112e7cb",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "高気圧ねこロック",
+      "artist": "小野隊長とJimmy親分",
+      "jacketKey": "91e7bba0add6385c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "魂のルフラン",
+      "artist": "高橋洋子 [covered by 光吉猛修]",
+      "jacketKey": "9d1b30fd5d7e05df",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "魔ジョ狩リ",
+      "artist": "Nothing But Requiem (feat.Aikapin & Chiyoko)",
+      "jacketKey": "571080deee3ca1df",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "魔法少女とチョコレゐト",
+      "artist": "ピノキオピー",
+      "jacketKey": "3c8f19a3d9d8e0bd",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "魔法少女になるしかねぇ",
+      "artist": "ねこみりん feat.小宮真央",
+      "jacketKey": "c0924efcbefbaf6c",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "魔理沙は大変なものを盗んでいきました",
+      "artist": "ARM＋夕野ヨシミ(IOSYS)feat. 藤咲かりん",
+      "jacketKey": "d542e0accb085302",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "麒麟",
+      "artist": "sasakure.UK",
+      "jacketKey": "88185a61da17d947",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "鼓動",
+      "artist": "青木 千紘「龍が如く 維新！」",
+      "jacketKey": "10233a1022cd8bb8",
+      "chartTypeCount": 1
+    }
+  ]
+}

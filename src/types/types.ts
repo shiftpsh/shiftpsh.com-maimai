@@ -120,3 +120,12 @@ export interface SongsJson {
   availableVersions: { value: number; name: string }[];
   tracks: TrackDbInfo[];
 }
+
+export interface MetaJson {
+  meta: {
+    title: string;
+    artist: string;
+    jacketKey: string;
+    chartTypeCount: number;
+  }[];
+}
