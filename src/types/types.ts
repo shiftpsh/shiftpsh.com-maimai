@@ -114,3 +114,9 @@ export interface RecordSummary<T extends TrackBase = TrackBase, S = GameScore> {
   track: T;
   score: S;
 }
+
+export interface SongsJson {
+  chartCount: number;
+  availableVersions: { value: number; name: string }[];
+  tracks: TrackDbInfo[];
+}

@@ -24,7 +24,7 @@ const parseAvailableVersions = (elem: HTMLElement) => {
   const options = versionSelect.querySelectorAll("option");
 
   return options.map((option) => ({
-    value: option.attributes.value,
+    value: +option.attributes.value,
     name: option.text.trim(),
   }));
 };

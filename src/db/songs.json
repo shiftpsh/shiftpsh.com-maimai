@@ -1,95 +1,96 @@
 {
+  "chartCount": 4826,
   "availableVersions": [
     {
-      "value": "0",
+      "value": 0,
       "name": "maimai"
     },
     {
-      "value": "1",
+      "value": 1,
       "name": "maimai PLUS"
     },
     {
-      "value": "2",
+      "value": 2,
       "name": "GreeN"
     },
     {
-      "value": "3",
+      "value": 3,
       "name": "GreeN PLUS"
     },
     {
-      "value": "4",
+      "value": 4,
       "name": "ORANGE"
     },
     {
-      "value": "5",
+      "value": 5,
       "name": "ORANGE PLUS"
     },
     {
-      "value": "6",
+      "value": 6,
       "name": "PiNK"
     },
     {
-      "value": "7",
+      "value": 7,
       "name": "PiNK PLUS"
     },
     {
-      "value": "8",
+      "value": 8,
       "name": "MURASAKi"
     },
     {
-      "value": "9",
+      "value": 9,
       "name": "MURASAKi PLUS"
     },
     {
-      "value": "10",
+      "value": 10,
       "name": "MiLK"
     },
     {
-      "value": "11",
+      "value": 11,
       "name": "MiLK PLUS"
     },
     {
-      "value": "12",
+      "value": 12,
       "name": "FiNALE"
     },
     {
-      "value": "13",
+      "value": 13,
       "name": "maimaiでらっくす"
     },
     {
-      "value": "14",
+      "value": 14,
       "name": "maimaiでらっくす PLUS"
     },
     {
-      "value": "15",
+      "value": 15,
       "name": "スプラッシュ"
     },
     {
-      "value": "16",
+      "value": 16,
       "name": "スプラッシュ PLUS"
     },
     {
-      "value": "17",
+      "value": 17,
       "name": "UNiVERSE"
     },
     {
-      "value": "18",
+      "value": 18,
       "name": "UNiVERSE PLUS"
     },
     {
-      "value": "19",
+      "value": 19,
       "name": "FESTiVAL"
     },
     {
-      "value": "20",
+      "value": 20,
       "name": "FESTiVAL PLUS"
     },
     {
-      "value": "21",
+      "value": 21,
       "name": "BUDDiES"
     },
     {
-      "value": "22",
+      "value": 22,
       "name": "BUDDiES PLUS"
     }
   ],

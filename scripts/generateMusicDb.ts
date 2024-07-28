@@ -1,11 +1,20 @@
 import * as fs from "fs";
-import { Difficulty, DisplayLevel, TrackDbInfo } from "../src/types/types";
+import {
+  Difficulty,
+  DisplayLevel,
+  SongsJson,
+  TrackDbInfo,
+} from "../src/types/types";
 import { songScores } from "./api/songScore";
 import { version, versionDetails } from "./api/version";
 import { login } from "./axios";
 import { batchedPromiseAll } from "./utils/promise";
 import { dedupeRecords, trackMapKey } from "./utils/songTitle";
 import { musicDetail } from "./api/musicDetail";
+import { tryLoadFileAsJson } from "./utils/file";
+
+const OUT_DIR = "./src/db";
+const OUT_FILE = "./src/db/songs.json";
 
 const SEGA_ID = process.env.SEGA_ID;
 const SEGA_PASSWORD = process.env.SEGA_PASSWORD;
@@ -27,13 +36,29 @@ const DIFFICULTIES = [
 
 const generate = async () => {
   await login(SEGA_ID, SEGA_PASSWORD);
-  console.log("Fetching versions...");
 
+  const oldJson = await tryLoadFileAsJson<SongsJson>(OUT_FILE);
+
+  const charts = await batchedPromiseAll(
+    DIFFICULTIES.map((difficulty) => async () => songScores({ difficulty }))
+  );
+  const chartCount = charts.reduce((acc, x) => acc + x.length, 0);
+  console.log(`Fetched ${chartCount} charts.`);
+
+  if (oldJson?.chartCount === chartCount) {
+    console.log("No new charts found, skipping database generation.");
+    return;
+  }
+  
   const { availableVersions } = await version();
   console.log(
     `${availableVersions.length} versions found, with latest version being ${
       availableVersions[availableVersions.length - 1].name
     }`
+  );
+
+  const { recordsWithArtists, duplicateTrackKeys } = await dedupeRecords(
+    charts
   );
 
   const tracks = await batchedPromiseAll(
@@ -43,14 +68,6 @@ const generate = async () => {
     )
   );
   console.log("Fetched all tracks.");
-
-  const records = await batchedPromiseAll(
-    DIFFICULTIES.map((difficulty) => async () => songScores({ difficulty }))
-  );
-  const { recordsWithArtists, duplicateTrackKeys } = await dedupeRecords(
-    records
-  );
-  console.log("Fetched all records.");
 
   const duplicateTrackNameIdxs = new Set(
     tracks.flatMap((recordRow) =>
@@ -86,6 +103,7 @@ const generate = async () => {
   });
 
   const data = {
+    chartCount,
     availableVersions,
     tracks: tracks.flatMap((values, i) =>
       values.map(({ track }): TrackDbInfo => {
@@ -125,13 +143,9 @@ const generate = async () => {
     ),
   };
 
-  await fs.promises.mkdir("./src/db", { recursive: true });
+  await fs.promises.mkdir(OUT_DIR, { recursive: true });
 
-  await fs.promises.writeFile(
-    "./src/db/songs.json",
-    JSON.stringify(data, null, 2),
-    "utf-8"
-  );
+  await fs.promises.writeFile(OUT_FILE, JSON.stringify(data, null, 2), "utf-8");
 
   console.log("Database generated successfully.");
 };
