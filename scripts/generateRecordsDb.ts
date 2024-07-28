@@ -4,6 +4,7 @@ import { songScores } from "./api/songScore";
 import { login } from "./axios";
 import { batchedPromiseAll } from "./utils/promise";
 import { dedupeRecords } from "./utils/songTitle";
+import { playerData } from "./api/playerData";
 
 const SEGA_ID = process.env.SEGA_ID;
 const SEGA_PASSWORD = process.env.SEGA_PASSWORD;
@@ -33,7 +34,10 @@ const generate = async () => {
   const { recordsWithArtists } = await dedupeRecords(records);
   console.log("Fetched all records.");
 
+  const profile = await playerData();
+
   const data = {
+    profile,
     records: recordsWithArtists.flatMap((values) =>
       values
         .filter(({ score }) => score)
@@ -52,12 +56,18 @@ const generate = async () => {
     ),
   };
 
+  const now = new Date();
+
+  const monthlyFileName = `./src/db/records-${now.getUTCFullYear()}-${
+    now.getUTCMonth() + 1
+  }.json`;
+
   await fs.promises.mkdir("./src/db", { recursive: true });
 
-  await fs.promises.writeFile(
-    "./src/db/records.json",
-    JSON.stringify(data, null, 2),
-    "utf-8"
+  await Promise.all(
+    ["./src/db/records.json", monthlyFileName].map((x) =>
+      fs.promises.writeFile(x, JSON.stringify(data, null, 2), "utf-8")
+    )
   );
 
   console.log("Database generated successfully.");

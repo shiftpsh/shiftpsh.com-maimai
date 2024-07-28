@@ -67,6 +67,8 @@ export type Rank =
 
 export type DxRank = 6 | 5.5 | 5 | 4 | 3 | 2 | 1 | 0;
 
+export type TrophyTier = "Normal" | "Bronze" | "Silver" | "Gold" | "Rainbow";
+
 export interface TrackBase {
   title: string;
   type: ChartType;

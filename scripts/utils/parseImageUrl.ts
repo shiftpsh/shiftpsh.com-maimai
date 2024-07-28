@@ -58,3 +58,15 @@ export const parseSyncIcnImgUrl = (url: string): Sync => {
   if (pngName === "music_icon_fdxp") return "FULL SYNC DX+";
   throw new Error(`Unknown sync image URL: ${url}`);
 };
+
+export const parseCourseRank = (url: string): number => {
+  const pngName = /\/([^/]+)\.png/.exec(url)![1];
+  const rank = /^course_rank_(\d+)/.exec(pngName)![1];
+  return +rank;
+};
+
+export const parseClassRank = (url: string): number => {
+  const pngName = /\/([^/]+)\.png/.exec(url)![1];
+  const rank = /^class_rank_s_(\d+)/.exec(pngName)![1];
+  return +rank;
+};
