@@ -5,6 +5,7 @@ import { version, versionDetails } from "./api/version";
 import { login } from "./axios";
 import { batchedPromiseAll } from "./utils/promise";
 import { dedupeRecords, trackMapKey } from "./utils/songTitle";
+import { musicDetail } from "./api/musicDetail";
 
 const SEGA_ID = process.env.SEGA_ID;
 const SEGA_PASSWORD = process.env.SEGA_PASSWORD;
@@ -46,12 +47,31 @@ const generate = async () => {
   const records = await batchedPromiseAll(
     DIFFICULTIES.map((difficulty) => async () => songScores({ difficulty }))
   );
-  const dedupedRecords = await dedupeRecords(records);
+  const { recordsWithArtists, duplicateTrackKeys } = await dedupeRecords(
+    records
+  );
   console.log("Fetched all records.");
+
+  const duplicateTrackNameIdxs = new Set(
+    tracks.flatMap((recordRow) =>
+      recordRow
+        .filter(({ track }) => duplicateTrackKeys.has(trackMapKey(track)))
+        .map(({ track }) => track.idx)
+    )
+  );
+
+  const duplicateTrackNameIdxsArray = Array.from(duplicateTrackNameIdxs);
+  const artists = await batchedPromiseAll(
+    duplicateTrackNameIdxsArray.map((idx) => async () => musicDetail({ idx }))
+  );
+  const idxArtistMap = new Map<string, string>();
+  artists.forEach(({ artist }, i) => {
+    idxArtistMap.set(duplicateTrackNameIdxsArray[i], artist);
+  });
 
   const displayLevels = new Map<string, Map<Difficulty, DisplayLevel>>();
 
-  dedupedRecords.forEach((recordRow) => {
+  recordsWithArtists.forEach((recordRow) => {
     recordRow.forEach(({ track }) => {
       const key = trackMapKey(track);
       const trackDisplayLevels = displayLevels.get(key) || new Map();
@@ -68,18 +88,40 @@ const generate = async () => {
   const data = {
     availableVersions,
     tracks: tracks.flatMap((values, i) =>
-      values.map(
-        ({ track }) =>
-          ({
-            title: track.title,
-            type: track.type,
-            version: +availableVersions[i].value,
+      values.map(({ track }): TrackDbInfo => {
+        const base = {
+          title: track.title,
+          type: track.type,
+          version: +availableVersions[i].value,
+        };
+
+        if (duplicateTrackNameIdxs.has(track.idx)) {
+          const artist = idxArtistMap.get(track.idx);
+          return {
+            ...base,
+            artist,
             displayLevel: DIFFICULTIES.map(
               (difficulty) =>
-                displayLevels.get(trackMapKey(track))?.get(difficulty) || null
+                displayLevels
+                  .get(
+                    trackMapKey({
+                      ...base,
+                      artist,
+                    })
+                  )
+                  ?.get(difficulty) || null
             ),
-          } satisfies TrackDbInfo)
-      )
+          };
+        }
+
+        return {
+          ...base,
+          displayLevel: DIFFICULTIES.map(
+            (difficulty) =>
+              displayLevels.get(trackMapKey(base))?.get(difficulty) || null
+          ),
+        };
+      })
     ),
   };
 

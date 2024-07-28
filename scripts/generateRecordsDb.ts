@@ -30,11 +30,11 @@ const generate = async () => {
   const records = await batchedPromiseAll(
     DIFFICULTIES.map((difficulty) => async () => songScores({ difficulty }))
   );
-  const dedupedRecords = await dedupeRecords(records);
+  const { recordsWithArtists } = await dedupeRecords(records);
   console.log("Fetched all records.");
 
   const data = {
-    records: dedupedRecords.flatMap((values) =>
+    records: recordsWithArtists.flatMap((values) =>
       values
         .filter(({ score }) => score)
         .map(

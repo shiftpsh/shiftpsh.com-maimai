@@ -974,12 +974,13 @@
       "title": "Link",
       "type": "Standard",
       "version": 1,
+      "artist": "Clean Tears feat. Youna",
       "displayLevel": [
-        null,
-        null,
-        null,
-        null,
-        null
+        "6",
+        "7+",
+        "12+",
+        "12",
+        "13"
       ]
     },
     {
@@ -2474,11 +2475,12 @@
       "title": "Link",
       "type": "Standard",
       "version": 4,
+      "artist": "Circle of friends(天月-あまつき-・un:c・伊東歌詞太郎・コニー・はしやん)",
       "displayLevel": [
-        null,
-        null,
-        null,
-        null,
+        "6",
+        "8",
+        "10+",
+        "12",
         null
       ]
     },

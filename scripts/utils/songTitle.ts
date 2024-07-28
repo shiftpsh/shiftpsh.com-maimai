@@ -1,8 +1,18 @@
-import { GameScore, RecordSummary, TrackInternalRecord } from "../../src/types/types";
+import {
+  GameScore,
+  RecordSummary,
+  TrackInternalRecord,
+} from "../../src/types/types";
 import { musicDetail } from "../api/musicDetail";
 import { batchedPromiseAll } from "./promise";
 
-export const trackMapKey = (track: TrackInternalRecord) => {
+interface TrackInternalRecordLike {
+  title: string;
+  type: string;
+  artist?: string;
+}
+
+export const trackMapKey = (track: TrackInternalRecordLike) => {
   if (track.artist) {
     return `${track.title}:${track.type}:${track.artist}`;
   }
@@ -59,5 +69,5 @@ export const dedupeRecords = async (
     })
   );
 
-  return recordsWithArtists;
+  return { recordsWithArtists, duplicateTrackKeys };
 };

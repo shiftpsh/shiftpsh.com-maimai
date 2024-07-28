@@ -43,7 +43,10 @@ segaAxios.interceptors.request.use((config) => {
 
 segaAxios.interceptors.response.use((response) => {
   if (!response.config.url) return response;
-  console.log(response.config.url, response.config.params);
+  console.log(
+    response.config.url.replace(/\?ssid=.*$/, "?ssid=****"),
+    response.config.params
+  );
   if (MAINTENANCE_REGEX.test(response.data)) {
     throw new Error("Maintenance is ongoing on maimai-net.");
   }

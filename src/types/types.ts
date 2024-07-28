@@ -86,6 +86,7 @@ export interface TrackInternalRecord extends TrackBase {
 export interface TrackDbInfo extends TrackBase {
   version: number;
   displayLevel: (DisplayLevel | null)[];
+  artist?: string;
 }
 
 export interface TrackRecordInfo extends TrackBase {
