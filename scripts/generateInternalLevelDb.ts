@@ -8,7 +8,7 @@ import { batchedPromiseAll } from "./utils/promise";
 import { suppressTitleWarning } from "./utils/parseGoogleSheetsValues";
 
 const OUT_DIR = "./src/db";
-const OUT_FILE = (version: number) => `./src/db/internal_v${version}.json`;
+const OUT_FILE = (version: number) => `./src/db/internal-v${version}.json`;
 const MUSIC_DB_FILE = "./src/db/songs.json";
 
 const generate = async () => {
