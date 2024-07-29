@@ -9,6 +9,7 @@ jobs:
     env:
       SEGA_ID: ${{ secrets.SEGA_ID }}
       SEGA_PASSWORD: ${{ secrets.SEGA_PASSWORD }}
+      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
@@ -20,6 +21,8 @@ jobs:
         run: yarn generate:music-db
       - name: Build meta database
         run: yarn generate:meta-db
+      - name: Build internal level database
+        run: yarn generate:internal-db
       - name: Build record database
         run: yarn generate:records
       - name: Commit changes
