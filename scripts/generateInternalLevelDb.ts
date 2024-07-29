@@ -11,36 +11,54 @@ const OUT_DIR = "./src/db";
 const OUT_FILE = (version: number) => `./src/db/internal-v${version}.json`;
 const MUSIC_DB_FILE = "./src/db/songs.json";
 
+const hasFile = async (path: string) => {
+  try {
+    await fs.promises.access(path);
+    return true;
+  } catch {
+    return false;
+  }
+};
+
 const generate = async () => {
-  // TODO skip generation of v15-21 internal levels if database is present
-  // TODO generate 'best effort' database using old data
   const musicDb = await tryLoadFileAsJson<SongsJson>(MUSIC_DB_FILE);
   const titles = new Set(musicDb?.tracks.map((x) => x.title));
 
   const versions = Object.keys(INTERNALS).map((x) => +x);
+  const lastVersion = versions[versions.length - 1];
+
+  const versionsAlreadyGenerated = await Promise.all(
+    versions.map(async (version) => {
+      return hasFile(OUT_FILE(version));
+    })
+  );
 
   const internalLevels = await batchedPromiseAll(
-    versions.map((version) => async () => {
-      console.log(`Fetching internal level data for v${version}...`);
-      const fetchData: InternalFetchData = INTERNALS[version];
-      const { id, sheets } = fetchData;
-      const args = Object.entries(sheets).map(
-        ([sheetName, dataColumnOffset]) => {
-          return { id, sheetName, dataColumnOffset };
-        }
-      );
-      const fetched = await batchedPromiseAll(
-        args.map((arg) => async () => getSheetTuples(arg)),
-        {
-          batchSize: 1,
-        }
-      );
-      console.log(`Finished fetching internal level data for v${version}.`);
-      return {
-        version,
-        data: fetched.flatMap((x) => x),
-      };
-    }),
+    versions
+      .filter(
+        (version, i) => !versionsAlreadyGenerated[i] || version === lastVersion
+      )
+      .map((version) => async () => {
+        console.log(`Fetching internal level data for v${version}...`);
+        const fetchData: InternalFetchData = INTERNALS[version];
+        const { id, sheets } = fetchData;
+        const args = Object.entries(sheets).map(
+          ([sheetName, dataColumnOffset]) => {
+            return { id, sheetName, dataColumnOffset };
+          }
+        );
+        const fetched = await batchedPromiseAll(
+          args.map((arg) => async () => getSheetTuples(arg)),
+          {
+            batchSize: 1,
+          }
+        );
+        console.log(`Finished fetching internal level data for v${version}.`);
+        return {
+          version,
+          data: fetched.flatMap((x) => x),
+        };
+      }),
     {
       batchSize: 1,
       interval: 10000,

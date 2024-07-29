@@ -23,7 +23,6 @@ export const tryNormalizeTitle = (title: string): string => {
     .trim();
 
   // Ad-hoc fixes:
-  // TODO resolve all v15-17 titles (67 errors)
   if (/^.411Ψ892.$/i.test(t)) return '"411Ψ892"';
   if (/^≠彡[゛"]\/了→$/.test(t)) return '≠彡"/了→';
   if (/^管弦楽組曲 第3番 ニ長調/.test(t))
@@ -63,6 +62,9 @@ export const tryNormalizeTitle = (title: string): string => {
   if (/^Party 4U .holy nite mix.$/i.test(t)) return "Party 4U ”holy nite mix”";
   if (/^Excalibur ～Revived Resolution～?$/i.test(t))
     return "Excalibur ～Revived resolution～";
+  if (/^Caliburne ～Story of the Legendary sword～?$/i.test(t))
+    return "Caliburne ～Story of the Legendary sword～";
+  if (/^contrapasso -paradiso-?$/i.test(t)) return "Contrapasso -paradiso-";
   if (/^Love Kills U$/i.test(t)) return "Love Kills U";
   if (/^曖昧Mind$/i.test(t)) return "曖昧mind";
   if (/^Change Our MIRAI.$/.test(t)) return "Change Our MIRAI！";
@@ -96,8 +98,10 @@ export const tryNormalizeTitle = (title: string): string => {
     return "Imperishable Night 2006 (2016 Refine)";
   if (/^JACKY ?\[Remix]$/i.test(t)) return "JACKY [Remix]";
   if (/^Urban Crusher ?\[Remix]$/i.test(t)) return "Urban Crusher [Remix]";
-  if (/^YA･DA･YO ?\[Reborn]$/i.test(t)) return "YA･DA･YO [Reborn]";
-  if (/^Like the Wind ?\[Reborn]$/i.test(t)) return "Like the Wind [Reborn]";
+  if (/^YA.DA.YO ?\[Reborn]$/i.test(t)) return "YA･DA･YO [Reborn]";
+  if (/^Like the Wind ?.Reborn.$/i.test(t)) return "Like the Wind [Reborn]";
+  if (/^Quartet Theme ?\[Reborn]$/i.test(t)) return "Quartet Theme [Reborn]";
+  if (/^Sky High ?\[Reborn]$/i.test(t)) return "Sky High [Reborn]";
   if (/^Space Harrier Main Theme ?\[Reborn]$/i.test(t))
     return "Space Harrier Main Theme [Reborn]";
   if (/^Turn around$/i.test(t)) return "Turn around";
@@ -117,6 +121,49 @@ export const tryNormalizeTitle = (title: string): string => {
   if (/^BaBan!!.*甘い罠.$/i.test(t)) return "BaBan!! －甘い罠－";
   if (/^Club Ibuki in Break All$/i.test(t)) return "Club Ibuki in Break All";
   if (/^CYBER Sparks$/i.test(t)) return "CYBER Sparks";
+  if (/^Live ?& ?Learn$/i.test(t)) return "Live & Learn";
+  if (/^ってゐ！ ?～えいえんてゐVer～$/i.test(t))
+    return "ってゐ！ ～えいえんてゐVer～";
+  if (/^Grip ?& ?Break down ?!!$/.test(t)) return "Grip & Break down !!";
+  if (/^BOUNCE ?& ?DANCE$/.test(t)) return "BOUNCE & DANCE";
+  if (/^天国と地獄 ?-言ノ葉リンネ-$/.test(t))
+    return "天国と地獄 -言ノ葉リンネ-";
+  if (/^玩具狂奏曲 ?-終焉-$/.test(t)) return "玩具狂奏曲 -終焉-";
+  if (/^炎歌 ?-ほむらうた-$/.test(t)) return "炎歌 -ほむらうた-";
+  if (/^幾四音 ?-Ixion-$/.test(t)) return "幾四音-Ixion-";
+  if (/^若い力 ?-SEGA HARD GIRLS MIX-$/.test(t))
+    return "若い力 -SEGA HARD GIRLS MIX-";
+  if (/^進め！イッスン軍団 ?-Rebellion of the Dwarfs-$/.test(t))
+    return "進め！イッスン軍団 -Rebellion of the Dwarfs-";
+  if (/^夜明けまであと.秒$/.test(t)) return "夜明けまであと３秒";
+  if (/^最終鬼畜妹フランドール・?S$/.test(t))
+    return "最終鬼畜妹フランドール・S";
+  if (/^ナイト・?オブ・?ナイツ$/.test(t)) return "ナイト・オブ・ナイツ";
+  if (/^バーチャルダム.ネーション$/i.test(t))
+    return "バーチャルダム　ネーション";
+  if (/^\.?[＋+]♂$/.test(t)) return "+♂";
+  if (/^Last Brave ?～ ?Go to zero$/i.test(t))
+    return "Last Brave ～ Go to zero";
+  if (/^オーケー？.?オーライ！$/.test(t)) return "オーケー？　オーライ！";
+  if (/^Melody[！!]$/.test(t)) return "Melody！";
+  if (/^Yet Another ”?drizzly rain”?$/.test(t))
+    return "Yet Another ”drizzly rain”";
+  if (/^Mr. ?Wonderland$/.test(t)) return "Mr. Wonderland";
+  if (/^Bar.ed Eye$/i.test(t)) return "Barbed Eye";
+  if (/^自.無色$/.test(t)) return "自傷無色";
+  if (/^Credits.?$/i.test(t)) return "Credits";
+  if (/^セハガガガンバッちゃう！！?$/.test(t))
+    return "セハガガガンバッちゃう！！";
+  if (/^Bad Apple!! feat[. ]nomico$/i.test(t)) return "Bad Apple!! feat nomico";
+  if (/^ラブって♡ジュエリー♪(えんじぇる|エンジェル)☆ブレイク！！$/.test(t))
+    return "ラブって♡ジュエリー♪えんじぇる☆ブレイク！！";
+  if (/^少女幻.戦慄曲 ～Necro Fantasia$/.test(t))
+    return "少女幻葬戦慄曲 ～ Necro Fantasia";
+  if (/^[lI]evan Polkka$/i.test(t)) return "Ievan Polkka";
+  if (/^fake! ?fake!$/i.test(t)) return "fake!fake!";
+  if (/^ULTRA B[+＋]K$/.test(t)) return "ULTRA B+K";
+  if (/^セイクリッド.ルイン$/.test(t)) return "セイクリッド　ルイン";
+  if (/^泣き虫O'clock$/i.test(t)) return "泣き虫O'clock";
 
   return t;
 };
@@ -184,6 +231,12 @@ const REMOVED_SONGS = [
   "全力☆Summer!",
   "絵の上手かった友達",
   "ガヴリールドロップキック",
+  "東奔西走行進曲",
+  "Mr. Wonderland",
+  "The Gong of Knockout",
+  "ジャガーノート",
+  "アウトサイダー",
+  "Arrival of Tears",
 ];
 
 const NOT_IN_INTL = [
@@ -191,6 +244,7 @@ const NOT_IN_INTL = [
   "白い雪のプリンセスは",
   "愛のシュプリーム！",
   "右肩の蝶",
+  "電話革命ナイセン",
   "千本桜",
   "片想いサンバ",
   "好き！雪！本気マジック",
@@ -202,6 +256,7 @@ const NOT_IN_INTL = [
   "Los! Los! Los!",
   "Lost Princess",
   "Magical Sound Shower",
+  "Seize The Day",
   "SHINY DAYS",
   "SPiCa",
   "This game",
