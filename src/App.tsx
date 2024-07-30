@@ -1,9 +1,9 @@
 import { Container, Space } from "@solved-ac/ui-react";
+import Footer from "./components/Footer";
 import MyBest50 from "./components/MyBest50";
 import Profile from "./components/Profile";
 import TopIcon from "./components/TopIcon";
 import { SONG_DATABASE } from "./const/songDatabase";
-import Footer from "./components/Footer";
 
 function App() {
   const { profile } = SONG_DATABASE;

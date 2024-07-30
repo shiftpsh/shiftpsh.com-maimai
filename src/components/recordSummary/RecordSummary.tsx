@@ -3,7 +3,7 @@ import { ellipsis } from "polished";
 import { SongDatabaseItemWithRecord } from "../../const/songDatabase";
 import { wanpaku } from "../../styles/fonts/wanpaku";
 import { difficultyBorderColor } from "../../utils/difficulty";
-import RankChip from "../RankChip";
+import RankChip from "../chip/RankChip";
 import LevelMarker from "./LevelMarker";
 
 const MUSIC_DX_URL = "https://maimaidx-eng.com/maimai-mobile/img/music_dx.png";

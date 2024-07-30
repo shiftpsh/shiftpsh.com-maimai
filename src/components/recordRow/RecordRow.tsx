@@ -5,7 +5,9 @@ import { SongDatabaseItemWithRecord } from "../../const/songDatabase";
 import { wanpaku } from "../../styles/fonts/wanpaku";
 import { difficultyBackgroundColor } from "../../utils/difficulty";
 import LevelGradientText from "../LevelGradientText";
-import RankChip from "../RankChip";
+import RankChip from "../chip/RankChip";
+import SyncChip from "../chip/SyncChip";
+import ComboChip from "../chip/ComboChip";
 
 const MUSIC_DX_URL = "https://maimaidx-eng.com/maimai-mobile/img/music_dx.png";
 const MUSIC_STD_URL =
@@ -16,11 +18,11 @@ const RecordContainer = styled.div`
   padding: 8px 0;
   display: grid;
   align-items: center;
-  grid-template-columns: 64px 48px 1fr 4em 12em;
+  grid-template-columns: 64px 48px 1fr 4em 4em 4em 12em;
   gap: 8px 0;
 
-  @media (max-width: 640px) {
-    grid-template-columns: 72px 48px 8px 4em 1fr;
+  @media (max-width: 800px) {
+    grid-template-columns: 72px 8px 3em 3em 3em 1fr;
   }
 `;
 
@@ -32,9 +34,10 @@ const LevelIndicator = styled.div`
   height: 64px;
   font-size: 120%;
 
-  @media (max-width: 640px) {
-    grid-row: 1 / span 2;
-    height: 72px;
+  @media (max-width: 800px) {
+    grid-row: 1;
+    grid-column: 3;
+    height: 100%;
   }
 `;
 
@@ -43,7 +46,7 @@ const Jacket = styled.img`
   height: 64px;
   width: 64px;
 
-  @media (max-width: 640px) {
+  @media (max-width: 800px) {
     grid-row: 1 / span 2;
     height: 72px;
     width: 72px;
@@ -62,10 +65,10 @@ const TitleContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (max-width: 640px) {
+  @media (max-width: 800px) {
     grid-row: 1;
-    grid-column: 4 / -1;
-    padding: 0;
+    grid-column: 4 / span 4;
+    padding: 0 8px;
   }
 `;
 
@@ -75,7 +78,7 @@ const Title = styled.span`
 `;
 
 const Artist = styled(Typo)`
-  @media (max-width: 640px) {
+  @media (max-width: 800px) {
     display: none;
   }
 `;
@@ -90,17 +93,33 @@ const AchievementContainer = styled.div`
   gap: 8px;
   text-align: right;
 
-  @media (max-width: 640px) {
+  @media (max-width: 800px) {
     grid-row: 2;
-    grid-column: 5;
+    grid-column: 6;
     font-size: 100%;
   }
 `;
 
 const Rank = styled(RankChip)`
-  @media (max-width: 640px) {
+  @media (max-width: 800px) {
+    grid-row: 2;
+    grid-column: 3;
+    font-size: 80%;
+  }
+`;
+
+const Combo = styled(ComboChip)`
+  @media (max-width: 800px) {
     grid-row: 2;
     grid-column: 4;
+    font-size: 80%;
+  }
+`;
+
+const Sync = styled(SyncChip)`
+  @media (max-width: 800px) {
+    grid-row: 2;
+    grid-column: 5;
     font-size: 80%;
   }
 `;
@@ -127,7 +146,7 @@ interface Props {
 
 const RecordSummary = ({ song }: Props) => {
   const { jacketKey, type, difficulty, title, artist, record } = song;
-  const { achievement, rank, rating } = record;
+  const { achievement, rank, combo, sync, rating } = record;
 
   const [achievementWhole, achievementFraction] = (achievement / 10000)
     .toLocaleString(undefined, {
@@ -162,6 +181,8 @@ const RecordSummary = ({ song }: Props) => {
         </Artist>
       </TitleContainer>
       <Rank rank={rank} />
+      <Combo combo={combo} />
+      <Sync sync={sync} />
       <AchievementContainer>
         <AchievementNumber>
           {achievementWhole}.
