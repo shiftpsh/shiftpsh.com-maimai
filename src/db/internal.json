@@ -19570,6 +19570,14 @@
     }
   },
   {
+    "title": "華の集落、秋のお届け",
+    "type": "Standard",
+    "difficulty": "MASTER",
+    "internalLevel": {
+      "22": 139
+    }
+  },
+  {
     "title": "MUSIC PЯAYER",
     "type": "DX",
     "difficulty": "MASTER",
@@ -19588,9 +19596,9 @@
   {
     "title": "華の集落、秋のお届け",
     "type": "Standard",
-    "difficulty": "MASTER",
+    "difficulty": "EXPERT",
     "internalLevel": {
-      "22": 139
+      "22": 125
     }
   },
   {
@@ -19599,14 +19607,6 @@
     "difficulty": "MASTER",
     "internalLevel": {
       "22": 140
-    }
-  },
-  {
-    "title": "華の集落、秋のお届け",
-    "type": "Standard",
-    "difficulty": "EXPERT",
-    "internalLevel": {
-      "22": 125
     }
   },
   {

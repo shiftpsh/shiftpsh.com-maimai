@@ -1140,6 +1140,12 @@
     "internalLevel": 127
   },
   {
+    "title": "華の集落、秋のお届け",
+    "type": "Standard",
+    "difficulty": "MASTER",
+    "internalLevel": 139
+  },
+  {
     "title": "MUSIC PЯAYER",
     "type": "DX",
     "difficulty": "MASTER",
@@ -1154,20 +1160,14 @@
   {
     "title": "華の集落、秋のお届け",
     "type": "Standard",
-    "difficulty": "MASTER",
-    "internalLevel": 139
+    "difficulty": "EXPERT",
+    "internalLevel": 125
   },
   {
     "title": "INFiNiTE ENERZY -Overdoze-",
     "type": "DX",
     "difficulty": "MASTER",
     "internalLevel": 140
-  },
-  {
-    "title": "華の集落、秋のお届け",
-    "type": "Standard",
-    "difficulty": "EXPERT",
-    "internalLevel": 125
   },
   {
     "title": "アイドル",
