@@ -16,7 +16,7 @@ const ratingsLatest = tracks
   .sort((a, b) =>
     b.record!.rating !== a.record!.rating
       ? b.record!.rating - a.record!.rating
-      : a.record!.achievement - b.record!.achievement
+      : b.record!.achievement - a.record!.achievement
   )
   .slice(0, 15) as SongDatabaseItemWithRecord[];
 
@@ -25,7 +25,7 @@ const ratingsOld = tracks
   .sort((a, b) =>
     b.record!.rating !== a.record!.rating
       ? b.record!.rating - a.record!.rating
-      : a.record!.achievement - b.record!.achievement
+      : b.record!.achievement - a.record!.achievement
   )
   .slice(0, 35) as SongDatabaseItemWithRecord[];
 
