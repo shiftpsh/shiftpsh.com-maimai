@@ -131,3 +131,23 @@ export interface MetaJson {
     chartTypeCount: number;
   }[];
 }
+
+export interface SingleVersionInternalRecord {
+  title: string;
+  type: ChartType;
+  difficulty: Difficulty;
+  internalLevel: number;
+}
+
+export type SingleVersionInternalJson = SingleVersionInternalRecord[];
+
+export interface BestEffortInternalLevelRecord {
+  title: string;
+  type: ChartType;
+  difficulty: Difficulty;
+  internalLevel: {
+    [version: string]: number;
+  };
+}
+
+export type BestEffortInternalLevelJson = BestEffortInternalLevelRecord[];

@@ -59,11 +59,14 @@ const generate = async () => {
 
   const now = new Date();
 
-  const monthlyFileName = `./src/db/records-${now.getUTCFullYear()}-${
+  const monthlyFileName = `./public/db/records-${now.getUTCFullYear()}-${
     now.getUTCMonth() + 1
   }.json`;
 
-  await fs.promises.mkdir("./src/db", { recursive: true });
+  await Promise.all([
+    fs.promises.mkdir("./src/db", { recursive: true }),
+    fs.promises.mkdir("./public/db", { recursive: true }),
+  ]);
 
   await Promise.all(
     ["./src/db/records.json", monthlyFileName].map((x) =>
