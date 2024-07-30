@@ -1,24 +1,31 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import "./App.css";
 import { SONG_DATABASE } from "./const/songDatabase";
+import styled from "@emotion/styled";
+import { wanpaku } from "./styles/fonts/wanpaku";
+
+const Test = styled.div`
+  ${wanpaku}
+`;
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      {SONG_DATABASE.filter((x) => x.internalLevel >= 130)
-        .sort((a, b) => a.internalLevel - b.internalLevel)
-        .map((song) => (
-          <div
-            key={`${song.title}:${song.difficulty}:${song.type}:${song.artist}`}
-          >
-            {song.title} ({song.internalLevel}
-            {song.internalLevelIsAccurate ? "" : "?"})
-          </div>
-        ))}
+      <Test>
+        {SONG_DATABASE.filter((x) => x.internalLevel >= 130)
+          .sort((a, b) => a.internalLevel - b.internalLevel)
+          .map((song) => (
+            <div
+              key={`${song.title}:${song.difficulty}:${song.type}:${song.artist}`}
+            >
+              {song.title} ({song.internalLevel}
+              {song.internalLevelIsAccurate ? "" : "?"})
+            </div>
+          ))}
+      </Test>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

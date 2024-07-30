@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Wanpaku";
+  src: url("Wanpaku.woff2") format("woff2"), url("Wanpaku.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
