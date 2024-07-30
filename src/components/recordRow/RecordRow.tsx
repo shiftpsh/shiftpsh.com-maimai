@@ -77,6 +77,12 @@ const Title = styled.span`
   font-weight: 600;
 `;
 
+const Artist = styled(Typo)`
+  @media (max-width: 640px) {
+    display: none;
+  }
+`;
+
 const AchievementContainer = styled.div`
   font-size: 120%;
   flex: 0 0 12em;
@@ -160,9 +166,9 @@ const RecordSummary = ({ song }: Props) => {
           <Type src={type === "DX" ? MUSIC_DX_URL : MUSIC_STD_URL} alt={type} />
         </div>
         <Title>{title}</Title>
-        <Typo description small ellipsis>
+        <Artist description small ellipsis>
           {artist}
-        </Typo>
+        </Artist>
       </TitleContainer>
       <RankContainer
         style={{
