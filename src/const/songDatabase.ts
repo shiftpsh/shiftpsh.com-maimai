@@ -1,5 +1,6 @@
 import RAW_INTERNAL_DB from "../db/internal.json";
 import RAW_META_DB from "../db/meta.json";
+import RAW_RECORDS_DB from "../db/records.json";
 import RAW_SONGS_DB from "../db/songs.json";
 import {
   BestEffortInternalLevelJson,
@@ -7,9 +8,13 @@ import {
   ChartType,
   Difficulty,
   DisplayLevel,
+  GameScore,
   MetaItem,
   MetaJson,
+  RecordsJson,
+  RecordSummary,
   SongsJson,
+  TrackRecordInfo,
 } from "../types/types";
 import { displayLevelRange } from "../utils/level";
 
@@ -23,11 +28,13 @@ export interface SongDatabaseItem {
   version: number;
   title: string;
   type: ChartType;
+  record: GameScore | null;
 }
 
 const SONGS_DB = RAW_SONGS_DB as SongsJson;
 const INTERNAL_DB = RAW_INTERNAL_DB as BestEffortInternalLevelJson;
 const META_DB = RAW_META_DB as MetaJson;
+const RECORDS_DB = RAW_RECORDS_DB as RecordsJson;
 
 const DIFFICULTIES = [
   "BASIC",
@@ -48,13 +55,26 @@ const metaKey = (meta: { title: string; artist?: string }) =>
 
 const metaKeyWithoutArtist = (meta: { title: string }) => meta.title;
 
+const recordKey = (record: {
+  title: string;
+  artist?: string | null;
+  type: ChartType;
+  difficulty: Difficulty;
+}) =>
+  `${record.title}:${record.artist || ""}:${record.type}:${record.difficulty}`;
+
 const buildSongDb = () => {
+  const { profile, records } = RECORDS_DB;
   const { availableVersions, tracks } = SONGS_DB;
   const latestVersion = availableVersions[availableVersions.length - 1].value;
 
   const internalMap = new Map<string, BestEffortInternalLevelRecord>();
   const metaMap = new Map<string, MetaItem>();
   const metaWithoutArtistMap = new Map<string, MetaItem>();
+  const recordMap = new Map<
+    string,
+    RecordSummary<TrackRecordInfo, GameScore>
+  >();
 
   for (const record of INTERNAL_DB) {
     internalMap.set(internalKey(record), record);
@@ -62,6 +82,19 @@ const buildSongDb = () => {
   for (const meta of META_DB.meta) {
     metaMap.set(metaKey(meta), meta);
     metaWithoutArtistMap.set(metaKeyWithoutArtist(meta), meta);
+  }
+  for (const record of records) {
+    if (record.track.artist) {
+      recordMap.set(recordKey(record.track), record);
+      console.log(recordKey(record.track));
+    } else {
+      const artist = metaWithoutArtistMap.get(
+        metaKeyWithoutArtist(record.track)
+      )?.artist;
+      const key = recordKey({ ...record.track, artist });
+      recordMap.set(key, record);
+      console.log(key);
+    }
   }
 
   const mergedTracks = tracks.flatMap(({ displayLevel, ...track }) => {
@@ -75,16 +108,23 @@ const buildSongDb = () => {
     };
 
     const levels = displayLevel
-      .map((level, i) => {
+      .map((level, i): SongDatabaseItem | null => {
         if (!level) return null;
         const [levelMin, levelMax] = displayLevelRange(level);
         const difficulty = DIFFICULTIES[i];
         const internal = internalMap.get(internalKey({ ...track, difficulty }));
+        const record =
+          recordMap.get(recordKey({ ...mergedTrack, difficulty }))?.score ||
+          null;
+        const levelBase = {
+          ...mergedTrack,
+          record,
+          displayLevel: level,
+          difficulty,
+        };
         if (!internal) {
           return {
-            ...mergedTrack,
-            displayLevel: level,
-            difficulty,
+            ...levelBase,
             internalLevel: levelMin,
             internalLevelIsAccurate: false,
           };
@@ -92,9 +132,7 @@ const buildSongDb = () => {
         const { internalLevel } = internal;
         if (internalLevel[latestVersion]) {
           return {
-            ...mergedTrack,
-            displayLevel: level,
-            difficulty,
+            ...levelBase,
             internalLevel: internalLevel[latestVersion],
             internalLevelIsAccurate: true,
           };
@@ -106,25 +144,20 @@ const buildSongDb = () => {
           const bestEffortLevel = internalBestEffort[0][1];
           if (levelMin <= bestEffortLevel && bestEffortLevel <= levelMax) {
             return {
-              ...mergedTrack,
-              displayLevel: level,
-              difficulty,
+              ...levelBase,
               internalLevel: internalBestEffort[0][1],
               internalLevelIsAccurate: false,
             };
           } else {
             return {
-              ...mergedTrack,
-              displayLevel: level,
-              difficulty,
+              ...levelBase,
               internalLevel: levelMin,
               internalLevelIsAccurate: false,
             };
           }
         } else {
           return {
-            ...mergedTrack,
-            difficulty,
+            ...levelBase,
             internalLevel: levelMin,
             internalLevelIsAccurate: false,
           };
@@ -135,7 +168,7 @@ const buildSongDb = () => {
     return levels;
   });
 
-  return mergedTracks;
+  return { profile, tracks: mergedTracks };
 };
 
 export const SONG_DATABASE = buildSongDb();

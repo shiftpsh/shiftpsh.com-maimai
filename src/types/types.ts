@@ -153,3 +153,21 @@ export interface BestEffortInternalLevelRecord {
 }
 
 export type BestEffortInternalLevelJson = BestEffortInternalLevelRecord[];
+
+export interface Profile {
+  name: string;
+  rating: number;
+  profileImageSrc: string;
+  trophy: {
+    tier: TrophyTier;
+    title: string;
+  };
+  courseRank: number;
+  classRank: number;
+  stars: number;
+}
+
+export interface RecordsJson {
+  profile: Profile;
+  records: RecordSummary<TrackRecordInfo, GameScore>[];
+}

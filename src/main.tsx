@@ -12,7 +12,6 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <Global
         styles={{
           html: {
-            fontSize: "calc(12px + 0.7vmin)",
             fontFamily: defaultFont,
           },
           ".tabler-icon": {

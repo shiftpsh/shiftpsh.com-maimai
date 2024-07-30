@@ -1,8 +1,5 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import { SONG_DATABASE } from "./const/songDatabase";
 import styled from "@emotion/styled";
+import { SONG_DATABASE } from "./const/songDatabase";
 import { wanpaku } from "./styles/fonts/wanpaku";
 
 const Test = styled.div`
@@ -10,12 +7,11 @@ const Test = styled.div`
 `;
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Test>
-        {SONG_DATABASE.filter((x) => x.internalLevel >= 130)
+        {SONG_DATABASE.tracks
+          .filter((x) => x.internalLevel >= 130)
           .sort((a, b) => a.internalLevel - b.internalLevel)
           .map((song) => (
             <div
@@ -26,26 +22,6 @@ function App() {
             </div>
           ))}
       </Test>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   );
 }
