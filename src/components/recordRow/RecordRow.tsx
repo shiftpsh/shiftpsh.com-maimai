@@ -22,6 +22,10 @@ const RecordContainer = styled.div`
   gap: 8px 0;
 
   @media (max-width: 800px) {
+    grid-template-columns: 72px 8px 4em 4em 4em 1fr;
+  }
+
+  @media (max-width: 480px) {
     grid-template-columns: 72px 8px 3em 3em 3em 1fr;
   }
 `;

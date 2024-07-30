@@ -38,6 +38,7 @@ const TrophyContainer = styled.div`
 
 const NameAndRating = styled.div`
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   align-items: baseline;
   justify-content: space-between;
@@ -47,7 +48,6 @@ const NameAndRating = styled.div`
     font-size: 140%;
   }
   @media (max-width: 480px) {
-    flex-direction: column;
     font-size: 120%;
   }
 `;
