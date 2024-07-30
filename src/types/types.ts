@@ -112,6 +112,11 @@ export interface GameScore {
   sync: Sync;
 }
 
+export interface GameScoreWithRating extends GameScore {
+  rating: number;
+  isRatingAccurate: boolean;
+}
+
 export interface RecordSummary<T extends TrackBase = TrackBase, S = GameScore> {
   track: T;
   score: S;

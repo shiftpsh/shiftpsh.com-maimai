@@ -9,6 +9,7 @@ import {
   Difficulty,
   DisplayLevel,
   GameScore,
+  GameScoreWithRating,
   MetaItem,
   MetaJson,
   RecordsJson,
@@ -17,6 +18,7 @@ import {
   TrackRecordInfo,
 } from "../types/types";
 import { displayLevelRange } from "../utils/level";
+import { rating } from "../utils/rating";
 
 export interface SongDatabaseItem {
   difficulty: Difficulty;
@@ -28,7 +30,11 @@ export interface SongDatabaseItem {
   version: number;
   title: string;
   type: ChartType;
-  record: GameScore | null;
+  record: GameScoreWithRating | null;
+}
+
+export interface SongDatabaseItemWithRecord extends SongDatabaseItem {
+  record: GameScoreWithRating;
 }
 
 const SONGS_DB = RAW_SONGS_DB as SongsJson;
@@ -114,59 +120,44 @@ const buildSongDb = () => {
         const record =
           recordMap.get(recordKey({ ...mergedTrack, difficulty }))?.score ||
           null;
-        const levelBase = {
+        const returnLevel = (internalLevel: number, accurate: boolean) => ({
           ...mergedTrack,
-          record,
+          record: record
+            ? {
+                ...record,
+                rating: rating(record?.achievement, internalLevel),
+                isRatingAccurate: accurate,
+              }
+            : null,
           displayLevel: level,
           difficulty,
-        };
+          internalLevel,
+          internalLevelIsAccurate: accurate,
+        });
         if (!internal) {
-          return {
-            ...levelBase,
-            internalLevel: levelMin,
-            internalLevelIsAccurate: false,
-          };
+          return returnLevel(levelMin, false);
         }
         const { internalLevel } = internal;
         if (internalLevel[latestVersion]) {
-          return {
-            ...levelBase,
-            internalLevel: internalLevel[latestVersion],
-            internalLevelIsAccurate: true,
-          };
+          return returnLevel(internalLevel[latestVersion], true);
         }
-        const internalBestEffort = Object.entries(internalLevel)
-          .filter(([v]) => +v <= latestVersion)
-          .sort(([a], [b]) => +b - +a);
+        const internalBestEffort = Object.entries(internalLevel).sort(
+          ([a], [b]) => +b - +a
+        );
         if (internalBestEffort.length) {
           const bestEffortLevel = internalBestEffort[0][1];
           if (levelMin <= bestEffortLevel && bestEffortLevel <= levelMax) {
-            return {
-              ...levelBase,
-              internalLevel: internalBestEffort[0][1],
-              internalLevelIsAccurate: false,
-            };
-          } else {
-            return {
-              ...levelBase,
-              internalLevel: levelMin,
-              internalLevelIsAccurate: false,
-            };
+            return returnLevel(bestEffortLevel, false);
           }
-        } else {
-          return {
-            ...levelBase,
-            internalLevel: levelMin,
-            internalLevelIsAccurate: false,
-          };
         }
+        return returnLevel(levelMin, false);
       })
       .filter((x) => x) as SongDatabaseItem[];
 
     return levels;
   });
 
-  return { profile, tracks: mergedTracks };
+  return { profile, latestVersion, tracks: mergedTracks };
 };
 
 export const SONG_DATABASE = buildSongDb();
