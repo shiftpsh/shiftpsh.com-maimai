@@ -11,6 +11,12 @@ import {
 } from "../../utils/difficulty";
 import { GradientText } from "../GradientText";
 
+const LevelMarkerContainer = styled.div`
+  position: relative;
+  container-type: size;
+  height: 2em;
+`;
+
 const DifficultyContainer = styled.div`
   ${wanpaku}
   height: 100%;
@@ -19,11 +25,6 @@ const DifficultyContainer = styled.div`
   display: flex;
   align-items: center;
   padding: 0 8px;
-
-  @media (max-width: 720px) {
-    padding: 0 4px;
-    font-size: 60cqh;
-  }
 `;
 
 const LevelValueContainer = styled.div`
@@ -31,7 +32,7 @@ const LevelValueContainer = styled.div`
   position: absolute;
   right: -1px;
   bottom: 0;
-  height: 120%;
+  height: 120cqh;
   font-size: 120%;
   padding: 0 0.5em;
   border-top-left-radius: 8px;
@@ -73,7 +74,7 @@ const LevelMarker = ({ song }: Props) => {
     internalLevelWhole >= 7 && internalLevelFraction >= 6;
 
   return (
-    <>
+    <LevelMarkerContainer>
       <DifficultyContainer
         style={{
           backgroundColor: difficultyBackgroundColor(difficulty),
@@ -130,7 +131,7 @@ const LevelMarker = ({ song }: Props) => {
           </LevelTextAligner>
         </LevelValueContainer>
       </DifficultyContainer>
-    </>
+    </LevelMarkerContainer>
   );
 };
 

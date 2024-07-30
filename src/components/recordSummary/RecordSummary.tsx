@@ -39,10 +39,7 @@ const Type = styled.img`
 `;
 
 const LevelMarkerContainer = styled.div`
-  container-type: size;
   width: 100%;
-  height: 16%;
-  min-height: 24px;
   bottom: -1px;
 `;
 
