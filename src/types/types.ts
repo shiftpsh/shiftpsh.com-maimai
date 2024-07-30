@@ -123,13 +123,15 @@ export interface SongsJson {
   tracks: TrackDbInfo[];
 }
 
+export interface MetaItem {
+  title: string;
+  artist: string;
+  jacketKey: string;
+  chartTypeCount: number;
+}
+
 export interface MetaJson {
-  meta: {
-    title: string;
-    artist: string;
-    jacketKey: string;
-    chartTypeCount: number;
-  }[];
+  meta: MetaItem[];
 }
 
 export interface SingleVersionInternalRecord {
