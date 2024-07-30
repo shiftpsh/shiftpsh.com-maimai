@@ -3,6 +3,7 @@ import MyBest50 from "./components/MyBest50";
 import Profile from "./components/Profile";
 import TopIcon from "./components/TopIcon";
 import { SONG_DATABASE } from "./const/songDatabase";
+import Footer from "./components/Footer";
 
 function App() {
   const { profile } = SONG_DATABASE;
@@ -18,6 +19,7 @@ function App() {
         <MyBest50 />
         <Space h={160} />
       </Container>
+      <Footer />
     </>
   );
 }
