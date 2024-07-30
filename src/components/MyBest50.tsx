@@ -3,8 +3,11 @@ import {
   SONG_DATABASE,
   SongDatabaseItemWithRecord,
 } from "../const/songDatabase";
-import { Typo } from "@solved-ac/ui-react";
+import { Button, Typo } from "@solved-ac/ui-react";
 import RecordSummary from "./recordSummary/RecordSummary";
+import { useState } from "react";
+import { IconLayoutGrid, IconLayoutList } from "@tabler/icons-react";
+import RecordRow from "./recordRow/RecordRow";
 
 const { tracks, latestVersion } = SONG_DATABASE;
 
@@ -26,6 +29,10 @@ const ratingsOld = tracks
   )
   .slice(0, 35) as SongDatabaseItemWithRecord[];
 
+const TitleRow = styled.div`
+  display: flex;
+`;
+
 const MyBestGrid = styled.div`
   display: grid;
   width: 100%;
@@ -41,20 +48,42 @@ const MyBestGrid = styled.div`
 `;
 
 const MyBest50 = () => {
+  const [showAsRow, setShowAsRow] = useState(false);
+
   return (
     <>
-      <Typo h2>Recents</Typo>
-      <MyBestGrid>
-        {ratingsLatest.map((song, i) => (
-          <RecordSummary key={i} song={song} />
-        ))}
-      </MyBestGrid>
-      <Typo h2>Old</Typo>
-      <MyBestGrid>
-        {ratingsOld.map((song, i) => (
-          <RecordSummary key={i} song={song} />
-        ))}
-      </MyBestGrid>
+      <TitleRow>
+        <Typo h1 no-margin>
+          레이팅 대상곡
+        </Typo>
+        <div style={{ flex: 1 }} />
+        <Button circle transparent onClick={() => setShowAsRow(false)}>
+          <IconLayoutGrid />
+        </Button>
+        <Button circle transparent onClick={() => setShowAsRow(true)}>
+          <IconLayoutList />
+        </Button>
+      </TitleRow>
+      <Typo h2>최신곡</Typo>
+      {showAsRow ? (
+        ratingsLatest.map((song, i) => <RecordRow key={i} song={song} />)
+      ) : (
+        <MyBestGrid>
+          {ratingsLatest.map((song, i) => (
+            <RecordSummary key={i} song={song} />
+          ))}
+        </MyBestGrid>
+      )}
+      <Typo h2>구곡</Typo>
+      {showAsRow ? (
+        ratingsOld.map((song, i) => <RecordRow key={i} song={song} />)
+      ) : (
+        <MyBestGrid>
+          {ratingsOld.map((song, i) => (
+            <RecordSummary key={i} song={song} />
+          ))}
+        </MyBestGrid>
+      )}
     </>
   );
 };

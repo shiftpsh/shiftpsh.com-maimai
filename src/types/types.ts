@@ -105,7 +105,7 @@ export interface DxScore {
 export interface GameScore {
   clear: boolean;
   achievement: number;
-  rank: string;
+  rank: Rank;
   dxScore: DxScore;
   dxRank: number;
   combo: Combo;
