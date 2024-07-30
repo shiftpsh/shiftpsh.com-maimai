@@ -16,7 +16,7 @@
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
     "@floating-ui/react": "^0.26.20",
-    "@solved-ac/ui-react": "^0.6.4",
+    "@solved-ac/ui-react": "^0.7.0",
     "@tabler/icons-react": "^3.11.0",
     "framer-motion": "^11.3.19",
     "polished": "^4.3.1",
