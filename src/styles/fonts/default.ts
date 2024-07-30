@@ -1,6 +1,7 @@
 export const defaultFontArr = [
   "Pretendard JP Variable",
   "Pretendard JP",
+  "Pretendard Variable",
   "Pretendard",
   "Inter",
   "Noto Sans JP",

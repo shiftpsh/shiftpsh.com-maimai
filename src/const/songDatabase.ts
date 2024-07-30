@@ -86,14 +86,12 @@ const buildSongDb = () => {
   for (const record of records) {
     if (record.track.artist) {
       recordMap.set(recordKey(record.track), record);
-      console.log(recordKey(record.track));
     } else {
       const artist = metaWithoutArtistMap.get(
         metaKeyWithoutArtist(record.track)
       )?.artist;
       const key = recordKey({ ...record.track, artist });
       recordMap.set(key, record);
-      console.log(key);
     }
   }
 

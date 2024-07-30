@@ -1,27 +1,20 @@
-import styled from "@emotion/styled";
+import { Container, Space } from "@solved-ac/ui-react";
+import TopIcon from "./components/TopIcon";
 import { SONG_DATABASE } from "./const/songDatabase";
-import { wanpaku } from "./styles/fonts/wanpaku";
-
-const Test = styled.div`
-  ${wanpaku}
-`;
+import Profile from "./components/Profile";
 
 function App() {
+  const { profile } = SONG_DATABASE;
+
   return (
     <>
-      <Test>
-        {SONG_DATABASE.tracks
-          .filter((x) => x.internalLevel >= 130)
-          .sort((a, b) => a.internalLevel - b.internalLevel)
-          .map((song) => (
-            <div
-              key={`${song.title}:${song.difficulty}:${song.type}:${song.artist}`}
-            >
-              {song.title} ({song.internalLevel}
-              {song.internalLevelIsAccurate ? "" : "?"})
-            </div>
-          ))}
-      </Test>
+      <Container>
+        <Space h={60} />
+        <TopIcon />
+        <Space h={32} />
+        <Profile profile={profile} />
+        <Space h={32} />
+      </Container>
     </>
   );
 }
