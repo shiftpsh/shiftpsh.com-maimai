@@ -3,12 +3,9 @@ import { Typo } from "@solved-ac/ui-react";
 import { ellipsis } from "polished";
 import { SongDatabaseItemWithRecord } from "../../const/songDatabase";
 import { wanpaku } from "../../styles/fonts/wanpaku";
-import {
-  difficultyBackgroundColor,
-  difficultyBorderColor,
-} from "../../utils/difficulty";
-import { rankChipBackground } from "../../utils/rank";
+import { difficultyBackgroundColor } from "../../utils/difficulty";
 import LevelGradientText from "../LevelGradientText";
+import RankChip from "../RankChip";
 
 const MUSIC_DX_URL = "https://maimaidx-eng.com/maimai-mobile/img/music_dx.png";
 const MUSIC_STD_URL =
@@ -23,7 +20,7 @@ const RecordContainer = styled.div`
   gap: 8px 0;
 
   @media (max-width: 640px) {
-    grid-template-columns: 72px 48px 1em 4em 1fr;
+    grid-template-columns: 72px 48px 8px 4em 1fr;
   }
 `;
 
@@ -100,6 +97,14 @@ const AchievementContainer = styled.div`
   }
 `;
 
+const Rank = styled(RankChip)`
+  @media (max-width: 640px) {
+    grid-row: 2;
+    grid-column: 4;
+    font-size: 80%;
+  }
+`;
+
 const Rating = styled(Typo)`
   font-size: 80%;
   color: ${({ theme }) => theme.color.text.secondary.main};
@@ -114,20 +119,6 @@ const AchievementNumber = styled.span`
 
 const AchievementFraction = styled.span`
   font-size: 90%;
-`;
-
-const RankContainer = styled.div`
-  flex: 0 0 4em;
-  color: black;
-  padding: 0.1em 0.4em;
-  font-weight: 800;
-  text-align: center;
-
-  @media (max-width: 640px) {
-    grid-row: 2;
-    grid-column: 4;
-    font-size: 80%;
-  }
 `;
 
 interface Props {
@@ -170,14 +161,7 @@ const RecordSummary = ({ song }: Props) => {
           {artist}
         </Artist>
       </TitleContainer>
-      <RankContainer
-        style={{
-          background: rankChipBackground(rank),
-          borderColor: difficultyBorderColor(difficulty),
-        }}
-      >
-        {rank}
-      </RankContainer>
+      <Rank rank={rank} />
       <AchievementContainer>
         <AchievementNumber>
           {achievementWhole}.

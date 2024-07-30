@@ -1,10 +1,10 @@
 import styled from "@emotion/styled";
-import { SongDatabaseItemWithRecord } from "../../const/songDatabase";
-import LevelMarker from "./LevelMarker";
 import { ellipsis } from "polished";
-import { difficultyBorderColor } from "../../utils/difficulty";
+import { SongDatabaseItemWithRecord } from "../../const/songDatabase";
 import { wanpaku } from "../../styles/fonts/wanpaku";
-import { rankChipBackground } from "../../utils/rank";
+import { difficultyBorderColor } from "../../utils/difficulty";
+import RankChip from "../RankChip";
+import LevelMarker from "./LevelMarker";
 
 const MUSIC_DX_URL = "https://maimaidx-eng.com/maimai-mobile/img/music_dx.png";
 const MUSIC_STD_URL =
@@ -70,16 +70,12 @@ const AchievementContainer = styled(TitleContainer)`
   }
 `;
 
-const RankContainer = styled.div`
+const RankContainer = styled(RankChip)`
   position: absolute;
   top: 0.5em;
   right: 0.5em;
-  color: black;
-  padding: 0.2em 0.6em;
   font-size: 80%;
-  border-radius: 999px;
   font-weight: 800;
-  border: 1px solid;
 `;
 
 interface Props {
@@ -101,14 +97,7 @@ const RecordSummary = ({ song }: Props) => {
           src={`https://maimaidx-eng.com/maimai-mobile/img/Music/${jacketKey}.png`}
         />
         <Type src={type === "DX" ? MUSIC_DX_URL : MUSIC_STD_URL} alt={type} />
-        <RankContainer
-          style={{
-            background: rankChipBackground(rank),
-            borderColor: difficultyBorderColor(difficulty),
-          }}
-        >
-          {rank}
-        </RankContainer>
+        <RankContainer rank={rank} />
       </JacketContainer>
       <LevelMarkerContainer>
         <LevelMarker song={song} />
