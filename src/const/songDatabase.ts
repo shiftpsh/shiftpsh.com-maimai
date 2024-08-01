@@ -157,7 +157,7 @@ const buildSongDb = () => {
     return levels;
   });
 
-  return { profile, latestVersion, tracks: mergedTracks };
+  return { availableVersions, profile, latestVersion, tracks: mergedTracks };
 };
 
 export const SONG_DATABASE = buildSongDb();

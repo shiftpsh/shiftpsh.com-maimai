@@ -11,3 +11,10 @@ export const IconButton = styled(Button)`
   justify-content: center;
   padding: 8px;
 `;
+
+export const FilterIconButton = styled(IconButton)`
+  @media (max-width: 960px) {
+    height: 32px;
+    width: 32px;
+  }
+`;

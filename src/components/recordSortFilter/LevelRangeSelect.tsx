@@ -1,4 +1,7 @@
 import styled from "@emotion/styled";
+import { Typo } from "@solved-ac/ui-react";
+import { IconDots, IconReload } from "@tabler/icons-react";
+import { useState } from "react";
 import { Difficulty, DisplayLevel } from "../../types/types";
 import {
   difficultyBackgroundColor,
@@ -7,10 +10,7 @@ import {
 import { Filter } from "../../utils/filterAndSort/types";
 import { displayLevelRange } from "../../utils/level";
 import { GradientText } from "../GradientText";
-import { IconButton } from "../IconButton";
-import { IconDots, IconX } from "@tabler/icons-react";
-import { Typo } from "@solved-ac/ui-react";
-import { useState } from "react";
+import { FilterIconButton } from "../IconButton";
 
 const levelRange = (level: string): [number, number] => {
   if (level.startsWith("~")) {
@@ -62,23 +62,7 @@ const LEVELS = [
   "15",
 ];
 
-const LEVELS_COARSE = [
-  "~11+",
-  "12",
-  "12+",
-  "13",
-  "13+",
-  "14",
-  "14+",
-  "15",
-];
-
-const LevelButton = styled(IconButton)`
-  @media (max-width: 960px) {
-    height: 32px;
-    width: 32px;
-  }
-`;
+const LEVELS_COARSE = ["~11+", "12", "12+", "13", "13+", "14", "14+", "15"];
 
 const LevelsRow = styled.div`
   display: grid;
@@ -155,7 +139,7 @@ const LevelRangeSelect = ({ filter, onFilterChange }: Props) => {
         );
 
         return (
-          <LevelButton
+          <FilterIconButton
             key={lv}
             onClick={() => handleButtonClick(lv)}
             style={{
@@ -171,17 +155,17 @@ const LevelRangeSelect = ({ filter, onFilterChange }: Props) => {
             ) : (
               levelRender
             )}
-          </LevelButton>
+          </FilterIconButton>
         );
       })}
-      <LevelButton
+      <FilterIconButton
         onClick={() => onFilterChange({ ...filter, level: [0, 155] })}
       >
-        <IconX />
-      </LevelButton>
-      <LevelButton onClick={() => setCoarse((prev) => !prev)}>
+        <IconReload />
+      </FilterIconButton>
+      <FilterIconButton onClick={() => setCoarse((prev) => !prev)}>
         <IconDots />
-      </LevelButton>
+      </FilterIconButton>
     </LevelsRow>
   );
 };

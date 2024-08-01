@@ -14,6 +14,7 @@ import { SORT_CRITERIAS } from "../../utils/filterAndSort/sort";
 import { Filter, RecordSortObject } from "../../utils/filterAndSort/types";
 import { IconButton } from "../IconButton";
 import LevelRangeSelect from "./LevelRangeSelect";
+import VersionSelect from "./VersionSelect";
 
 const StickToTop = styled(motion.div)`
   position: sticky;
@@ -92,7 +93,8 @@ const RecordSortFilter = ({
 
   useEffect(() => {
     const observer = new IntersectionObserver(
-      ([e]) => setStuck(e.intersectionRatio < 1),
+      ([e]) =>
+        setStuck(e.intersectionRatio < 1 && e.boundingClientRect.top < 0),
       { threshold: [1] }
     );
 
@@ -208,6 +210,17 @@ const RecordSortFilter = ({
         >
           <CaptionFilter>레벨</CaptionFilter>
           <LevelRangeSelect filter={filter} onFilterChange={onFilterChange} />
+        </FiltersRow>
+        <FiltersRow
+          animate={{
+            opacity: showControls ? 1 : 0,
+          }}
+          style={{
+            pointerEvents: showControls ? "all" : "none",
+          }}
+        >
+          <CaptionFilter>버전</CaptionFilter>
+          <VersionSelect filter={filter} onFilterChange={onFilterChange} />
         </FiltersRow>
       </Filters>
     </StickToTop>
