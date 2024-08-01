@@ -1,15 +1,15 @@
 {
   "profile": {
     "name": "ｓｏｌｖｅｄａｃ",
-    "rating": 15604,
+    "rating": 15640,
     "profileImageSrc": "https://maimaidx-eng.com/maimai-mobile/img/Icon/b2afde62b4da3e48.png",
     "trophy": {
       "tier": "Normal",
       "title": "PLAY LIKE YOU NEVER DID BEFORE"
     },
     "courseRank": 0,
-    "classRank": 6,
-    "stars": 876
+    "classRank": 7,
+    "stars": 877
   },
   "records": [
     {
@@ -8160,14 +8160,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1008394,
+        "achievement": 1008768,
         "rank": "SSS+",
         "dxScore": {
-          "score": 2511,
+          "score": 2559,
           "max": 2709,
-          "percentage": 92.69102990033223
+          "percentage": 94.46290143964563
         },
-        "dxRank": 2,
+        "dxRank": 3,
         "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
@@ -14028,7 +14028,7 @@
           "percentage": 92.87531806615776
         },
         "dxRank": 2,
-        "combo": null,
+        "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
     },
@@ -17074,6 +17074,26 @@
     },
     {
       "track": {
+        "title": "Edelweiss",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1007111,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2323,
+          "max": 2523,
+          "percentage": 92.07292905271503
+        },
+        "dxRank": 2,
+        "combo": "FULL COMBO",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "フェイクフェイス・フェイルセイフ",
         "type": "DX",
         "difficulty": "MASTER"
@@ -19520,8 +19540,8 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1003078,
-        "rank": "SSS",
+        "achievement": 1005556,
+        "rank": "SSS+",
         "dxScore": {
           "score": 2817,
           "max": 3123,
