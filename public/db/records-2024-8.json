@@ -7,9 +7,9 @@
       "tier": "Normal",
       "title": "PLAY LIKE YOU NEVER DID BEFORE"
     },
-    "courseRank": 0,
+    "courseRank": 15,
     "classRank": 7,
-    "stars": 879
+    "stars": 882
   },
   "records": [
     {
@@ -5880,14 +5880,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 983296,
-        "rank": "S+",
+        "achievement": 1006231,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 1924,
+          "score": 2053,
           "max": 2244,
-          "percentage": 85.73975044563281
+          "percentage": 91.48841354723707
         },
-        "dxRank": 1,
+        "dxRank": 2,
         "combo": null,
         "sync": null
       }
@@ -12554,6 +12554,26 @@
     },
     {
       "track": {
+        "title": "大輪の魂 (feat. AO, 司芭扶)",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1008270,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2197,
+          "max": 2328,
+          "percentage": 94.37285223367698
+        },
+        "dxRank": 3,
+        "combo": "FULL COMBO+",
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "物凄いヴァイブスで魔理沙が物凄いラップ",
         "type": "DX",
         "difficulty": "MASTER"
@@ -15500,12 +15520,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 935849,
-        "rank": "AA",
+        "achievement": 985569,
+        "rank": "S+",
         "dxScore": {
-          "score": 2503,
+          "score": 2808,
           "max": 3333,
-          "percentage": 75.0975097509751
+          "percentage": 84.24842484248425
         },
         "dxRank": 0,
         "combo": null,
@@ -16080,12 +16100,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1001999,
+        "achievement": 1003666,
         "rank": "SSS",
         "dxScore": {
-          "score": 1748,
+          "score": 1809,
           "max": 2028,
-          "percentage": 86.19329388560158
+          "percentage": 89.20118343195266
         },
         "dxRank": 1,
         "combo": null,
@@ -17280,14 +17300,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 995751,
+        "achievement": 998873,
         "rank": "SS+",
         "dxScore": {
-          "score": 2012,
+          "score": 2065,
           "max": 2238,
-          "percentage": 89.90169794459338
+          "percentage": 92.26988382484362
         },
-        "dxRank": 1,
+        "dxRank": 2,
         "combo": null,
         "sync": null
       }
@@ -22683,9 +22703,9 @@
         "achievement": 994648,
         "rank": "SS",
         "dxScore": {
-          "score": 2677,
+          "score": 2695,
           "max": 2964,
-          "percentage": 90.31713900134952
+          "percentage": 90.92442645074223
         },
         "dxRank": 2,
         "combo": null,
@@ -25640,12 +25660,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 985520,
+        "achievement": 985718,
         "rank": "S+",
         "dxScore": {
-          "score": 1951,
+          "score": 1965,
           "max": 2256,
-          "percentage": 86.48049645390071
+          "percentage": 87.10106382978722
         },
         "dxRank": 1,
         "combo": null,
