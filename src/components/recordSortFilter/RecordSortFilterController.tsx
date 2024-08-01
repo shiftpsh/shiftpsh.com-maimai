@@ -2,41 +2,41 @@ import styled from "@emotion/styled";
 import { Select } from "@solved-ac/ui-react";
 import {
   IconArrowUp,
+  IconFilterCheck,
+  IconFilterPlus,
   IconSortAscending,
   IconSortDescending,
 } from "@tabler/icons-react";
 import { motion } from "framer-motion";
-import { transparentize } from "polished";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { ellipsis, transparentize } from "polished";
+import { useEffect, useRef, useState } from "react";
 import { SORT_CRITERIAS } from "../../utils/filterAndSort/sort";
 import { Filter, RecordSortObject } from "../../utils/filterAndSort/types";
-import { throttle } from "../../utils/throttle";
 import { IconButton } from "../IconButton";
 import LevelRangeSelect from "./LevelRangeSelect";
 
-interface StuckProps {
-  stuck: boolean;
-}
-
 const StickToTop = styled(motion.div)`
   position: sticky;
-  top: 0;
+  /* Hack to get IntersetionObserver to work */
+  top: -1px;
   z-index: 100;
   padding: 8px 0;
 `;
 
-const Filters = styled(motion.div)<StuckProps>`
+const Filters = styled(motion.div)`
   pointer-events: all;
   display: flex;
   flex-direction: column;
   gap: 8px;
-  padding: ${({ stuck }) => (stuck ? "8px 16px" : "8px 0")};
+  padding: 8px 0;
 `;
 
 const FiltersBackground = styled(motion.div)`
   position: absolute;
   top: 8px;
   backdrop-filter: blur(4px);
+  box-shadow: ${({ theme }) => theme.styles.shadow()};
+  border-radius: 8px;
 `;
 
 const FiltersRow = styled(motion.div)`
@@ -44,17 +44,28 @@ const FiltersRow = styled(motion.div)`
   display: flex;
   gap: 8px;
   align-items: center;
+  @media (max-width: 640px) {
+    flex-wrap: wrap;
+  }
 `;
 
 const FiltersTopRow = styled(FiltersRow)`
   height: 56px;
 `;
 
-const Caption = styled.div`
+const Caption = styled(motion.div)`
+  ${ellipsis()}
   flex: 0 0 5em;
   min-width: 0;
   color: ${({ theme }) => theme.color.text.secondary.main};
   font-weight: 600;
+`;
+
+const CaptionFilter = styled(Caption)`
+  ${ellipsis()}
+  @media (max-width: 640px) {
+    flex: 0 0 100%;
+  }
 `;
 
 interface Props {
@@ -71,49 +82,68 @@ const RecordSortFilter = ({
   onFilterChange,
 }: Props) => {
   const [stuck, setStuck] = useState(false);
-  const [open /*, setOpen*/] = useState(false);
+  const [open, setOpen] = useState(false);
+
+  const [savedStickRefWidth, setSavedStickRefWidth] = useState(0);
 
   const stickRef = useRef<HTMLDivElement>(null);
 
   const showControls = open || !stuck;
 
-  const throttledUpdateStuck = useMemo(
-    () =>
-      throttle(() => {
-        if (stickRef.current) {
-          const newStuck = stickRef.current.getBoundingClientRect().top <= 0;
-          setStuck(newStuck);
-        }
-      }, 200),
-    []
-  );
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([e]) => setStuck(e.intersectionRatio < 1),
+      { threshold: [1] }
+    );
+
+    if (stickRef.current) {
+      observer.observe(stickRef.current);
+      return () => observer.disconnect();
+    }
+  }, []);
 
   useEffect(() => {
-    window.addEventListener("scroll", throttledUpdateStuck);
-    return () => {
-      window.removeEventListener("scroll", throttledUpdateStuck);
-    };
-  }, [throttledUpdateStuck]);
+    const observer = new ResizeObserver(([e]) => {
+      const { width } = e.contentRect;
+      setSavedStickRefWidth(width);
+    });
+    if (stickRef.current) {
+      observer.observe(stickRef.current);
+      return () => observer.disconnect();
+    }
+  });
 
   return (
-    <StickToTop ref={stickRef} layout layoutRoot>
+    <StickToTop ref={stickRef}>
       <FiltersBackground
         animate={{
+          opacity: stuck ? 1 : 0,
           left: stuck ? 8 : 0,
           right: stuck ? 8 : 0,
           top: 8,
           bottom: stuck ? 8 : "unset",
-          height: stuck ? 72 : "calc(100% - 16px)",
-          backgroundColor: stuck ? transparentize(0.1, "white") : "white",
-          borderRadius: stuck ? 8 : 0,
-          boxShadow: stuck
-            ? "0px 4px 8px rgba(0, 0, 0, 0.1)"
-            : "0px 4px 8px rgba(0, 0, 0, 0)",
+          height: showControls ? "calc(100% - 16px)" : 72,
+          backgroundColor: stuck ? transparentize(0.1, "white") : "#fff",
         }}
       />
-      <Filters stuck={stuck} layout>
+      <Filters
+        layout
+        animate={{
+          x: stuck ? 8 : 0,
+          paddingLeft: stuck ? 8 : 0,
+          paddingRight: stuck ? 8 : 0,
+          width: stuck ? savedStickRefWidth - 16 : savedStickRefWidth,
+        }}
+      >
         <FiltersTopRow layout>
-          <Caption>정렬</Caption>
+          <Caption
+            animate={{
+              opacity: stuck ? 0 : 1,
+              flex: stuck ? 0 : "0 0 5em",
+            }}
+          >
+            정렬
+          </Caption>
           <Select
             value={sort.sort.name}
             items={SORT_CRITERIAS.map((x) => ({
@@ -146,6 +176,21 @@ const RecordSortFilter = ({
             )}
           </IconButton>
           <div style={{ flex: 1 }} />
+          {stuck && (
+            <IconButton
+              as={motion.button}
+              animate={{
+                opacity: stuck ? 1 : 0,
+              }}
+              onClick={() => {
+                setOpen((p) => !p);
+              }}
+              circle
+              transparent
+            >
+              {open ? <IconFilterCheck /> : <IconFilterPlus />}
+            </IconButton>
+          )}
           <IconButton
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             circle
@@ -163,7 +208,7 @@ const RecordSortFilter = ({
             pointerEvents: showControls ? "all" : "none",
           }}
         >
-          <Caption>레벨</Caption>
+          <CaptionFilter>레벨</CaptionFilter>
           <LevelRangeSelect filter={filter} onFilterChange={onFilterChange} />
         </FiltersRow>
       </Filters>
