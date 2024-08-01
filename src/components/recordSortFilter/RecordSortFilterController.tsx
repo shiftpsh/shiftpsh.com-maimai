@@ -30,6 +30,7 @@ const Filters = styled(motion.div)`
   flex-direction: column;
   gap: 8px;
   padding: 8px 0;
+  max-width: 100%;
 `;
 
 const FiltersBackground = styled(motion.div)`

@@ -70,7 +70,8 @@ const LevelsRow = styled.div`
   gap: 8px;
 
   @media (max-width: 640px) {
-    grid-template-columns: repeat(6, 1fr);
+    display: flex;
+    flex-wrap: wrap;
   }
 `;
 

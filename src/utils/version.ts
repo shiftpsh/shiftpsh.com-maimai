@@ -34,9 +34,9 @@ export const versionKanjiName = (version: number) => {
 };
 
 export const versionBackgroundColor = (version: number): string => {
-  if (version === -1) return "#ff4f4c";
+  if (version === -1) return versionBackgroundColor(latestVersion);
   if (version === -2) return versionBackgroundColor(latestVersion);
-  if (version === -3) return "#09c8fd";
+  if (version === -3) return "#a9aeaf";
   if (version <= 1) return "#2b8791";
   if (version <= 3) return "#b5db01";
   if (version <= 5) return "#ff6809";
