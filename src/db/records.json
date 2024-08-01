@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "ｓｏｌｖｅｄａｃ",
-    "rating": 15640,
+    "rating": 15645,
     "profileImageSrc": "https://maimaidx-eng.com/maimai-mobile/img/Icon/b2afde62b4da3e48.png",
     "trophy": {
       "tier": "Normal",
@@ -9,7 +9,7 @@
     },
     "courseRank": 0,
     "classRank": 7,
-    "stars": 877
+    "stars": 879
   },
   "records": [
     {
@@ -19240,12 +19240,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1004288,
-        "rank": "SSS",
+        "achievement": 1005363,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 2601,
+          "score": 2630,
           "max": 2859,
-          "percentage": 90.97586568730324
+          "percentage": 91.99020636586219
         },
         "dxRank": 2,
         "combo": "FULL COMBO",
@@ -20374,6 +20374,26 @@
     },
     {
       "track": {
+        "title": "Sage",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 981558,
+        "rank": "S+",
+        "dxScore": {
+          "score": 2592,
+          "max": 3036,
+          "percentage": 85.37549407114624
+        },
+        "dxRank": 1,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "Metamorphosism",
         "type": "DX",
         "difficulty": "MASTER"
@@ -20426,6 +20446,26 @@
           "score": 2405,
           "max": 2889,
           "percentage": 83.24679820006922
+        },
+        "dxRank": 0,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "7thSense",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 987748,
+        "rank": "S+",
+        "dxScore": {
+          "score": 2149,
+          "max": 2577,
+          "percentage": 83.39154055102833
         },
         "dxRank": 0,
         "combo": null,
@@ -20660,14 +20700,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 994415,
-        "rank": "SS",
+        "achievement": 998785,
+        "rank": "SS+",
         "dxScore": {
-          "score": 2240,
+          "score": 2288,
           "max": 2520,
-          "percentage": 88.88888888888889
+          "percentage": 90.7936507936508
         },
-        "dxRank": 1,
+        "dxRank": 2,
         "combo": null,
         "sync": "SYNC PLAY"
       }
