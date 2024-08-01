@@ -118,6 +118,12 @@ const RecordSortFilter = ({
   return (
     <StickToTop ref={stickRef}>
       <FiltersBackground
+        initial={{
+          opacity: 0,
+          left: 0,
+          right: 0,
+          top: 8,
+        }}
         animate={{
           opacity: stuck ? 1 : 0,
           left: stuck ? 8 : 0,
@@ -129,6 +135,9 @@ const RecordSortFilter = ({
         }}
       />
       <Filters
+        initial={{
+          width: "100%",
+        }}
         animate={{
           x: stuck ? 8 : 0,
           paddingLeft: stuck ? 8 : 0,
@@ -138,6 +147,10 @@ const RecordSortFilter = ({
       >
         <FiltersTopRow>
           <Caption
+            initial={{
+              opacity: 1,
+              flex: "0 0 5em",
+            }}
             animate={{
               opacity: stuck ? 0 : 1,
               flex: stuck ? 0 : "0 0 5em",
@@ -178,27 +191,29 @@ const RecordSortFilter = ({
           </IconButton>
           <div style={{ flex: 1 }} />
           {stuck && (
-            <IconButton
-              as={motion.button}
-              animate={{
-                opacity: stuck ? 1 : 0,
-              }}
-              onClick={() => {
-                setOpen((p) => !p);
-              }}
-              circle
-              transparent
-            >
-              {open ? <IconFilterCheck /> : <IconFilterPlus />}
-            </IconButton>
+            <>
+              <IconButton
+                as={motion.button}
+                animate={{
+                  opacity: stuck ? 1 : 0,
+                }}
+                onClick={() => {
+                  setOpen((p) => !p);
+                }}
+                circle
+                transparent
+              >
+                {open ? <IconFilterCheck /> : <IconFilterPlus />}
+              </IconButton>
+              <IconButton
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                circle
+                transparent
+              >
+                <IconArrowUp />
+              </IconButton>
+            </>
           )}
-          <IconButton
-            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            circle
-            transparent
-          >
-            <IconArrowUp />
-          </IconButton>
         </FiltersTopRow>
         <FiltersRow
           animate={{
