@@ -11,6 +11,8 @@ import ComboChip from "../chip/ComboChip";
 import DxRankChip from "../chip/DxRankChip";
 import RankChip from "../chip/RankChip";
 import SyncChip from "../chip/SyncChip";
+import { ratingsLatest, ratingsOld } from "../../const/bestRatings";
+import { IconMusicStar } from "@tabler/icons-react";
 
 const MUSIC_DX_URL = "https://maimaidx-eng.com/maimai-mobile/img/music_dx.png";
 const MUSIC_STD_URL =
@@ -63,6 +65,12 @@ const Jacket = styled.img`
 const Type = styled.img`
   display: block;
   height: 1em;
+`;
+
+const TypeContainer = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 4px;
 `;
 
 const TitleContainer = styled.div`
@@ -199,6 +207,22 @@ const RecordSummary = ({ song, mode = "rating" }: Props) => {
 
   const dxNext = dxScore && dxScoreClosestNextBorder(dxScore);
 
+  const latestIndex = ratingsLatest.findIndex(
+    (x) =>
+      x.title === song.title &&
+      x.difficulty === song.difficulty &&
+      x.artist === song.artist &&
+      x.type === song.type
+  );
+
+  const oldIndex = ratingsOld.findIndex(
+    (x) =>
+      x.title === song.title &&
+      x.difficulty === song.difficulty &&
+      x.artist === song.artist &&
+      x.type === song.type
+  );
+
   return (
     <RecordContainer>
       <Jacket
@@ -216,9 +240,29 @@ const RecordSummary = ({ song, mode = "rating" }: Props) => {
         />
       </LevelIndicator>
       <TitleContainer>
-        <div>
+        <TypeContainer>
           <Type src={type === "DX" ? MUSIC_DX_URL : MUSIC_STD_URL} alt={type} />
-        </div>
+          {latestIndex !== -1 && (
+            <>
+              <Typo warn small>
+                <IconMusicStar size="1em" />
+              </Typo>
+              <Typo warn small>
+                <b>NEW #{latestIndex + 1}</b>
+              </Typo>
+            </>
+          )}
+          {oldIndex !== -1 && (
+            <>
+              <Typo error small>
+                <IconMusicStar size="1em" />
+              </Typo>
+              <Typo error small>
+                <b>OLD #{oldIndex + 1}</b>
+              </Typo>
+            </>
+          )}
+        </TypeContainer>
         <Title>{title}</Title>
         <Artist description small ellipsis>
           {artist}
