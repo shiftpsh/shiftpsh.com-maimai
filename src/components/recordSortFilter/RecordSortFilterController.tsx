@@ -127,7 +127,6 @@ const RecordSortFilter = ({
         }}
       />
       <Filters
-        layout
         animate={{
           x: stuck ? 8 : 0,
           paddingLeft: stuck ? 8 : 0,
@@ -135,7 +134,7 @@ const RecordSortFilter = ({
           width: stuck ? savedStickRefWidth - 16 : savedStickRefWidth,
         }}
       >
-        <FiltersTopRow layout>
+        <FiltersTopRow>
           <Caption
             animate={{
               opacity: stuck ? 0 : 1,
@@ -200,7 +199,6 @@ const RecordSortFilter = ({
           </IconButton>
         </FiltersTopRow>
         <FiltersRow
-          layout
           animate={{
             opacity: showControls ? 1 : 0,
           }}
