@@ -5234,6 +5234,26 @@
     },
     {
       "track": {
+        "title": "mystique as iris",
+        "type": "DX",
+        "difficulty": "EXPERT"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1008148,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2064,
+          "max": 2226,
+          "percentage": 92.72237196765498
+        },
+        "dxRank": 2,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "TEmPTaTiON",
         "type": "DX",
         "difficulty": "EXPERT"
@@ -17094,6 +17114,26 @@
     },
     {
       "track": {
+        "title": "QuiQ",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": false,
+        "achievement": 531820,
+        "rank": "C",
+        "dxScore": {
+          "score": 1665,
+          "max": 3324,
+          "percentage": 50.09025270758123
+        },
+        "dxRank": 0,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "フェイクフェイス・フェイルセイフ",
         "type": "DX",
         "difficulty": "MASTER"
@@ -19594,6 +19634,26 @@
     },
     {
       "track": {
+        "title": "VeRForTe αRtE:VEiN",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 979862,
+        "rank": "S",
+        "dxScore": {
+          "score": 2678,
+          "max": 3192,
+          "percentage": 83.89724310776943
+        },
+        "dxRank": 0,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "Churros Parlor",
         "type": "DX",
         "difficulty": "MASTER"
@@ -19908,6 +19968,26 @@
           "percentage": 91.8109668109668
         },
         "dxRank": 2,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "mystique as iris",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 982668,
+        "rank": "S+",
+        "dxScore": {
+          "score": 2935,
+          "max": 3501,
+          "percentage": 83.83319051699515
+        },
+        "dxRank": 0,
         "combo": null,
         "sync": null
       }
@@ -20460,12 +20540,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 991433,
+        "achievement": 992922,
         "rank": "SS",
         "dxScore": {
-          "score": 2871,
+          "score": 2889,
           "max": 3318,
-          "percentage": 86.52802893309223
+          "percentage": 87.07052441229656
         },
         "dxRank": 1,
         "combo": null,
@@ -22203,9 +22283,9 @@
         "achievement": 1000159,
         "rank": "SSS",
         "dxScore": {
-          "score": 2740,
+          "score": 2769,
           "max": 3186,
-          "percentage": 86.00125549278091
+          "percentage": 86.91148775894538
         },
         "dxRank": 1,
         "combo": "FULL COMBO",
@@ -23480,12 +23560,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 999489,
-        "rank": "SS+",
+        "achievement": 1000973,
+        "rank": "SSS",
         "dxScore": {
-          "score": 2841,
+          "score": 2848,
           "max": 3141,
-          "percentage": 90.44890162368672
+          "percentage": 90.6717605858007
         },
         "dxRank": 2,
         "combo": null,
@@ -25763,11 +25843,11 @@
         "achievement": 1006020,
         "rank": "SSS+",
         "dxScore": {
-          "score": 2692,
+          "score": 2696,
           "max": 2895,
-          "percentage": 92.98791018998273
+          "percentage": 93.12607944732298
         },
-        "dxRank": 2,
+        "dxRank": 3,
         "combo": null,
         "sync": "SYNC PLAY"
       }
