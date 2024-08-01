@@ -1,13 +1,14 @@
 import styled from "@emotion/styled";
+import { Typo } from "@solved-ac/ui-react";
+import { IconLayoutGrid, IconLayoutList } from "@tabler/icons-react";
+import { useState } from "react";
 import {
   SONG_DATABASE,
   SongDatabaseItemWithRecord,
 } from "../const/songDatabase";
-import { Button, Typo } from "@solved-ac/ui-react";
-import RecordSummary from "./recordSummary/RecordSummary";
-import { useState } from "react";
-import { IconLayoutGrid, IconLayoutList } from "@tabler/icons-react";
+import { IconButton } from "./IconButton";
 import RecordRow from "./recordRow/RecordRow";
+import RecordSummary from "./recordSummary/RecordSummary";
 
 const { tracks, latestVersion } = SONG_DATABASE;
 
@@ -57,12 +58,12 @@ const MyBest50 = () => {
           레이팅 대상곡
         </Typo>
         <div style={{ flex: 1 }} />
-        <Button circle transparent onClick={() => setShowAsRow(false)}>
+        <IconButton circle transparent onClick={() => setShowAsRow(false)}>
           <IconLayoutGrid />
-        </Button>
-        <Button circle transparent onClick={() => setShowAsRow(true)}>
+        </IconButton>
+        <IconButton circle transparent onClick={() => setShowAsRow(true)}>
           <IconLayoutList />
-        </Button>
+        </IconButton>
       </TitleRow>
       <Typo h2>최신곡</Typo>
       {showAsRow ? (

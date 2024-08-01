@@ -65,7 +65,7 @@ export type Rank =
   | "D"
   | "E";
 
-export type DxRank = 6 | 5.5 | 5 | 4 | 3 | 2 | 1 | 0;
+export type DxRank = 7 | 6 | 5.5 | 5 | 4 | 3 | 2 | 1 | 0;
 
 export type TrophyTier = "Normal" | "Bronze" | "Silver" | "Gold" | "Rainbow";
 
@@ -107,7 +107,7 @@ export interface GameScore {
   achievement: number;
   rank: Rank;
   dxScore: DxScore;
-  dxRank: number;
+  dxRank: DxRank;
   combo: Combo;
   sync: Sync;
 }

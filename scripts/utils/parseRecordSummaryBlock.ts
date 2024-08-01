@@ -6,6 +6,7 @@ import {
   RecordSummary,
   TrackInternalRecord,
 } from "../../src/types/types";
+import { dxScoreRank } from "../../src/utils/dxScore";
 import {
   parseChartTypeTextImgUrl,
   parseComboIcnImgUrl,
@@ -13,7 +14,6 @@ import {
   parseSyncIcnImgUrl,
 } from "./parseImageUrl";
 import {
-  dxScoreRank,
   isTrackClear,
   parseAchievement,
   parseDxScore,

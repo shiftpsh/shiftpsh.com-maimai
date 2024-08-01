@@ -1,4 +1,4 @@
-import { DxRank, DxScore, Rank } from "../../src/types/types";
+import { DxScore, Rank } from "../../src/types/types";
 
 export const parseAchievement = (achievement: string): number => {
   return Math.round(+achievement.replace(/[% ]/g, "") * 1e4);
@@ -37,15 +37,4 @@ export const scoreRank = (achievement: number): Rank => {
 
 export const isTrackClear = (achievement: number) => {
   return achievement >= 80.0e4;
-};
-
-export const dxScoreRank = ({ score, max }: DxScore): DxRank => {
-  if (score * 100 >= max * 99) return 6;
-  if (score * 100 >= max * 98) return 5.5;
-  if (score * 100 >= max * 97) return 5;
-  if (score * 100 >= max * 95) return 4;
-  if (score * 100 >= max * 93) return 3;
-  if (score * 100 >= max * 90) return 2;
-  if (score * 100 >= max * 85) return 2;
-  return 0;
 };

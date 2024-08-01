@@ -1,6 +1,7 @@
 import parse, { HTMLElement } from "node-html-parser";
-import { segaAxios } from "../axios";
 import { RecordSummary, TrackRecent } from "../../src/types/types";
+import { dxScoreRank } from "../../src/utils/dxScore";
+import { segaAxios } from "../axios";
 import {
   parseChartTypeTextImgUrl,
   parseComboTextImgUrl,
@@ -8,7 +9,6 @@ import {
   parseSyncTextImgUrl,
 } from "../utils/parseImageUrl";
 import {
-  dxScoreRank,
   isTrackClear,
   parseAchievement,
   parseDxScore,

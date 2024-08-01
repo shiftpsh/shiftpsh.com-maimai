@@ -13,14 +13,13 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
 const SyncChip = forwardRef(
   ({ sync, ...rest }: Props, ref?: ForwardedRef<HTMLDivElement>) => {
     const plus = (sync || "").endsWith("+");
-    const syncWithoutPlus = plus ? (sync || "").slice(0, -1) : sync;
-    const syncShort =
-      sync === "SYNC PLAY"
-        ? "SYNC"
-        : (syncWithoutPlus || "")
-            .split(" ")
-            .map((x) => x[0])
-            .join("");
+    const syncWithoutPlus = sync?.startsWith("FULL SYNC DX")
+      ? "FDX"
+      : sync?.startsWith("FULL SYNC")
+      ? "FS"
+      : sync?.startsWith("SYNC")
+      ? "SYNC"
+      : null;
     const gradient = sync?.startsWith("FULL SYNC DX")
       ? FSD_GRADIENT
       : FS_GRADIENT;
@@ -41,7 +40,7 @@ const SyncChip = forwardRef(
             fontSize: sync === "SYNC PLAY" ? "80%" : undefined,
           }}
         >
-          <ChipText gradient={gradient}>{syncShort}</ChipText>
+          <ChipText gradient={gradient}>{syncWithoutPlus}</ChipText>
           {plus && (
             <ChipTextSup>
               <ChipText gradient={gradient}>+</ChipText>

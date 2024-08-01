@@ -15,3 +15,11 @@ export const comboChipBackground = (combo: Combo) => {
   }
   return "transparent";
 };
+
+export const comboSortWeight = (combo: Combo) => {
+  if (combo === "ALL PERFECT+") return 4;
+  if (combo === "ALL PERFECT") return 3;
+  if (combo === "FULL COMBO+") return 2;
+  if (combo === "FULL COMBO") return 1;
+  return 0;
+};

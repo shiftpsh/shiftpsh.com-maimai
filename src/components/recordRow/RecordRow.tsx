@@ -1,13 +1,16 @@
 import styled from "@emotion/styled";
 import { Typo } from "@solved-ac/ui-react";
 import { ellipsis } from "polished";
-import { SongDatabaseItemWithRecord } from "../../const/songDatabase";
+import { SongDatabaseItem } from "../../const/songDatabase";
+import { defaultFont } from "../../styles/fonts/default";
 import { wanpaku } from "../../styles/fonts/wanpaku";
 import { difficultyBackgroundColor } from "../../utils/difficulty";
+import { dxScoreClosestNextBorder } from "../../utils/dxScore";
 import LevelGradientText from "../LevelGradientText";
+import ComboChip from "../chip/ComboChip";
+import DxRankChip from "../chip/DxRankChip";
 import RankChip from "../chip/RankChip";
 import SyncChip from "../chip/SyncChip";
-import ComboChip from "../chip/ComboChip";
 
 const MUSIC_DX_URL = "https://maimaidx-eng.com/maimai-mobile/img/music_dx.png";
 const MUSIC_STD_URL =
@@ -112,6 +115,14 @@ const Rank = styled(RankChip)`
   }
 `;
 
+const DxRank = styled(DxRankChip)`
+  @media (max-width: 800px) {
+    grid-row: 2;
+    grid-column: 3;
+    font-size: 80%;
+  }
+`;
+
 const Combo = styled(ComboChip)`
   @media (max-width: 800px) {
     grid-row: 2;
@@ -136,28 +147,54 @@ const Rating = styled(Typo)`
 const AchievementNumber = styled.span`
   ${wanpaku}
   display: flex;
+  flex: 0 0 5.5em;
   align-items: baseline;
-  justify-content: space-between;
+  justify-content: flex-end;
 `;
 
 const AchievementFraction = styled.span`
   font-size: 90%;
 `;
 
+const AchievementDescription = styled.span`
+  font-family: ${defaultFont};
+  font-weight: normal;
+  font-size: 1rem;
+  padding-right: 0.5em;
+`;
+
 interface Props {
-  song: SongDatabaseItemWithRecord;
+  song: SongDatabaseItem;
+  mode?: "rating" | "dx-percent" | "dx-border";
 }
 
-const RecordSummary = ({ song }: Props) => {
+const RecordSummary = ({ song, mode = "rating" }: Props) => {
   const { jacketKey, type, difficulty, title, artist, record } = song;
-  const { achievement, rank, combo, sync, rating } = record;
+  const {
+    achievement = 0,
+    rank,
+    combo = null,
+    sync = null,
+    rating = 0,
+    dxRank = 0 as const,
+    dxScore = null,
+  } = record || {};
 
-  const [achievementWhole, achievementFraction] = (achievement / 10000)
+  const [achievementWhole, achievementFraction] = ((achievement || 0) / 10000)
     .toLocaleString(undefined, {
       minimumFractionDigits: 4,
       maximumFractionDigits: 4,
     })
     .split(".");
+
+  const [dxWhole, dxFraction] = (dxScore?.percentage || 0)
+    .toLocaleString(undefined, {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2,
+    })
+    .split(".");
+
+  const dxNext = dxScore && dxScoreClosestNextBorder(dxScore);
 
   return (
     <RecordContainer>
@@ -184,21 +221,60 @@ const RecordSummary = ({ song }: Props) => {
           {artist}
         </Artist>
       </TitleContainer>
-      <Rank rank={rank} />
-      <Combo combo={combo} />
-      <Sync sync={sync} />
-      <AchievementContainer>
-        <AchievementNumber>
-          {achievementWhole}.
-          <AchievementFraction>{achievementFraction}%</AchievementFraction>
-        </AchievementNumber>
-        <Rating tabular>
-          {rating.toLocaleString(undefined, {
-            minimumFractionDigits: 2,
-            maximumFractionDigits: 2,
-          })}
-        </Rating>
-      </AchievementContainer>
+      {rank ? (
+        <>
+          {mode.startsWith("dx") ? (
+            <DxRank rank={dxRank} />
+          ) : (
+            <Rank rank={rank} />
+          )}
+          <Combo combo={combo} />
+          <Sync sync={sync} />
+          <AchievementContainer>
+            <AchievementNumber>
+              {mode === "rating" && (
+                <>
+                  {achievementWhole}.
+                  <AchievementFraction>
+                    {achievementFraction}%
+                  </AchievementFraction>
+                </>
+              )}
+              {mode === "dx-percent" && (
+                <>
+                  {dxWhole}.
+                  <AchievementFraction>{dxFraction}%</AchievementFraction>
+                </>
+              )}
+              {mode === "dx-border" && (
+                <>
+                  <AchievementDescription>
+                    <Typo description>✦{dxNext?.nextBorder}</Typo>
+                  </AchievementDescription>
+                  &minus;
+                  {dxNext?.scoreUntilNextBorder}
+                </>
+              )}
+            </AchievementNumber>
+            <Rating tabular>
+              {mode === "rating" && (
+                <>
+                  {rating.toLocaleString(undefined, {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2,
+                  })}
+                </>
+              )}
+              {mode === "dx-percent" && <>{dxScore?.score}</>}
+              {mode === "dx-border" && (
+                <>
+                  {dxWhole}.{dxFraction}%
+                </>
+              )}
+            </Rating>
+          </AchievementContainer>
+        </>
+      ) : null}
     </RecordContainer>
   );
 };
