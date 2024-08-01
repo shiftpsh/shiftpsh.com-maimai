@@ -105,6 +105,9 @@ const AchievementContainer = styled.div`
     grid-column: 6;
     font-size: 100%;
   }
+  @media (max-width: 420px) {
+    grid-row: 3;
+  }
 `;
 
 const Rank = styled(RankChip)`
