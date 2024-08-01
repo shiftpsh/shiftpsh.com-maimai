@@ -71,9 +71,7 @@ const RecordSortFilter = ({
   onFilterChange,
 }: Props) => {
   const [stuck, setStuck] = useState(false);
-  // TODO open/close filters
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [open, setOpen] = useState(false);
+  const [open /*, setOpen*/] = useState(false);
 
   const stickRef = useRef<HTMLDivElement>(null);
 
