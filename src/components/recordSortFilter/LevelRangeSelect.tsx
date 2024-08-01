@@ -8,10 +8,15 @@ import { Filter } from "../../utils/filterAndSort/types";
 import { displayLevelRange } from "../../utils/level";
 import { GradientText } from "../GradientText";
 import { IconButton } from "../IconButton";
-import { IconX } from "@tabler/icons-react";
+import { IconDots, IconX } from "@tabler/icons-react";
 import { Typo } from "@solved-ac/ui-react";
+import { useState } from "react";
 
 const levelRange = (level: string): [number, number] => {
+  if (level.startsWith("~")) {
+    const range = displayLevelRange(level.slice(1) as DisplayLevel);
+    return [0, range[1]];
+  }
   if (level.includes(".")) {
     const internalLevel = Math.round(+level * 10);
     return [internalLevel, internalLevel];
@@ -57,6 +62,17 @@ const LEVELS = [
   "15",
 ];
 
+const LEVELS_COARSE = [
+  "~11+",
+  "12",
+  "12+",
+  "13",
+  "13+",
+  "14",
+  "14+",
+  "15",
+];
+
 const LevelButton = styled(IconButton)`
   @media (max-width: 960px) {
     height: 32px;
@@ -75,11 +91,11 @@ const LevelsRow = styled.div`
 `;
 
 const resolveLevelDifficulty = (level: string): Difficulty => {
-  const [min] = levelRange(level);
-  if (min >= 146) return "Re:MASTER";
-  if (min >= 130) return "MASTER";
-  if (min >= 100) return "EXPERT";
-  if (min >= 70) return "ADVANCED";
+  const [, max] = levelRange(level);
+  if (max >= 150) return "Re:MASTER";
+  if (max >= 130) return "MASTER";
+  if (max >= 100) return "EXPERT";
+  if (max >= 70) return "ADVANCED";
   return "BASIC";
 };
 
@@ -89,6 +105,7 @@ interface Props {
 }
 
 const LevelRangeSelect = ({ filter, onFilterChange }: Props) => {
+  const [coarse, setCoarse] = useState(true);
   const { level = [0, 155] } = filter;
   const [min, max] = level;
 
@@ -125,7 +142,7 @@ const LevelRangeSelect = ({ filter, onFilterChange }: Props) => {
 
   return (
     <LevelsRow>
-      {LEVELS.map((lv) => {
+      {(coarse ? LEVELS_COARSE : LEVELS).map((lv) => {
         const inRange = min <= levelRange(lv)[0] && levelRange(lv)[1] <= max;
         const difficulty = resolveLevelDifficulty(lv);
         const [levelWhole, levelDecimal] = lv.split(".");
@@ -161,6 +178,9 @@ const LevelRangeSelect = ({ filter, onFilterChange }: Props) => {
         onClick={() => onFilterChange({ ...filter, level: [0, 155] })}
       >
         <IconX />
+      </LevelButton>
+      <LevelButton onClick={() => setCoarse((prev) => !prev)}>
+        <IconDots />
       </LevelButton>
     </LevelsRow>
   );
