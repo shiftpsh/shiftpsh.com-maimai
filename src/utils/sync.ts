@@ -17,9 +17,10 @@ export const syncChipBackground = (sync: Sync) => {
 };
 
 export const syncSortWeight = (sync: Sync) => {
-  if (sync === "FULL SYNC DX+") return 4;
-  if (sync === "FULL SYNC DX") return 3;
-  if (sync === "FULL SYNC+") return 2;
-  if (sync === "FULL SYNC") return 1;
+  if (sync === "FULL SYNC DX+") return 5;
+  if (sync === "FULL SYNC DX") return 4;
+  if (sync === "FULL SYNC+") return 3;
+  if (sync === "FULL SYNC") return 2;
+  if (sync === "SYNC PLAY") return 1;
   return 0;
 };

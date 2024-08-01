@@ -2,33 +2,10 @@ import styled from "@emotion/styled";
 import { Typo } from "@solved-ac/ui-react";
 import { IconLayoutGrid, IconLayoutList } from "@tabler/icons-react";
 import { useState } from "react";
-import {
-  SONG_DATABASE,
-  SongDatabaseItemWithRecord,
-} from "../const/songDatabase";
+import { ratingsLatest, ratingsOld } from "../const/bestRatings";
 import { IconButton } from "./IconButton";
 import RecordRow from "./recordRow/RecordRow";
 import RecordSummary from "./recordSummary/RecordSummary";
-
-const { tracks, latestVersion } = SONG_DATABASE;
-
-const ratingsLatest = tracks
-  .filter((x) => x.version === latestVersion && x.record)
-  .sort((a, b) =>
-    b.record!.rating !== a.record!.rating
-      ? b.record!.rating - a.record!.rating
-      : b.record!.achievement - a.record!.achievement
-  )
-  .slice(0, 15) as SongDatabaseItemWithRecord[];
-
-const ratingsOld = tracks
-  .filter((x) => x.version !== latestVersion && x.record)
-  .sort((a, b) =>
-    b.record!.rating !== a.record!.rating
-      ? b.record!.rating - a.record!.rating
-      : b.record!.achievement - a.record!.achievement
-  )
-  .slice(0, 35) as SongDatabaseItemWithRecord[];
 
 const TitleRow = styled.div`
   display: flex;

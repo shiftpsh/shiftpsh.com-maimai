@@ -4,14 +4,6 @@ import { dxScoreClosestNextBorder } from "../dxScore";
 import { syncSortWeight } from "../sync";
 import { RecordSortFilter, RecordSortFn, RecordSortObject } from "./types";
 
-const moveNotPlayedToBottom: (fn: RecordSortFn) => RecordSortFn =
-  (fn) => (a, b) => {
-    if (!a.record && !b.record) return b.internalLevel - a.internalLevel;
-    if (!a.record) return 1;
-    if (!b.record) return -1;
-    return fn(a, b);
-  };
-
 const achievement: RecordSortFn = (a, b) => {
   if (a.record?.achievement === b.record?.achievement) {
     if (a.internalLevel === b.internalLevel) {
@@ -99,8 +91,8 @@ const dxRankThenUntilNextRank: RecordSortFn = (a, b) => {
 };
 
 const ascAndDesc = (fn: RecordSortFn) => ({
-  sortAscending: moveNotPlayedToBottom(fn),
-  sortDescending: moveNotPlayedToBottom((a, b) => fn(b, a)),
+  sortAscending: fn,
+  sortDescending: (a: SongDatabaseItem, b: SongDatabaseItem) => fn(b, a),
 });
 
 export const SORT_CRITERIAS: RecordSortFilter[] = [
@@ -121,4 +113,7 @@ export const sortRecords = (
 ) =>
   object.order === "asc"
     ? records.sort(object.sort.sortAscending)
-    : records.sort(object.sort.sortDescending);
+    : records.sort(
+        object.sort.sortDescending ??
+          ((a, b) => object.sort.sortAscending(b, a))
+      );
