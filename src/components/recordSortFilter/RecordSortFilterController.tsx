@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { Select } from "@solved-ac/ui-react";
+import { Select, Switch } from "@solved-ac/ui-react";
 import {
   IconArrowUp,
   IconFilterCheck,
@@ -237,6 +237,25 @@ const RecordSortFilter = ({
         >
           <CaptionFilter>버전</CaptionFilter>
           <VersionSelect filter={filter} onFilterChange={onFilterChange} />
+        </FiltersRow>
+        <FiltersRow
+          animate={{
+            opacity: showControls ? 1 : 0,
+          }}
+          style={{
+            pointerEvents: showControls ? "all" : "none",
+          }}
+        >
+          <CaptionFilter>포텐셜</CaptionFilter>
+          <Switch
+            value={filter.hasRatingIncreasingPotential || false}
+            onChange={(value) =>
+              onFilterChange({
+                ...filter,
+                hasRatingIncreasingPotential: value,
+              })
+            }
+          />
         </FiltersRow>
       </Filters>
     </StickToTop>

@@ -1,18 +1,21 @@
 import styled from "@emotion/styled";
 import { Typo } from "@solved-ac/ui-react";
+import { IconMusicStar } from "@tabler/icons-react";
 import { ellipsis } from "polished";
-import { SongDatabaseItem } from "../../const/songDatabase";
+import { ratingsLatest, ratingsOld } from "../../const/bestRatings";
+import { SONG_DATABASE, SongDatabaseItem } from "../../const/songDatabase";
 import { defaultFont } from "../../styles/fonts/default";
 import { wanpaku } from "../../styles/fonts/wanpaku";
 import { difficultyBackgroundColor } from "../../utils/difficulty";
 import { dxScoreClosestNextBorder } from "../../utils/dxScore";
+import { rating as ratingFn } from "../../utils/rating";
 import LevelGradientText from "../LevelGradientText";
 import ComboChip from "../chip/ComboChip";
 import DxRankChip from "../chip/DxRankChip";
 import RankChip from "../chip/RankChip";
 import SyncChip from "../chip/SyncChip";
-import { ratingsLatest, ratingsOld } from "../../const/bestRatings";
-import { IconMusicStar } from "@tabler/icons-react";
+
+const { latestVersion } = SONG_DATABASE;
 
 const MUSIC_DX_URL = "https://maimaidx-eng.com/maimai-mobile/img/music_dx.png";
 const MUSIC_STD_URL =
@@ -174,9 +177,27 @@ const AchievementDescription = styled.span`
   padding-right: 0.5em;
 `;
 
+const RatingPotentialsContainer = styled.div`
+  grid-column: 1 / span 7;
+`;
+
+const RatingPotentialRow = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 6em 3em;
+  text-align: right;
+`;
+
+const RatingPotentialAchievement = styled.span`
+  font-feature-settings: "tnum";
+`;
+
+const RatingIncrease = styled.span`
+  ${wanpaku}
+`;
+
 interface Props {
   song: SongDatabaseItem;
-  mode?: "rating" | "dx-percent" | "dx-border";
+  mode?: "rating" | "rating-with-potential" | "dx-percent" | "dx-border";
 }
 
 const RecordSummary = ({ song, mode = "rating" }: Props) => {
@@ -222,6 +243,35 @@ const RecordSummary = ({ song, mode = "rating" }: Props) => {
       x.artist === song.artist &&
       x.type === song.type
   );
+
+  const nextRankRatings = [97.0e4, 98.0e4, 99.0e4, 99.5e4, 100.0e4, 100.5e4]
+    .map((achievement) => {
+      const newRating = ratingFn(achievement, song.internalLevel);
+      const increaseAmountOld =
+        latestIndex !== -1
+          ? Math.floor(newRating) - Math.floor(rating)
+          : Math.floor(newRating) -
+            (ratingsOld.length === 35
+              ? Math.floor(ratingsOld[34].record?.rating)
+              : 0);
+      const increaseAmountLatest =
+        latestIndex !== -1
+          ? Math.floor(newRating) - Math.floor(ratingsLatest[0].record?.rating)
+          : Math.floor(newRating) -
+            (ratingsLatest.length === 15
+              ? Math.floor(ratingsLatest[14].record?.rating)
+              : 0);
+
+      return {
+        score: achievement,
+        rating: newRating,
+        increase:
+          song.version === latestVersion
+            ? increaseAmountLatest
+            : increaseAmountOld,
+      };
+    })
+    .filter((x) => x.increase > 0);
 
   return (
     <RecordContainer>
@@ -279,7 +329,7 @@ const RecordSummary = ({ song, mode = "rating" }: Props) => {
           <Sync sync={sync} />
           <AchievementContainer>
             <AchievementNumber>
-              {mode === "rating" && (
+              {(mode === "rating" || mode === "rating-with-potential") && (
                 <>
                   {achievementWhole}.
                   <AchievementFraction>
@@ -304,7 +354,7 @@ const RecordSummary = ({ song, mode = "rating" }: Props) => {
               )}
             </AchievementNumber>
             <Rating tabular>
-              {mode === "rating" && (
+              {(mode === "rating" || mode === "rating-with-potential") && (
                 <>
                   {rating.toLocaleString(undefined, {
                     minimumFractionDigits: 2,
@@ -322,6 +372,36 @@ const RecordSummary = ({ song, mode = "rating" }: Props) => {
           </AchievementContainer>
         </>
       ) : null}
+      {mode === "rating-with-potential" && (
+        <RatingPotentialsContainer>
+          {nextRankRatings.slice(0, 4).map((x) => (
+            <RatingPotentialRow key={x.score}>
+              <RatingPotentialAchievement>
+                <Typo small description>
+                  {(x.score / 1e4).toLocaleString(undefined, {
+                    minimumFractionDigits: 1,
+                    maximumFractionDigits: 1,
+                  })}
+                  %
+                </Typo>
+              </RatingPotentialAchievement>
+              <RatingPotentialAchievement>
+                <Typo small description>
+                  &minus;
+                  {((x.score - achievement) / 1e4).toLocaleString(undefined, {
+                    minimumFractionDigits: 4,
+                    maximumFractionDigits: 4,
+                  })}
+                  %
+                </Typo>
+              </RatingPotentialAchievement>
+              <RatingIncrease>
+                <Typo small>+{x.increase}</Typo>
+              </RatingIncrease>
+            </RatingPotentialRow>
+          ))}
+        </RatingPotentialsContainer>
+      )}
     </RecordContainer>
   );
 };

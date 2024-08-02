@@ -91,7 +91,9 @@ const AllRecords = () => {
           key={internalKey(song)}
           song={song}
           mode={
-            sort.sort.name === "DX %"
+            filter.hasRatingIncreasingPotential
+              ? "rating-with-potential"
+              : sort.sort.name === "DX %"
               ? "dx-percent"
               : sort.sort.name === "DX Border"
               ? "dx-border"
