@@ -1194,6 +1194,12 @@
     "internalLevel": 134
   },
   {
+    "title": "Geranium",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": 137
+  },
+  {
     "title": "壱雫空",
     "type": "DX",
     "difficulty": "MASTER",
@@ -1204,6 +1210,12 @@
     "type": "DX",
     "difficulty": "MASTER",
     "internalLevel": 139
+  },
+  {
+    "title": "The Cursed Doll",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": 135
   },
   {
     "title": "壱雫空",
@@ -1218,6 +1230,12 @@
     "internalLevel": 146
   },
   {
+    "title": "RondeauX of RagnaroQ",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": 145
+  },
+  {
     "title": "INTERNET YAMERO",
     "type": "DX",
     "difficulty": "MASTER",
@@ -1225,6 +1243,12 @@
   },
   {
     "title": "Re:Unknown X",
+    "type": "DX",
+    "difficulty": "EXPERT",
+    "internalLevel": 125
+  },
+  {
+    "title": "RondeauX of RagnaroQ",
     "type": "DX",
     "difficulty": "EXPERT",
     "internalLevel": 125
