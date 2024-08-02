@@ -14,6 +14,7 @@ import ComboChip from "../chip/ComboChip";
 import DxRankChip from "../chip/DxRankChip";
 import RankChip from "../chip/RankChip";
 import SyncChip from "../chip/SyncChip";
+import { splitTitle } from "../../utils/title";
 
 const { latestVersion } = SONG_DATABASE;
 
@@ -211,6 +212,7 @@ const RecordSummary = ({ song, mode = "rating" }: Props) => {
     dxRank = 0 as const,
     dxScore = null,
   } = record || {};
+  const { title: displayTitle, subtitle: displaySubtitle } = splitTitle(title);
 
   const [achievementWhole, achievementFraction] = ((achievement || 0) / 10000)
     .toLocaleString(undefined, {
@@ -313,7 +315,11 @@ const RecordSummary = ({ song, mode = "rating" }: Props) => {
             </>
           )}
         </TypeContainer>
-        <Title>{title}</Title>
+        <Title>
+          {displayTitle}
+
+          {displaySubtitle && <Typo small>{displaySubtitle}</Typo>}
+        </Title>
         <Artist description small ellipsis>
           {artist}
         </Artist>
