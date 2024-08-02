@@ -21,6 +21,7 @@ const internalKey = (record: {
 
 const TitleRow = styled.div`
   display: flex;
+  align-items: center;
 `;
 
 const AllRecords = () => {
@@ -36,8 +37,13 @@ const AllRecords = () => {
       sortRecords(
         tracks.filter((x) => filterRecord(x, filter)),
         sort
-      ).slice(0, recordsShowCountLimit),
-    [filter, recordsShowCountLimit, sort]
+      ),
+    [filter, sort]
+  );
+
+  const slicedTracks = useMemo(
+    () => filteredTracks.slice(0, recordsShowCountLimit),
+    [filteredTracks, recordsShowCountLimit]
   );
 
   const handleShowMore = useMemo(
@@ -68,9 +74,10 @@ const AllRecords = () => {
     <>
       <TitleRow>
         <Typo h1 no-margin>
-          모든 기록
+          기록
         </Typo>
         <div style={{ flex: 1 }} />
+        <Typo description>{filteredTracks.length.toLocaleString()}개 채보</Typo>
       </TitleRow>
       <Space h={16} />
       <RecordSortFilterController
@@ -86,7 +93,7 @@ const AllRecords = () => {
           setFilter(filter);
         }}
       />
-      {filteredTracks.map((song) => (
+      {slicedTracks.map((song) => (
         <RecordRow
           key={internalKey(song)}
           song={song}
