@@ -161,10 +161,11 @@ const LevelRangeSelect = ({ filter, onFilterChange }: Props) => {
       })}
       <FilterIconButton
         onClick={() => onFilterChange({ ...filter, level: [0, 155] })}
+        transparent
       >
         <IconReload />
       </FilterIconButton>
-      <FilterIconButton onClick={() => setCoarse((prev) => !prev)}>
+      <FilterIconButton onClick={() => setCoarse((prev) => !prev)} transparent>
         <IconDots />
       </FilterIconButton>
     </LevelsRow>

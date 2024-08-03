@@ -15,6 +15,7 @@ import { Filter, RecordSortObject } from "../../utils/filterAndSort/types";
 import { IconButton } from "../IconButton";
 import LevelRangeSelect from "./LevelRangeSelect";
 import VersionSelect from "./VersionSelect";
+import AchievementRangeSelect from "./AchievementRangeSelect";
 
 const StickToTop = styled(motion.div)`
   position: sticky;
@@ -116,6 +117,15 @@ const RecordSortFilter = ({
     }
   });
 
+  const featuresRowProps = {
+    animate: {
+      opacity: showControls ? 1 : 0,
+    },
+    style: {
+      pointerEvents: showControls ? ("all" as const) : ("none" as const),
+    },
+  };
+
   return (
     <StickToTop ref={stickRef}>
       <FiltersBackground
@@ -216,36 +226,22 @@ const RecordSortFilter = ({
             </>
           )}
         </FiltersTopRow>
-        <FiltersRow
-          animate={{
-            opacity: showControls ? 1 : 0,
-          }}
-          style={{
-            pointerEvents: showControls ? "all" : "none",
-          }}
-        >
+        <FiltersRow {...featuresRowProps}>
           <CaptionFilter>레벨</CaptionFilter>
           <LevelRangeSelect filter={filter} onFilterChange={onFilterChange} />
         </FiltersRow>
-        <FiltersRow
-          animate={{
-            opacity: showControls ? 1 : 0,
-          }}
-          style={{
-            pointerEvents: showControls ? "all" : "none",
-          }}
-        >
+        <FiltersRow {...featuresRowProps}>
+          <CaptionFilter>스코어</CaptionFilter>
+          <AchievementRangeSelect
+            filter={filter}
+            onFilterChange={onFilterChange}
+          />
+        </FiltersRow>
+        <FiltersRow {...featuresRowProps}>
           <CaptionFilter>버전</CaptionFilter>
           <VersionSelect filter={filter} onFilterChange={onFilterChange} />
         </FiltersRow>
-        <FiltersRow
-          animate={{
-            opacity: showControls ? 1 : 0,
-          }}
-          style={{
-            pointerEvents: showControls ? "all" : "none",
-          }}
-        >
+        <FiltersRow {...featuresRowProps}>
           <CaptionFilter>포텐셜</CaptionFilter>
           <Switch
             value={filter.hasRatingIncreasingPotential || false}

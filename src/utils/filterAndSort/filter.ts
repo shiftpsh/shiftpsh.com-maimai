@@ -26,6 +26,7 @@ const oldSet = new Set(ratingsOld.map((x) => internalKey(x)));
 export const filterRecord = (song: SongDatabaseItem, filter: Filter) => {
   const {
     level,
+    achievement,
     rank,
     version,
     played,
@@ -36,6 +37,18 @@ export const filterRecord = (song: SongDatabaseItem, filter: Filter) => {
   if (level) {
     const [levelMin, levelMax] = level;
     if (song.internalLevel < levelMin || song.internalLevel > levelMax) {
+      return false;
+    }
+  }
+  if (achievement) {
+    const [achMin, achMax] = achievement;
+    if (
+      song.record &&
+      (song.record.achievement < achMin || song.record.achievement > achMax)
+    ) {
+      return false;
+    }
+    if (!song.record && achMin > 0) {
       return false;
     }
   }

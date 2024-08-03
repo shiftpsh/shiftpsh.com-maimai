@@ -18,6 +18,7 @@ export type Range<T> = [T, T];
 
 export interface Filter {
   level?: Range<number>;
+  achievement?: Range<number>;
   rank?: Rank[];
   version?: number[];
   played?: boolean;

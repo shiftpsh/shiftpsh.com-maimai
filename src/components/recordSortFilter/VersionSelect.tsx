@@ -111,7 +111,7 @@ const VersionSelect = ({ filter, onFilterChange }: Props) => {
           </FilterIconButton>
         );
       })}
-      <FilterIconButton onClick={() => setCoarse((prev) => !prev)}>
+      <FilterIconButton onClick={() => setCoarse((prev) => !prev)} transparent>
         <IconDots />
       </FilterIconButton>
     </VersionsRow>
