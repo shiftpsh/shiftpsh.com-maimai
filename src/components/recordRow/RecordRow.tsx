@@ -9,7 +9,7 @@ import { wanpaku } from "../../styles/fonts/wanpaku";
 import { difficultyBackgroundColor } from "../../utils/difficulty";
 import { dxScoreClosestNextBorder } from "../../utils/dxScore";
 import { rating as ratingFn } from "../../utils/rating";
-import LevelGradientText from "../LevelGradientText";
+import LevelGradientText from "../commons/LevelGradientText";
 import ComboChip from "../chip/ComboChip";
 import DxRankChip from "../chip/DxRankChip";
 import RankChip from "../chip/RankChip";
@@ -201,7 +201,7 @@ interface Props {
   mode?: "rating" | "rating-with-potential" | "dx-percent" | "dx-border";
 }
 
-const RecordSummary = ({ song, mode = "rating" }: Props) => {
+const RecordRow = ({ song, mode = "rating" }: Props) => {
   const { jacketKey, type, difficulty, title, artist, record } = song;
   const {
     achievement = 0,
@@ -412,4 +412,4 @@ const RecordSummary = ({ song, mode = "rating" }: Props) => {
   );
 };
 
-export default RecordSummary;
+export default RecordRow;

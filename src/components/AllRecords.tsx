@@ -14,6 +14,9 @@ import { Filter, RecordSortObject } from "../utils/filterAndSort/types";
 import { throttle } from "../utils/throttle";
 import RecordRow from "./recordRow/RecordRow";
 import RecordSortFilterController from "./recordSortFilter/RecordSortFilterController";
+import { IconLayoutList, IconList } from "@tabler/icons-react";
+import { IconButton } from "./commons/IconButton";
+import RecordRowCompact from "./recordRow/RecordRowCompact";
 
 const { tracks } = SONG_DATABASE;
 
@@ -30,6 +33,7 @@ const TitleRow = styled.div`
 `;
 
 const AllRecords = () => {
+  const [mode, setMode] = useState<"row" | "row-compact">("row");
   const [searchParams, setSearchParams] = useSearchParams();
   const { filter, sort } = filterFromUrlQuery(searchParams);
   const [recordsShowCountLimit, setRecordsShowCountLimit] = useState(50);
@@ -101,6 +105,12 @@ const AllRecords = () => {
         </Typo>
         <div style={{ flex: 1 }} />
         <Typo description>{filteredTracks.length.toLocaleString()}개 채보</Typo>
+        <IconButton circle transparent onClick={() => setMode("row")}>
+          <IconLayoutList />
+        </IconButton>
+        <IconButton circle transparent onClick={() => setMode("row-compact")}>
+          <IconList />
+        </IconButton>
       </TitleRow>
       <Space h={16} />
       <RecordSortFilterController
@@ -109,21 +119,26 @@ const AllRecords = () => {
         filter={filter}
         onFilterChange={handleFilterChange}
       />
-      {slicedTracks.map((song) => (
-        <RecordRow
-          key={internalKey(song)}
-          song={song}
-          mode={
-            filter.hasRatingIncreasingPotential
-              ? "rating-with-potential"
-              : sort.sort.name === "DX %"
-              ? "dx-percent"
-              : sort.sort.name === "DX Border"
-              ? "dx-border"
-              : "rating"
-          }
-        />
-      ))}
+      {mode === "row" &&
+        slicedTracks.map((song) => (
+          <RecordRow
+            key={internalKey(song)}
+            song={song}
+            mode={
+              filter.hasRatingIncreasingPotential
+                ? "rating-with-potential"
+                : sort.sort.name === "DX %"
+                ? "dx-percent"
+                : sort.sort.name === "DX Border"
+                ? "dx-border"
+                : "rating"
+            }
+          />
+        ))}
+      {mode === "row-compact" &&
+        slicedTracks.map((song) => (
+          <RecordRowCompact key={internalKey(song)} song={song} />
+        ))}
     </>
   );
 };

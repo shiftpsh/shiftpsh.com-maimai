@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import { IconDots, IconReload } from "@tabler/icons-react";
 import { useState } from "react";
 import { Filter } from "../../utils/filterAndSort/types";
-import { FilterIconButton } from "../IconButton";
+import { FilterIconButton } from "../commons/IconButton";
 
 const achievementRange = (ach: string): [number, number] => {
   if (ach === "~AAA") return [0, 97.0e4 - 1];

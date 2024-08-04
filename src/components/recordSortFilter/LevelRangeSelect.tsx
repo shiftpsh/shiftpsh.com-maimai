@@ -9,8 +9,8 @@ import {
 } from "../../utils/difficulty";
 import { Filter } from "../../utils/filterAndSort/types";
 import { displayLevelRange } from "../../utils/level";
-import { GradientText } from "../GradientText";
-import { FilterIconButton } from "../IconButton";
+import { GradientText } from "../commons/GradientText";
+import { FilterIconButton } from "../commons/IconButton";
 
 const levelRange = (level: string): [number, number] => {
   if (level.startsWith("~")) {

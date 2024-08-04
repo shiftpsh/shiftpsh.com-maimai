@@ -1,7 +1,7 @@
 /* eslint-disable react-refresh/only-export-components */
 import { css } from "@emotion/react";
 import { transparentize } from "polished";
-import { GradientText } from "../GradientText";
+import { GradientText } from "../commons/GradientText";
 import styled from "@emotion/styled";
 
 export const chipOverlayWhite = css`

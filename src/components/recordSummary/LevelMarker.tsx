@@ -7,8 +7,8 @@ import {
   difficultyLevelBackground,
   difficultyTextGradientLight,
 } from "../../utils/difficulty";
-import { GradientText } from "../GradientText";
-import LevelGradientText from "../LevelGradientText";
+import { GradientText } from "../commons/GradientText";
+import LevelGradientText from "../commons/LevelGradientText";
 
 const LevelMarkerContainer = styled.div`
   position: relative;

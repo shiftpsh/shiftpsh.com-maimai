@@ -5,7 +5,7 @@ import { useState } from "react";
 import { SONG_DATABASE } from "../../const/songDatabase";
 import { Filter } from "../../utils/filterAndSort/types";
 import { versionBackgroundColor, versionKanjiName } from "../../utils/version";
-import { FilterIconButton } from "../IconButton";
+import { FilterIconButton } from "../commons/IconButton";
 
 const { availableVersions, latestVersion } = SONG_DATABASE;
 

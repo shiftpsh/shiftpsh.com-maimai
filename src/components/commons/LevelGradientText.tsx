@@ -3,9 +3,9 @@ import { darken } from "polished";
 import {
   difficultyTextGradientDark,
   difficultyBackgroundColor,
-} from "../utils/difficulty";
+} from "../../utils/difficulty";
 import { GradientText } from "./GradientText";
-import { Difficulty } from "../types/types";
+import { Difficulty } from "../../types/types";
 
 const LevelTextAligner = styled.div`
   display: flex;

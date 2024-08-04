@@ -1,5 +1,5 @@
 import { Container, Space, Tab, Tabs, Typo } from "@solved-ac/ui-react";
-import { IconDisc, IconMusicStar } from "@tabler/icons-react";
+import { IconBrush, IconDisc, IconMusicStar } from "@tabler/icons-react";
 import { NavLink, Outlet } from "react-router-dom";
 import Footer from "./components/Footer";
 import Profile from "./components/Profile";
@@ -15,6 +15,10 @@ const PATHS = [
   {
     path: "/records",
     icon: <IconDisc />,
+  },
+  {
+    path: "/grinding",
+    icon: <IconBrush />,
   },
 ];
 

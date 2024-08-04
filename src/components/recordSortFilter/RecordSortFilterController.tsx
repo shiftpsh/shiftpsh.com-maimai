@@ -12,7 +12,7 @@ import { ellipsis, transparentize } from "polished";
 import { useEffect, useRef, useState } from "react";
 import { SORT_CRITERIAS } from "../../utils/filterAndSort/sort";
 import { Filter, RecordSortObject } from "../../utils/filterAndSort/types";
-import { IconButton } from "../IconButton";
+import { IconButton } from "../commons/IconButton";
 import LevelRangeSelect from "./LevelRangeSelect";
 import VersionSelect from "./VersionSelect";
 import AchievementRangeSelect from "./AchievementRangeSelect";
