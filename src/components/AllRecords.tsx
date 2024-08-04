@@ -1,10 +1,15 @@
 import styled from "@emotion/styled";
 import { Space, Typo } from "@solved-ac/ui-react";
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import { SONG_DATABASE } from "../const/songDatabase";
 import { ChartType, Difficulty } from "../types/types";
 import { filterRecord } from "../utils/filterAndSort/filter";
-import { SORT_CRITERIAS, sortRecords } from "../utils/filterAndSort/sort";
+import {
+  filterFromUrlQuery,
+  filterToUrlQuery,
+} from "../utils/filterAndSort/query";
+import { sortRecords } from "../utils/filterAndSort/sort";
 import { Filter, RecordSortObject } from "../utils/filterAndSort/types";
 import { throttle } from "../utils/throttle";
 import RecordRow from "./recordRow/RecordRow";
@@ -25,11 +30,8 @@ const TitleRow = styled.div`
 `;
 
 const AllRecords = () => {
-  const [sort, setSort] = useState<RecordSortObject>({
-    sort: SORT_CRITERIAS[0],
-    order: "desc",
-  });
-  const [filter, setFilter] = useState<Filter>({});
+  const [searchParams, setSearchParams] = useSearchParams();
+  const { filter, sort } = filterFromUrlQuery(searchParams);
   const [recordsShowCountLimit, setRecordsShowCountLimit] = useState(50);
 
   const filteredTracks = useMemo(
@@ -70,6 +72,27 @@ const AllRecords = () => {
     };
   }, [handleScroll]);
 
+  const handleSortChange = useCallback(
+    (sort: RecordSortObject) => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      setRecordsShowCountLimit(50);
+      setSearchParams(filterToUrlQuery(filter, sort), {
+        replace: true,
+      });
+    },
+    [filter, setSearchParams]
+  );
+
+  const handleFilterChange = useCallback(
+    (filter: Filter) => {
+      setRecordsShowCountLimit(50);
+      setSearchParams(filterToUrlQuery(filter, sort), {
+        replace: true,
+      });
+    },
+    [sort, setSearchParams]
+  );
+
   return (
     <>
       <TitleRow>
@@ -82,16 +105,9 @@ const AllRecords = () => {
       <Space h={16} />
       <RecordSortFilterController
         sort={sort}
-        onSortChange={(sort) => {
-          window.scrollTo({ top: 0, behavior: "smooth" });
-          setRecordsShowCountLimit(50);
-          setSort(sort);
-        }}
+        onSortChange={handleSortChange}
         filter={filter}
-        onFilterChange={(filter) => {
-          setRecordsShowCountLimit(50);
-          setFilter(filter);
-        }}
+        onFilterChange={handleFilterChange}
       />
       {slicedTracks.map((song) => (
         <RecordRow

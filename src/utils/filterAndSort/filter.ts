@@ -27,7 +27,6 @@ export const filterRecord = (song: SongDatabaseItem, filter: Filter) => {
   const {
     level,
     achievement,
-    rank,
     version,
     played,
     hasRatingIncreasingPotential,
@@ -49,11 +48,6 @@ export const filterRecord = (song: SongDatabaseItem, filter: Filter) => {
       return false;
     }
     if (!song.record && achMin > 0) {
-      return false;
-    }
-  }
-  if (rank) {
-    if (!song.record || !rank.includes(song.record.rank)) {
       return false;
     }
   }
