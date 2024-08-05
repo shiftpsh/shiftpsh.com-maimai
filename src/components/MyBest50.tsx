@@ -10,7 +10,7 @@ import RecordSummary from "./recordSummary/RecordSummary";
 
 type ShowMode = "gallery" | "row" | "row-compact";
 
-const TitleRow = styled.div`
+const Row = styled.div`
   display: flex;
   align-items: center;
 `;
@@ -29,11 +29,17 @@ const MyBestGrid = styled.div`
   }
 `;
 
+const StatsContainer = styled.div`
+  flex: 0 0 12em;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+`;
+
 const Stats = styled(Typo)`
-  flex: 0 0 6em;
+  flex: 1;
   display: flex;
   padding-left: 1em;
-  text-align: right;
 `;
 
 const MyBest50 = () => {
@@ -51,7 +57,7 @@ const MyBest50 = () => {
 
   return (
     <>
-      <TitleRow>
+      <Row>
         <Typo h1 no-margin>
           레이팅 대상곡
         </Typo>
@@ -65,8 +71,8 @@ const MyBest50 = () => {
         <IconButton circle transparent onClick={() => setMode("row-compact")}>
           <IconList />
         </IconButton>
-      </TitleRow>
-      <TitleRow>
+      </Row>
+      <Row>
         <Typo
           variant={mode === "row-compact" ? "h4" : "h2"}
           no-margin={mode === "row-compact"}
@@ -74,17 +80,25 @@ const MyBest50 = () => {
           최신곡
         </Typo>
         <div style={{ flex: 1 }} />
-        <Stats description small={mode === "row-compact"} tabular>
-          <b>Σ</b>
-          <div style={{ flex: 1 }} />
-          {latestSum}
-        </Stats>
-        <Stats description small={mode === "row-compact"} tabular>
-          <b>μ</b>
-          <div style={{ flex: 1 }} />
-          {(latestSum / 15).toFixed(1)}
-        </Stats>
-      </TitleRow>
+        <StatsContainer>
+          <Row>
+            <Stats description small={mode === "row-compact"} tabular>
+              <b>Σ</b>
+              <div style={{ flex: 1 }} />
+              {latestSum}
+            </Stats>
+            <Stats description small={mode === "row-compact"} tabular>
+              <b>μ</b>
+              <div style={{ flex: 1 }} />
+              {(latestSum / 15).toFixed(1)}
+            </Stats>
+          </Row>
+          <Stats description small tabular>
+            <div style={{ flex: 1 }} />
+            [~{Math.floor((latestSum / 15) * 50)}]
+          </Stats>
+        </StatsContainer>
+      </Row>
       {mode === "row-compact" && <Space h={8} />}
       {mode === "gallery" && (
         <>
@@ -102,7 +116,7 @@ const MyBest50 = () => {
           <RecordRowCompact key={i} song={song} />
         ))}
       {mode === "row-compact" && <Space h={8} />}
-      <TitleRow>
+      <Row>
         <Typo
           variant={mode === "row-compact" ? "h4" : "h2"}
           no-margin={mode === "row-compact"}
@@ -110,17 +124,25 @@ const MyBest50 = () => {
           구곡
         </Typo>
         <div style={{ flex: 1 }} />
-        <Stats description small={mode === "row-compact"} tabular>
-          <b>Σ</b>
-          <div style={{ flex: 1 }} />
-          {oldSum}
-        </Stats>
-        <Stats description small={mode === "row-compact"} tabular>
-          <b>μ</b>
-          <div style={{ flex: 1 }} />
-          {(oldSum / 35).toFixed(1)}
-        </Stats>
-      </TitleRow>
+        <StatsContainer>
+          <Row>
+            <Stats description small={mode === "row-compact"} tabular>
+              <b>Σ</b>
+              <div style={{ flex: 1 }} />
+              {oldSum}
+            </Stats>
+            <Stats description small={mode === "row-compact"} tabular>
+              <b>μ</b>
+              <div style={{ flex: 1 }} />
+              {(oldSum / 35).toFixed(1)}
+            </Stats>
+          </Row>
+          <Stats description small tabular>
+            <div style={{ flex: 1 }} />
+            [~{Math.floor((oldSum / 35) * 50)}]
+          </Stats>
+        </StatsContainer>
+      </Row>
       {mode === "row-compact" && <Space h={8} />}
       {mode === "gallery" && (
         <>
