@@ -8,6 +8,7 @@ import { defaultFont } from "./styles/fonts/default.ts";
 import MyBest50 from "./components/MyBest50.tsx";
 import ErrorNotFound from "./components/ErrorNotFound.tsx";
 import AllRecords from "./components/AllRecords.tsx";
+import Grinding from "./components/Grinding.tsx";
 
 const router = createBrowserRouter(
   [
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
           children: [
             { element: <MyBest50 />, path: "/" },
             { element: <AllRecords />, path: "/records" },
+            { element: <Grinding />, path: "/grinding" },
             { element: <ErrorNotFound />, path: "*" },
           ],
         },

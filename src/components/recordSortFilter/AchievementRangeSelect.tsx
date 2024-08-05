@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 import { IconDots, IconReload } from "@tabler/icons-react";
 import { useState } from "react";
+import { achievementColor } from "../../utils/achievement";
 import { Filter } from "../../utils/filterAndSort/types";
 import { FilterIconButton } from "../commons/IconButton";
 
@@ -21,13 +22,13 @@ const achievementRange = (ach: string): [number, number] => {
   throw new Error(`Invalid achievement: ${ach}`);
 };
 
-const achievementColor = (ach: string): string => {
-  if (ach === "~AAA") return "#f57662";
-  if (/^S?\+?$/.test(ach)) return "#7fb8db";
-  if (/^SS?\+?$/.test(ach)) return "#edb139";
-  if (/^SSS?\+?$/.test(ach)) return "#ed5739";
-  if (/^\.[0-9]$/.test(ach)) return "#ed5739";
-  if (ach === "AP+") return "#f75d0a";
+const buttonColor = (ach: string): string => {
+  if (ach === "~AAA") return achievementColor(94e4);
+  if (/^S?\+?$/.test(ach)) return achievementColor(97e4);
+  if (/^SS?\+?$/.test(ach)) return achievementColor(99e4);
+  if (/^SSS?\+?$/.test(ach)) return achievementColor(100e4);
+  if (/^\.[0-9]$/.test(ach)) return achievementColor(100e4);
+  if (ach === "AP+") return achievementColor(101e4);
   throw new Error(`Invalid achievement: ${ach}`);
 };
 
@@ -111,7 +112,7 @@ const AchievementRangeSelect = ({ filter, onFilterChange }: Props) => {
             key={lv}
             onClick={() => handleButtonClick(lv)}
             style={{
-              backgroundColor: inRange ? achievementColor(lv) : undefined,
+              backgroundColor: inRange ? buttonColor(lv) : undefined,
               color: inRange ? "white" : undefined,
             }}
           >

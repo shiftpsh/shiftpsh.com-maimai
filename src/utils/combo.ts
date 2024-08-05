@@ -23,3 +23,12 @@ export const comboSortWeight = (combo: Combo) => {
   if (combo === "FULL COMBO") return 1;
   return 0;
 };
+
+export const indexToCombo = (index: number): Combo => {
+  if (index === 0) return null;
+  if (index === 1) return "FULL COMBO";
+  if (index === 2) return "FULL COMBO+";
+  if (index === 3) return "ALL PERFECT";
+  if (index === 4) return "ALL PERFECT+";
+  throw new Error(`Invalid combo index: ${index}`);
+};

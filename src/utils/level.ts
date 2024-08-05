@@ -1,6 +1,6 @@
 import { DisplayLevel } from "../types/types";
 
-export const displayLevelRange = (level: DisplayLevel) => {
+export const displayLevelRange = (level: DisplayLevel): [number, number] => {
   const plus = level.endsWith("+");
   const base = +(plus ? level.slice(0, -1) : level);
 

@@ -16,6 +16,14 @@ export const syncChipBackground = (sync: Sync) => {
   return "transparent";
 };
 
+export const syncColor = (sync: Sync) => {
+  if (sync === "FULL SYNC DX+") return "#f8ae52";
+  if (sync === "FULL SYNC DX") return "#ff7f7f";
+  if (sync === "FULL SYNC+") return "#72d5f9";
+  if (sync === "FULL SYNC") return "#d8d2fb";
+  return "transparent";
+};
+
 export const syncSortWeight = (sync: Sync) => {
   if (sync === "FULL SYNC DX+") return 5;
   if (sync === "FULL SYNC DX") return 4;
@@ -23,4 +31,14 @@ export const syncSortWeight = (sync: Sync) => {
   if (sync === "FULL SYNC") return 2;
   if (sync === "SYNC PLAY") return 1;
   return 0;
+};
+
+export const indexToSync = (index: number): Sync => {
+  if (index === 0) return null;
+  if (index === 1) return "SYNC PLAY";
+  if (index === 2) return "FULL SYNC";
+  if (index === 3) return "FULL SYNC+";
+  if (index === 4) return "FULL SYNC DX";
+  if (index === 5) return "FULL SYNC DX+";
+  throw new Error(`Invalid sync index: ${index}`);
 };
