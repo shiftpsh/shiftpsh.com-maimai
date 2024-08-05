@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { Typo } from "@solved-ac/ui-react";
+import { Space, Typo } from "@solved-ac/ui-react";
 import { IconLayoutGrid, IconLayoutList, IconList } from "@tabler/icons-react";
 import { useState } from "react";
 import { ratingsLatest, ratingsOld } from "../const/bestRatings";
@@ -12,6 +12,7 @@ type ShowMode = "gallery" | "row" | "row-compact";
 
 const TitleRow = styled.div`
   display: flex;
+  align-items: center;
 `;
 
 const MyBestGrid = styled.div`
@@ -28,8 +29,25 @@ const MyBestGrid = styled.div`
   }
 `;
 
+const Stats = styled(Typo)`
+  flex: 0 0 6em;
+  display: flex;
+  padding-left: 1em;
+  text-align: right;
+`;
+
 const MyBest50 = () => {
   const [mode, setMode] = useState<ShowMode>("gallery");
+
+  const latestSum = ratingsLatest.reduce(
+    (acc, song) => acc + Math.floor(song.record.rating),
+    0
+  );
+
+  const oldSum = ratingsOld.reduce(
+    (acc, song) => acc + Math.floor(song.record.rating),
+    0
+  );
 
   return (
     <>
@@ -48,7 +66,26 @@ const MyBest50 = () => {
           <IconList />
         </IconButton>
       </TitleRow>
-      <Typo h2>최신곡</Typo>
+      <TitleRow>
+        <Typo
+          variant={mode === "row-compact" ? "h4" : "h2"}
+          no-margin={mode === "row-compact"}
+        >
+          최신곡
+        </Typo>
+        <div style={{ flex: 1 }} />
+        <Stats description small={mode === "row-compact"} tabular>
+          <b>Σ</b>
+          <div style={{ flex: 1 }} />
+          {latestSum}
+        </Stats>
+        <Stats description small={mode === "row-compact"} tabular>
+          <b>μ</b>
+          <div style={{ flex: 1 }} />
+          {(latestSum / 15).toFixed(1)}
+        </Stats>
+      </TitleRow>
+      {mode === "row-compact" && <Space h={8} />}
       {mode === "gallery" && (
         <>
           <MyBestGrid>
@@ -64,7 +101,27 @@ const MyBest50 = () => {
         ratingsLatest.map((song, i) => (
           <RecordRowCompact key={i} song={song} />
         ))}
-      <Typo h2>구곡</Typo>
+      {mode === "row-compact" && <Space h={8} />}
+      <TitleRow>
+        <Typo
+          variant={mode === "row-compact" ? "h4" : "h2"}
+          no-margin={mode === "row-compact"}
+        >
+          구곡
+        </Typo>
+        <div style={{ flex: 1 }} />
+        <Stats description small={mode === "row-compact"} tabular>
+          <b>Σ</b>
+          <div style={{ flex: 1 }} />
+          {oldSum}
+        </Stats>
+        <Stats description small={mode === "row-compact"} tabular>
+          <b>μ</b>
+          <div style={{ flex: 1 }} />
+          {(oldSum / 35).toFixed(1)}
+        </Stats>
+      </TitleRow>
+      {mode === "row-compact" && <Space h={8} />}
       {mode === "gallery" && (
         <>
           <MyBestGrid>

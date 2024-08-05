@@ -11,7 +11,7 @@ import RankChip from "../chip/RankChip";
 import SyncChip from "../chip/SyncChip";
 
 const RecordContainer = styled.div`
-  font-size: 90%;
+  font-size: 80%;
   padding: 0;
   display: grid;
   align-items: center;
@@ -20,7 +20,7 @@ const RecordContainer = styled.div`
     background: #f4f4f4;
   }
   @media (max-width: 640px) {
-    font-size: 70%;
+    font-size: 60%;
     grid-template-columns: 2em 3em 2em 1fr 3em 3em 7em;
   }
 `;
