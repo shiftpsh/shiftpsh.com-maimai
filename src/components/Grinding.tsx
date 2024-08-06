@@ -71,7 +71,7 @@ const levelStats = (level: DisplayLevel) => {
     achievement: ACHIEVEMENT_OBJECTIVES.map((objective) => ({
       objective,
       count: achievementBuckets.get(objective) || 0,
-    })).filter(({ count }, i, arr) => i === 0 || arr[i - 1].count !== count),
+    })),
     sync: new Array(syncSortWeight("FULL SYNC DX+") + 1)
       .fill(0)
       .map((_, i) => ({
