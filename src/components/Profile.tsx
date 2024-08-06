@@ -65,9 +65,8 @@ const Metadata = styled.div`
 
   @media (max-width: 640px) {
     gap: 8px;
-  }
-  @media (max-width: 480px) {
     padding-left: 0;
+    flex-direction: column;
   }
 `;
 
@@ -75,16 +74,35 @@ const MetadataDivider = styled.div`
   flex: 0 0 1px;
   width: 1px;
   background-color: ${({ theme }) => theme.color.border};
+
+  @media (max-width: 640px) {
+    display: none;
+  }
 `;
 
 const MetadataItem = styled.div`
   flex: 1;
   min-width: 0;
   max-width: 120px;
+
+  @media (max-width: 640px) {
+    display: flex;
+    max-width: none;
+  }
+`;
+
+const MetadataCaption = styled.div`
+  @media (max-width: 640px) {
+    flex: 0 0 ${96 + 16}px;
+  }
 `;
 
 const MetadataValue = styled.div`
   font-weight: 600;
+
+  @media (max-width: 480px) {
+    flex: 1;
+  }
 `;
 
 interface Props {
@@ -100,7 +118,9 @@ const Profile = ({ profile }: Props) => {
     stars,
     courseRank,
     classRank,
+    playCount,
   } = profile;
+
   return (
     <>
       <ProfileRow>
@@ -117,11 +137,31 @@ const Profile = ({ profile }: Props) => {
       </ProfileRow>
       <Space h={16} />
       <Metadata>
+        {playCount && (
+          <>
+            <MetadataItem>
+              <MetadataCaption>
+                <Typo description small>
+                  플레이 카운트
+                </Typo>
+              </MetadataCaption>
+              <MetadataValue>
+                {playCount.total.toLocaleString()}
+                <Typo description small>
+                  {" "}
+                  ({playCount.current.toLocaleString()})
+                </Typo>
+              </MetadataValue>
+            </MetadataItem>
+            <MetadataDivider />
+          </>
+        )}
         <MetadataItem>
-          <Typo description small>
-            단위
-          </Typo>
-          <br />
+          <MetadataCaption>
+            <Typo description small>
+              단위
+            </Typo>
+          </MetadataCaption>
           <MetadataValue
             style={{
               color: courseRankTextColor(courseRank),
@@ -132,10 +172,11 @@ const Profile = ({ profile }: Props) => {
         </MetadataItem>
         <MetadataDivider />
         <MetadataItem>
-          <Typo description small>
-            CLASS
-          </Typo>
-          <br />
+          <MetadataCaption>
+            <Typo description small>
+              CLASS
+            </Typo>
+          </MetadataCaption>
           <MetadataValue
             style={{
               color: classRankTextColor(classRank),
@@ -146,10 +187,11 @@ const Profile = ({ profile }: Props) => {
         </MetadataItem>
         <MetadataDivider />
         <MetadataItem>
-          <Typo description small>
-            투어 멤버
-          </Typo>
-          <br />
+          <MetadataCaption>
+            <Typo description small>
+              투어 멤버
+            </Typo>
+          </MetadataCaption>
           <MetadataValue>
             <IconStarFilled size="0.7em" color="#f0b91b" /> &times; {stars}
           </MetadataValue>

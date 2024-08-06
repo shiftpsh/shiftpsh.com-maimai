@@ -33,6 +33,19 @@ const parseProfile = (elem: HTMLElement) => {
     .text.trim()
     .slice(1);
 
+  const playCountText = elem.querySelector(
+    "div.main_wrapper > div.see_through_block > div.m_5.m_b_5.t_r.f_12"
+  )?.text;
+
+  const playCountTotal =
+    /maimaiDX total play count：([0-9,]+)/
+      .exec(playCountText || "")?.[1]
+      .replace(/,/g, "") || "0";
+  const playCountCurrent =
+    /play count of current version：([0-9,]+)/
+      .exec(playCountText || "")?.[1]
+      .replace(/,/g, "") || "0";
+
   const courseRank = parseCourseRank(courseRankImageSrc);
   const classRank = parseClassRank(classRankImageSrc);
 
@@ -47,6 +60,10 @@ const parseProfile = (elem: HTMLElement) => {
     courseRank,
     classRank,
     stars: +stars,
+    playCount: {
+      total: +playCountTotal,
+      current: +playCountCurrent,
+    },
   };
 };
 

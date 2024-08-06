@@ -170,6 +170,10 @@ export interface Profile {
   courseRank: number;
   classRank: number;
   stars: number;
+  playCount?: {
+    total: number;
+    current: number;
+  };
 }
 
 export interface RecordsJson {

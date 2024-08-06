@@ -9,7 +9,11 @@
     },
     "courseRank": 15,
     "classRank": 7,
-    "stars": 884
+    "stars": 884,
+    "playCount": {
+      "total": 1693,
+      "current": 61
+    }
   },
   "records": [
     {
