@@ -11,8 +11,8 @@
     "classRank": 7,
     "stars": 890,
     "playCount": {
-      "total": 1704,
-      "current": 72
+      "total": 1714,
+      "current": 82
     }
   },
   "records": [
@@ -10145,14 +10145,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 980864,
-        "rank": "S+",
+        "achievement": 1005735,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 2081,
+          "score": 2266,
           "max": 2484,
-          "percentage": 83.77616747181963
+          "percentage": 91.22383252818037
         },
-        "dxRank": 0,
+        "dxRank": 2,
         "combo": null,
         "sync": null
       }
@@ -14925,14 +14925,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 981565,
-        "rank": "S+",
+        "achievement": 1003239,
+        "rank": "SSS",
         "dxScore": {
-          "score": 2336,
+          "score": 2435,
           "max": 2688,
-          "percentage": 86.90476190476191
+          "percentage": 90.58779761904762
         },
-        "dxRank": 1,
+        "dxRank": 2,
         "combo": null,
         "sync": null
       }
@@ -16505,14 +16505,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 989845,
-        "rank": "S+",
+        "achievement": 997270,
+        "rank": "SS+",
         "dxScore": {
-          "score": 976,
+          "score": 1016,
           "max": 1158,
-          "percentage": 84.28324697754749
+          "percentage": 87.73747841105354
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
         "sync": null
       }
@@ -19345,12 +19345,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 982185,
-        "rank": "S+",
+        "achievement": 993235,
+        "rank": "SS",
         "dxScore": {
-          "score": 1809,
+          "score": 1834,
           "max": 2055,
-          "percentage": 88.02919708029196
+          "percentage": 89.24574209245742
         },
         "dxRank": 1,
         "combo": null,
@@ -19365,14 +19365,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 969511,
-        "rank": "AAA",
+        "achievement": 987928,
+        "rank": "S+",
         "dxScore": {
-          "score": 2924,
+          "score": 3136,
           "max": 3603,
-          "percentage": 81.15459339439356
+          "percentage": 87.03857896197613
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
         "sync": null
       }
@@ -19605,12 +19605,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 962098,
-        "rank": "AAA",
+        "achievement": 978487,
+        "rank": "S",
         "dxScore": {
-          "score": 3032,
+          "score": 3163,
           "max": 3948,
-          "percentage": 76.7983789260385
+          "percentage": 80.11651469098278
         },
         "dxRank": 0,
         "combo": null,
@@ -20385,7 +20385,7 @@
       },
       "score": {
         "clear": true,
-        "achievement": 998077,
+        "achievement": 998123,
         "rank": "SS+",
         "dxScore": {
           "score": 2006,
@@ -21033,6 +21033,26 @@
           "percentage": 86.70433145009416
         },
         "dxRank": 1,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "Lia=Fail",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 980444,
+        "rank": "S+",
+        "dxScore": {
+          "score": 2578,
+          "max": 3048,
+          "percentage": 84.58005249343832
+        },
+        "dxRank": 0,
         "combo": null,
         "sync": null
       }
@@ -22533,6 +22553,26 @@
           "percentage": 87.85664578983994
         },
         "dxRank": 1,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "Prophesy One",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 967473,
+        "rank": "AAA",
+        "dxScore": {
+          "score": 2464,
+          "max": 3204,
+          "percentage": 76.90387016229712
+        },
+        "dxRank": 0,
         "combo": null,
         "sync": null
       }
@@ -24639,6 +24679,26 @@
     },
     {
       "track": {
+        "title": "怒槌",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 969380,
+        "rank": "AAA",
+        "dxScore": {
+          "score": 2867,
+          "max": 3564,
+          "percentage": 80.44332210998878
+        },
+        "dxRank": 0,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "TiamaT:F minor",
         "type": "Standard",
         "difficulty": "MASTER"
@@ -25785,12 +25845,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 981733,
-        "rank": "S+",
+        "achievement": 990409,
+        "rank": "SS",
         "dxScore": {
-          "score": 1428,
+          "score": 1470,
           "max": 1671,
-          "percentage": 85.45780969479354
+          "percentage": 87.97127468581688
         },
         "dxRank": 1,
         "combo": null,
@@ -25825,14 +25885,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 982324,
-        "rank": "S+",
+        "achievement": 991102,
+        "rank": "SS",
         "dxScore": {
-          "score": 2253,
+          "score": 2369,
           "max": 2703,
-          "percentage": 83.35183129855716
+          "percentage": 87.64335923048465
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
         "sync": null
       }
@@ -26299,6 +26359,26 @@
     },
     {
       "track": {
+        "title": "ガラテアの螺旋",
+        "type": "Standard",
+        "difficulty": "Re:MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 981312,
+        "rank": "S+",
+        "dxScore": {
+          "score": 2144,
+          "max": 2697,
+          "percentage": 79.49573600296625
+        },
+        "dxRank": 0,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "QZKago Requiem",
         "type": "Standard",
         "difficulty": "Re:MASTER"
@@ -26315,6 +26395,26 @@
         "dxRank": 0,
         "combo": null,
         "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "Garakuta Doll Play",
+        "type": "Standard",
+        "difficulty": "Re:MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 982792,
+        "rank": "S+",
+        "dxScore": {
+          "score": 2568,
+          "max": 3030,
+          "percentage": 84.75247524752476
+        },
+        "dxRank": 0,
+        "combo": null,
+        "sync": null
       }
     },
     {
