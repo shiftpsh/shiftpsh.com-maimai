@@ -9,10 +9,10 @@
     },
     "courseRank": 15,
     "classRank": 7,
-    "stars": 885,
+    "stars": 890,
     "playCount": {
-      "total": 1699,
-      "current": 67
+      "total": 1704,
+      "current": 72
     }
   },
   "records": [
@@ -13439,6 +13439,26 @@
     },
     {
       "track": {
+        "title": "CYBER Sparks",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1008761,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1766,
+          "max": 1878,
+          "percentage": 94.03620873269436
+        },
+        "dxRank": 3,
+        "combo": "FULL COMBO+",
+        "sync": "FULL SYNC+"
+      }
+    },
+    {
+      "track": {
         "title": "Witches night",
         "type": "DX",
         "difficulty": "MASTER"
@@ -14365,16 +14385,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 987687,
-        "rank": "S+",
+        "achievement": 991501,
+        "rank": "SS",
         "dxScore": {
-          "score": 1973,
+          "score": 2025,
           "max": 2331,
-          "percentage": 84.64178464178464
+          "percentage": 86.87258687258688
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -16125,16 +16145,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 995528,
-        "rank": "SS+",
+        "achievement": 1005338,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 1854,
+          "score": 1899,
           "max": 2085,
-          "percentage": 88.92086330935251
+          "percentage": 91.07913669064747
         },
-        "dxRank": 1,
-        "combo": null,
-        "sync": null
+        "dxRank": 2,
+        "combo": "FULL COMBO",
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -16645,14 +16665,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 989444,
-        "rank": "S+",
+        "achievement": 1000081,
+        "rank": "SSS",
         "dxScore": {
-          "score": 1511,
+          "score": 1570,
           "max": 1716,
-          "percentage": 88.05361305361305
+          "percentage": 91.4918414918415
         },
-        "dxRank": 1,
+        "dxRank": 2,
         "combo": null,
         "sync": "SYNC PLAY"
       }
@@ -19245,14 +19265,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 980611,
-        "rank": "S+",
+        "achievement": 998571,
+        "rank": "SS+",
         "dxScore": {
-          "score": 1010,
+          "score": 1060,
           "max": 1167,
-          "percentage": 86.54670094258783
+          "percentage": 90.8311910882605
         },
-        "dxRank": 1,
+        "dxRank": 2,
         "combo": null,
         "sync": null
       }
@@ -19685,14 +19705,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 985085,
-        "rank": "S+",
+        "achievement": 994910,
+        "rank": "SS",
         "dxScore": {
-          "score": 2029,
+          "score": 2088,
           "max": 2439,
-          "percentage": 83.18983189831897
+          "percentage": 85.60885608856088
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
         "sync": "SYNC PLAY"
       }
@@ -21845,15 +21865,15 @@
       },
       "score": {
         "clear": true,
-        "achievement": 989717,
-        "rank": "S+",
+        "achievement": 996331,
+        "rank": "SS+",
         "dxScore": {
-          "score": 1803,
+          "score": 1838,
           "max": 2079,
-          "percentage": 86.72438672438673
+          "percentage": 88.40788840788841
         },
         "dxRank": 1,
-        "combo": null,
+        "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
     },
@@ -23205,15 +23225,15 @@
       },
       "score": {
         "clear": true,
-        "achievement": 994861,
-        "rank": "SS",
+        "achievement": 1007568,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 2032,
+          "score": 2111,
           "max": 2301,
-          "percentage": 88.30943068231204
+          "percentage": 91.74272055627988
         },
-        "dxRank": 1,
-        "combo": null,
+        "dxRank": 2,
+        "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
     },
@@ -25525,16 +25545,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 986955,
-        "rank": "S+",
+        "achievement": 998045,
+        "rank": "SS+",
         "dxScore": {
-          "score": 1318,
+          "score": 1339,
           "max": 1452,
-          "percentage": 90.77134986225896
+          "percentage": 92.21763085399449
         },
         "dxRank": 2,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -25948,9 +25968,9 @@
         "achievement": 1001378,
         "rank": "SSS",
         "dxScore": {
-          "score": 2400,
+          "score": 2401,
           "max": 2691,
-          "percentage": 89.18617614269789
+          "percentage": 89.223337049424
         },
         "dxRank": 1,
         "combo": "FULL COMBO",
