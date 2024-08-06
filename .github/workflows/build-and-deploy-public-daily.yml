@@ -17,14 +17,16 @@ jobs:
           ref: main
       - name: Install dependencies
         run: yarn
+      - name: Build record database
+        run: yarn generate:records
       - name: Build song database
         run: yarn generate:music-db
       - name: Build meta database
         run: yarn generate:meta-db
       - name: Build internal level database
         run: yarn generate:internal-db
-      - name: Build record database
-        run: yarn generate:records
+      - name: Build stamp card
+        run: yarn generate:stamp
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
   build:

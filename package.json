@@ -10,7 +10,8 @@
     "generate:music-db": "node -r ts-node/register ./scripts/generateMusicDb.ts",
     "generate:meta-db": "node -r ts-node/register ./scripts/generateMetaDb.ts",
     "generate:internal-db": "node -r ts-node/register ./scripts/generateInternalLevelDb.ts",
-    "generate:records": "node -r ts-node/register ./scripts/generateRecordsDb.ts"
+    "generate:records": "node -r ts-node/register ./scripts/generateRecordsDb.ts",
+    "generate:stamp": "node -r ts-node/register ./scripts/generateStampCardDb.ts"
   },
   "dependencies": {
     "@emotion/react": "^11.13.0",
