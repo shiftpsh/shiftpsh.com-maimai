@@ -9,10 +9,10 @@
     },
     "courseRank": 15,
     "classRank": 7,
-    "stars": 884,
+    "stars": 885,
     "playCount": {
-      "total": 1693,
-      "current": 61
+      "total": 1698,
+      "current": 66
     }
   },
   "records": [
@@ -1154,6 +1154,26 @@
         "dxRank": 3,
         "combo": "ALL PERFECT+",
         "sync": "FULL SYNC DX"
+      }
+    },
+    {
+      "track": {
+        "title": "ハッピーシンセサイザ",
+        "type": "DX",
+        "difficulty": "EXPERT"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1010000,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 730,
+          "max": 750,
+          "percentage": 97.33333333333334
+        },
+        "dxRank": 5,
+        "combo": "ALL PERFECT+",
+        "sync": "FULL SYNC+"
       }
     },
     {
@@ -8259,6 +8279,26 @@
     },
     {
       "track": {
+        "title": "ハッピーシンセサイザ",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1009800,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1459,
+          "max": 1524,
+          "percentage": 95.73490813648294
+        },
+        "dxRank": 4,
+        "combo": "ALL PERFECT",
+        "sync": "FULL SYNC DX+"
+      }
+    },
+    {
+      "track": {
         "title": "グッバイ宣言",
         "type": "DX",
         "difficulty": "MASTER"
@@ -12279,6 +12319,26 @@
     },
     {
       "track": {
+        "title": "HANIPAGANDA",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 997120,
+        "rank": "SS+",
+        "dxScore": {
+          "score": 2292,
+          "max": 2526,
+          "percentage": 90.73634204275535
+        },
+        "dxRank": 2,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "トランスダンスアナーキー",
         "type": "DX",
         "difficulty": "MASTER"
@@ -13005,16 +13065,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 971084,
-        "rank": "S",
+        "achievement": 993808,
+        "rank": "SS",
         "dxScore": {
-          "score": 2181,
+          "score": 2301,
           "max": 2706,
-          "percentage": 80.59866962305988
+          "percentage": 85.03325942350332
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -15365,12 +15425,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 974772,
-        "rank": "S",
+        "achievement": 994943,
+        "rank": "SS",
         "dxScore": {
-          "score": 1232,
+          "score": 1281,
           "max": 1443,
-          "percentage": 85.37768537768538
+          "percentage": 88.77338877338877
         },
         "dxRank": 1,
         "combo": null,
@@ -16565,16 +16625,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 969718,
-        "rank": "AAA",
+        "achievement": 989444,
+        "rank": "S+",
         "dxScore": {
-          "score": 1471,
+          "score": 1511,
           "max": 1716,
-          "percentage": 85.72261072261072
+          "percentage": 88.05361305361305
         },
         "dxRank": 1,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -17785,15 +17845,15 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1006687,
+        "achievement": 1008953,
         "rank": "SSS+",
         "dxScore": {
-          "score": 2476,
+          "score": 2483,
           "max": 2763,
-          "percentage": 89.61273977560622
+          "percentage": 89.86608758595729
         },
         "dxRank": 1,
-        "combo": null,
+        "combo": "FULL COMBO+",
         "sync": "SYNC PLAY"
       }
     },
@@ -19660,6 +19720,26 @@
     {
       "track": {
         "title": "oboro",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1003199,
+        "rank": "SSS",
+        "dxScore": {
+          "score": 1792,
+          "max": 1992,
+          "percentage": 89.95983935742971
+        },
+        "dxRank": 1,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "oboro",
         "type": "Standard",
         "difficulty": "MASTER"
       },
@@ -20314,6 +20394,46 @@
         },
         "dxRank": 0,
         "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "HAGAKIRI",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 997600,
+        "rank": "SS+",
+        "dxScore": {
+          "score": 1983,
+          "max": 2199,
+          "percentage": 90.17735334242838
+        },
+        "dxRank": 2,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "Irresistible",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1007679,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2191,
+          "max": 2346,
+          "percentage": 93.3930093776641
+        },
+        "dxRank": 3,
+        "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
     },
@@ -20985,12 +21105,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 967010,
-        "rank": "AAA",
+        "achievement": 976103,
+        "rank": "S",
         "dxScore": {
-          "score": 2542,
+          "score": 2586,
           "max": 3114,
-          "percentage": 81.63134232498395
+          "percentage": 83.04431599229287
         },
         "dxRank": 0,
         "combo": null,
@@ -22239,6 +22359,26 @@
     },
     {
       "track": {
+        "title": "Beat of getting entangled",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 989933,
+        "rank": "S+",
+        "dxScore": {
+          "score": 1557,
+          "max": 1758,
+          "percentage": 88.56655290102388
+        },
+        "dxRank": 1,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "Ragnarok",
         "type": "Standard",
         "difficulty": "MASTER"
@@ -22979,6 +23119,26 @@
     },
     {
       "track": {
+        "title": "BOUNCE & DANCE",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1004415,
+        "rank": "SSS",
+        "dxScore": {
+          "score": 2755,
+          "max": 2997,
+          "percentage": 91.92525859192526
+        },
+        "dxRank": 2,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "MEGATON BLAST",
         "type": "DX",
         "difficulty": "MASTER"
@@ -23015,6 +23175,26 @@
         "dxRank": 0,
         "combo": null,
         "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "LiftOff",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 994861,
+        "rank": "SS",
+        "dxScore": {
+          "score": 2032,
+          "max": 2301,
+          "percentage": 88.30943068231204
+        },
+        "dxRank": 1,
+        "combo": null,
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -24379,6 +24559,26 @@
     },
     {
       "track": {
+        "title": "We Gonna Journey",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1003706,
+        "rank": "SSS",
+        "dxScore": {
+          "score": 2432,
+          "max": 2745,
+          "percentage": 88.59744990892531
+        },
+        "dxRank": 1,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "My First Phone",
         "type": "Standard",
         "difficulty": "MASTER"
@@ -25119,6 +25319,26 @@
     },
     {
       "track": {
+        "title": "立ち入り禁止",
+        "type": "Standard",
+        "difficulty": "Re:MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 997689,
+        "rank": "SS+",
+        "dxScore": {
+          "score": 2525,
+          "max": 2859,
+          "percentage": 88.31759356418328
+        },
+        "dxRank": 1,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "はやくそれになりたい！",
         "type": "Standard",
         "difficulty": "Re:MASTER"
@@ -25419,6 +25639,26 @@
     },
     {
       "track": {
+        "title": "CYBER Sparks",
+        "type": "Standard",
+        "difficulty": "Re:MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 993312,
+        "rank": "SS",
+        "dxScore": {
+          "score": 2417,
+          "max": 2835,
+          "percentage": 85.2557319223986
+        },
+        "dxRank": 1,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "FLOWER",
         "type": "Standard",
         "difficulty": "Re:MASTER"
@@ -25679,6 +25919,26 @@
     },
     {
       "track": {
+        "title": "Secret Sleuth",
+        "type": "DX",
+        "difficulty": "Re:MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1001378,
+        "rank": "SSS",
+        "dxScore": {
+          "score": 2400,
+          "max": 2691,
+          "percentage": 89.18617614269789
+        },
+        "dxRank": 1,
+        "combo": "FULL COMBO",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "星めぐり、果ての君へ。",
         "type": "DX",
         "difficulty": "Re:MASTER"
@@ -25875,6 +26135,26 @@
         "dxRank": 3,
         "combo": "FULL COMBO",
         "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "Limit Break",
+        "type": "Standard",
+        "difficulty": "Re:MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 999269,
+        "rank": "SS+",
+        "dxScore": {
+          "score": 2241,
+          "max": 2475,
+          "percentage": 90.54545454545455
+        },
+        "dxRank": 2,
+        "combo": null,
+        "sync": "SYNC PLAY"
       }
     },
     {
