@@ -11,8 +11,8 @@
     "classRank": 7,
     "stars": 885,
     "playCount": {
-      "total": 1698,
-      "current": 66
+      "total": 1699,
+      "current": 67
     }
   },
   "records": [
@@ -9465,16 +9465,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 977939,
-        "rank": "S",
+        "achievement": 995583,
+        "rank": "SS+",
         "dxScore": {
-          "score": 2523,
+          "score": 2614,
           "max": 2997,
-          "percentage": 84.18418418418419
+          "percentage": 87.22055388722055
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -12585,16 +12585,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1000778,
+        "achievement": 1004155,
         "rank": "SSS",
         "dxScore": {
-          "score": 1806,
+          "score": 1878,
           "max": 1983,
-          "percentage": 91.07413010590015
+          "percentage": 94.70499243570349
         },
-        "dxRank": 2,
+        "dxRank": 3,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -12973,6 +12973,26 @@
           "percentage": 94.5187165775401
         },
         "dxRank": 3,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "みんなの",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1002909,
+        "rank": "SSS",
+        "dxScore": {
+          "score": 1711,
+          "max": 1899,
+          "percentage": 90.10005265929436
+        },
+        "dxRank": 2,
         "combo": null,
         "sync": "SYNC PLAY"
       }
@@ -14605,16 +14625,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 978473,
-        "rank": "S",
+        "achievement": 996902,
+        "rank": "SS+",
         "dxScore": {
-          "score": 2486,
+          "score": 2627,
           "max": 2943,
-          "percentage": 84.47162759089365
+          "percentage": 89.26265715256541
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
