@@ -1,5 +1,5 @@
 {
-  "chartCount": 4826,
+  "chartCount": 4842,
   "availableVersions": [
     {
       "value": 0,
@@ -14193,6 +14193,54 @@
         "6",
         "8",
         "12+",
+        "14",
+        null
+      ]
+    },
+    {
+      "title": "サイバーサンダーサイダー",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "4",
+        "6",
+        "10+",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "おくすり飲んで寝よう",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "6",
+        "9+",
+        "12+",
+        null
+      ]
+    },
+    {
+      "title": "御旗のもとに",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "6",
+        "10+",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "QUATTUORUX",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "6",
+        "8+",
+        "13",
         "14",
         null
       ]

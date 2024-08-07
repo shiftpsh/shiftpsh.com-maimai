@@ -2275,6 +2275,12 @@
       "chartTypeCount": 1
     },
     {
+      "title": "QUATTUORUX",
+      "artist": "打打だいず Vs. Tanchiky Vs. からめる",
+      "jacketKey": "5d5496cab15d0422",
+      "chartTypeCount": 1
+    },
+    {
       "title": "QUEEN",
       "artist": "Kanaria",
       "jacketKey": "4c8911dff643e5cb",
@@ -3601,6 +3607,12 @@
       "chartTypeCount": 1
     },
     {
+      "title": "おくすり飲んで寝よう",
+      "artist": "もちうつね",
+      "jacketKey": "848ca5372a825d86",
+      "chartTypeCount": 1
+    },
+    {
       "title": "おこちゃま戦争",
       "artist": "ギガ/れをる",
       "jacketKey": "e8f0c0f81f6a4e8a",
@@ -3892,6 +3904,12 @@
       "title": "コンティニュー！ feat. 藍月なくる",
       "artist": "lapix",
       "jacketKey": "af4f08eaff72cde9",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "サイバーサンダーサイダー",
+      "artist": "EZFG",
+      "jacketKey": "8489c52144bb8be5",
       "chartTypeCount": 1
     },
     {
@@ -5812,7 +5830,7 @@
       "title": "御旗のもとに",
       "artist": "「サクラ大戦」",
       "jacketKey": "f364b690f9a0bff3",
-      "chartTypeCount": 1
+      "chartTypeCount": 2
     },
     {
       "title": "心象蜃気楼",
