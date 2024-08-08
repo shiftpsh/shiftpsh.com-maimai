@@ -62,7 +62,6 @@ const Row = styled.div`
 const StampCards = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 8px;
 `;
 
 const StampCard = styled.div`
@@ -93,13 +92,13 @@ const StampCardStamps = styled.div`
 const StampImage = styled.img`
   width: 72px;
   height: 72px;
-  object-fit: contain; 
+  object-fit: contain;
 `;
 
 const StampImageSmall = styled.img`
   width: 48px;
   height: 48px;
-  object-fit: contain; 
+  object-fit: contain;
 `;
 
 const CompleteGrid = styled.div`
