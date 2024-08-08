@@ -1,5 +1,10 @@
 import { Container, Space, Tab, Tabs, Typo } from "@solved-ac/ui-react";
-import { IconBrush, IconDisc, IconMusicStar } from "@tabler/icons-react";
+import {
+  IconBrush,
+  IconDisc,
+  IconMusicStar,
+  IconRubberStamp,
+} from "@tabler/icons-react";
 import { NavLink, Outlet } from "react-router-dom";
 import Footer from "./components/Footer";
 import Profile from "./components/Profile";
@@ -19,6 +24,10 @@ const PATHS = [
   {
     path: "/grinding",
     icon: <IconBrush />,
+  },
+  {
+    path: "/stamp",
+    icon: <IconRubberStamp />,
   },
 ];
 

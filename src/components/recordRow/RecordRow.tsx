@@ -3,24 +3,21 @@ import { Typo } from "@solved-ac/ui-react";
 import { IconMusicStar } from "@tabler/icons-react";
 import { ellipsis } from "polished";
 import { ratingsLatest, ratingsOld } from "../../const/bestRatings";
+import { MUSIC_DX_URL, MUSIC_STD_URL } from "../../const/chartType";
 import { SONG_DATABASE, SongDatabaseItem } from "../../const/songDatabase";
 import { defaultFont } from "../../styles/fonts/default";
 import { wanpaku } from "../../styles/fonts/wanpaku";
 import { difficultyBackgroundColor } from "../../utils/difficulty";
 import { dxScoreClosestNextBorder } from "../../utils/dxScore";
 import { rating as ratingFn } from "../../utils/rating";
-import LevelGradientText from "../commons/LevelGradientText";
+import { splitTitle } from "../../utils/title";
 import ComboChip from "../chip/ComboChip";
 import DxRankChip from "../chip/DxRankChip";
 import RankChip from "../chip/RankChip";
 import SyncChip from "../chip/SyncChip";
-import { splitTitle } from "../../utils/title";
+import LevelGradientText from "../commons/LevelGradientText";
 
 const { latestVersion } = SONG_DATABASE;
-
-const MUSIC_DX_URL = "https://maimaidx-eng.com/maimai-mobile/img/music_dx.png";
-const MUSIC_STD_URL =
-  "https://maimaidx-eng.com/maimai-mobile/img/music_standard.png";
 
 const RecordContainer = styled.div`
   border-bottom: ${({ theme }) => theme.styles.border()};

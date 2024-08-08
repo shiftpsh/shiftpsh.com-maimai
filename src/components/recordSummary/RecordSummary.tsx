@@ -5,10 +5,7 @@ import { wanpaku } from "../../styles/fonts/wanpaku";
 import { difficultyBorderColor } from "../../utils/difficulty";
 import RankChip from "../chip/RankChip";
 import LevelMarker from "./LevelMarker";
-
-const MUSIC_DX_URL = "https://maimaidx-eng.com/maimai-mobile/img/music_dx.png";
-const MUSIC_STD_URL =
-  "https://maimaidx-eng.com/maimai-mobile/img/music_standard.png";
+import { MUSIC_DX_URL, MUSIC_STD_URL } from "../../const/chartType";
 
 const RecordContainer = styled.div`
   min-width: 0;

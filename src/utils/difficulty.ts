@@ -47,3 +47,12 @@ export const difficultyLevelBackground = (difficulty: Difficulty) => {
     return "linear-gradient(to bottom, #beeaa8, #76cf53)";
   throw new Error(`Unknown difficulty: ${difficulty}`);
 };
+
+export const difficultySortWeight = (difficulty: Difficulty) => {
+  if (difficulty === "Re:MASTER") return 4;
+  if (difficulty === "MASTER") return 3;
+  if (difficulty === "EXPERT") return 2;
+  if (difficulty === "ADVANCED") return 1;
+  if (difficulty === "BASIC") return 0;
+  throw new Error(`Unknown difficulty: ${difficulty}`);
+};

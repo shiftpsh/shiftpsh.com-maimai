@@ -18,7 +18,17 @@ const Footer = () => {
         >
           <IconBrandGithub />
         </a>
-        <Paragraph>데이터는 매일 오전 7:30 KST에 자동 갱신됩니다.</Paragraph>
+        <Paragraph>
+          데이터는 매일 오전 7:30 KST에 자동 갱신됩니다. (사이트 주인인 경우{" "}
+          <a
+            href="https://github.com/shiftpsh/shiftpsh.com-maimai/actions/workflows/build-and-deploy-public-daily.yml"
+            target="_blank"
+            rel="noreferrer"
+          >
+            여기에서 수동 갱신을 할 수 있습니다
+          </a>
+          )
+        </Paragraph>
         <Paragraph>
           보면 상수는{" "}
           <a
