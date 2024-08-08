@@ -68,11 +68,15 @@ const generate = async () => {
     fs.promises.mkdir("./public/db", { recursive: true }),
   ]);
 
-  await Promise.all(
-    ["./src/db/records.json", monthlyFileName].map((x) =>
+  await Promise.all([
+    ...["./src/db/records.json", monthlyFileName].map((x) =>
       fs.promises.writeFile(x, JSON.stringify(data, null, 2), "utf-8")
-    )
-  );
+    ),
+    fs.promises.writeFile(
+      "./public/db/profile-summary.json",
+      JSON.stringify(data.profile, null, 2)
+    ),
+  ]);
 
   console.log("Database generated successfully.");
 };
