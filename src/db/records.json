@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "ｓｏｌｖｅｄａｃ",
-    "rating": 15684,
+    "rating": 15720,
     "profileImageSrc": "https://maimaidx-eng.com/maimai-mobile/img/Icon/b2afde62b4da3e48.png",
     "trophy": {
       "tier": "Normal",
@@ -11,8 +11,8 @@
     "classRank": 7,
     "stars": 890,
     "playCount": {
-      "total": 1715,
-      "current": 83
+      "total": 1718,
+      "current": 86
     }
   },
   "records": [
@@ -3094,6 +3094,26 @@
         "dxRank": 3,
         "combo": "FULL COMBO",
         "sync": "FULL SYNC+"
+      }
+    },
+    {
+      "track": {
+        "title": "QUATTUORUX",
+        "type": "DX",
+        "difficulty": "EXPERT"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1007149,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2219,
+          "max": 2400,
+          "percentage": 92.45833333333333
+        },
+        "dxRank": 2,
+        "combo": "FULL COMBO",
+        "sync": null
       }
     },
     {
@@ -13745,15 +13765,15 @@
       },
       "score": {
         "clear": true,
-        "achievement": 990922,
-        "rank": "SS",
+        "achievement": 1005424,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 2991,
+          "score": 3060,
           "max": 3366,
-          "percentage": 88.85918003565062
+          "percentage": 90.9090909090909
         },
-        "dxRank": 1,
-        "combo": null,
+        "dxRank": 2,
+        "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
     },
@@ -14105,12 +14125,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 983008,
-        "rank": "S+",
+        "achievement": 992150,
+        "rank": "SS",
         "dxScore": {
-          "score": 2592,
+          "score": 2639,
           "max": 2976,
-          "percentage": 87.09677419354838
+          "percentage": 88.6760752688172
         },
         "dxRank": 1,
         "combo": null,
@@ -17405,8 +17425,8 @@
       },
       "score": {
         "clear": true,
-        "achievement": 999914,
-        "rank": "SS+",
+        "achievement": 1000209,
+        "rank": "SSS",
         "dxScore": {
           "score": 2949,
           "max": 3324,
@@ -23805,14 +23825,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 982602,
-        "rank": "S+",
+        "achievement": 1001991,
+        "rank": "SSS",
         "dxScore": {
-          "score": 2344,
+          "score": 2448,
           "max": 2787,
-          "percentage": 84.10477215644062
+          "percentage": 87.83638320775027
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
         "sync": null
       }
@@ -24805,12 +24825,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 983763,
-        "rank": "S+",
+        "achievement": 996560,
+        "rank": "SS+",
         "dxScore": {
-          "score": 2488,
+          "score": 2551,
           "max": 2841,
-          "percentage": 87.5747976064766
+          "percentage": 89.79232664554733
         },
         "dxRank": 1,
         "combo": null,
