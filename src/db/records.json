@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "ｓｏｌｖｅｄａｃ",
-    "rating": 15645,
+    "rating": 15684,
     "profileImageSrc": "https://maimaidx-eng.com/maimai-mobile/img/Icon/b2afde62b4da3e48.png",
     "trophy": {
       "tier": "Normal",
@@ -11,8 +11,8 @@
     "classRank": 7,
     "stars": 890,
     "playCount": {
-      "total": 1714,
-      "current": 82
+      "total": 1715,
+      "current": 83
     }
   },
   "records": [
@@ -8259,6 +8259,46 @@
     },
     {
       "track": {
+        "title": "サイバーサンダーサイダー",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1005393,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2144,
+          "max": 2310,
+          "percentage": 92.81385281385282
+        },
+        "dxRank": 2,
+        "combo": "FULL COMBO+",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "おくすり飲んで寝よう",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1009810,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2094,
+          "max": 2229,
+          "percentage": 93.94347240915208
+        },
+        "dxRank": 3,
+        "combo": "FULL COMBO+",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "Freak Out Hr.",
         "type": "DX",
         "difficulty": "MASTER"
@@ -13699,6 +13739,26 @@
     },
     {
       "track": {
+        "title": "QUATTUORUX",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 990922,
+        "rank": "SS",
+        "dxScore": {
+          "score": 2991,
+          "max": 3366,
+          "percentage": 88.85918003565062
+        },
+        "dxRank": 1,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "PUPA",
         "type": "DX",
         "difficulty": "MASTER"
@@ -17344,15 +17404,15 @@
         "difficulty": "MASTER"
       },
       "score": {
-        "clear": false,
-        "achievement": 669449,
-        "rank": "B",
+        "clear": true,
+        "achievement": 999914,
+        "rank": "SS+",
         "dxScore": {
-          "score": 2115,
+          "score": 2949,
           "max": 3324,
-          "percentage": 63.628158844765345
+          "percentage": 88.71841155234657
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
         "sync": "SYNC PLAY"
       }
