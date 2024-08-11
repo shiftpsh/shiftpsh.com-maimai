@@ -1,18 +1,18 @@
 {
   "profile": {
     "name": "ｓｏｌｖｅｄａｃ",
-    "rating": 15720,
+    "rating": 15729,
     "profileImageSrc": "https://maimaidx-eng.com/maimai-mobile/img/Icon/b2afde62b4da3e48.png",
     "trophy": {
       "tier": "Normal",
-      "title": "PLAY LIKE YOU NEVER DID BEFORE"
+      "title": "\n\t\t\t\t\tPLAY LIKE YOU NEVER DID BEFORE\n\t\t\t\t"
     },
     "courseRank": 15,
     "classRank": 7,
     "stars": 890,
     "playCount": {
-      "total": 1718,
-      "current": 86
+      "total": 1724,
+      "current": 92
     }
   },
   "records": [
@@ -8085,14 +8085,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 984767,
-        "rank": "S+",
+        "achievement": 1001071,
+        "rank": "SSS",
         "dxScore": {
-          "score": 1148,
+          "score": 1194,
           "max": 1284,
-          "percentage": 89.40809968847351
+          "percentage": 92.99065420560748
         },
-        "dxRank": 1,
+        "dxRank": 2,
         "combo": null,
         "sync": null
       }
@@ -8305,16 +8305,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1009810,
+        "achievement": 1010000,
         "rank": "SSS+",
         "dxScore": {
-          "score": 2094,
+          "score": 2096,
           "max": 2229,
-          "percentage": 93.94347240915208
+          "percentage": 94.03319874383132
         },
         "dxRank": 3,
-        "combo": "FULL COMBO+",
-        "sync": "SYNC PLAY"
+        "combo": "ALL PERFECT+",
+        "sync": "FULL SYNC DX"
       }
     },
     {
@@ -8705,14 +8705,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 983968,
-        "rank": "S+",
+        "achievement": 1004507,
+        "rank": "SSS",
         "dxScore": {
-          "score": 2505,
+          "score": 2658,
           "max": 2961,
-          "percentage": 84.59979736575481
+          "percentage": 89.76697061803445
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
         "sync": null
       }
@@ -15605,12 +15605,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 984148,
-        "rank": "S+",
+        "achievement": 994083,
+        "rank": "SS",
         "dxScore": {
-          "score": 2258,
+          "score": 2309,
           "max": 2592,
-          "percentage": 87.1141975308642
+          "percentage": 89.0817901234568
         },
         "dxRank": 1,
         "combo": null,
@@ -17439,6 +17439,26 @@
     },
     {
       "track": {
+        "title": "IF:U",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 992927,
+        "rank": "SS",
+        "dxScore": {
+          "score": 2485,
+          "max": 2847,
+          "percentage": 87.284861257464
+        },
+        "dxRank": 1,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "フェイクフェイス・フェイルセイフ",
         "type": "DX",
         "difficulty": "MASTER"
@@ -18505,12 +18525,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 984809,
-        "rank": "S+",
+        "achievement": 991518,
+        "rank": "SS",
         "dxScore": {
-          "score": 1982,
+          "score": 2075,
           "max": 2316,
-          "percentage": 85.57858376511226
+          "percentage": 89.59412780656304
         },
         "dxRank": 1,
         "combo": null,
@@ -22405,12 +22425,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 987491,
-        "rank": "S+",
+        "achievement": 997016,
+        "rank": "SS+",
         "dxScore": {
-          "score": 2212,
+          "score": 2288,
           "max": 2565,
-          "percentage": 86.23781676413256
+          "percentage": 89.20077972709551
         },
         "dxRank": 1,
         "combo": null,
@@ -26865,15 +26885,15 @@
       },
       "score": {
         "clear": true,
-        "achievement": 987384,
-        "rank": "S+",
+        "achievement": 999935,
+        "rank": "SS+",
         "dxScore": {
-          "score": 1240,
+          "score": 1252,
           "max": 1476,
-          "percentage": 84.01084010840108
+          "percentage": 84.82384823848238
         },
         "dxRank": 0,
-        "combo": null,
+        "combo": "FULL COMBO",
         "sync": null
       }
     },
