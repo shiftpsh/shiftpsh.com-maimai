@@ -11,8 +11,8 @@
     "classRank": 7,
     "stars": 890,
     "playCount": {
-      "total": 1724,
-      "current": 92
+      "total": 1727,
+      "current": 95
     }
   },
   "records": [
@@ -2574,6 +2574,26 @@
         "dxRank": 4,
         "combo": "FULL COMBO+",
         "sync": "FULL SYNC+"
+      }
+    },
+    {
+      "track": {
+        "title": "インターネットサバイバー",
+        "type": "DX",
+        "difficulty": "EXPERT"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1009895,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1494,
+          "max": 1557,
+          "percentage": 95.95375722543352
+        },
+        "dxRank": 4,
+        "combo": "ALL PERFECT",
+        "sync": "FULL SYNC DX+"
       }
     },
     {
@@ -7925,16 +7945,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 987551,
-        "rank": "S+",
+        "achievement": 1004549,
+        "rank": "SSS",
         "dxScore": {
-          "score": 1612,
+          "score": 1661,
           "max": 1896,
-          "percentage": 85.0210970464135
+          "percentage": 87.60548523206751
         },
         "dxRank": 1,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -14745,16 +14765,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 986303,
-        "rank": "S+",
+        "achievement": 998737,
+        "rank": "SS+",
         "dxScore": {
-          "score": 2318,
+          "score": 2394,
           "max": 2646,
-          "percentage": 87.60393046107332
+          "percentage": 90.47619047619048
         },
-        "dxRank": 1,
+        "dxRank": 2,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -16465,16 +16485,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 986298,
-        "rank": "S+",
+        "achievement": 992496,
+        "rank": "SS",
         "dxScore": {
-          "score": 2135,
+          "score": 2184,
           "max": 2523,
-          "percentage": 84.62148236226714
+          "percentage": 86.56361474435195
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -17005,15 +17025,15 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1006364,
+        "achievement": 1008751,
         "rank": "SSS+",
         "dxScore": {
-          "score": 1962,
+          "score": 1976,
           "max": 2118,
-          "percentage": 92.63456090651559
+          "percentage": 93.29556185080264
         },
-        "dxRank": 2,
-        "combo": "FULL COMBO",
+        "dxRank": 3,
+        "combo": "FULL COMBO+",
         "sync": "SYNC PLAY"
       }
     },
@@ -18465,16 +18485,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 987528,
-        "rank": "S+",
+        "achievement": 999253,
+        "rank": "SS+",
         "dxScore": {
-          "score": 1626,
+          "score": 1681,
           "max": 1875,
-          "percentage": 86.72
+          "percentage": 89.65333333333334
         },
         "dxRank": 1,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -22125,12 +22145,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 987807,
-        "rank": "S+",
+        "achievement": 994421,
+        "rank": "SS",
         "dxScore": {
-          "score": 2057,
+          "score": 2121,
           "max": 2406,
-          "percentage": 85.49459684123025
+          "percentage": 88.15461346633417
         },
         "dxRank": 1,
         "combo": null,
@@ -23225,12 +23245,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 994648,
-        "rank": "SS",
+        "achievement": 1001664,
+        "rank": "SSS",
         "dxScore": {
-          "score": 2695,
+          "score": 2709,
           "max": 2964,
-          "percentage": 90.92442645074223
+          "percentage": 91.39676113360325
         },
         "dxRank": 2,
         "combo": null,
@@ -24345,16 +24365,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 987750,
-        "rank": "S+",
+        "achievement": 1001154,
+        "rank": "SSS",
         "dxScore": {
-          "score": 2544,
+          "score": 2657,
           "max": 3003,
-          "percentage": 84.71528471528471
+          "percentage": 88.47818847818849
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
