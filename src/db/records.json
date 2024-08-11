@@ -11,8 +11,8 @@
     "classRank": 7,
     "stars": 890,
     "playCount": {
-      "total": 1732,
-      "current": 100
+      "total": 1737,
+      "current": 105
     }
   },
   "records": [
@@ -13319,6 +13319,26 @@
     },
     {
       "track": {
+        "title": "Scream out! -maimai SONIC WASHER Edit-",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1000069,
+        "rank": "SSS",
+        "dxScore": {
+          "score": 2861,
+          "max": 3267,
+          "percentage": 87.57269666360575
+        },
+        "dxRank": 1,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "INFINITE WORLD",
         "type": "Standard",
         "difficulty": "MASTER"
@@ -14091,6 +14111,26 @@
           "score": 2284,
           "max": 2706,
           "percentage": 84.4050258684405
+        },
+        "dxRank": 0,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "FUJIN Rumble",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 986312,
+        "rank": "S+",
+        "dxScore": {
+          "score": 2500,
+          "max": 3000,
+          "percentage": 83.33333333333334
         },
         "dxRank": 0,
         "combo": null,
@@ -15039,6 +15079,26 @@
     },
     {
       "track": {
+        "title": "Halcyon",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 979716,
+        "rank": "S",
+        "dxScore": {
+          "score": 2749,
+          "max": 3240,
+          "percentage": 84.84567901234567
+        },
+        "dxRank": 0,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "Lunar Mare",
         "type": "DX",
         "difficulty": "MASTER"
@@ -15705,7 +15765,7 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1001951,
+        "achievement": 1002038,
         "rank": "SSS",
         "dxScore": {
           "score": 2296,
@@ -16255,6 +16315,26 @@
         "dxRank": 2,
         "combo": null,
         "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "conflict",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 989108,
+        "rank": "S+",
+        "dxScore": {
+          "score": 2425,
+          "max": 2844,
+          "percentage": 85.26722925457103
+        },
+        "dxRank": 1,
+        "combo": null,
+        "sync": null
       }
     },
     {
@@ -21939,6 +22019,26 @@
     },
     {
       "track": {
+        "title": "Axeria",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 986131,
+        "rank": "S+",
+        "dxScore": {
+          "score": 2262,
+          "max": 2664,
+          "percentage": 84.90990990990991
+        },
+        "dxRank": 0,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "Streak",
         "type": "Standard",
         "difficulty": "MASTER"
@@ -22519,6 +22619,26 @@
     },
     {
       "track": {
+        "title": "Moon of Noon",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 963963,
+        "rank": "AAA",
+        "dxScore": {
+          "score": 2270,
+          "max": 2772,
+          "percentage": 81.8903318903319
+        },
+        "dxRank": 0,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "Dragoon",
         "type": "Standard",
         "difficulty": "MASTER"
@@ -22584,13 +22704,13 @@
         "difficulty": "MASTER"
       },
       "score": {
-        "clear": false,
-        "achievement": 0,
-        "rank": "D",
+        "clear": true,
+        "achievement": 982415,
+        "rank": "S+",
         "dxScore": {
-          "score": 0,
+          "score": 2060,
           "max": 2478,
-          "percentage": 0
+          "percentage": 83.13155770782889
         },
         "dxRank": 0,
         "combo": null,
@@ -22655,6 +22775,26 @@
         "dxRank": 0,
         "combo": null,
         "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "Fragrance",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 986911,
+        "rank": "S+",
+        "dxScore": {
+          "score": 1644,
+          "max": 1965,
+          "percentage": 83.66412213740459
+        },
+        "dxRank": 0,
+        "combo": null,
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -26659,6 +26799,26 @@
     },
     {
       "track": {
+        "title": "FFT",
+        "type": "Standard",
+        "difficulty": "Re:MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 962542,
+        "rank": "AAA",
+        "dxScore": {
+          "score": 2278,
+          "max": 2841,
+          "percentage": 80.18303414290743
+        },
+        "dxRank": 0,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "Panopticon",
         "type": "Standard",
         "difficulty": "Re:MASTER"
@@ -26775,6 +26935,46 @@
         "dxRank": 1,
         "combo": null,
         "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "Dragoon",
+        "type": "Standard",
+        "difficulty": "Re:MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 973387,
+        "rank": "S",
+        "dxScore": {
+          "score": 2085,
+          "max": 2454,
+          "percentage": 84.96332518337408
+        },
+        "dxRank": 0,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "Death Scythe",
+        "type": "Standard",
+        "difficulty": "Re:MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 983195,
+        "rank": "S+",
+        "dxScore": {
+          "score": 2485,
+          "max": 2928,
+          "percentage": 84.87021857923497
+        },
+        "dxRank": 0,
+        "combo": null,
+        "sync": null
       }
     },
     {
