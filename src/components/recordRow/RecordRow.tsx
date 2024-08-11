@@ -255,7 +255,7 @@ const RecordRow = ({ song, mode = "rating" }: Props) => {
               : 0);
       const increaseAmountLatest =
         latestIndex !== -1
-          ? Math.floor(newRating) - Math.floor(ratingsLatest[0].record?.rating)
+          ? Math.floor(newRating) - Math.floor(rating)
           : Math.floor(newRating) -
             (ratingsLatest.length === 15
               ? Math.floor(ratingsLatest[14].record?.rating)
