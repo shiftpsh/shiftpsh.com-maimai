@@ -16,7 +16,7 @@ const parseProfile = (elem: HTMLElement) => {
 
   const profileImageSrc = profile.querySelector("img.w_112")!.attributes.src;
   const title = profile.querySelector(
-    "div.trophy_block > div.trophy_inner_block > span"
+    "div.trophy_block > div.trophy_inner_block"
   )!.text;
   const trophyTierClassList =
     profile.querySelector("div.trophy_block")!.classList;
