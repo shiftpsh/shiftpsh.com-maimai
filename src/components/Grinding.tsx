@@ -65,13 +65,19 @@ const levelStats = (level: DisplayLevel) => {
       }
     });
   });
+  const achievement = ACHIEVEMENT_OBJECTIVES.map((objective) => ({
+    objective,
+    count: achievementBuckets.get(objective) || 0,
+  }));
   return {
     level,
     total,
-    achievement: ACHIEVEMENT_OBJECTIVES.map((objective) => ({
-      objective,
-      count: achievementBuckets.get(objective) || 0,
-    })),
+    achievement,
+    lastCompleteAchievement: achievement.reduce(
+      (acc, { count, objective }) =>
+        count === total ? Math.max(objective, acc) : acc,
+      0
+    ),
     sync: new Array(syncSortWeight("FULL SYNC DX+") + 1)
       .fill(0)
       .map((_, i) => ({
@@ -143,110 +149,126 @@ const Grinding = () => {
         순회 현황
       </Typo>
       <List>
-        {stats.map(({ level, total, achievement }) => {
-          const lastCompleteAchievement = achievement.reduce(
-            (acc, { count, objective }) =>
-              count === total ? Math.max(objective, acc) : acc,
-            0
-          );
-          return (
-            <ListItem key={level}>
-              <HeaderRow>
-                <LevelContainer
-                  style={{
-                    color: lastCompleteAchievement
-                      ? achievementColor(lastCompleteAchievement)
-                      : "#aaa",
-                  }}
-                >
-                  {level.replace(/\+$/, "")}
-                  {level.endsWith("+") && <sup>+</sup>}
-                </LevelContainer>
-                {lastCompleteAchievement ? (
-                  <CompleteBadge
+        {stats.map(
+          (
+            { level, total, achievement, lastCompleteAchievement },
+            index,
+            arr
+          ) => {
+            const prevLastCompleteAchievement = arr
+              .filter((_, i) => i < index)
+              .map((x) => x.lastCompleteAchievement)
+              .reduce((acc, x) => Math.max(acc, x), 0);
+
+            return (
+              <ListItem key={level}>
+                <HeaderRow>
+                  <LevelContainer
                     style={{
-                      backgroundColor: achievementColor(
-                        lastCompleteAchievement
-                      ),
+                      color: lastCompleteAchievement
+                        ? achievementColor(lastCompleteAchievement)
+                        : "#aaa",
                     }}
                   >
-                    {(lastCompleteAchievement / 1e4).toLocaleString(undefined, {
-                      minimumFractionDigits: 1,
-                      maximumFractionDigits: 1,
-                    })}
-                    %+
-                  </CompleteBadge>
-                ) : undefined}
-                <div style={{ flex: 1 }} />
-                <Typo description>{total.toLocaleString()}개 채보</Typo>
-              </HeaderRow>
-              <Space h={32} />
-              {achievement
-                .filter(({ objective }) => objective >= lastCompleteAchievement)
-                .slice(0, 4)
-                .map(({ objective, count }) => (
-                  <Fragment key={objective}>
-                    <ObjectiveRow key={objective}>
-                      <Typo tabular>
-                        {(objective / 1e4).toLocaleString(undefined, {
+                    {level.replace(/\+$/, "")}
+                    {level.endsWith("+") && <sup>+</sup>}
+                  </LevelContainer>
+                  {lastCompleteAchievement ? (
+                    <CompleteBadge
+                      style={{
+                        backgroundColor: achievementColor(
+                          lastCompleteAchievement
+                        ),
+                      }}
+                    >
+                      {(lastCompleteAchievement / 1e4).toLocaleString(
+                        undefined,
+                        {
                           minimumFractionDigits: 1,
                           maximumFractionDigits: 1,
-                        })}
-                        %
-                      </Typo>
-                      <ProgressContainer>
-                        <Progress
-                          style={{
-                            width: `${(count / total) * 100}%`,
-                            backgroundColor: achievementColor(objective),
-                          }}
-                        />
-                      </ProgressContainer>
-                      <ProgressNumber>
-                        <Typo tabular description>
-                          {((count / total) * 100).toFixed(1)}%
+                        }
+                      )}
+                      %+
+                    </CompleteBadge>
+                  ) : undefined}
+                  <div style={{ flex: 1 }} />
+                  <Typo description>{total.toLocaleString()}개 채보</Typo>
+                </HeaderRow>
+                <Space h={32} />
+                {achievement
+                  .filter(
+                    ({ objective }) =>
+                      objective >=
+                      Math.max(
+                        lastCompleteAchievement,
+                        prevLastCompleteAchievement
+                      )
+                  )
+                  .slice(0, 4 + (lastCompleteAchievement !== 0 ? 1 : 0))
+                  .map(({ objective, count }) => (
+                    <Fragment key={objective}>
+                      <ObjectiveRow key={objective}>
+                        <Typo tabular>
+                          {(objective / 1e4).toLocaleString(undefined, {
+                            minimumFractionDigits: 1,
+                            maximumFractionDigits: 1,
+                          })}
+                          %
                         </Typo>
-                      </ProgressNumber>
-                      <LeftCount
-                        to={{
-                          pathname: "/records",
-                          search: filterToUrlQuery(
-                            {
-                              level: displayLevelRange(level),
-                              achievement: [0, objective - 1],
-                            },
-                            {
-                              sort: SORT_CRITERIAS.find(
-                                (x) => x.name === "스코어"
-                              )!,
-                              order: "desc",
-                            }
-                          ),
-                        }}
-                      >
-                        {total === count ? (
-                          <>
-                            <IconCheck color={achievementColor(objective)} />
-                          </>
-                        ) : (
-                          <>&minus;{(total - count).toLocaleString()}</>
-                        )}
-                      </LeftCount>
-                    </ObjectiveRow>
-                    {total !== count && (
-                      <>
-                        <GrindingCost
-                          leftCount={total - count}
-                          needsSync={false}
-                        />
-                      </>
-                    )}
-                    <Space h={8} />
-                  </Fragment>
-                ))}
-            </ListItem>
-          );
-        })}
+                        <ProgressContainer>
+                          <Progress
+                            style={{
+                              width: `${(count / total) * 100}%`,
+                              backgroundColor: achievementColor(objective),
+                            }}
+                          />
+                        </ProgressContainer>
+                        <ProgressNumber>
+                          <Typo tabular description>
+                            {((count / total) * 100).toFixed(1)}%
+                          </Typo>
+                        </ProgressNumber>
+                        <LeftCount
+                          to={{
+                            pathname: "/records",
+                            search: filterToUrlQuery(
+                              {
+                                level: displayLevelRange(level),
+                                achievement: [0, objective - 1],
+                              },
+                              {
+                                sort: SORT_CRITERIAS.find(
+                                  (x) => x.name === "스코어"
+                                )!,
+                                order: "desc",
+                              }
+                            ),
+                          }}
+                        >
+                          {total === count ? (
+                            <>
+                              <IconCheck color={achievementColor(objective)} />
+                            </>
+                          ) : (
+                            <>&minus;{(total - count).toLocaleString()}</>
+                          )}
+                        </LeftCount>
+                      </ObjectiveRow>
+                      {total !== count && (
+                        <>
+                          <GrindingCost
+                            leftCount={total - count}
+                            needsSync={false}
+                          />
+                        </>
+                      )}
+                      <Space h={8} />
+                    </Fragment>
+                  ))}
+              </ListItem>
+            );
+          }
+        )}
       </List>
     </>
   );
