@@ -21,7 +21,7 @@ const Footer = () => {
         <Paragraph>
           데이터는 매일 오전 7:30 KST에 자동 갱신됩니다. (사이트 주인인 경우{" "}
           <a
-            href="https://github.com/shiftpsh/shiftpsh.com-maimai/actions/workflows/build-and-deploy-public-daily.yml"
+            href="https://github.com/shiftpsh/shiftpsh.com-maimai/actions/workflows/build-and-deploy-manual.yml"
             target="_blank"
             rel="noreferrer"
           >
