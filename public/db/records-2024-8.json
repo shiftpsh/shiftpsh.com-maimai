@@ -11,8 +11,8 @@
     "classRank": 10,
     "stars": 890,
     "playCount": {
-      "total": 1767,
-      "current": 135
+      "total": 1771,
+      "current": 139
     }
   },
   "records": [
@@ -3218,6 +3218,26 @@
     },
     {
       "track": {
+        "title": "麒麟",
+        "type": "Standard",
+        "difficulty": "EXPERT"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1004582,
+        "rank": "SSS",
+        "dxScore": {
+          "score": 1577,
+          "max": 1746,
+          "percentage": 90.32073310423826
+        },
+        "dxRank": 2,
+        "combo": "FULL COMBO",
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "Jack-the-Ripper◆",
         "type": "Standard",
         "difficulty": "EXPERT"
@@ -4998,6 +5018,26 @@
     },
     {
       "track": {
+        "title": "ジングルベル",
+        "type": "DX",
+        "difficulty": "EXPERT"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1009222,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1222,
+          "max": 1281,
+          "percentage": 95.39422326307572
+        },
+        "dxRank": 4,
+        "combo": "FULL COMBO",
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "Jörqer",
         "type": "DX",
         "difficulty": "EXPERT"
@@ -5592,6 +5632,26 @@
           "percentage": 90.80298786181139
         },
         "dxRank": 2,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "World's end loneliness",
+        "type": "DX",
+        "difficulty": "EXPERT"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1005916,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2045,
+          "max": 2163,
+          "percentage": 94.54461396208968
+        },
+        "dxRank": 3,
         "combo": null,
         "sync": null
       }
@@ -8005,14 +8065,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 915276,
-        "rank": "AA",
+        "achievement": 1002878,
+        "rank": "SSS",
         "dxScore": {
-          "score": 1627,
+          "score": 2036,
           "max": 2205,
-          "percentage": 73.78684807256236
+          "percentage": 92.33560090702949
         },
-        "dxRank": 0,
+        "dxRank": 2,
         "combo": null,
         "sync": null
       }
@@ -14485,12 +14545,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 997485,
-        "rank": "SS+",
+        "achievement": 1000972,
+        "rank": "SSS",
         "dxScore": {
-          "score": 2275,
+          "score": 2300,
           "max": 2556,
-          "percentage": 89.00625978090767
+          "percentage": 89.98435054773083
         },
         "dxRank": 1,
         "combo": null,
@@ -16425,12 +16485,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 966028,
-        "rank": "AAA",
+        "achievement": 988420,
+        "rank": "S+",
         "dxScore": {
-          "score": 2242,
+          "score": 2307,
           "max": 2775,
-          "percentage": 80.7927927927928
+          "percentage": 83.13513513513513
         },
         "dxRank": 0,
         "combo": null,
@@ -18665,8 +18725,8 @@
       },
       "score": {
         "clear": true,
-        "achievement": 990161,
-        "rank": "SS",
+        "achievement": 997475,
+        "rank": "SS+",
         "dxScore": {
           "score": 2484,
           "max": 2793,
@@ -21348,9 +21408,9 @@
         "achievement": 998785,
         "rank": "SS+",
         "dxScore": {
-          "score": 2288,
+          "score": 2292,
           "max": 2520,
-          "percentage": 90.7936507936508
+          "percentage": 90.95238095238095
         },
         "dxRank": 2,
         "combo": null,
@@ -22265,12 +22325,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 941922,
+        "achievement": 961228,
         "rank": "AAA",
         "dxScore": {
-          "score": 2194,
+          "score": 2220,
           "max": 2700,
-          "percentage": 81.25925925925927
+          "percentage": 82.22222222222221
         },
         "dxRank": 0,
         "combo": null,
@@ -26965,12 +27025,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 979287,
-        "rank": "S",
+        "achievement": 992158,
+        "rank": "SS",
         "dxScore": {
-          "score": 2557,
+          "score": 2629,
           "max": 2952,
-          "percentage": 86.61924119241192
+          "percentage": 89.05826558265582
         },
         "dxRank": 1,
         "combo": null,
