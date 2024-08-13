@@ -16,6 +16,7 @@ const RecordContainer = styled.div`
   display: grid;
   align-items: center;
   grid-template-columns: 2em 3em 2em 1fr 3em 3em 3em 3em 7em;
+  line-height: 1.2;
   &:nth-of-type(even) {
     background: #f4f4f4;
   }
