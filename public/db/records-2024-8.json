@@ -8,11 +8,11 @@
       "title": "\n\t\t\t\t\tPLAY LIKE YOU NEVER DID BEFORE\n\t\t\t\t"
     },
     "courseRank": 15,
-    "classRank": 9,
+    "classRank": 10,
     "stars": 890,
     "playCount": {
-      "total": 1744,
-      "current": 112
+      "total": 1753,
+      "current": 121
     }
   },
   "records": [
@@ -12485,15 +12485,15 @@
       },
       "score": {
         "clear": true,
-        "achievement": 972921,
-        "rank": "S",
+        "achievement": 1010000,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 1874,
+          "score": 2155,
           "max": 2235,
-          "percentage": 83.84787472035794
+          "percentage": 96.42058165548099
         },
-        "dxRank": 0,
-        "combo": null,
+        "dxRank": 4,
+        "combo": "ALL PERFECT+",
         "sync": null
       }
     },
@@ -17608,9 +17608,9 @@
         "achievement": 999706,
         "rank": "SS+",
         "dxScore": {
-          "score": 2498,
+          "score": 2509,
           "max": 2847,
-          "percentage": 87.74148226203022
+          "percentage": 88.12785388127854
         },
         "dxRank": 1,
         "combo": "FULL COMBO",
@@ -20325,12 +20325,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 988508,
-        "rank": "S+",
+        "achievement": 996889,
+        "rank": "SS+",
         "dxScore": {
-          "score": 2458,
+          "score": 2522,
           "max": 2889,
-          "percentage": 85.08134302526827
+          "percentage": 87.29664243682936
         },
         "dxRank": 1,
         "combo": null,
@@ -23445,7 +23445,7 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1001664,
+        "achievement": 1003839,
         "rank": "SSS",
         "dxScore": {
           "score": 2709,
