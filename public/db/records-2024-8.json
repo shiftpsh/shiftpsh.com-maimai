@@ -8,11 +8,11 @@
       "title": "\n\t\t\t\t\tPLAY LIKE YOU NEVER DID BEFORE\n\t\t\t\t"
     },
     "courseRank": 15,
-    "classRank": 7,
+    "classRank": 9,
     "stars": 890,
     "playCount": {
-      "total": 1741,
-      "current": 109
+      "total": 1743,
+      "current": 111
     }
   },
   "records": [
@@ -5464,16 +5464,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 980775,
-        "rank": "S+",
+        "achievement": 1005935,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 1731,
+          "score": 1996,
           "max": 2193,
-          "percentage": 78.9329685362517
+          "percentage": 91.01687186502508
         },
-        "dxRank": 0,
-        "combo": null,
-        "sync": null
+        "dxRank": 2,
+        "combo": "FULL COMBO",
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -9279,6 +9279,26 @@
     },
     {
       "track": {
+        "title": "バグ",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1009752,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2057,
+          "max": 2139,
+          "percentage": 96.16643291257597
+        },
+        "dxRank": 4,
+        "combo": "FULL COMBO+",
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "ベノム",
         "type": "DX",
         "difficulty": "MASTER"
@@ -10185,16 +10205,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 980788,
-        "rank": "S+",
+        "achievement": 1006757,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 1806,
+          "score": 1991,
           "max": 2157,
-          "percentage": 83.72739916550765
+          "percentage": 92.3041261010663
         },
-        "dxRank": 0,
+        "dxRank": 2,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -12784,15 +12804,15 @@
         "difficulty": "MASTER"
       },
       "score": {
-        "clear": false,
-        "achievement": 665005,
-        "rank": "B",
+        "clear": true,
+        "achievement": 1002298,
+        "rank": "SSS",
         "dxScore": {
-          "score": 1473,
+          "score": 2437,
           "max": 2673,
-          "percentage": 55.106621773288445
+          "percentage": 91.17096894874672
         },
-        "dxRank": 0,
+        "dxRank": 2,
         "combo": null,
         "sync": "SYNC PLAY"
       }
@@ -17095,6 +17115,26 @@
         "dxRank": 3,
         "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "Windy Hill -Zone 1",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1008265,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2023,
+          "max": 2223,
+          "percentage": 91.00314889788575
+        },
+        "dxRank": 2,
+        "combo": "FULL COMBO+",
+        "sync": null
       }
     },
     {
