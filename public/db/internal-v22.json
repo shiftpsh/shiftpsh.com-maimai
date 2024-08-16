@@ -1326,6 +1326,12 @@
     "internalLevel": 134
   },
   {
+    "title": "偉大なる悪魔は実は大天使パトラちゃん様なのだ！",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": 138
+  },
+  {
     "title": "酔いどれ知らず",
     "type": "DX",
     "difficulty": "MASTER",
@@ -4680,6 +4686,12 @@
     "internalLevel": 129
   },
   {
+    "title": "お願いマッスル",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": 127
+  },
+  {
     "title": "FLUFFY FLASH",
     "type": "DX",
     "difficulty": "EXPERT",
@@ -4866,6 +4878,12 @@
     "internalLevel": 129
   },
   {
+    "title": "No Limit RED Force",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": 127
+  },
+  {
     "title": "最強 the サマータイム!!!!!",
     "type": "DX",
     "difficulty": "MASTER",
@@ -4888,5 +4906,11 @@
     "type": "DX",
     "difficulty": "MASTER",
     "internalLevel": 129
+  },
+  {
+    "title": "アスノヨゾラ哨戒班",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": 128
   }
 ]
