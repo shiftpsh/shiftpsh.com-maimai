@@ -19837,6 +19837,14 @@
     }
   },
   {
+    "title": "シュガーホリック",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": {
+      "22": 134
+    }
+  },
+  {
     "title": "酔いどれ知らず",
     "type": "DX",
     "difficulty": "Re:MASTER",
