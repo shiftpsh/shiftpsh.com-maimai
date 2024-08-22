@@ -11,8 +11,8 @@
     "classRank": 11,
     "stars": 890,
     "playCount": {
-      "total": 1830,
-      "current": 198
+      "total": 1833,
+      "current": 201
     }
   },
   "records": [
@@ -3524,15 +3524,15 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1000905,
-        "rank": "SSS",
+        "achievement": 1009346,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 1645,
+          "score": 1798,
           "max": 1911,
-          "percentage": 86.08058608058609
+          "percentage": 94.08686551543694
         },
-        "dxRank": 1,
-        "combo": null,
+        "dxRank": 3,
+        "combo": "FULL COMBO+",
         "sync": null
       }
     },
@@ -4264,14 +4264,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 996838,
+        "achievement": 996855,
         "rank": "SS+",
         "dxScore": {
-          "score": 960,
+          "score": 989,
           "max": 1050,
-          "percentage": 91.42857142857143
+          "percentage": 94.19047619047619
         },
-        "dxRank": 2,
+        "dxRank": 3,
         "combo": "FULL COMBO",
         "sync": null
       }
@@ -16085,12 +16085,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 979024,
-        "rank": "S",
+        "achievement": 997568,
+        "rank": "SS+",
         "dxScore": {
-          "score": 2448,
+          "score": 2518,
           "max": 2970,
-          "percentage": 82.42424242424242
+          "percentage": 84.78114478114477
         },
         "dxRank": 0,
         "combo": null,
@@ -19948,9 +19948,9 @@
         "achievement": 1001725,
         "rank": "SSS",
         "dxScore": {
-          "score": 2594,
+          "score": 2595,
           "max": 2898,
-          "percentage": 89.51000690131124
+          "percentage": 89.54451345755695
         },
         "dxRank": 1,
         "combo": null,
