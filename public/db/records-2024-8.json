@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "ｓｏｌｖｅｄａｃ",
-    "rating": 15793,
+    "rating": 15799,
     "profileImageSrc": "https://maimaidx-eng.com/maimai-mobile/img/Icon/b2afde62b4da3e48.png",
     "trophy": {
       "tier": "Normal",
@@ -11,8 +11,8 @@
     "classRank": 11,
     "stars": 890,
     "playCount": {
-      "total": 1827,
-      "current": 195
+      "total": 1828,
+      "current": 196
     }
   },
   "records": [
@@ -20725,15 +20725,15 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1001268,
-        "rank": "SSS",
+        "achievement": 1005051,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 2523,
+          "score": 2553,
           "max": 2835,
-          "percentage": 88.99470899470899
+          "percentage": 90.05291005291005
         },
-        "dxRank": 1,
-        "combo": null,
+        "dxRank": 2,
+        "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
     },
@@ -23805,14 +23805,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 975631,
-        "rank": "S",
+        "achievement": 990545,
+        "rank": "SS",
         "dxScore": {
-          "score": 3296,
+          "score": 3391,
           "max": 3888,
-          "percentage": 84.77366255144034
+          "percentage": 87.21707818930041
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
         "sync": null
       }
@@ -25445,14 +25445,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 999226,
-        "rank": "SS+",
+        "achievement": 1001451,
+        "rank": "SSS",
         "dxScore": {
-          "score": 2201,
+          "score": 2220,
           "max": 2373,
-          "percentage": 92.75179098187948
+          "percentage": 93.55246523388116
         },
-        "dxRank": 2,
+        "dxRank": 3,
         "combo": null,
         "sync": null
       }
