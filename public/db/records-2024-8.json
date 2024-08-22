@@ -11,8 +11,8 @@
     "classRank": 11,
     "stars": 890,
     "playCount": {
-      "total": 1835,
-      "current": 203
+      "total": 1838,
+      "current": 206
     }
   },
   "records": [
@@ -7985,14 +7985,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 996475,
-        "rank": "SS+",
+        "achievement": 1002127,
+        "rank": "SSS",
         "dxScore": {
-          "score": 1777,
+          "score": 1813,
           "max": 1989,
-          "percentage": 89.3413775766717
+          "percentage": 91.15133232780292
         },
-        "dxRank": 1,
+        "dxRank": 2,
         "combo": null,
         "sync": "SYNC PLAY"
       }
@@ -8315,6 +8315,26 @@
         "dxRank": 2,
         "combo": null,
         "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "ミラクル・ショッピング",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1007131,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1817,
+          "max": 1923,
+          "percentage": 94.48777951118045
+        },
+        "dxRank": 3,
+        "combo": null,
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -9805,14 +9825,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 985953,
-        "rank": "S+",
+        "achievement": 1000129,
+        "rank": "SSS",
         "dxScore": {
-          "score": 2050,
+          "score": 2144,
           "max": 2502,
-          "percentage": 81.93445243804956
+          "percentage": 85.69144684252598
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
         "sync": "SYNC PLAY"
       }
@@ -10425,15 +10445,15 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1006757,
+        "achievement": 1008534,
         "rank": "SSS+",
         "dxScore": {
-          "score": 1991,
+          "score": 2013,
           "max": 2157,
-          "percentage": 92.3041261010663
+          "percentage": 93.3240611961057
         },
-        "dxRank": 2,
-        "combo": null,
+        "dxRank": 3,
+        "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
     },
@@ -11908,9 +11928,9 @@
         "achievement": 1000964,
         "rank": "SSS",
         "dxScore": {
-          "score": 2309,
+          "score": 2324,
           "max": 2550,
-          "percentage": 90.54901960784314
+          "percentage": 91.13725490196079
         },
         "dxRank": 2,
         "combo": null,
@@ -17785,16 +17805,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1008053,
+        "achievement": 1008337,
         "rank": "SSS+",
         "dxScore": {
-          "score": 2142,
+          "score": 2152,
           "max": 2304,
-          "percentage": 92.96875
+          "percentage": 93.40277777777779
         },
-        "dxRank": 2,
-        "combo": null,
-        "sync": "SYNC PLAY"
+        "dxRank": 3,
+        "combo": "FULL COMBO",
+        "sync": "FULL SYNC+"
       }
     },
     {
@@ -22125,8 +22145,8 @@
       },
       "score": {
         "clear": true,
-        "achievement": 999891,
-        "rank": "SS+",
+        "achievement": 1001532,
+        "rank": "SSS",
         "dxScore": {
           "score": 2938,
           "max": 3333,
@@ -25079,6 +25099,26 @@
     },
     {
       "track": {
+        "title": "Invitation",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1002692,
+        "rank": "SSS",
+        "dxScore": {
+          "score": 2282,
+          "max": 2502,
+          "percentage": 91.207034372502
+        },
+        "dxRank": 2,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "その群青が愛しかったようだった",
         "type": "Standard",
         "difficulty": "MASTER"
@@ -27345,12 +27385,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 989611,
-        "rank": "S+",
+        "achievement": 993181,
+        "rank": "SS",
         "dxScore": {
-          "score": 2599,
+          "score": 2664,
           "max": 3036,
-          "percentage": 85.60606060606061
+          "percentage": 87.74703557312253
         },
         "dxRank": 1,
         "combo": null,
