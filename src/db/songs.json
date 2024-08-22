@@ -1,5 +1,5 @@
 {
-  "chartCount": 4842,
+  "chartCount": 4854,
   "availableVersions": [
     {
       "value": 0,
@@ -14230,6 +14230,42 @@
         "6",
         "10+",
         "13",
+        null
+      ]
+    },
+    {
+      "title": "VOLT",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "7",
+        "10+",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "tiny tales continue",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "5",
+        "8",
+        "11",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "ouroboros -twin stroke of the end-",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "6",
+        "9",
+        "12",
+        "14",
         null
       ]
     },
