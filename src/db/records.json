@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "ｓｏｌｖｅｄａｃ",
-    "rating": 15812,
+    "rating": 15825,
     "profileImageSrc": "https://maimaidx-eng.com/maimai-mobile/img/Icon/b2afde62b4da3e48.png",
     "trophy": {
       "tier": "Normal",
@@ -9,10 +9,10 @@
     },
     "courseRank": 15,
     "classRank": 11,
-    "stars": 890,
+    "stars": 895,
     "playCount": {
-      "total": 1838,
-      "current": 206
+      "total": 1841,
+      "current": 209
     }
   },
   "records": [
@@ -7865,14 +7865,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1002672,
+        "achievement": 1004635,
         "rank": "SSS",
         "dxScore": {
-          "score": 2088,
+          "score": 2125,
           "max": 2340,
-          "percentage": 89.23076923076924
+          "percentage": 90.8119658119658
         },
-        "dxRank": 1,
+        "dxRank": 2,
         "combo": null,
         "sync": "SYNC PLAY"
       }
@@ -8005,7 +8005,7 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1003297,
+        "achievement": 1003673,
         "rank": "SSS",
         "dxScore": {
           "score": 1637,
@@ -8014,7 +8014,7 @@
         },
         "dxRank": 3,
         "combo": "FULL COMBO",
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -8754,7 +8754,7 @@
         },
         "dxRank": 3,
         "combo": "ALL PERFECT",
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -9648,13 +9648,13 @@
         "achievement": 1006915,
         "rank": "SSS+",
         "dxScore": {
-          "score": 2708,
+          "score": 2730,
           "max": 2895,
-          "percentage": 93.54058721934369
+          "percentage": 94.30051813471503
         },
         "dxRank": 3,
         "combo": "FULL COMBO",
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -12853,7 +12853,7 @@
           "percentage": 94.77218225419665
         },
         "dxRank": 3,
-        "combo": null,
+        "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
     },
@@ -13825,16 +13825,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1002162,
-        "rank": "SSS",
+        "achievement": 1007246,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 2140,
+          "score": 2181,
           "max": 2304,
-          "percentage": 92.88194444444444
+          "percentage": 94.66145833333334
         },
-        "dxRank": 2,
+        "dxRank": 3,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -14119,6 +14119,66 @@
     },
     {
       "track": {
+        "title": "VOLT",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1006821,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1821,
+          "max": 1956,
+          "percentage": 93.09815950920245
+        },
+        "dxRank": 3,
+        "combo": "FULL COMBO",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "tiny tales continue",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1000663,
+        "rank": "SSS",
+        "dxScore": {
+          "score": 2218,
+          "max": 2454,
+          "percentage": 90.38304808475958
+        },
+        "dxRank": 2,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "ouroboros -twin stroke of the end-",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 994917,
+        "rank": "SS",
+        "dxScore": {
+          "score": 3344,
+          "max": 3771,
+          "percentage": 88.676743569345
+        },
+        "dxRank": 1,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "PUPA",
         "type": "DX",
         "difficulty": "MASTER"
@@ -14368,9 +14428,9 @@
         "achievement": 1008328,
         "rank": "SSS+",
         "dxScore": {
-          "score": 1888,
+          "score": 1892,
           "max": 2010,
-          "percentage": 93.93034825870646
+          "percentage": 94.12935323383084
         },
         "dxRank": 3,
         "combo": "FULL COMBO+",
@@ -15145,16 +15205,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1002179,
-        "rank": "SSS",
+        "achievement": 1007755,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 2086,
+          "score": 2100,
           "max": 2244,
-          "percentage": 92.95900178253119
+          "percentage": 93.58288770053476
         },
-        "dxRank": 2,
-        "combo": null,
-        "sync": null
+        "dxRank": 3,
+        "combo": "FULL COMBO",
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -15975,6 +16035,26 @@
         "dxRank": 1,
         "combo": null,
         "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "ヒステリックナイトガール",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1007338,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1960,
+          "max": 2085,
+          "percentage": 94.00479616306954
+        },
+        "dxRank": 3,
+        "combo": "FULL COMBO",
+        "sync": "SYNC PLAY"
       }
     },
     {
