@@ -99,8 +99,8 @@
     "type": "music",
     "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/17bd34442bb405c8.png",
     "title": "ハッピーシンセサイザ",
-    "complete": false,
-    "stampCount": 8,
+    "complete": true,
+    "stampCount": 10,
     "max": 10
   },
   {
