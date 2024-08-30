@@ -19841,7 +19841,7 @@
     "type": "DX",
     "difficulty": "MASTER",
     "internalLevel": {
-      "22": 134
+      "22": 131
     }
   },
   {
@@ -19901,6 +19901,14 @@
     }
   },
   {
+    "title": "まっすぐ→→→ストリーム！",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": {
+      "22": 135
+    }
+  },
+  {
     "title": "さよならヒストリー",
     "type": "DX",
     "difficulty": "MASTER",
@@ -19914,6 +19922,14 @@
     "difficulty": "MASTER",
     "internalLevel": {
       "22": 133
+    }
+  },
+  {
+    "title": "最っ高のエンタメだ!!",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": {
+      "22": 137
     }
   },
   {
@@ -19965,11 +19981,27 @@
     }
   },
   {
+    "title": "Baqeela",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": {
+      "22": 138
+    }
+  },
+  {
     "title": "おくすり飲んで寝よう",
     "type": "DX",
     "difficulty": "MASTER",
     "internalLevel": {
       "22": 128
+    }
+  },
+  {
+    "title": "Ai C",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": {
+      "22": 140
     }
   },
   {
@@ -19986,6 +20018,14 @@
     "difficulty": "MASTER",
     "internalLevel": {
       "22": 134
+    }
+  },
+  {
+    "title": "Ai C",
+    "type": "DX",
+    "difficulty": "EXPERT",
+    "internalLevel": {
+      "22": 120
     }
   },
   {

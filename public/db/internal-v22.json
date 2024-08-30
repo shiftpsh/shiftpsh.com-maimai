@@ -1341,7 +1341,7 @@
     "title": "シュガーホリック",
     "type": "DX",
     "difficulty": "MASTER",
-    "internalLevel": 134
+    "internalLevel": 131
   },
   {
     "title": "酔いどれ知らず",
@@ -1386,6 +1386,12 @@
     "internalLevel": 137
   },
   {
+    "title": "まっすぐ→→→ストリーム！",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": 135
+  },
+  {
     "title": "さよならヒストリー",
     "type": "DX",
     "difficulty": "MASTER",
@@ -1396,6 +1402,12 @@
     "type": "DX",
     "difficulty": "MASTER",
     "internalLevel": 133
+  },
+  {
+    "title": "最っ高のエンタメだ!!",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": 137
   },
   {
     "title": "New York Back Raise",
@@ -1434,10 +1446,22 @@
     "internalLevel": 136
   },
   {
+    "title": "Baqeela",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": 138
+  },
+  {
     "title": "おくすり飲んで寝よう",
     "type": "DX",
     "difficulty": "MASTER",
     "internalLevel": 128
+  },
+  {
+    "title": "Ai C",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": 140
   },
   {
     "title": "MarbleBlue.",
@@ -1450,6 +1474,12 @@
     "type": "DX",
     "difficulty": "MASTER",
     "internalLevel": 134
+  },
+  {
+    "title": "Ai C",
+    "type": "DX",
+    "difficulty": "EXPERT",
+    "internalLevel": 120
   },
   {
     "title": "MarbleBlue.",
