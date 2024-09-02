@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "ｓｏｌｖｅｄａｃ",
-    "rating": 15851,
+    "rating": 15852,
     "profileImageSrc": "https://maimaidx-eng.com/maimai-mobile/img/Icon/b2afde62b4da3e48.png",
     "trophy": {
       "tier": "Normal",
@@ -11,8 +11,8 @@
     "classRank": 15,
     "stars": 895,
     "playCount": {
-      "total": 1873,
-      "current": 241
+      "total": 1875,
+      "current": 243
     }
   },
   "records": [
@@ -8335,6 +8335,26 @@
         "dxRank": 3,
         "combo": "ALL PERFECT",
         "sync": "FULL SYNC DX+"
+      }
+    },
+    {
+      "track": {
+        "title": "HIMITSUスパーク",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1005167,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1828,
+          "max": 2004,
+          "percentage": 91.21756487025948
+        },
+        "dxRank": 2,
+        "combo": "FULL COMBO",
+        "sync": "FULL SYNC+"
       }
     },
     {
@@ -24085,7 +24105,7 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1001915,
+        "achievement": 1004080,
         "rank": "SSS",
         "dxScore": {
           "score": 3498,
