@@ -113,6 +113,14 @@
   },
   {
     "type": "music",
+    "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/40800dfb586539a2.png",
+    "title": "炎歌 -ほむらうた-",
+    "complete": false,
+    "stampCount": 0,
+    "max": 10
+  },
+  {
+    "type": "music",
     "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/19b8ef35f1800884.png",
     "title": "oboro",
     "complete": true,
@@ -148,7 +156,7 @@
     "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/196e63bd095d25da.png",
     "title": "色は匂へど散りぬるを",
     "complete": false,
-    "stampCount": 4,
+    "stampCount": 6,
     "max": 10
   },
   {

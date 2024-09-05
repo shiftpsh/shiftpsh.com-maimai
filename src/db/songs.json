@@ -1,5 +1,5 @@
 {
-  "chartCount": 4854,
+  "chartCount": 4866,
   "availableVersions": [
     {
       "value": 0,
@@ -14266,6 +14266,42 @@
         "9",
         "12",
         "14",
+        null
+      ]
+    },
+    {
+      "title": "DUAL ROZES",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "6",
+        "9+",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "炎歌 -ほむらうた-",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "2",
+        "5",
+        "9+",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "MUSIC PЯAYER",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "4",
+        "6",
+        "10",
+        "13",
         null
       ]
     },
