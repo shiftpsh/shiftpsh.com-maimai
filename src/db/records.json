@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "ｓｏｌｖｅｄａｃ",
-    "rating": 15888,
+    "rating": 15906,
     "profileImageSrc": "https://maimaidx-eng.com/maimai-mobile/img/Icon/b2afde62b4da3e48.png",
     "trophy": {
       "tier": "Normal",
@@ -11,8 +11,8 @@
     "classRank": 15,
     "stars": 895,
     "playCount": {
-      "total": 1896,
-      "current": 264
+      "total": 1910,
+      "current": 278
     }
   },
   "records": [
@@ -3218,6 +3218,26 @@
     },
     {
       "track": {
+        "title": "DUAL ROZES",
+        "type": "DX",
+        "difficulty": "EXPERT"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1008720,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1144,
+          "max": 1203,
+          "percentage": 95.09559434746467
+        },
+        "dxRank": 4,
+        "combo": "FULL COMBO+",
+        "sync": "FULL SYNC DX"
+      }
+    },
+    {
+      "track": {
         "title": "PUPA",
         "type": "DX",
         "difficulty": "EXPERT"
@@ -5278,6 +5298,26 @@
     },
     {
       "track": {
+        "title": "Latent Kingdom",
+        "type": "DX",
+        "difficulty": "EXPERT"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 997611,
+        "rank": "SS+",
+        "dxScore": {
+          "score": 2175,
+          "max": 2346,
+          "percentage": 92.71099744245525
+        },
+        "dxRank": 2,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "Swift Swing",
         "type": "DX",
         "difficulty": "EXPERT"
@@ -6515,6 +6555,26 @@
         "dxRank": 3,
         "combo": "FULL COMBO+",
         "sync": "FULL SYNC DX"
+      }
+    },
+    {
+      "track": {
+        "title": "MUSIC PЯAYER",
+        "type": "DX",
+        "difficulty": "EXPERT"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1009963,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1810,
+          "max": 1893,
+          "percentage": 95.61542525092446
+        },
+        "dxRank": 4,
+        "combo": "ALL PERFECT",
+        "sync": "FULL SYNC DX+"
       }
     },
     {
@@ -14319,6 +14379,26 @@
     },
     {
       "track": {
+        "title": "DUAL ROZES",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1006938,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2283,
+          "max": 2475,
+          "percentage": 92.24242424242424
+        },
+        "dxRank": 2,
+        "combo": "FULL COMBO",
+        "sync": "FULL SYNC+"
+      }
+    },
+    {
+      "track": {
         "title": "PUPA",
         "type": "DX",
         "difficulty": "MASTER"
@@ -16565,8 +16645,8 @@
       },
       "score": {
         "clear": true,
-        "achievement": 978877,
-        "rank": "S",
+        "achievement": 987912,
+        "rank": "S+",
         "dxScore": {
           "score": 2349,
           "max": 2847,
@@ -20325,8 +20405,8 @@
       },
       "score": {
         "clear": true,
-        "achievement": 975084,
-        "rank": "S",
+        "achievement": 980321,
+        "rank": "S+",
         "dxScore": {
           "score": 3473,
           "max": 4113,
@@ -20445,8 +20525,8 @@
       },
       "score": {
         "clear": true,
-        "achievement": 999615,
-        "rank": "SS+",
+        "achievement": 1001694,
+        "rank": "SSS",
         "dxScore": {
           "score": 2775,
           "max": 3171,
@@ -20905,12 +20985,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 995852,
-        "rank": "SS+",
+        "achievement": 1002693,
+        "rank": "SSS",
         "dxScore": {
-          "score": 2942,
+          "score": 2960,
           "max": 3333,
-          "percentage": 88.26882688268827
+          "percentage": 88.80888088808881
         },
         "dxRank": 1,
         "combo": null,
@@ -21065,16 +21145,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 982668,
-        "rank": "S+",
+        "achievement": 990036,
+        "rank": "SS",
         "dxScore": {
-          "score": 2935,
+          "score": 2980,
           "max": 3501,
-          "percentage": 83.83319051699515
+          "percentage": 85.11853756069694
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -21085,12 +21165,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 988638,
-        "rank": "S+",
+        "achievement": 991034,
+        "rank": "SS",
         "dxScore": {
-          "score": 2883,
+          "score": 2893,
           "max": 3345,
-          "percentage": 86.1883408071749
+          "percentage": 86.48729446935725
         },
         "dxRank": 1,
         "combo": null,
@@ -21614,7 +21694,7 @@
         },
         "dxRank": 0,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -22425,12 +22505,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1001532,
+        "achievement": 1004217,
         "rank": "SSS",
         "dxScore": {
-          "score": 2948,
+          "score": 2976,
           "max": 3333,
-          "percentage": 88.44884488448845
+          "percentage": 89.28892889288929
         },
         "dxRank": 1,
         "combo": null,
@@ -23565,14 +23645,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 993678,
+        "achievement": 994872,
         "rank": "SS",
         "dxScore": {
-          "score": 2846,
+          "score": 2882,
           "max": 3189,
-          "percentage": 89.24427720288492
+          "percentage": 90.37315772969583
         },
-        "dxRank": 1,
+        "dxRank": 2,
         "combo": null,
         "sync": "SYNC PLAY"
       }
@@ -23633,6 +23713,26 @@
           "percentage": 88.51224105461394
         },
         "dxRank": 1,
+        "combo": "FULL COMBO",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "MUSIC PЯAYER",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1005674,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2714,
+          "max": 2940,
+          "percentage": 92.31292517006803
+        },
+        "dxRank": 2,
         "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
