@@ -594,6 +594,12 @@
     "internalLevel": 134
   },
   {
+    "title": "ラグトレイン",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": 132
+  },
+  {
     "title": "ツクヨミステップ",
     "type": "DX",
     "difficulty": "MASTER",
@@ -756,6 +762,12 @@
     "internalLevel": 132
   },
   {
+    "title": "Southern Cross",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": 132
+  },
+  {
     "title": "うまぴょい伝説",
     "type": "DX",
     "difficulty": "Re:MASTER",
@@ -892,6 +904,12 @@
     "type": "Standard",
     "difficulty": "MASTER",
     "internalLevel": 133
+  },
+  {
+    "title": "幻想に咲いた花",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": 131
   },
   {
     "title": "記憶、記録",
@@ -3216,6 +3234,12 @@
     "internalLevel": 137
   },
   {
+    "title": "Armageddon",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": 139
+  },
+  {
     "title": "Little \"Sister\" Bitch",
     "type": "DX",
     "difficulty": "MASTER",
@@ -3732,6 +3756,12 @@
     "internalLevel": 139
   },
   {
+    "title": "ハジマリノピアノ",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": 138
+  },
+  {
     "title": "Oshama Scramble!",
     "type": "DX",
     "difficulty": "MASTER",
@@ -3796,6 +3826,12 @@
     "type": "DX",
     "difficulty": "MASTER",
     "internalLevel": 139
+  },
+  {
+    "title": "MAGNETAR GIRL",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": 138
   },
   {
     "title": "ココロスキャンのうた",
@@ -3916,6 +3952,12 @@
     "type": "DX",
     "difficulty": "MASTER",
     "internalLevel": 140
+  },
+  {
+    "title": "VANTABLACK RAVER",
+    "type": "DX",
+    "difficulty": "MASTER",
+    "internalLevel": 138
   },
   {
     "title": "L9",
