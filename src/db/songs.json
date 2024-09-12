@@ -1,5 +1,5 @@
 {
-  "chartCount": 4866,
+  "chartCount": 4878,
   "availableVersions": [
     {
       "value": 0,
@@ -5974,7 +5974,7 @@
         "7",
         "10",
         "11",
-        "12+"
+        null
       ]
     },
     {
@@ -6310,7 +6310,7 @@
         "7+",
         "10",
         "11",
-        "13"
+        null
       ]
     },
     {
@@ -9610,7 +9610,7 @@
         "7",
         "9+",
         "11+",
-        "13"
+        null
       ]
     },
     {
@@ -9622,7 +9622,7 @@
         "6",
         "8",
         "11",
-        "13"
+        null
       ]
     },
     {
@@ -14302,6 +14302,54 @@
         "6",
         "10",
         "13",
+        null
+      ]
+    },
+    {
+      "title": "Cider P@rty",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "7+",
+        "11",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "勦滅",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "5",
+        "7+",
+        "11+",
+        "14",
+        null
+      ]
+    },
+    {
+      "title": "Lunatic Vibes",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "5",
+        "7+",
+        "11",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "Bloody Trail",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "6",
+        "8+",
+        "12+",
+        "14",
         null
       ]
     },

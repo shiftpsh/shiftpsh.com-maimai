@@ -25859,46 +25859,6 @@
     },
     {
       "track": {
-        "title": "うっせぇわ",
-        "type": "DX",
-        "difficulty": "Re:MASTER"
-      },
-      "score": {
-        "clear": true,
-        "achievement": 1001451,
-        "rank": "SSS",
-        "dxScore": {
-          "score": 2220,
-          "max": 2373,
-          "percentage": 93.55246523388116
-        },
-        "dxRank": 3,
-        "combo": null,
-        "sync": null
-      }
-    },
-    {
-      "track": {
-        "title": "夜に駆ける",
-        "type": "DX",
-        "difficulty": "Re:MASTER"
-      },
-      "score": {
-        "clear": true,
-        "achievement": 1006572,
-        "rank": "SSS+",
-        "dxScore": {
-          "score": 2279,
-          "max": 2472,
-          "percentage": 92.19255663430421
-        },
-        "dxRank": 2,
-        "combo": "FULL COMBO",
-        "sync": null
-      }
-    },
-    {
-      "track": {
         "title": "廻廻奇譚",
         "type": "DX",
         "difficulty": "Re:MASTER"
@@ -26295,26 +26255,6 @@
         "dxRank": 2,
         "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
-      }
-    },
-    {
-      "track": {
-        "title": "お気に召すまま",
-        "type": "Standard",
-        "difficulty": "Re:MASTER"
-      },
-      "score": {
-        "clear": true,
-        "achievement": 1005422,
-        "rank": "SSS+",
-        "dxScore": {
-          "score": 2172,
-          "max": 2349,
-          "percentage": 92.46487867177522
-        },
-        "dxRank": 2,
-        "combo": "FULL COMBO+",
-        "sync": null
       }
     },
     {
