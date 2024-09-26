@@ -1,5 +1,5 @@
 {
-  "chartCount": 4878,
+  "chartCount": 4898,
   "availableVersions": [
     {
       "value": 0,
@@ -14350,6 +14350,66 @@
         "8+",
         "12+",
         "14",
+        null
+      ]
+    },
+    {
+      "title": "バラバラ〜仮初レインボーローズ〜",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "2",
+        "6",
+        "10+",
+        "12+",
+        null
+      ]
+    },
+    {
+      "title": "ザムザ",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "1",
+        "6",
+        "9+",
+        "12+",
+        null
+      ]
+    },
+    {
+      "title": "新人類",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "6",
+        "10+",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "ライアーダンサー",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "7",
+        "10",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "バカ通信",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "5",
+        "7+",
+        "11",
+        "13+",
         null
       ]
     },
