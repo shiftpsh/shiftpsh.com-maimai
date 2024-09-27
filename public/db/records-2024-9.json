@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "ｓｏｌｖｅｄａｃ",
-    "rating": 15939,
+    "rating": 15966,
     "profileImageSrc": "https://maimaidx-eng.com/maimai-mobile/img/Icon/b2afde62b4da3e48.png",
     "trophy": {
       "tier": "Normal",
@@ -9,10 +9,10 @@
     },
     "courseRank": 15,
     "classRank": 15,
-    "stars": 905,
+    "stars": 910,
     "playCount": {
-      "total": 1935,
-      "current": 303
+      "total": 1954,
+      "current": 322
     }
   },
   "records": [
@@ -1178,6 +1178,26 @@
     },
     {
       "track": {
+        "title": "新人類",
+        "type": "DX",
+        "difficulty": "EXPERT"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1009921,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1784,
+          "max": 1836,
+          "percentage": 97.1677559912854
+        },
+        "dxRank": 5,
+        "combo": "ALL PERFECT",
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "おくすり飲んで寝よう",
         "type": "DX",
         "difficulty": "EXPERT"
@@ -1194,6 +1214,26 @@
         "dxRank": 4,
         "combo": "ALL PERFECT",
         "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "バカ通信",
+        "type": "DX",
+        "difficulty": "EXPERT"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1009375,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1881,
+          "max": 1944,
+          "percentage": 96.75925925925925
+        },
+        "dxRank": 4,
+        "combo": "ALL PERFECT",
+        "sync": null
       }
     },
     {
@@ -4798,6 +4838,26 @@
     },
     {
       "track": {
+        "title": "Bloody Trail",
+        "type": "DX",
+        "difficulty": "EXPERT"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1006477,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2161,
+          "max": 2325,
+          "percentage": 92.94623655913978
+        },
+        "dxRank": 2,
+        "combo": "FULL COMBO",
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "QuiQ",
         "type": "DX",
         "difficulty": "EXPERT"
@@ -7539,6 +7599,26 @@
     },
     {
       "track": {
+        "title": "バラバラ〜仮初レインボーローズ〜",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1008794,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1313,
+          "max": 1383,
+          "percentage": 94.93853940708604
+        },
+        "dxRank": 3,
+        "combo": "FULL COMBO+",
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "阿修羅ちゃん",
         "type": "DX",
         "difficulty": "MASTER"
@@ -8619,6 +8699,26 @@
     },
     {
       "track": {
+        "title": "新人類",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1007801,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2937,
+          "max": 3168,
+          "percentage": 92.70833333333334
+        },
+        "dxRank": 2,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "強風オールバック",
         "type": "DX",
         "difficulty": "MASTER"
@@ -8695,6 +8795,26 @@
         "dxRank": 3,
         "combo": "ALL PERFECT+",
         "sync": "FULL SYNC DX"
+      }
+    },
+    {
+      "track": {
+        "title": "バカ通信",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1005262,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2838,
+          "max": 2991,
+          "percentage": 94.88465396188566
+        },
+        "dxRank": 3,
+        "combo": "FULL COMBO",
+        "sync": null
       }
     },
     {
@@ -10008,9 +10128,9 @@
         "achievement": 994629,
         "rank": "SS",
         "dxScore": {
-          "score": 2702,
+          "score": 2720,
           "max": 3117,
-          "percentage": 86.68591594481873
+          "percentage": 87.26339428938081
         },
         "dxRank": 1,
         "combo": null,
@@ -14805,15 +14925,15 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1003020,
+        "achievement": 1003423,
         "rank": "SSS",
         "dxScore": {
-          "score": 2880,
+          "score": 2883,
           "max": 3192,
-          "percentage": 90.22556390977444
+          "percentage": 90.31954887218046
         },
         "dxRank": 2,
-        "combo": null,
+        "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
     },
@@ -18179,6 +18299,26 @@
     },
     {
       "track": {
+        "title": "Bloody Trail",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1001628,
+        "rank": "SSS",
+        "dxScore": {
+          "score": 3093,
+          "max": 3468,
+          "percentage": 89.18685121107266
+        },
+        "dxRank": 1,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "エスオーエス",
         "type": "DX",
         "difficulty": "MASTER"
@@ -18265,12 +18405,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 999706,
-        "rank": "SS+",
+        "achievement": 1001213,
+        "rank": "SSS",
         "dxScore": {
-          "score": 2509,
+          "score": 2512,
           "max": 2847,
-          "percentage": 88.12785388127854
+          "percentage": 88.23322795925536
         },
         "dxRank": 1,
         "combo": "FULL COMBO",
@@ -21065,15 +21205,15 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1002693,
-        "rank": "SSS",
+        "achievement": 1005264,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 2962,
+          "score": 2972,
           "max": 3333,
-          "percentage": 88.86888688868886
+          "percentage": 89.16891689168916
         },
         "dxRank": 1,
-        "combo": null,
+        "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
     },
@@ -21225,12 +21365,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 990036,
-        "rank": "SS",
+        "achievement": 995686,
+        "rank": "SS+",
         "dxScore": {
-          "score": 3021,
+          "score": 3050,
           "max": 3501,
-          "percentage": 86.28963153384748
+          "percentage": 87.11796629534419
         },
         "dxRank": 1,
         "combo": null,
@@ -27405,14 +27545,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 982792,
+        "achievement": 988949,
         "rank": "S+",
         "dxScore": {
-          "score": 2568,
+          "score": 2608,
           "max": 3030,
-          "percentage": 84.75247524752476
+          "percentage": 86.07260726072607
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
         "sync": null
       }
@@ -27465,12 +27605,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 965433,
-        "rank": "AAA",
+        "achievement": 976026,
+        "rank": "S",
         "dxScore": {
-          "score": 2680,
+          "score": 2781,
           "max": 3411,
-          "percentage": 78.56933450600997
+          "percentage": 81.53034300791556
         },
         "dxRank": 0,
         "combo": null,
@@ -27825,12 +27965,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 973254,
-        "rank": "S",
+        "achievement": 984806,
+        "rank": "S+",
         "dxScore": {
-          "score": 2786,
+          "score": 2878,
           "max": 3417,
-          "percentage": 81.53350892595844
+          "percentage": 84.2259291776412
         },
         "dxRank": 0,
         "combo": null,
