@@ -277,6 +277,12 @@
       "chartTypeCount": 1
     },
     {
+      "title": "Bad Apple!! feat.nomico (Tetsuya Komuro Remix)",
+      "artist": "Masayoshi Minoshima Remixed by 小室哲哉",
+      "jacketKey": "72e6a54b6da5262b",
+      "chartTypeCount": 1
+    },
+    {
       "title": "Bad Apple!! feat.nomico ～五十嵐 撫子 Ver.～",
       "artist": "Masayoshi Minoshima [covered by 五十嵐 撫子(CV:花井 美春)]",
       "jacketKey": "69815c3a46ef8b0f",
@@ -1375,6 +1381,12 @@
       "chartTypeCount": 1
     },
     {
+      "title": "INFiNiTE ENERZY -Overdoze-",
+      "artist": "Reku Mochizuki",
+      "jacketKey": "486ae6dae890e7d7",
+      "chartTypeCount": 1
+    },
+    {
       "title": "INFINITE WORLD",
       "artist": "SOUND HOLIC feat. Nana Takahashi",
       "jacketKey": "59c2f22023c4e226",
@@ -1714,6 +1726,12 @@
       "title": "Lost Desire",
       "artist": "Powerless feat. Sennzai",
       "jacketKey": "a989612852f81b34",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "LOSTPHANTASIA",
+      "artist": "岸田教団&THE明星ロケッツ",
+      "jacketKey": "c825fb9620d74576",
       "chartTypeCount": 1
     },
     {
@@ -2377,6 +2395,12 @@
       "chartTypeCount": 1
     },
     {
+      "title": "Re:Unknown X",
+      "artist": "まらしぃ",
+      "jacketKey": "0847c38d2a623e99",
+      "chartTypeCount": 1
+    },
+    {
       "title": "Reach For The Stars",
       "artist": "大谷智哉, Jean Paul Makhlouf of Cash Cash「ソニック カラーズ」",
       "jacketKey": "3e05f30cf1972775",
@@ -2806,7 +2830,7 @@
       "title": "sweet little sister",
       "artist": "Silver Forest",
       "jacketKey": "937d88b9bec425ac",
-      "chartTypeCount": 1
+      "chartTypeCount": 2
     },
     {
       "title": "Sweet Requiem",

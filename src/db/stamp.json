@@ -105,6 +105,14 @@
   },
   {
     "type": "music",
+    "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/937d88b9bec425ac.png",
+    "title": "sweet little sister",
+    "complete": false,
+    "stampCount": 0,
+    "max": 10
+  },
+  {
+    "type": "music",
     "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/f364b690f9a0bff3.png",
     "title": "御旗のもとに",
     "complete": true,

@@ -1,5 +1,5 @@
 {
-  "chartCount": 4898,
+  "chartCount": 4918,
   "availableVersions": [
     {
       "value": 0,
@@ -14410,6 +14410,66 @@
         "7+",
         "11",
         "13+",
+        null
+      ]
+    },
+    {
+      "title": "LOSTPHANTASIA",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "2",
+        "6",
+        "9+",
+        "12+",
+        null
+      ]
+    },
+    {
+      "title": "Bad Apple!! feat.nomico (Tetsuya Komuro Remix)",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "2",
+        "6",
+        "9+",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "Re:Unknown X",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "6",
+        "9",
+        "12",
+        "14+",
+        null
+      ]
+    },
+    {
+      "title": "sweet little sister",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "5",
+        "7",
+        "10",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "INFiNiTE ENERZY -Overdoze-",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "5",
+        "8",
+        "13",
+        "14",
         null
       ]
     },
