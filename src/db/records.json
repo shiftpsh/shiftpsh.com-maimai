@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "ｓｏｌｖｅｄａｃ",
-    "rating": 15966,
+    "rating": 15980,
     "profileImageSrc": "https://maimaidx-eng.com/maimai-mobile/img/Icon/b2afde62b4da3e48.png",
     "trophy": {
       "tier": "Normal",
@@ -9,10 +9,10 @@
     },
     "courseRank": 15,
     "classRank": 15,
-    "stars": 910,
+    "stars": 920,
     "playCount": {
-      "total": 1954,
-      "current": 322
+      "total": 1965,
+      "current": 333
     }
   },
   "records": [
@@ -8699,6 +8699,26 @@
     },
     {
       "track": {
+        "title": "ザムザ",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1008839,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1802,
+          "max": 1902,
+          "percentage": 94.74237644584647
+        },
+        "dxRank": 3,
+        "combo": "FULL COMBO+",
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "新人類",
         "type": "DX",
         "difficulty": "MASTER"
@@ -8795,6 +8815,26 @@
         "dxRank": 3,
         "combo": "ALL PERFECT+",
         "sync": "FULL SYNC DX"
+      }
+    },
+    {
+      "track": {
+        "title": "ライアーダンサー",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1009283,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2659,
+          "max": 2820,
+          "percentage": 94.29078014184397
+        },
+        "dxRank": 3,
+        "combo": "FULL COMBO+",
+        "sync": null
       }
     },
     {
@@ -12619,6 +12659,66 @@
     },
     {
       "track": {
+        "title": "LOSTPHANTASIA",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1008482,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1536,
+          "max": 1647,
+          "percentage": 93.26047358834244
+        },
+        "dxRank": 3,
+        "combo": "FULL COMBO+",
+        "sync": "FULL SYNC+"
+      }
+    },
+    {
+      "track": {
+        "title": "Bad Apple!! feat.nomico (Tetsuya Komuro Remix)",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1006368,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1708,
+          "max": 1827,
+          "percentage": 93.48659003831418
+        },
+        "dxRank": 3,
+        "combo": "FULL COMBO",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "Re:Unknown X",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 992555,
+        "rank": "SS",
+        "dxScore": {
+          "score": 3109,
+          "max": 3567,
+          "percentage": 87.1600784973367
+        },
+        "dxRank": 1,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "さよならヒストリー",
         "type": "DX",
         "difficulty": "MASTER"
@@ -14459,6 +14559,26 @@
     },
     {
       "track": {
+        "title": "INFiNiTE ENERZY -Overdoze-",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1006247,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2337,
+          "max": 2547,
+          "percentage": 91.7550058892815
+        },
+        "dxRank": 2,
+        "combo": "FULL COMBO",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "VOLT",
         "type": "DX",
         "difficulty": "MASTER"
@@ -14925,7 +15045,7 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1003423,
+        "achievement": 1004472,
         "rank": "SSS",
         "dxScore": {
           "score": 2883,
@@ -20360,6 +20480,26 @@
     {
       "track": {
         "title": "炎歌 -ほむらうた-",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1006263,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1490,
+          "max": 1581,
+          "percentage": 94.24414927261226
+        },
+        "dxRank": 3,
+        "combo": "FULL COMBO",
+        "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "炎歌 -ほむらうた-",
         "type": "Standard",
         "difficulty": "MASTER"
       },
@@ -20545,14 +20685,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1001725,
-        "rank": "SSS",
+        "achievement": 1005133,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 2595,
+          "score": 2644,
           "max": 2898,
-          "percentage": 89.54451345755695
+          "percentage": 91.23533471359558
         },
-        "dxRank": 1,
+        "dxRank": 2,
         "combo": null,
         "sync": "SYNC PLAY"
       }
@@ -20705,12 +20845,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 978487,
-        "rank": "S",
+        "achievement": 982279,
+        "rank": "S+",
         "dxScore": {
-          "score": 3163,
+          "score": 3220,
           "max": 3948,
-          "percentage": 80.11651469098278
+          "percentage": 81.56028368794325
         },
         "dxRank": 0,
         "combo": null,
@@ -21185,12 +21325,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 991273,
-        "rank": "SS",
+        "achievement": 995123,
+        "rank": "SS+",
         "dxScore": {
-          "score": 2567,
+          "score": 2608,
           "max": 2997,
-          "percentage": 85.65231898565231
+          "percentage": 87.02035368702036
         },
         "dxRank": 1,
         "combo": null,

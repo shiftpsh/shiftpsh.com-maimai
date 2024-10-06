@@ -108,7 +108,7 @@
     "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/937d88b9bec425ac.png",
     "title": "sweet little sister",
     "complete": false,
-    "stampCount": 0,
+    "stampCount": 1,
     "max": 10
   },
   {
@@ -123,8 +123,8 @@
     "type": "music",
     "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/40800dfb586539a2.png",
     "title": "炎歌 -ほむらうた-",
-    "complete": false,
-    "stampCount": 9,
+    "complete": true,
+    "stampCount": 10,
     "max": 10
   },
   {
