@@ -11,8 +11,8 @@
     "classRank": 15,
     "stars": 920,
     "playCount": {
-      "total": 2013,
-      "current": 381
+      "total": 2023,
+      "current": 391
     }
   },
   "records": [
@@ -34,6 +34,26 @@
         "dxRank": 4,
         "combo": "ALL PERFECT+",
         "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "さくゆいたいそう",
+        "type": "DX",
+        "difficulty": "BASIC"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1009014,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 472,
+          "max": 489,
+          "percentage": 96.52351738241309
+        },
+        "dxRank": 4,
+        "combo": "FULL COMBO+",
+        "sync": "FULL SYNC+"
       }
     },
     {
@@ -14725,7 +14745,7 @@
       },
       "score": {
         "clear": true,
-        "achievement": 993792,
+        "achievement": 993821,
         "rank": "SS",
         "dxScore": {
           "score": 3327,
@@ -21345,7 +21365,7 @@
       },
       "score": {
         "clear": true,
-        "achievement": 997389,
+        "achievement": 997764,
         "rank": "SS+",
         "dxScore": {
           "score": 2665,
@@ -21525,12 +21545,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 995686,
+        "achievement": 999877,
         "rank": "SS+",
         "dxScore": {
-          "score": 3050,
+          "score": 3123,
           "max": 3501,
-          "percentage": 87.11796629534419
+          "percentage": 89.20308483290489
         },
         "dxRank": 1,
         "combo": null,
@@ -24025,7 +24045,7 @@
       },
       "score": {
         "clear": true,
-        "achievement": 998756,
+        "achievement": 999262,
         "rank": "SS+",
         "dxScore": {
           "score": 2882,
@@ -24085,12 +24105,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1003626,
+        "achievement": 1004675,
         "rank": "SSS",
         "dxScore": {
-          "score": 2820,
+          "score": 2835,
           "max": 3186,
-          "percentage": 88.51224105461394
+          "percentage": 88.98305084745762
         },
         "dxRank": 1,
         "combo": "FULL COMBO",
@@ -24405,12 +24425,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 987238,
-        "rank": "S+",
+        "achievement": 994316,
+        "rank": "SS",
         "dxScore": {
-          "score": 2590,
+          "score": 2626,
           "max": 2997,
-          "percentage": 86.41975308641975
+          "percentage": 87.62095428762096
         },
         "dxRank": 1,
         "combo": null,
