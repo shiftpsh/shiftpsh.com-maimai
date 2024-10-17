@@ -1,5 +1,5 @@
 {
-  "chartCount": 4918,
+  "chartCount": 4934,
   "availableVersions": [
     {
       "value": 0,
@@ -14469,6 +14469,54 @@
         "5",
         "8",
         "13",
+        "14",
+        null
+      ]
+    },
+    {
+      "title": "RE:INCARNATED DRAGNER",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "5",
+        "8",
+        "11+",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "Beginning together!",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "4",
+        "7",
+        "10+",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "Shining Ray ～僕らの絆～",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "5",
+        "7",
+        "10",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "DEVOTION",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "5",
+        "7+",
+        "11+",
         "14",
         null
       ]
