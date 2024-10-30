@@ -129,6 +129,14 @@
   },
   {
     "type": "music",
+    "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/b95d6cec3fbbb04c.png",
+    "title": "華の集落、秋のお届け",
+    "complete": false,
+    "stampCount": 0,
+    "max": 10
+  },
+  {
+    "type": "music",
     "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/19b8ef35f1800884.png",
     "title": "oboro",
     "complete": true,

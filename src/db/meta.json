@@ -799,6 +799,12 @@
       "chartTypeCount": 1
     },
     {
+      "title": "Divide et impera!",
+      "artist": "BlackY a.k.a. WAiKURO survive",
+      "jacketKey": "da7d3a099d23a585",
+      "chartTypeCount": 1
+    },
+    {
       "title": "DO RORO DERODERO ON DO RORO",
       "artist": "怒髪天「百鬼大戦絵巻」",
       "jacketKey": "c7d50e554e2b7083",
@@ -3715,6 +3721,12 @@
       "chartTypeCount": 1
     },
     {
+      "title": "オシオキGIMMICK!!",
+      "artist": "Junky",
+      "jacketKey": "9397ebded3a032da",
+      "chartTypeCount": 1
+    },
+    {
       "title": "おジャ魔女カーニバル!!",
       "artist": "covered by 光吉猛修",
       "jacketKey": "3491119fdaa2b30a",
@@ -4174,6 +4186,12 @@
       "title": "スターリースカイ☆パレード",
       "artist": "キノシタ feat. 音街ウナ・鏡音リン",
       "jacketKey": "bf6fcb6a8b2b79a7",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "スティールユー",
+      "artist": "Omoi",
+      "jacketKey": "e78eee64612c0152",
       "chartTypeCount": 1
     },
     {
@@ -5212,6 +5230,12 @@
       "title": "ライアーダンサー",
       "artist": "マサラダ",
       "jacketKey": "3ecd712a72f9b81a",
+      "chartTypeCount": 1
+    },
+    {
+      "title": "ラヴィ",
+      "artist": "すりぃ",
+      "jacketKey": "c4e7300bbe13a1d1",
       "chartTypeCount": 1
     },
     {
@@ -6634,7 +6658,7 @@
       "title": "華の集落、秋のお届け",
       "artist": "Umiai",
       "jacketKey": "b95d6cec3fbbb04c",
-      "chartTypeCount": 1
+      "chartTypeCount": 2
     },
     {
       "title": "華鳥風月",

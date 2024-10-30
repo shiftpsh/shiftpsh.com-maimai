@@ -1,5 +1,5 @@
 {
-  "chartCount": 4934,
+  "chartCount": 4954,
   "availableVersions": [
     {
       "value": 0,
@@ -14518,6 +14518,66 @@
         "7+",
         "11+",
         "14",
+        null
+      ]
+    },
+    {
+      "title": "ラヴィ",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "4",
+        "7",
+        "10+",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "スティールユー",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "7+",
+        "11",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "オシオキGIMMICK!!",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "7",
+        "10+",
+        "12+",
+        null
+      ]
+    },
+    {
+      "title": "Divide et impera!",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "6",
+        "8",
+        "12+",
+        "14+",
+        null
+      ]
+    },
+    {
+      "title": "華の集落、秋のお届け",
+      "type": "Standard",
+      "version": 22,
+      "displayLevel": [
+        "5",
+        "8",
+        "12",
+        "13+",
         null
       ]
     },
