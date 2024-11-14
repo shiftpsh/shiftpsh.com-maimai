@@ -1,5 +1,5 @@
 {
-  "chartCount": 4954,
+  "chartCount": 4974,
   "availableVersions": [
     {
       "value": 0,
@@ -14590,6 +14590,66 @@
         "8+",
         "13",
         "14",
+        null
+      ]
+    },
+    {
+      "title": "Make Up Your World feat. キョンシーのCiちゃん & らっぷびと",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "5",
+        "7+",
+        "10+",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "BOOM! BOOM!! BOOM!!!",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "4",
+        "7",
+        "10",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "Everybody Say HARDCORE TANO*C",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "5",
+        "8",
+        "10+",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "ミラクルポップ☆アドベンチャー!!!!!",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "6",
+        "8",
+        "12",
+        "14",
+        null
+      ]
+    },
+    {
+      "title": "Trust",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "7",
+        "11",
+        "13+",
         null
       ]
     }
