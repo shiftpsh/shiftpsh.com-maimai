@@ -9,10 +9,10 @@
     },
     "courseRank": 15,
     "classRank": 15,
-    "stars": 926,
+    "stars": 931,
     "playCount": {
-      "total": 2040,
-      "current": 408
+      "total": 2044,
+      "current": 412
     }
   },
   "records": [
@@ -7828,13 +7828,13 @@
         "achievement": 1008920,
         "rank": "SSS+",
         "dxScore": {
-          "score": 2082,
+          "score": 2100,
           "max": 2181,
-          "percentage": 95.46079779917468
+          "percentage": 96.28610729023383
         },
         "dxRank": 4,
         "combo": "FULL COMBO",
-        "sync": "SYNC PLAY"
+        "sync": "FULL SYNC+"
       }
     },
     {
@@ -14719,6 +14719,106 @@
     },
     {
       "track": {
+        "title": "Make Up Your World feat. キョンシーのCiちゃん & らっぷびと",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1008897,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2204,
+          "max": 2325,
+          "percentage": 94.79569892473118
+        },
+        "dxRank": 3,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "BOOM! BOOM!! BOOM!!!",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1003711,
+        "rank": "SSS",
+        "dxScore": {
+          "score": 2171,
+          "max": 2373,
+          "percentage": 91.48756847871891
+        },
+        "dxRank": 2,
+        "combo": "FULL COMBO",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "Everybody Say HARDCORE TANO*C",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1006431,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2582,
+          "max": 2763,
+          "percentage": 93.4491494752081
+        },
+        "dxRank": 3,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "ミラクルポップ☆アドベンチャー!!!!!",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 996013,
+        "rank": "SS+",
+        "dxScore": {
+          "score": 2709,
+          "max": 3030,
+          "percentage": 89.4059405940594
+        },
+        "dxRank": 1,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "Trust",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1002856,
+        "rank": "SSS",
+        "dxScore": {
+          "score": 2133,
+          "max": 2349,
+          "percentage": 90.80459770114942
+        },
+        "dxRank": 2,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "INFiNiTE ENERZY -Overdoze-",
         "type": "DX",
         "difficulty": "MASTER"
@@ -18575,6 +18675,26 @@
         "dxRank": 2,
         "combo": null,
         "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "DEVOTION",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 987830,
+        "rank": "S+",
+        "dxScore": {
+          "score": 2529,
+          "max": 2943,
+          "percentage": 85.93272171253822
+        },
+        "dxRank": 1,
+        "combo": null,
+        "sync": "SYNC PLAY"
       }
     },
     {
