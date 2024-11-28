@@ -1,5 +1,5 @@
 {
-  "chartCount": 4974,
+  "chartCount": 4990,
   "availableVersions": [
     {
       "value": 0,
@@ -14650,6 +14650,54 @@
         "7",
         "11",
         "13+",
+        null
+      ]
+    },
+    {
+      "title": "まっすぐ→→→ストリーム！",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "4",
+        "7",
+        "10+",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "最っ高のエンタメだ!!",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "5",
+        "7",
+        "11",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "Baqeela",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "6",
+        "10+",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "Ai C",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "5",
+        "8",
+        "12",
+        "14",
         null
       ]
     }
