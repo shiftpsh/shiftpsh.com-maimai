@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "ｓｏｌｖｅｄａｃ",
-    "rating": 16034,
+    "rating": 16045,
     "profileImageSrc": "https://maimaidx-eng.com/maimai-mobile/img/Icon/b2afde62b4da3e48.png",
     "trophy": {
       "tier": "Normal",
@@ -9,10 +9,10 @@
     },
     "courseRank": 15,
     "classRank": 15,
-    "stars": 931,
+    "stars": 938,
     "playCount": {
-      "total": 2044,
-      "current": 412
+      "total": 2051,
+      "current": 419
     }
   },
   "records": [
@@ -14785,15 +14785,15 @@
       },
       "score": {
         "clear": true,
-        "achievement": 996013,
-        "rank": "SS+",
+        "achievement": 1007011,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 2709,
+          "score": 2766,
           "max": 3030,
-          "percentage": 89.4059405940594
+          "percentage": 91.2871287128713
         },
-        "dxRank": 1,
-        "combo": null,
+        "dxRank": 2,
+        "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
     },
@@ -18625,16 +18625,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 972333,
+        "achievement": 975526,
         "rank": "S",
         "dxScore": {
-          "score": 2990,
+          "score": 3012,
           "max": 3675,
-          "percentage": 81.36054421768706
+          "percentage": 81.95918367346938
         },
         "dxRank": 0,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -18675,6 +18675,26 @@
         "dxRank": 2,
         "combo": null,
         "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "Shining Ray ～僕らの絆～",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1009127,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2232,
+          "max": 2385,
+          "percentage": 93.58490566037736
+        },
+        "dxRank": 3,
+        "combo": "FULL COMBO",
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -22659,6 +22679,26 @@
     },
     {
       "track": {
+        "title": "華の集落、秋のお届け",
+        "type": "Standard",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 994932,
+        "rank": "SS",
+        "dxScore": {
+          "score": 2186,
+          "max": 2508,
+          "percentage": 87.16108452950559
+        },
+        "dxRank": 1,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "Trick tear",
         "type": "DX",
         "difficulty": "MASTER"
@@ -24414,6 +24454,66 @@
         },
         "dxRank": 1,
         "combo": "FULL COMBO",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "まっすぐ→→→ストリーム！",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1006585,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2675,
+          "max": 2880,
+          "percentage": 92.88194444444444
+        },
+        "dxRank": 2,
+        "combo": "FULL COMBO",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "最っ高のエンタメだ!!",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 997504,
+        "rank": "SS+",
+        "dxScore": {
+          "score": 2598,
+          "max": 2826,
+          "percentage": 91.93205944798302
+        },
+        "dxRank": 2,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "Ai C",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1004945,
+        "rank": "SSS",
+        "dxScore": {
+          "score": 2351,
+          "max": 2607,
+          "percentage": 90.18028385116993
+        },
+        "dxRank": 2,
+        "combo": null,
         "sync": "SYNC PLAY"
       }
     },
