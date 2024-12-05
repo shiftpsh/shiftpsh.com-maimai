@@ -1,5 +1,5 @@
 {
-  "chartCount": 4990,
+  "chartCount": 5006,
   "availableVersions": [
     {
       "value": 0,
@@ -14698,6 +14698,54 @@
         "8",
         "12",
         "14",
+        null
+      ]
+    },
+    {
+      "title": "Geranium",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "5",
+        "7",
+        "10+",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "The Cursed Doll",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "6",
+        "11",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "RondeauX of RagnaroQ",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "5",
+        "8",
+        "12",
+        "14",
+        null
+      ]
+    },
+    {
+      "title": "ℝ∈Χ LUNATiCA",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "6",
+        "9",
+        "12+",
+        "14+",
         null
       ]
     }
