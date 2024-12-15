@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "ｓｏｌｖｅｄａｃ",
-    "rating": 16045,
+    "rating": 16052,
     "profileImageSrc": "https://maimaidx-eng.com/maimai-mobile/img/Icon/b2afde62b4da3e48.png",
     "trophy": {
       "tier": "Normal",
@@ -9,10 +9,10 @@
     },
     "courseRank": 15,
     "classRank": 15,
-    "stars": 939,
+    "stars": 947,
     "playCount": {
-      "total": 2052,
-      "current": 420
+      "total": 2062,
+      "current": 430
     }
   },
   "records": [
@@ -1490,6 +1490,26 @@
           "score": 1809,
           "max": 1890,
           "percentage": 95.71428571428572
+        },
+        "dxRank": 4,
+        "combo": "ALL PERFECT",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "IMAWANOKIWA",
+        "type": "DX",
+        "difficulty": "EXPERT"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1009634,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1565,
+          "max": 1626,
+          "percentage": 96.24846248462484
         },
         "dxRank": 4,
         "combo": "ALL PERFECT",
@@ -4524,16 +4544,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 999052,
-        "rank": "SS+",
+        "achievement": 1009534,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 1554,
+          "score": 1644,
           "max": 1725,
-          "percentage": 90.08695652173913
+          "percentage": 95.30434782608695
         },
-        "dxRank": 2,
-        "combo": "FULL COMBO",
-        "sync": null
+        "dxRank": 4,
+        "combo": "ALL PERFECT",
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -8785,16 +8805,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1008713,
+        "achievement": 1008886,
         "rank": "SSS+",
         "dxScore": {
-          "score": 2367,
+          "score": 2377,
           "max": 2496,
-          "percentage": 94.83173076923077
+          "percentage": 95.2323717948718
         },
-        "dxRank": 3,
+        "dxRank": 4,
         "combo": "FULL COMBO",
-        "sync": null
+        "sync": "FULL SYNC+"
       }
     },
     {
@@ -9905,12 +9925,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1001604,
+        "achievement": 1004900,
         "rank": "SSS",
         "dxScore": {
-          "score": 2146,
+          "score": 2165,
           "max": 2352,
-          "percentage": 91.24149659863946
+          "percentage": 92.04931972789116
         },
         "dxRank": 2,
         "combo": "FULL COMBO",
@@ -12988,9 +13008,9 @@
         "achievement": 1009334,
         "rank": "SSS+",
         "dxScore": {
-          "score": 2147,
+          "score": 2168,
           "max": 2292,
-          "percentage": 93.67364746945898
+          "percentage": 94.58987783595113
         },
         "dxRank": 3,
         "combo": "FULL COMBO+",
@@ -18619,18 +18639,78 @@
     },
     {
       "track": {
+        "title": "Geranium",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1005672,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2188,
+          "max": 2352,
+          "percentage": 93.02721088435374
+        },
+        "dxRank": 3,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "The Cursed Doll",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 998479,
+        "rank": "SS+",
+        "dxScore": {
+          "score": 2074,
+          "max": 2283,
+          "percentage": 90.84537888742882
+        },
+        "dxRank": 2,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "ℝ∈Χ LUNATiCA",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 977255,
+        "rank": "S",
+        "dxScore": {
+          "score": 2807,
+          "max": 3309,
+          "percentage": 84.82925355092172
+        },
+        "dxRank": 0,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "Divide et impera!",
         "type": "DX",
         "difficulty": "MASTER"
       },
       "score": {
         "clear": true,
-        "achievement": 975526,
-        "rank": "S",
+        "achievement": 986778,
+        "rank": "S+",
         "dxScore": {
-          "score": 3012,
+          "score": 3097,
           "max": 3675,
-          "percentage": 81.95918367346938
+          "percentage": 84.27210884353742
         },
         "dxRank": 0,
         "combo": null,
@@ -18705,12 +18785,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 987830,
-        "rank": "S+",
+        "achievement": 1002141,
+        "rank": "SSS",
         "dxScore": {
-          "score": 2529,
+          "score": 2633,
           "max": 2943,
-          "percentage": 85.93272171253822
+          "percentage": 89.46653075093442
         },
         "dxRank": 1,
         "combo": null,
@@ -18805,15 +18885,15 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1006638,
+        "achievement": 1007415,
         "rank": "SSS+",
         "dxScore": {
-          "score": 2730,
+          "score": 2733,
           "max": 2946,
-          "percentage": 92.66802443991853
+          "percentage": 92.76985743380855
         },
         "dxRank": 2,
-        "combo": null,
+        "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
     },
@@ -19205,7 +19285,7 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1007643,
+        "achievement": 1008847,
         "rank": "SSS+",
         "dxScore": {
           "score": 2551,
@@ -19213,7 +19293,7 @@
           "percentage": 94.06342182890856
         },
         "dxRank": 3,
-        "combo": "FULL COMBO",
+        "combo": "FULL COMBO+",
         "sync": "SYNC PLAY"
       }
     },
@@ -20885,12 +20965,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 964742,
-        "rank": "AAA",
+        "achievement": 972085,
+        "rank": "S",
         "dxScore": {
-          "score": 2400,
+          "score": 2441,
           "max": 2787,
-          "percentage": 86.11410118406889
+          "percentage": 87.58521707929674
         },
         "dxRank": 1,
         "combo": null,
@@ -22245,16 +22325,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 978096,
-        "rank": "S",
+        "achievement": 998613,
+        "rank": "SS+",
         "dxScore": {
-          "score": 2219,
+          "score": 2340,
           "max": 2631,
-          "percentage": 84.34055492208286
+          "percentage": 88.93956670467503
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -22368,9 +22448,9 @@
         "achievement": 984748,
         "rank": "S+",
         "dxScore": {
-          "score": 3198,
+          "score": 3222,
           "max": 3927,
-          "percentage": 81.43621084797556
+          "percentage": 82.04736440030558
         },
         "dxRank": 0,
         "combo": null,
@@ -24305,16 +24385,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 947031,
+        "achievement": 958969,
         "rank": "AAA",
         "dxScore": {
-          "score": 2709,
+          "score": 2777,
           "max": 3519,
-          "percentage": 76.98209718670077
+          "percentage": 78.91446433645922
         },
         "dxRank": 0,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -24499,18 +24579,38 @@
     },
     {
       "track": {
+        "title": "Baqeela",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1005760,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2746,
+          "max": 2946,
+          "percentage": 93.2111337406653
+        },
+        "dxRank": 3,
+        "combo": "FULL COMBO",
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "Ai C",
         "type": "DX",
         "difficulty": "MASTER"
       },
       "score": {
         "clear": true,
-        "achievement": 1004945,
-        "rank": "SSS",
+        "achievement": 1005021,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 2351,
+          "score": 2361,
           "max": 2607,
-          "percentage": 90.18028385116993
+          "percentage": 90.5638665132336
         },
         "dxRank": 2,
         "combo": null,
