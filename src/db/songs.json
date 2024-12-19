@@ -1,5 +1,5 @@
 {
-  "chartCount": 5006,
+  "chartCount": 5018,
   "availableVersions": [
     {
       "value": 0,
@@ -14746,6 +14746,42 @@
         "9",
         "12+",
         "14+",
+        null
+      ]
+    },
+    {
+      "title": "RAD DOGS",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "6",
+        "10",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "にっこり^^調査隊のテーマ",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "6",
+        "10",
+        "12+",
+        null
+      ]
+    },
+    {
+      "title": "アイディスマイル",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "7",
+        "9+",
+        "12+",
         null
       ]
     }

@@ -9,10 +9,10 @@
     },
     "courseRank": 15,
     "classRank": 15,
-    "stars": 947,
+    "stars": 957,
     "playCount": {
-      "total": 2062,
-      "current": 430
+      "total": 2074,
+      "current": 442
     }
   },
   "records": [
@@ -232,6 +232,26 @@
           "percentage": 95.95141700404858
         },
         "dxRank": 4,
+        "combo": "ALL PERFECT",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "tape/stop/night",
+        "type": "DX",
+        "difficulty": "BASIC"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1009166,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 353,
+          "max": 399,
+          "percentage": 88.47117794486216
+        },
+        "dxRank": 1,
         "combo": "ALL PERFECT",
         "sync": "SYNC PLAY"
       }
@@ -13794,7 +13814,7 @@
         },
         "dxRank": 2,
         "combo": "FULL COMBO",
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -16154,7 +16174,7 @@
         },
         "dxRank": 1,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -16234,7 +16254,7 @@
         },
         "dxRank": 1,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -17034,7 +17054,7 @@
         },
         "dxRank": 0,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -18679,6 +18699,26 @@
     },
     {
       "track": {
+        "title": "RondeauX of RagnaroQ",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 973941,
+        "rank": "S",
+        "dxScore": {
+          "score": 2686,
+          "max": 3348,
+          "percentage": 80.22700119474312
+        },
+        "dxRank": 0,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "ℝ∈Χ LUNATiCA",
         "type": "DX",
         "difficulty": "MASTER"
@@ -19634,7 +19674,7 @@
         },
         "dxRank": 1,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -19905,16 +19945,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1003972,
-        "rank": "SSS",
+        "achievement": 1009130,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 2725,
+          "score": 2819,
           "max": 2958,
-          "percentage": 92.12305611899933
+          "percentage": 95.30087897227857
         },
-        "dxRank": 2,
-        "combo": null,
-        "sync": null
+        "dxRank": 4,
+        "combo": "FULL COMBO+",
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -21934,7 +21974,7 @@
         },
         "dxRank": 2,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -22525,12 +22565,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 998889,
+        "achievement": 998972,
         "rank": "SS+",
         "dxScore": {
-          "score": 2586,
+          "score": 2606,
           "max": 2838,
-          "percentage": 91.12050739957716
+          "percentage": 91.82522903453136
         },
         "dxRank": 2,
         "combo": null,
@@ -22765,12 +22805,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 994932,
-        "rank": "SS",
+        "achievement": 1003078,
+        "rank": "SSS",
         "dxScore": {
-          "score": 2186,
+          "score": 2233,
           "max": 2508,
-          "percentage": 87.16108452950559
+          "percentage": 89.03508771929825
         },
         "dxRank": 1,
         "combo": null,
@@ -23194,7 +23234,7 @@
         },
         "dxRank": 0,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -27805,12 +27845,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 996034,
-        "rank": "SS+",
+        "achievement": 1000486,
+        "rank": "SSS",
         "dxScore": {
-          "score": 2005,
+          "score": 2026,
           "max": 2331,
-          "percentage": 86.01458601458602
+          "percentage": 86.91548691548692
         },
         "dxRank": 1,
         "combo": null,
@@ -27934,7 +27974,7 @@
         },
         "dxRank": 2,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -28548,13 +28588,13 @@
         "achievement": 981429,
         "rank": "S+",
         "dxScore": {
-          "score": 2127,
+          "score": 2180,
           "max": 2571,
-          "percentage": 82.73045507584598
+          "percentage": 84.79190976273824
         },
         "dxRank": 0,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {

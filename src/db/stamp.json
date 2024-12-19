@@ -131,8 +131,8 @@
     "type": "music",
     "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/b95d6cec3fbbb04c.png",
     "title": "華の集落、秋のお届け",
-    "complete": false,
-    "stampCount": 8,
+    "complete": true,
+    "stampCount": 10,
     "max": 10
   },
   {
