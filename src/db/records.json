@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "ｓｏｌｖｅｄａｃ",
-    "rating": 16052,
+    "rating": 16054,
     "profileImageSrc": "https://maimaidx-eng.com/maimai-mobile/img/Icon/b2afde62b4da3e48.png",
     "trophy": {
       "tier": "Normal",
@@ -9,10 +9,10 @@
     },
     "courseRank": 15,
     "classRank": 15,
-    "stars": 957,
+    "stars": 969,
     "playCount": {
-      "total": 2074,
-      "current": 442
+      "total": 2079,
+      "current": 447
     }
   },
   "records": [
@@ -253,6 +253,26 @@
         },
         "dxRank": 1,
         "combo": "ALL PERFECT",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "サンバディ！",
+        "type": "DX",
+        "difficulty": "BASIC"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1000660,
+        "rank": "SSS",
+        "dxScore": {
+          "score": 481,
+          "max": 555,
+          "percentage": 86.66666666666667
+        },
+        "dxRank": 1,
+        "combo": null,
         "sync": "SYNC PLAY"
       }
     },
@@ -4958,6 +4978,26 @@
     },
     {
       "track": {
+        "title": "ℝ∈Χ LUNATiCA",
+        "type": "DX",
+        "difficulty": "EXPERT"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1004247,
+        "rank": "SSS",
+        "dxScore": {
+          "score": 1956,
+          "max": 2139,
+          "percentage": 91.4446002805049
+        },
+        "dxRank": 2,
+        "combo": "FULL COMBO",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "Divide et impera!",
         "type": "DX",
         "difficulty": "EXPERT"
@@ -9239,6 +9279,26 @@
     },
     {
       "track": {
+        "title": "RAD DOGS",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1009230,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1884,
+          "max": 1992,
+          "percentage": 94.57831325301204
+        },
+        "dxRank": 3,
+        "combo": "ALL PERFECT",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "劣等上等",
         "type": "DX",
         "difficulty": "MASTER"
@@ -9254,6 +9314,26 @@
         },
         "dxRank": 3,
         "combo": "ALL PERFECT",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "にっこり^^調査隊のテーマ",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1009691,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2058,
+          "max": 2127,
+          "percentage": 96.75599435825106
+        },
+        "dxRank": 4,
+        "combo": "FULL COMBO+",
         "sync": "SYNC PLAY"
       }
     },
@@ -9275,6 +9355,26 @@
         "dxRank": 3,
         "combo": null,
         "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "アイディスマイル",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1009444,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1453,
+          "max": 1530,
+          "percentage": 94.9673202614379
+        },
+        "dxRank": 3,
+        "combo": "ALL PERFECT",
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -13634,6 +13734,26 @@
         },
         "dxRank": 2,
         "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "sweet little sister",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1003797,
+        "rank": "SSS",
+        "dxScore": {
+          "score": 2165,
+          "max": 2331,
+          "percentage": 92.87859287859288
+        },
+        "dxRank": 2,
+        "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
     },
@@ -21328,9 +21448,9 @@
         "achievement": 986247,
         "rank": "S+",
         "dxScore": {
-          "score": 3233,
+          "score": 3237,
           "max": 3948,
-          "percentage": 81.88956433637284
+          "percentage": 81.99088145896657
         },
         "dxRank": 0,
         "combo": null,
@@ -21985,12 +22105,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 999881,
-        "rank": "SS+",
+        "achievement": 1003748,
+        "rank": "SSS",
         "dxScore": {
-          "score": 3123,
+          "score": 3139,
           "max": 3501,
-          "percentage": 89.20308483290489
+          "percentage": 89.66009711510998
         },
         "dxRank": 1,
         "combo": null,
@@ -22805,14 +22925,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1003078,
-        "rank": "SSS",
+        "achievement": 1006111,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 2233,
+          "score": 2258,
           "max": 2508,
-          "percentage": 89.03508771929825
+          "percentage": 90.03189792663477
         },
-        "dxRank": 1,
+        "dxRank": 2,
         "combo": null,
         "sync": "SYNC PLAY"
       }
@@ -26625,14 +26745,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 959826,
-        "rank": "AAA",
+        "achievement": 986714,
+        "rank": "S+",
         "dxScore": {
-          "score": 2784,
+          "score": 2907,
           "max": 3366,
-          "percentage": 82.70944741532978
+          "percentage": 86.36363636363636
         },
-        "dxRank": 0,
+        "dxRank": 1,
         "combo": null,
         "sync": null
       }
