@@ -1,5 +1,5 @@
 {
-  "chartCount": 5018,
+  "chartCount": 5026,
   "availableVersions": [
     {
       "value": 0,
@@ -14782,6 +14782,30 @@
         "7",
         "9+",
         "12+",
+        null
+      ]
+    },
+    {
+      "title": "偉大なる悪魔は実は大天使パトラちゃん様なのだ！",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "4",
+        "7+",
+        "10+",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "シュガーホリック",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "7",
+        "10",
+        "13",
         null
       ]
     }
