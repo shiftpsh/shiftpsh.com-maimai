@@ -11,8 +11,8 @@
     "classRank": 15,
     "stars": 990,
     "playCount": {
-      "total": 2124,
-      "current": 492
+      "total": 2125,
+      "current": 493
     }
   },
   "records": [
@@ -7815,6 +7815,26 @@
         "dxRank": 3,
         "combo": "FULL COMBO+",
         "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "偉大なる悪魔は実は大天使パトラちゃん様なのだ！",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1003916,
+        "rank": "SSS",
+        "dxScore": {
+          "score": 2567,
+          "max": 2805,
+          "percentage": 91.51515151515152
+        },
+        "dxRank": 2,
+        "combo": null,
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -27974,7 +27994,7 @@
         },
         "dxRank": 0,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
