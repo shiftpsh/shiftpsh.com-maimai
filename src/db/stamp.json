@@ -172,7 +172,7 @@
     "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/196e63bd095d25da.png",
     "title": "色は匂へど散りぬるを",
     "complete": false,
-    "stampCount": 6,
+    "stampCount": 7,
     "max": 10
   },
   {
@@ -195,8 +195,8 @@
     "type": "frame",
     "image": "https://maimaidx-eng.com/maimai-mobile/img/Frame/0963a609362b1daa.png",
     "title": "Latent Kingdom",
-    "complete": false,
-    "stampCount": 9,
+    "complete": true,
+    "stampCount": 10,
     "max": 10
   },
   {
