@@ -1,6 +1,14 @@
 [
   {
     "type": "partner",
+    "image": "https://maimaidx-eng.com/maimai-mobile/img/Partner/1c0acbba6cc5d80e.png",
+    "title": "ソルト（ぷりずむ）",
+    "complete": false,
+    "stampCount": 0,
+    "max": 10
+  },
+  {
+    "type": "partner",
     "image": "https://maimaidx-eng.com/maimai-mobile/img/Partner/60a466c46cfa5b3a.png",
     "title": "ラズ（ばでぃーず）",
     "complete": true,
@@ -97,6 +105,14 @@
   },
   {
     "type": "music",
+    "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/8e3cad1f597c0558.png",
+    "title": "One Step Ahead",
+    "complete": false,
+    "stampCount": 0,
+    "max": 10
+  },
+  {
+    "type": "music",
     "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/17bd34442bb405c8.png",
     "title": "ハッピーシンセサイザ",
     "complete": true,
@@ -136,52 +152,20 @@
     "max": 10
   },
   {
-    "type": "music",
-    "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/19b8ef35f1800884.png",
-    "title": "oboro",
-    "complete": true,
-    "stampCount": 10,
-    "max": 10
+    "type": "icon",
+    "image": "https://maimaidx-eng.com/maimai-mobile/img/Icon/bf95231e5e4c1a0f.png",
+    "title": "PRiSM",
+    "complete": false,
+    "stampCount": 0,
+    "max": 5
   },
   {
-    "type": "music",
-    "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/5704ab871a0f61c3.png",
-    "title": "ナミダと流星",
+    "type": "nameplate",
+    "image": "https://maimaidx-eng.com/maimai-mobile/img/NamePlate/527ee5fc6fe14c16.png",
+    "title": "QuiQ",
     "complete": false,
     "stampCount": 0,
     "max": 10
-  },
-  {
-    "type": "music",
-    "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/a9be993d5f552289.png",
-    "title": "渦状銀河のシンフォニエッタ",
-    "complete": true,
-    "stampCount": 10,
-    "max": 10
-  },
-  {
-    "type": "music",
-    "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/1a02c2684d829331.png",
-    "title": "初音ミクの消失",
-    "complete": true,
-    "stampCount": 10,
-    "max": 10
-  },
-  {
-    "type": "music",
-    "image": "https://maimaidx-eng.com/maimai-mobile/img/Music/196e63bd095d25da.png",
-    "title": "色は匂へど散りぬるを",
-    "complete": false,
-    "stampCount": 7,
-    "max": 10
-  },
-  {
-    "type": "icon",
-    "image": "https://maimaidx-eng.com/maimai-mobile/img/Icon/c695816688425f9b.png",
-    "title": "BUDDiES",
-    "complete": true,
-    "stampCount": 5,
-    "max": 5
   },
   {
     "type": "nameplate",
@@ -193,24 +177,8 @@
   },
   {
     "type": "frame",
-    "image": "https://maimaidx-eng.com/maimai-mobile/img/Frame/0963a609362b1daa.png",
-    "title": "Latent Kingdom",
-    "complete": true,
-    "stampCount": 10,
-    "max": 10
-  },
-  {
-    "type": "frame",
-    "image": "https://maimaidx-eng.com/maimai-mobile/img/Frame/7a614b94f8925062.png",
-    "title": "mystique as iris",
-    "complete": false,
-    "stampCount": 0,
-    "max": 10
-  },
-  {
-    "type": "frame",
-    "image": "https://maimaidx-eng.com/maimai-mobile/img/Frame/c27f4e8a6345955e.png",
-    "title": "VeRForTe αRtE:VEiN",
+    "image": "https://maimaidx-eng.com/maimai-mobile/img/Frame/f831f03b2521becc.png",
+    "title": "Valsqotch",
     "complete": false,
     "stampCount": 0,
     "max": 10

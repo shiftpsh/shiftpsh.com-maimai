@@ -1,5 +1,5 @@
 {
-  "chartCount": 5026,
+  "chartCount": 5068,
   "availableVersions": [
     {
       "value": 0,
@@ -55,11 +55,11 @@
     },
     {
       "value": 13,
-      "name": "maimaiでらっくす"
+      "name": "でらっくす"
     },
     {
       "value": 14,
-      "name": "maimaiでらっくす PLUS"
+      "name": "でらっくす PLUS"
     },
     {
       "value": 15,
@@ -92,6 +92,10 @@
     {
       "value": 22,
       "name": "BUDDiES PLUS"
+    },
+    {
+      "value": 23,
+      "name": "PRiSM"
     }
   ],
   "tracks": [
@@ -192,6 +196,30 @@
       ]
     },
     {
+      "title": "メランコリック",
+      "type": "Standard",
+      "version": 0,
+      "displayLevel": [
+        "7",
+        "7+",
+        "9",
+        "11+",
+        null
+      ]
+    },
+    {
+      "title": "ZIGG-ZAGG",
+      "type": "Standard",
+      "version": 0,
+      "displayLevel": [
+        "7",
+        "7+",
+        "9",
+        "11",
+        "12"
+      ]
+    },
+    {
       "title": "ハッピーシンセサイザ",
       "type": "Standard",
       "version": 0,
@@ -240,30 +268,6 @@
       ]
     },
     {
-      "title": "メランコリック",
-      "type": "Standard",
-      "version": 0,
-      "displayLevel": [
-        "7",
-        "7+",
-        "9",
-        "11+",
-        null
-      ]
-    },
-    {
-      "title": "ZIGG-ZAGG",
-      "type": "Standard",
-      "version": 0,
-      "displayLevel": [
-        "7",
-        "7+",
-        "9",
-        "11",
-        "12"
-      ]
-    },
-    {
       "title": "ルカルカ★ナイトフィーバー",
       "type": "Standard",
       "version": 0,
@@ -308,7 +312,7 @@
         "8",
         "10+",
         "12+",
-        "14"
+        "14+"
       ]
     },
     {
@@ -344,7 +348,7 @@
         "7+",
         "8+",
         "11",
-        "13+"
+        "14"
       ]
     },
     {
@@ -439,7 +443,7 @@
         "6",
         "7+",
         "8+",
-        "11+",
+        "12+",
         null
       ]
     },
@@ -488,7 +492,7 @@
         "7",
         "11",
         "13+",
-        "13+"
+        "14"
       ]
     },
     {
@@ -624,18 +628,6 @@
       ]
     },
     {
-      "title": "ゴーゴー幽霊船",
-      "type": "Standard",
-      "version": 1,
-      "displayLevel": [
-        "5",
-        "8",
-        "11",
-        "12+",
-        null
-      ]
-    },
-    {
       "title": "スイートマジック",
       "type": "Standard",
       "version": 1,
@@ -644,6 +636,18 @@
         "7",
         "10+",
         "12",
+        null
+      ]
+    },
+    {
+      "title": "ゴーゴー幽霊船",
+      "type": "Standard",
+      "version": 1,
+      "displayLevel": [
+        "5",
+        "8",
+        "11",
+        "12+",
         null
       ]
     },
@@ -1916,7 +1920,7 @@
         "4",
         "8",
         "12+",
-        "14",
+        "13+",
         null
       ]
     },
@@ -1977,18 +1981,6 @@
         "7",
         "9+",
         "12+",
-        null
-      ]
-    },
-    {
-      "title": "二息歩行",
-      "type": "Standard",
-      "version": 3,
-      "displayLevel": [
-        "3",
-        "7+",
-        "10",
-        "13",
         null
       ]
     },
@@ -2449,6 +2441,18 @@
       ]
     },
     {
+      "title": "One Step Ahead",
+      "type": "Standard",
+      "version": 4,
+      "displayLevel": [
+        "6",
+        "7",
+        "11",
+        "12+",
+        null
+      ]
+    },
+    {
       "title": "おこちゃま戦争",
       "type": "Standard",
       "version": 4,
@@ -2461,14 +2465,14 @@
       ]
     },
     {
-      "title": "One Step Ahead",
+      "title": "ダブルラリアット",
       "type": "Standard",
       "version": 4,
       "displayLevel": [
+        "5",
         "6",
-        "7",
-        "11",
-        "12+",
+        "10+",
+        "13",
         null
       ]
     },
@@ -2649,7 +2653,7 @@
         "5",
         "8",
         "13",
-        "14+",
+        "14",
         null
       ]
     },
@@ -3454,7 +3458,7 @@
         "8+",
         "11+",
         "13+",
-        "14"
+        "13+"
       ]
     },
     {
@@ -4281,7 +4285,7 @@
         "3",
         "8",
         "10",
-        "11+",
+        "12",
         "12+"
       ]
     },
@@ -4365,7 +4369,7 @@
         "5",
         "8+",
         "12+",
-        "14",
+        "13+",
         null
       ]
     },
@@ -4497,7 +4501,7 @@
         "5",
         "8",
         "12",
-        "14",
+        "13+",
         null
       ]
     },
@@ -4665,7 +4669,7 @@
         "6",
         "8+",
         "11+",
-        "14",
+        "13+",
         null
       ]
     },
@@ -5061,7 +5065,7 @@
         "4",
         "8+",
         "12",
-        "13+",
+        "13",
         null
       ]
     },
@@ -5193,7 +5197,7 @@
         "5",
         "9",
         "13",
-        "14",
+        "14+",
         null
       ]
     },
@@ -5318,6 +5322,18 @@
       ]
     },
     {
+      "title": "天狗の落とし文 feat. ｙｔｒ",
+      "type": "Standard",
+      "version": 10,
+      "displayLevel": [
+        "5",
+        "7+",
+        "11+",
+        "12+",
+        null
+      ]
+    },
+    {
       "title": "疾走あんさんぶる",
       "type": "Standard",
       "version": 10,
@@ -5337,18 +5353,6 @@
         "6",
         "7+",
         "10+",
-        "12+",
-        null
-      ]
-    },
-    {
-      "title": "天狗の落とし文 feat. ｙｔｒ",
-      "type": "Standard",
-      "version": 10,
-      "displayLevel": [
-        "5",
-        "7+",
-        "11+",
         "12+",
         null
       ]
@@ -5613,7 +5617,7 @@
         "6",
         "8+",
         "12+",
-        "14",
+        "13+",
         null
       ]
     },
@@ -5738,18 +5742,6 @@
       ]
     },
     {
-      "title": "サドマミホリック",
-      "type": "Standard",
-      "version": 11,
-      "displayLevel": [
-        "6",
-        "8+",
-        "11+",
-        "12",
-        "13"
-      ]
-    },
-    {
       "title": "アマノジャクリバース feat. ｙｔｒ",
       "type": "Standard",
       "version": 11,
@@ -5759,6 +5751,18 @@
         "11",
         "13+",
         null
+      ]
+    },
+    {
+      "title": "サドマミホリック",
+      "type": "Standard",
+      "version": 11,
+      "displayLevel": [
+        "6",
+        "8+",
+        "11+",
+        "12",
+        "13"
       ]
     },
     {
@@ -5966,18 +5970,6 @@
       ]
     },
     {
-      "title": "only my railgun",
-      "type": "Standard",
-      "version": 12,
-      "displayLevel": [
-        "4",
-        "7",
-        "10",
-        "11",
-        null
-      ]
-    },
-    {
       "title": "ヒバナ",
       "type": "Standard",
       "version": 12,
@@ -5985,7 +5977,7 @@
         "5",
         "8",
         "11",
-        "11+",
+        "12",
         "13"
       ]
     },
@@ -6302,18 +6294,6 @@
       ]
     },
     {
-      "title": "お気に召すまま",
-      "type": "Standard",
-      "version": 12,
-      "displayLevel": [
-        "4",
-        "7+",
-        "10",
-        "11",
-        null
-      ]
-    },
-    {
       "title": "立ち入り禁止",
       "type": "Standard",
       "version": 12,
@@ -6537,7 +6517,7 @@
         "3",
         "6",
         "9",
-        "11+",
+        "12",
         null
       ]
     },
@@ -7293,7 +7273,7 @@
         "5",
         "7",
         "10",
-        "11+",
+        "12",
         null
       ]
     },
@@ -7451,18 +7431,6 @@
         "8",
         "12",
         "12+"
-      ]
-    },
-    {
-      "title": "いつかいい感じにアレしよう",
-      "type": "DX",
-      "version": 14,
-      "displayLevel": [
-        "4",
-        "6",
-        "9+",
-        "12+",
-        null
       ]
     },
     {
@@ -8061,7 +8029,7 @@
         "4",
         "6",
         "9+",
-        "12+",
+        "13",
         null
       ]
     },
@@ -8241,7 +8209,7 @@
         "3",
         "7",
         "11+",
-        "13",
+        "13+",
         null
       ]
     },
@@ -8361,7 +8329,7 @@
         "2",
         "7",
         "9+",
-        "12+",
+        "13",
         null
       ]
     },
@@ -9254,6 +9222,18 @@
       ]
     },
     {
+      "title": "チエルカ／エソテリカ",
+      "type": "DX",
+      "version": 16,
+      "displayLevel": [
+        "5",
+        "8+",
+        "12",
+        "14",
+        null
+      ]
+    },
+    {
       "title": "スローアライズ",
       "type": "DX",
       "version": 16,
@@ -9275,18 +9255,6 @@
         "10+",
         "12+",
         "13"
-      ]
-    },
-    {
-      "title": "チエルカ／エソテリカ",
-      "type": "DX",
-      "version": 16,
-      "displayLevel": [
-        "5",
-        "8+",
-        "12",
-        "14",
-        null
       ]
     },
     {
@@ -9602,30 +9570,6 @@
       ]
     },
     {
-      "title": "うっせぇわ",
-      "type": "DX",
-      "version": 17,
-      "displayLevel": [
-        "3",
-        "7",
-        "9+",
-        "11+",
-        null
-      ]
-    },
-    {
-      "title": "夜に駆ける",
-      "type": "DX",
-      "version": 17,
-      "displayLevel": [
-        "2",
-        "6",
-        "8",
-        "11",
-        null
-      ]
-    },
-    {
       "title": "廻廻奇譚",
       "type": "DX",
       "version": 17,
@@ -9635,30 +9579,6 @@
         "9+",
         "11+",
         "13"
-      ]
-    },
-    {
-      "title": "Shooting Stars",
-      "type": "DX",
-      "version": 17,
-      "displayLevel": [
-        "2",
-        "6",
-        "8",
-        "12",
-        null
-      ]
-    },
-    {
-      "title": "MOON NIGHTのせいにして",
-      "type": "DX",
-      "version": 17,
-      "displayLevel": [
-        "2",
-        "6",
-        "8",
-        "12",
-        null
       ]
     },
     {
@@ -9741,7 +9661,7 @@
         "3",
         "7+",
         "10+",
-        "13+",
+        "14",
         null
       ]
     },
@@ -9838,18 +9758,6 @@
         "8+",
         "12+",
         "14+",
-        null
-      ]
-    },
-    {
-      "title": "さんさーら！",
-      "type": "DX",
-      "version": 17,
-      "displayLevel": [
-        "3",
-        "6",
-        "8+",
-        "12+",
         null
       ]
     },
@@ -10054,18 +9962,6 @@
         "7+",
         "11",
         "13+",
-        null
-      ]
-    },
-    {
-      "title": "veil",
-      "type": "DX",
-      "version": 17,
-      "displayLevel": [
-        "2",
-        "6",
-        "8+",
-        "12+",
         null
       ]
     },
@@ -10562,18 +10458,6 @@
       ]
     },
     {
-      "title": "ｉｓｏｐｈｏｔｅ",
-      "type": "DX",
-      "version": 18,
-      "displayLevel": [
-        "3",
-        "7",
-        "10",
-        "13",
-        null
-      ]
-    },
-    {
       "title": "ミルキースター・シューティングスター",
       "type": "DX",
       "version": 18,
@@ -10582,6 +10466,18 @@
         "7+",
         "10+",
         "12+",
+        null
+      ]
+    },
+    {
+      "title": "ｉｓｏｐｈｏｔｅ",
+      "type": "DX",
+      "version": 18,
+      "displayLevel": [
+        "3",
+        "7",
+        "10",
+        "13",
         null
       ]
     },
@@ -11006,18 +10902,6 @@
       ]
     },
     {
-      "title": "VOLTAGE",
-      "type": "DX",
-      "version": 18,
-      "displayLevel": [
-        "4",
-        "7",
-        "11",
-        "13",
-        null
-      ]
-    },
-    {
       "title": "ヒトガタ",
       "type": "DX",
       "version": 18,
@@ -11090,18 +10974,6 @@
       ]
     },
     {
-      "title": "紅に染まる恋の花",
-      "type": "DX",
-      "version": 18,
-      "displayLevel": [
-        "2",
-        "6",
-        "10",
-        "12",
-        null
-      ]
-    },
-    {
       "title": "大輪の魂 (feat. AO, 司芭扶)",
       "type": "DX",
       "version": 18,
@@ -11110,6 +10982,18 @@
         "6",
         "9+",
         "13",
+        null
+      ]
+    },
+    {
+      "title": "紅に染まる恋の花",
+      "type": "DX",
+      "version": 18,
+      "displayLevel": [
+        "2",
+        "6",
+        "10",
+        "12",
         null
       ]
     },
@@ -11601,7 +11485,7 @@
         "4",
         "7+",
         "11",
-        "14",
+        "13+",
         null
       ]
     },
@@ -11901,7 +11785,7 @@
         "5",
         "8+",
         "12+",
-        "14",
+        "13+",
         null
       ]
     },
@@ -11942,6 +11826,18 @@
       ]
     },
     {
+      "title": "RIFFRAIN",
+      "type": "DX",
+      "version": 19,
+      "displayLevel": [
+        "3",
+        "6",
+        "9+",
+        "13",
+        null
+      ]
+    },
+    {
       "title": "Falling",
       "type": "DX",
       "version": 19,
@@ -11962,18 +11858,6 @@
         "8",
         "11+",
         "13+",
-        null
-      ]
-    },
-    {
-      "title": "RIFFRAIN",
-      "type": "DX",
-      "version": 19,
-      "displayLevel": [
-        "3",
-        "6",
-        "9+",
-        "13",
         null
       ]
     },
@@ -12453,7 +12337,7 @@
         "5",
         "7+",
         "11+",
-        "14",
+        "13+",
         null
       ]
     },
@@ -12645,7 +12529,7 @@
         "4",
         "7+",
         "11",
-        "13+",
+        "13",
         null
       ]
     },
@@ -13166,6 +13050,18 @@
       ]
     },
     {
+      "title": "バグ",
+      "type": "DX",
+      "version": 21,
+      "displayLevel": [
+        "4",
+        "7",
+        "10",
+        "11+",
+        "13+"
+      ]
+    },
+    {
       "title": "熱異常",
       "type": "DX",
       "version": 21,
@@ -13202,18 +13098,6 @@
       ]
     },
     {
-      "title": "バグ",
-      "type": "DX",
-      "version": 21,
-      "displayLevel": [
-        "4",
-        "7",
-        "10",
-        "11+",
-        "13+"
-      ]
-    },
-    {
       "title": "初音ミクの消失",
       "type": "DX",
       "version": 21,
@@ -13234,18 +13118,6 @@
         "7",
         "9+",
         "12+",
-        null
-      ]
-    },
-    {
-      "title": "PUPA",
-      "type": "DX",
-      "version": 21,
-      "displayLevel": [
-        "6",
-        "7+",
-        "12+",
-        "14",
         null
       ]
     },
@@ -13282,6 +13154,18 @@
         "7",
         "10+",
         "13",
+        null
+      ]
+    },
+    {
+      "title": "PUPA",
+      "type": "DX",
+      "version": 21,
+      "displayLevel": [
+        "6",
+        "7+",
+        "12+",
+        "14",
         null
       ]
     },
@@ -14018,18 +13902,6 @@
       ]
     },
     {
-      "title": "ラビットホール",
-      "type": "DX",
-      "version": 22,
-      "displayLevel": [
-        "3",
-        "7",
-        "9+",
-        "11+",
-        "13"
-      ]
-    },
-    {
       "title": "酔いどれ知らず",
       "type": "DX",
       "version": 22,
@@ -14075,6 +13947,18 @@
         "9+",
         "12+",
         null
+      ]
+    },
+    {
+      "title": "ラビットホール",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "7",
+        "9+",
+        "11+",
+        "13"
       ]
     },
     {
@@ -14150,18 +14034,6 @@
       ]
     },
     {
-      "title": "Edelweiss",
-      "type": "DX",
-      "version": 22,
-      "displayLevel": [
-        "5",
-        "8",
-        "11+",
-        "13+",
-        null
-      ]
-    },
-    {
       "title": "QuiQ",
       "type": "DX",
       "version": 22,
@@ -14182,6 +14054,18 @@
         "8",
         "12+",
         "14+",
+        null
+      ]
+    },
+    {
+      "title": "Edelweiss",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "5",
+        "8",
+        "11+",
+        "13+",
         null
       ]
     },
@@ -14306,18 +14190,6 @@
       ]
     },
     {
-      "title": "Cider P@rty",
-      "type": "DX",
-      "version": 22,
-      "displayLevel": [
-        "3",
-        "7+",
-        "11",
-        "13",
-        null
-      ]
-    },
-    {
       "title": "勦滅",
       "type": "DX",
       "version": 22,
@@ -14350,6 +14222,18 @@
         "8+",
         "12+",
         "14",
+        null
+      ]
+    },
+    {
+      "title": "Cider P@rty",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "7+",
+        "11",
+        "13",
         null
       ]
     },
@@ -14606,6 +14490,18 @@
       ]
     },
     {
+      "title": "Trust",
+      "type": "DX",
+      "version": 22,
+      "displayLevel": [
+        "3",
+        "7",
+        "11",
+        "13+",
+        null
+      ]
+    },
+    {
       "title": "BOOM! BOOM!! BOOM!!!",
       "type": "DX",
       "version": 22,
@@ -14642,11 +14538,11 @@
       ]
     },
     {
-      "title": "Trust",
+      "title": "最っ高のエンタメだ!!",
       "type": "DX",
       "version": 22,
       "displayLevel": [
-        "3",
+        "5",
         "7",
         "11",
         "13+",
@@ -14662,18 +14558,6 @@
         "7",
         "10+",
         "13",
-        null
-      ]
-    },
-    {
-      "title": "最っ高のエンタメだ!!",
-      "type": "DX",
-      "version": 22,
-      "displayLevel": [
-        "5",
-        "7",
-        "11",
-        "13+",
         null
       ]
     },
@@ -14806,6 +14690,246 @@
         "7",
         "10",
         "13",
+        null
+      ]
+    },
+    {
+      "title": "唱",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "2",
+        "6",
+        "9",
+        "11+",
+        "13"
+      ]
+    },
+    {
+      "title": "愛包ダンスホール",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "3",
+        "6",
+        "9",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "マツケンサンバⅡ",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "3",
+        "6",
+        "9+",
+        "12+",
+        null
+      ]
+    },
+    {
+      "title": "デビルじゃないもん",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "3",
+        "6",
+        "9+",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "リアライズ",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "3",
+        "6",
+        "10",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "病み垢ステロイド",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "5",
+        "7+",
+        "11",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "ダーリンダンス",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "3",
+        "7",
+        "9+",
+        "11+",
+        "13"
+      ]
+    },
+    {
+      "title": "ずんだパーリナイ",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "4",
+        "7",
+        "10",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "One Step Ahead",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "4",
+        "7",
+        "10",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "Ultimate taste",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "5",
+        "7+",
+        "11",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "Empire of Winter",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "4",
+        "7+",
+        "10+",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "迷える音色は恋の唄",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "3",
+        "6",
+        "10+",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "Löschen",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "5",
+        "7+",
+        "11",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "Abstruse Dilemma",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "6",
+        "8+",
+        "12",
+        "14",
+        null
+      ]
+    },
+    {
+      "title": "Chronomia",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "6",
+        "8",
+        "12",
+        "14",
+        null
+      ]
+    },
+    {
+      "title": "パラドクスイヴ",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "3",
+        "7+",
+        "11",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "YKWTD",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "4",
+        "8",
+        "11",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "184億回のマルチトニック",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "5",
+        "8",
+        "11+",
+        "14",
+        null
+      ]
+    },
+    {
+      "title": "プリズム△▽リズム",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "3",
+        "6",
+        "10",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "Elemental Ethnic",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "6",
+        "8",
+        "12+",
+        "14",
         null
       ]
     }
