@@ -1,16 +1,16 @@
 {
   "name": "ｓｏｌｖｅｄａｃ",
-  "rating": 16065,
+  "rating": 13763,
   "profileImageSrc": "https://maimaidx-eng.com/maimai-mobile/img/Icon/b2afde62b4da3e48.png",
   "trophy": {
     "tier": "Normal",
     "title": "\n\t\t\t\t\tPLAY LIKE YOU NEVER DID BEFORE\n\t\t\t\t"
   },
-  "courseRank": 15,
-  "classRank": 15,
-  "stars": 990,
+  "courseRank": 0,
+  "classRank": 10,
+  "stars": 991,
   "playCount": {
-    "total": 2129,
-    "current": 0
+    "total": 2131,
+    "current": 2
   }
 }
