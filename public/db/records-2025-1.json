@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "ｓｏｌｖｅｄａｃ",
-    "rating": 13763,
+    "rating": 15936,
     "profileImageSrc": "https://maimaidx-eng.com/maimai-mobile/img/Icon/b2afde62b4da3e48.png",
     "trophy": {
       "tier": "Normal",
@@ -9,10 +9,10 @@
     },
     "courseRank": 0,
     "classRank": 10,
-    "stars": 991,
+    "stars": 1008,
     "playCount": {
-      "total": 2131,
-      "current": 2
+      "total": 2141,
+      "current": 12
     }
   },
   "records": [
@@ -7659,6 +7659,66 @@
     },
     {
       "track": {
+        "title": "唱",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1008767,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1655,
+          "max": 1731,
+          "percentage": 95.60947429231658
+        },
+        "dxRank": 4,
+        "combo": "FULL COMBO",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "愛包ダンスホール",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1008425,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2365,
+          "max": 2517,
+          "percentage": 93.96106475963448
+        },
+        "dxRank": 3,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "マツケンサンバⅡ",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1009385,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1829,
+          "max": 1911,
+          "percentage": 95.70905285190999
+        },
+        "dxRank": 4,
+        "combo": "FULL COMBO+",
+        "sync": null
+      }
+    },
+    {
+      "track": {
         "title": "INTERNET YAMERO",
         "type": "DX",
         "difficulty": "MASTER"
@@ -8719,22 +8779,62 @@
     },
     {
       "track": {
+        "title": "デビルじゃないもん",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1008940,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2180,
+          "max": 2316,
+          "percentage": 94.12780656303973
+        },
+        "dxRank": 3,
+        "combo": "FULL COMBO+",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "リアライズ",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1005886,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2289,
+          "max": 2508,
+          "percentage": 91.26794258373205
+        },
+        "dxRank": 2,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "病み垢ステロイド",
         "type": "DX",
         "difficulty": "MASTER"
       },
       "score": {
         "clear": true,
-        "achievement": 1003732,
-        "rank": "SSS",
+        "achievement": 1005713,
+        "rank": "SSS+",
         "dxScore": {
           "score": 2606,
           "max": 2733,
           "percentage": 95.35309184046835
         },
         "dxRank": 4,
-        "combo": null,
-        "sync": "SYNC PLAY"
+        "combo": "FULL COMBO",
+        "sync": "FULL SYNC+"
       }
     },
     {
@@ -8745,15 +8845,15 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1002345,
-        "rank": "SSS",
+        "achievement": 1007480,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 2784,
+          "score": 2865,
           "max": 2994,
-          "percentage": 92.98597194388778
+          "percentage": 95.69138276553106
         },
-        "dxRank": 2,
-        "combo": null,
+        "dxRank": 4,
+        "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
     },
@@ -11905,16 +12005,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 978210,
-        "rank": "S",
+        "achievement": 1008977,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 1759,
+          "score": 1977,
           "max": 2121,
-          "percentage": 82.93257897218294
+          "percentage": 93.21074964639321
         },
-        "dxRank": 0,
-        "combo": null,
-        "sync": null
+        "dxRank": 3,
+        "combo": "FULL COMBO",
+        "sync": "FULL SYNC+"
       }
     },
     {
@@ -13733,8 +13833,8 @@
           "percentage": 92.69269269269269
         },
         "dxRank": 2,
-        "combo": null,
-        "sync": "SYNC PLAY"
+        "combo": "FULL COMBO",
+        "sync": "FULL SYNC+"
       }
     },
     {
@@ -14799,6 +14899,66 @@
     },
     {
       "track": {
+        "title": "迷える音色は恋の唄",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1008914,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2332,
+          "max": 2499,
+          "percentage": 93.31732693077231
+        },
+        "dxRank": 3,
+        "combo": "FULL COMBO+",
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "Löschen",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1007517,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2667,
+          "max": 2892,
+          "percentage": 92.21991701244814
+        },
+        "dxRank": 2,
+        "combo": "FULL COMBO",
+        "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "Abstruse Dilemma",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 992293,
+        "rank": "SS",
+        "dxScore": {
+          "score": 2751,
+          "max": 3144,
+          "percentage": 87.5
+        },
+        "dxRank": 1,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "Chronomia",
         "type": "DX",
         "difficulty": "MASTER"
@@ -15445,14 +15605,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1001775,
-        "rank": "SSS",
+        "achievement": 1006165,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 2866,
+          "score": 2890,
           "max": 3207,
-          "percentage": 89.36700966635485
+          "percentage": 90.11537262238852
         },
-        "dxRank": 1,
+        "dxRank": 2,
         "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
@@ -15945,14 +16105,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 995604,
-        "rank": "SS+",
+        "achievement": 1001893,
+        "rank": "SSS",
         "dxScore": {
-          "score": 2664,
+          "score": 2702,
           "max": 2964,
-          "percentage": 89.87854251012146
+          "percentage": 91.16059379217273
         },
-        "dxRank": 1,
+        "dxRank": 2,
         "combo": null,
         "sync": "SYNC PLAY"
       }
@@ -17208,13 +17368,13 @@
         "achievement": 1006573,
         "rank": "SSS+",
         "dxScore": {
-          "score": 2247,
+          "score": 2258,
           "max": 2439,
-          "percentage": 92.12792127921279
+          "percentage": 92.5789257892579
         },
         "dxRank": 2,
         "combo": "FULL COMBO",
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -18739,6 +18899,46 @@
     },
     {
       "track": {
+        "title": "パラドクスイヴ",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1006994,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 1991,
+          "max": 2154,
+          "percentage": 92.43268337975859
+        },
+        "dxRank": 2,
+        "combo": null,
+        "sync": null
+      }
+    },
+    {
+      "track": {
+        "title": "YKWTD",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1006098,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2351,
+          "max": 2535,
+          "percentage": 92.74161735700197
+        },
+        "dxRank": 2,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "Divide et impera!",
         "type": "DX",
         "difficulty": "MASTER"
@@ -18754,6 +18954,26 @@
         },
         "dxRank": 0,
         "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "プリズム△▽リズム",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1009429,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2242,
+          "max": 2319,
+          "percentage": 96.67960327727468
+        },
+        "dxRank": 4,
+        "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
     },
@@ -24645,12 +24865,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1002271,
-        "rank": "SSS",
+        "achievement": 1005795,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 2956,
+          "score": 2962,
           "max": 3246,
-          "percentage": 91.06592729513248
+          "percentage": 91.25077017868145
         },
         "dxRank": 2,
         "combo": null,
@@ -26865,14 +27085,14 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1003166,
-        "rank": "SSS",
+        "achievement": 1005775,
+        "rank": "SSS+",
         "dxScore": {
-          "score": 2257,
+          "score": 2285,
           "max": 2433,
-          "percentage": 92.76613234689684
+          "percentage": 93.91697492807234
         },
-        "dxRank": 2,
+        "dxRank": 3,
         "combo": null,
         "sync": "SYNC PLAY"
       }
@@ -27025,12 +27245,12 @@
       },
       "score": {
         "clear": true,
-        "achievement": 1007342,
+        "achievement": 1007595,
         "rank": "SSS+",
         "dxScore": {
-          "score": 2746,
+          "score": 2750,
           "max": 2967,
-          "percentage": 92.55139871924503
+          "percentage": 92.68621503201886
         },
         "dxRank": 2,
         "combo": "FULL COMBO",
