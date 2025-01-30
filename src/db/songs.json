@@ -1,5 +1,5 @@
 {
-  "chartCount": 5068,
+  "chartCount": 5076,
   "availableVersions": [
     {
       "value": 0,
@@ -14930,6 +14930,30 @@
         "8",
         "12+",
         "14",
+        null
+      ]
+    },
+    {
+      "title": "人マニア",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "3",
+        "6",
+        "10+",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "イガク",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "4",
+        "7",
+        "11",
+        "13+",
         null
       ]
     }
