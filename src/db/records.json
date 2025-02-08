@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "ｓｏｌｖｅｄａｃ",
-    "rating": 15936,
+    "rating": 15983,
     "profileImageSrc": "https://maimaidx-eng.com/maimai-mobile/img/Icon/b2afde62b4da3e48.png",
     "trophy": {
       "tier": "Normal",
@@ -9,10 +9,10 @@
     },
     "courseRank": 0,
     "classRank": 10,
-    "stars": 1008,
+    "stars": 1015,
     "playCount": {
-      "total": 2141,
-      "current": 12
+      "total": 2145,
+      "current": 16
     }
   },
   "records": [
@@ -8814,6 +8814,46 @@
         },
         "dxRank": 2,
         "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "人マニア",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1007088,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2204,
+          "max": 2349,
+          "percentage": 93.82716049382715
+        },
+        "dxRank": 3,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
+        "title": "イガク",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1005623,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 2239,
+          "max": 2379,
+          "percentage": 94.11517444304329
+        },
+        "dxRank": 3,
+        "combo": "FULL COMBO",
         "sync": "SYNC PLAY"
       }
     },
@@ -18939,6 +18979,26 @@
     },
     {
       "track": {
+        "title": "184億回のマルチトニック",
+        "type": "DX",
+        "difficulty": "MASTER"
+      },
+      "score": {
+        "clear": true,
+        "achievement": 1005883,
+        "rank": "SSS+",
+        "dxScore": {
+          "score": 3128,
+          "max": 3432,
+          "percentage": 91.14219114219114
+        },
+        "dxRank": 2,
+        "combo": null,
+        "sync": "SYNC PLAY"
+      }
+    },
+    {
+      "track": {
         "title": "Divide et impera!",
         "type": "DX",
         "difficulty": "MASTER"
@@ -22548,9 +22608,9 @@
         "achievement": 990375,
         "rank": "SS",
         "dxScore": {
-          "score": 2818,
+          "score": 2824,
           "max": 3315,
-          "percentage": 85.00754147812971
+          "percentage": 85.18853695324283
         },
         "dxRank": 1,
         "combo": null,
@@ -22754,7 +22814,7 @@
         },
         "dxRank": 0,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
@@ -25245,8 +25305,8 @@
       },
       "score": {
         "clear": true,
-        "achievement": 997076,
-        "rank": "SS+",
+        "achievement": 1000489,
+        "rank": "SSS",
         "dxScore": {
           "score": 2665,
           "max": 2997,
@@ -28625,16 +28685,16 @@
       },
       "score": {
         "clear": true,
-        "achievement": 988949,
-        "rank": "S+",
+        "achievement": 996357,
+        "rank": "SS+",
         "dxScore": {
-          "score": 2608,
+          "score": 2681,
           "max": 3030,
-          "percentage": 86.07260726072607
+          "percentage": 88.48184818481847
         },
         "dxRank": 1,
         "combo": null,
-        "sync": null
+        "sync": "SYNC PLAY"
       }
     },
     {
