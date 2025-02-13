@@ -8699,26 +8699,6 @@
     },
     {
       "track": {
-        "title": "ウマイネームイズうまみちゃん",
-        "type": "DX",
-        "difficulty": "MASTER"
-      },
-      "score": {
-        "clear": true,
-        "achievement": 995227,
-        "rank": "SS+",
-        "dxScore": {
-          "score": 1510,
-          "max": 1632,
-          "percentage": 92.52450980392157
-        },
-        "dxRank": 2,
-        "combo": null,
-        "sync": null
-      }
-    },
-    {
-      "track": {
         "title": "にじよめちゃん体操第一億",
         "type": "Standard",
         "difficulty": "MASTER"

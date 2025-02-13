@@ -1,5 +1,5 @@
 {
-  "chartCount": 5076,
+  "chartCount": 5091,
   "availableVersions": [
     {
       "value": 0,
@@ -8034,18 +8034,6 @@
       ]
     },
     {
-      "title": "ウマイネームイズうまみちゃん",
-      "type": "DX",
-      "version": 14,
-      "displayLevel": [
-        "2",
-        "6",
-        "8+",
-        "12",
-        null
-      ]
-    },
-    {
       "title": "CHOCOLATE BOMB!!!!",
       "type": "DX",
       "version": 14,
@@ -9914,7 +9902,7 @@
         "7",
         "9+",
         "13",
-        null
+        "13+"
       ]
     },
     {
@@ -9926,7 +9914,7 @@
         "7+",
         "10+",
         "13+",
-        null
+        "14"
       ]
     },
     {
@@ -14954,6 +14942,54 @@
         "7",
         "11",
         "13+",
+        null
+      ]
+    },
+    {
+      "title": "勇者",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "3",
+        "6",
+        "9+",
+        "11+",
+        "13"
+      ]
+    },
+    {
+      "title": "メイトなやつら（FEAT. 天開司, 佐藤ホームズ, あっくん大魔王 & 歌衣メイカ）",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "3",
+        "6",
+        "10",
+        "13",
+        null
+      ]
+    },
+    {
+      "title": "ゆけむり魂温泉 II",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "4",
+        "6",
+        "10",
+        "13+",
+        null
+      ]
+    },
+    {
+      "title": "人間が大好きなこわれた妖怪の唄",
+      "type": "DX",
+      "version": 23,
+      "displayLevel": [
+        "3",
+        "6",
+        "9+",
+        "13",
         null
       ]
     }
